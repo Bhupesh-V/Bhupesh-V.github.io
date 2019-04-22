@@ -121,13 +121,13 @@ permalink: /proj/
             <div id = "link">
                 <span class="code-text">Source Code</span>
                 <a href="https://github.com/Bhupesh-V/30-seconds-of-cpp">
-                    <img src="images/github.svg" alt="Github">
+                    <img src="https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/github.svg" alt="Github">
                 </a>
             </div>
             <div id = "link2">
                 <span class="tooltiptext">Live Demo</span>
                 <a href="http://bhupeshv.me/30-seconds-of-cpp/">
-                    <img src="images/view.png" alt="Github">
+                    <img src="https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/view.png" alt="Github">
                 </a>
             </div>  
         </div>
@@ -141,13 +141,13 @@ permalink: /proj/
             <div id = "link">
                 <span class="code-text">Source Code</span>
                 <a href="https://github.com/Bhupesh-V/HeckChat">
-                    <img src="images/github.svg" alt="Github">
+                    <img src="https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/github.svg" alt="Github">
                 </a>
             </div>
             <div id = "link2">
                 <span class="tooltiptext">Live Demo</span>
                 <a href="https://heckchat.herokuapp.com/">
-                    <img src="images/view.png" alt="Github">
+                    <img src="https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/view.png" alt="Github">
                 </a>
             </div>  
         </div>
@@ -161,13 +161,13 @@ permalink: /proj/
             <div id = "link">
                 <span class="code-text">Source Code</span>
                 <a href="https://github.com/Bhupesh-V/CoderBot">
-                    <img src="images/github.svg" alt="Github">
+                    <img src="https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/github.svg" alt="Github">
                 </a>
             </div>
             <div id = "link2">
                 <span class="tooltiptext">Live Demo</span>
                 <a href="https://telegram.me/bhupesh_bot">
-                    <img src="images/view.png" alt="Github">
+                    <img src="https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/view.png" alt="Github">
                 </a>
             </div>  
         </div>
@@ -181,13 +181,13 @@ permalink: /proj/
             <div id = "link">
                 <span class="code-text">Source Code</span>
                 <a href="https://github.com/Bhupesh-V/Algorithms">
-                    <img src="images/github.svg" alt="Github">
+                    <img src="https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/github.svg" alt="Github">
                 </a>
             </div>
             <div id = "link2">
                 <span class="tooltiptext">Live Demo</span>
                 <a href="https://github.com/Bhupesh-V/Algorithms">
-                    <img src="images/view.png" alt="Github">
+                    <img src="https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/view.png" alt="Github">
                 </a>
             </div>  
         </div>
