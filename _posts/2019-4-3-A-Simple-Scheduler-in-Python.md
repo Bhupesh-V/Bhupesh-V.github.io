@@ -19,14 +19,14 @@ Let's start around by playing with this
   
 ![](https://media.giphy.com/media/zf8yrM8nVERvW/giphy.gif)  
   
-# Installation  
+## Installation  
 First things first let us install the python package first  
   
 ```python
 pip install schedule  
 ```
   
-# Introduction  
+## Introduction  
 [*schedule*](https://pypi.org/project/schedule/) is an in-process scheduler for periodic jobs that uses the builder pattern for configuration. Schedule lets you run Python functions (or any other callable) periodically at predetermined intervals using a simple, human-friendly syntax.  
   
 > Python job scheduling for humans.  
@@ -81,7 +81,7 @@ Make sure to run it in a loop because so that the scheduling task keeps on runni
 Hurray we wrote our very first Scheduler using Python
 ![hurray](https://media.giphy.com/media/xjUlxQHkMBqSvLeSTy/giphy.gif)
 
-# Other Variations
+## Other Variations
 ```python
 import schedule
 import time
@@ -127,7 +127,7 @@ while True:
 
     This one executes `job3()` every 2 to 5 minutes ;)
 
-# Bonus Stuff
+## Bonus Stuff
 
 ![yeahh](https://media.giphy.com/media/3o84UaGEtyayvBIFwc/giphy.gif)
 
