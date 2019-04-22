@@ -47,6 +47,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: 30px;
   font-family: Consolas, monaco, monospace;
+  text-align: center;
   a {
     color: white;
   }
@@ -205,6 +206,7 @@ img {
   font-weight: 300;
   font-size: 28px;
   letter-spacing: 1px;
+  text-align: inherit;
 }
 
 p.site-description:hover {
