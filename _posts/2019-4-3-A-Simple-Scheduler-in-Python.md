@@ -81,7 +81,7 @@ Make sure to run it in a loop because so that the scheduling task keeps on runni
 Hurray we wrote our very first Scheduler using Python
 ![hurray](https://media.giphy.com/media/xjUlxQHkMBqSvLeSTy/giphy.gif)
 
-## Other Variations
+# Other Variations
 ```python
 import schedule
 import time
