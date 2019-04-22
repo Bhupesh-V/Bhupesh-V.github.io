@@ -121,7 +121,7 @@ permalink: /proj/
             <div id = "link">
                 <span class="code-text">Source Code</span>
                 <a href="https://github.com/Bhupesh-V/30-seconds-of-cpp">
-                    <img src="https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/github.svg" alt="Github">
+                    <i class="svg-icon github"></i> alt="Github">
                 </a>
             </div>
             <div id = "link2">
@@ -141,7 +141,7 @@ permalink: /proj/
             <div id = "link">
                 <span class="code-text">Source Code</span>
                 <a href="https://github.com/Bhupesh-V/HeckChat">
-                    <img src="https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/github.svg" alt="Github">
+                    <i class="svg-icon github"></i> alt="Github">
                 </a>
             </div>
             <div id = "link2">
@@ -161,7 +161,7 @@ permalink: /proj/
             <div id = "link">
                 <span class="code-text">Source Code</span>
                 <a href="https://github.com/Bhupesh-V/CoderBot">
-                    <img src="https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/github.svg" alt="Github">
+                    <i class="svg-icon github"></i> alt="Github">
                 </a>
             </div>
             <div id = "link2">
@@ -181,7 +181,7 @@ permalink: /proj/
             <div id = "link">
                 <span class="code-text">Source Code</span>
                 <a href="https://github.com/Bhupesh-V/Algorithms">
-                    <img src="https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/github.svg" alt="Github">
+                    <i class="svg-icon github"></i> alt="Github">
                 </a>
             </div>
             <div id = "link2">
