@@ -121,7 +121,7 @@ permalink: /proj/
             <div id = "link">
                 <span class="code-text">Source Code</span>
                 <a href="https://github.com/Bhupesh-V/30-seconds-of-cpp">
-                    <i class="svg-icon github"></i> alt="Github">
+                    <i class="svg-icon github"></i>
                 </a>
             </div>
             <div id = "link2">
@@ -141,7 +141,7 @@ permalink: /proj/
             <div id = "link">
                 <span class="code-text">Source Code</span>
                 <a href="https://github.com/Bhupesh-V/HeckChat">
-                    <i class="svg-icon github"></i> alt="Github">
+                    <i class="svg-icon github"></i>
                 </a>
             </div>
             <div id = "link2">
@@ -161,7 +161,7 @@ permalink: /proj/
             <div id = "link">
                 <span class="code-text">Source Code</span>
                 <a href="https://github.com/Bhupesh-V/CoderBot">
-                    <i class="svg-icon github"></i> alt="Github">
+                    <i class="svg-icon github"></i>
                 </a>
             </div>
             <div id = "link2">
@@ -181,7 +181,7 @@ permalink: /proj/
             <div id = "link">
                 <span class="code-text">Source Code</span>
                 <a href="https://github.com/Bhupesh-V/Algorithms">
-                    <i class="svg-icon github"></i> alt="Github">
+                    <i class="svg-icon github"></i>
                 </a>
             </div>
             <div id = "link2">
