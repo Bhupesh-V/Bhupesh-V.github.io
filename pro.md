@@ -111,81 +111,83 @@ permalink: /proj/
         }
 </style>
 <div class="cards">
-        <!-- Project 1 -->
-        <div id="projects" style="background-color: #1bfb9c;">          
-            <div id = "name">
-                <h2>Algorithms</h2>
-            </div>
-            <div id = "desct">
-                <p>A real time chat application</p>
-            </div>
-            <div id = "link">
-                <a href="https://github.com/Bhupesh-V/HeckChat">
-                    <img src="github.svg" alt="Github">
-                </a>
-            </div>
-            <div id = "link2">
-                <a href="https://github.com/Bhupesh-V/HeckChat">
-                    <img src="view.png" alt="Github">
-                </a>
-            </div>  
-        </div>
-        <div id="projects" style="background-color: #1bfb9c;">          
-            <div id = "name">
-                <h2>Algorithms</h2>
-            </div>
-            <div id = "desct">
-                <p>A real time chat application</p>
-            </div>
-            <div id = "link">
-                <a href="https://github.com/Bhupesh-V/HeckChat">
-                    <img src="github.svg" alt="Github">
-                </a>
-            </div>
-            <div id = "link2">
-                <span class="tooltiptext">See Live Demo</span>
-                <a href="https://github.com/Bhupesh-V/HeckChat">
-                    <img src="view.png" alt="Github">
-                </a>
-            </div>  
-        </div>
-        <div id="projects" style="background-color: blue;">         
+        <div id="projects" style="background-color: #3172CA;">          
             <div id = "name">
                 <h2>30 Seconds of C++</h2>
             </div>
             <div id = "desct">
-                <p>A real time chat application</p>
+                <p>A collection of STL (Standard Template Library) features of C++ which can be learned in 30 seconds or less.</p>
             </div>
             <div id = "link">
                 <span class="code-text">Source Code</span>
-                <a href="https://github.com/Bhupesh-V/HeckChat">
-                    <img src="github.svg" alt="Github">
+                <a href="https://github.com/Bhupesh-V/30-seconds-of-cpp">
+                    <img src="images/github.svg" alt="Github">
                 </a>
             </div>
             <div id = "link2">
                 <span class="tooltiptext">Live Demo</span>
-                <a href="https://github.com/Bhupesh-V/HeckChat">
-                    <img src="view.png" alt="Github">
+                <a href="http://bhupeshv.me/30-seconds-of-cpp/">
+                    <img src="images/view.png" alt="Github">
                 </a>
             </div>  
         </div>
-        <div id="projects" style="background-color: yellow;">           
+        <div id="projects" style="background-color: #dcd62c;">          
             <div id = "name">
-                <h2>30 Seconds of C++</h2>
+                <h2>HeckChat</h2>
             </div>
             <div id = "desct">
-                <p>A real time chat application</p>
+                <p>Real Tme Chat App, perfect for small talks</p>
             </div>
             <div id = "link">
                 <span class="code-text">Source Code</span>
                 <a href="https://github.com/Bhupesh-V/HeckChat">
-                    <img src="github.svg" alt="Github">
+                    <img src="images/github.svg" alt="Github">
                 </a>
             </div>
             <div id = "link2">
                 <span class="tooltiptext">Live Demo</span>
-                <a href="https://github.com/Bhupesh-V/HeckChat">
-                    <img src="view.png" alt="Github">
+                <a href="https://heckchat.herokuapp.com/">
+                    <img src="images/view.png" alt="Github">
+                </a>
+            </div>  
+        </div>
+        <div id="projects" style="background-color: #38dc2c;">          
+            <div id = "name">
+                <h2>CoderBot</h2>
+            </div>
+            <div id = "desct">
+                <p>A Telegram Bot for Beginners to learn Programming</p>
+            </div>
+            <div id = "link">
+                <span class="code-text">Source Code</span>
+                <a href="https://github.com/Bhupesh-V/CoderBot">
+                    <img src="images/github.svg" alt="Github">
+                </a>
+            </div>
+            <div id = "link2">
+                <span class="tooltiptext">Live Demo</span>
+                <a href="https://telegram.me/bhupesh_bot">
+                    <img src="images/view.png" alt="Github">
+                </a>
+            </div>  
+        </div>
+        <div id="projects" style="background-color: orange;">           
+            <div id = "name">
+                <h2>Algorithms</h2>
+            </div>
+            <div id = "desct">
+                <p>A Telegram Bot for Beginners to learn Programming</p>
+            </div>
+            <div id = "link">
+                <span class="code-text">Source Code</span>
+                <a href="https://github.com/Bhupesh-V/Algorithms">
+                    <img src="images/github.svg" alt="Github">
+                </a>
+            </div>
+            <div id = "link2">
+                <span class="tooltiptext">Live Demo</span>
+                <a href="https://github.com/Bhupesh-V/Algorithms">
+                    <img src="images/view.png" alt="Github">
                 </a>
             </div>  
         </div>
