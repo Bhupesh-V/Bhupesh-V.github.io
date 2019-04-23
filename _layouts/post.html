@@ -12,6 +12,8 @@ layout: default
   <div class="date">
     Written on {{ page.date | date: "%B %e, %Y" }}
   </div>
-  <button class="share-button">Share</button>
+   <div class="share-container">
+    <button id="btn-share">Share</button>
+  </div>
   {% include disqus.html %}
 </article>

@@ -48,17 +48,20 @@
 
     {% include analytics.html %}
     <script type="text/javascript">
-      document.querySelector('.share-button').addEventListener('click', function() {
-      if(navigator.share) {
-        navigator.share({
-          title: ''
-          text: ''
-          url: ''
-        })
-        .then(() => console.log('Share complete'))
-        .error((error) => console.error('Could not share at this time', error))
+      window.addEventListener('load', function() {
+      if(!navigator.share) {
+        document.querySelector('.share-container').innerHTML = 'Web Share API not supported in this browser';
+        return;
       }
+      document.getElementById('btn-share').addEventListener('click', function() {
+        navigator.share({
+          title: '',
+          text: "{{ page.title }}".
+          url: "{{ site.baseurl }}/",
+        });
+      });
     });
+
     </script>
   </body>
 </html>
