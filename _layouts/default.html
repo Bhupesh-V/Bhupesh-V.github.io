@@ -47,6 +47,18 @@
     </div>
 
     {% include analytics.html %}
+    <script type="text/javascript">
+      document.querySelector('.share-button').addEventListener('click', function() {
+      if(navigator.share) {
+        navigator.share({
+          title: ''
+          text: ''
+          url: ''
+        })
+        .then(() => console.log('Share complete'))
+        .error((error) => console.error('Could not share at this time', error))
+      }
+    });
     </script>
   </body>
 </html>
