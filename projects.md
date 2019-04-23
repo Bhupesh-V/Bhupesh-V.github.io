@@ -119,13 +119,11 @@ permalink: /projects/
                 <p>A collection of STL (Standard Template Library) features of C++ which can be learned in 30 seconds or less.</p>
             </div>
             <div id = "link">
-                <span class="code-text">Source Code</span>
                 <a href="https://github.com/Bhupesh-V/30-seconds-of-cpp">
                     <i class="svg-icon github"></i>
                 </a>
             </div>
             <div id = "link2">
-                <span class="tooltiptext">Live Demo</span>
                 <a href="http://bhupeshv.me/30-seconds-of-cpp/">
                     <img src="https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/view.png" alt="Github">
                 </a>
@@ -139,13 +137,11 @@ permalink: /projects/
                 <p>Real Tme Chat App, perfect for small talks</p>
             </div>
             <div id = "link">
-                <span class="code-text">Source Code</span>
                 <a href="https://github.com/Bhupesh-V/HeckChat">
                     <i class="svg-icon github"></i>
                 </a>
             </div>
             <div id = "link2">
-                <span class="tooltiptext">Live Demo</span>
                 <a href="https://heckchat.herokuapp.com/">
                     <img src="https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/view.png" alt="Github">
                 </a>
@@ -159,13 +155,11 @@ permalink: /projects/
                 <p>A Telegram Bot for Beginners to learn Programming</p>
             </div>
             <div id = "link">
-                <span class="code-text">Source Code</span>
                 <a href="https://github.com/Bhupesh-V/CoderBot">
                     <i class="svg-icon github"></i>
                 </a>
             </div>
             <div id = "link2">
-                <span class="tooltiptext">Live Demo</span>
                 <a href="https://telegram.me/bhupesh_bot">
                     <img src="https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/view.png" alt="Github">
                 </a>
@@ -179,13 +173,11 @@ permalink: /projects/
                 <p>A Telegram Bot for Beginners to learn Programming</p>
             </div>
             <div id = "link">
-                <span class="code-text">Source Code</span>
                 <a href="https://github.com/Bhupesh-V/Algorithms">
                     <i class="svg-icon github"></i>
                 </a>
             </div>
             <div id = "link2">
-                <span class="tooltiptext">Live Demo</span>
                 <a href="https://github.com/Bhupesh-V/Algorithms">
                     <img src="https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/view.png" alt="Github">
                 </a>
@@ -199,13 +191,11 @@ permalink: /projects/
                 <p>Jupyter Notebooks of different Python Packages like OpenCV ,numpy ,PIL (Pillow) etc</p>
             </div>
             <div id = "link">
-                <span class="code-text">Source Code</span>
                 <a href="https://github.com/Bhupesh-V/Learn-Python-Packages">
                     <i class="svg-icon github"></i>
                 </a>
             </div>
             <div id = "link2">
-                <span class="tooltiptext">Live Demo</span>
                 <a href="https://github.com/Bhupesh-V/Learn-Python-Packages">
                     <img src="https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/view.png" alt="Github">
                 </a>
