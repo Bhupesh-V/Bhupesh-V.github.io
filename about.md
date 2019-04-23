@@ -10,4 +10,4 @@ permalink: /about/
 
 ### Contact me
 
-[vasrshneybhupesh@gmail.com](mailto:varshneybhupesh@gmail.com)
+[varshneybhupesh@gmail.com](mailto:varshneybhupesh@gmail.com)
