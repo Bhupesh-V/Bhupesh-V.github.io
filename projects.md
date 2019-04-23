@@ -191,4 +191,24 @@ permalink: /projects/
                 </a>
             </div>  
         </div>
+        <div id="projects" style="background-color: #f31213;">           
+            <div id = "name">
+                <h2>Learn-Python-Packages</h2>
+            </div>
+            <div id = "desct">
+                <p>Jupyter Notebooks of different Python Packages like OpenCV ,numpy ,PIL (Pillow) etc</p>
+            </div>
+            <div id = "link">
+                <span class="code-text">Source Code</span>
+                <a href="https://github.com/Bhupesh-V/Learn-Python-Packages">
+                    <i class="svg-icon github"></i>
+                </a>
+            </div>
+            <div id = "link2">
+                <span class="tooltiptext">Live Demo</span>
+                <a href="https://github.com/Bhupesh-V/Learn-Python-Packages">
+                    <img src="https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/view.png" alt="Github">
+                </a>
+            </div>  
+        </div>
     </div>
