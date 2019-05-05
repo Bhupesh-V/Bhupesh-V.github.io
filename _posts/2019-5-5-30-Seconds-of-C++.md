@@ -4,6 +4,8 @@ comments: true
 title: 30 Seconds of C++
 ---
 
+![blog5](https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/blog5.png)
+
 So if you are looking forward to learn C++ in 2019, I present to you the [**30 Seconds of C++**](http://bhupeshv.me/30-seconds-of-cpp/).
 > A collection of STL (_Standard Template Library_) features of C++ which can be learned in 30 seconds or less.
 
