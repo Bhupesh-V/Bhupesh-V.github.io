@@ -109,7 +109,9 @@
         </footer>
       </div>
     </div>
-
+    <button id="test-web-share" onclick=share()>
+      Share
+    </button>
     {% include analytics.html %}
     <script>
       // When the user scrolls down 20px from the top of the document, show the button
@@ -130,20 +132,16 @@
       }
     </script>
     <script type="text/javascript">
-      window.addEventListener('load', function() {
-      if(!navigator.share) {
-        document.querySelector('.share-container').innerHTML = 'Web Share API not supported in this browser';
-        return;
+      function share(){
+          if (navigator.share) {
+          navigator.share({
+              title: "{{ page.title }}",
+              url: "{{ site.baseurl }}/",
+          })
+            .then(() => console.log('Successful share'))
+            .catch((error) => console.log('Error sharing', error));
+        }  
       }
-      document.getElementById('btn-share').addEventListener('click', function() {
-        navigator.share({
-          title: '',
-          text: "{{ page.title }}".
-          url: "{{ site.baseurl }}/",
-        });
-      });
-    });
-
     </script>
   </body>
 </html>
