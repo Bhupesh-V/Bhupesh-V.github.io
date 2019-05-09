@@ -11,6 +11,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/favicons/favicon-16x16.png">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    
     <link rel="manifest" href="/manifest.json"/>
     <meta name="google-site-verification" content="4coaO0YVCAhaE5LAetM4wCbwk1TgAjgNA_G0ywyitnI" />
     <style>
@@ -128,6 +129,20 @@
         document.body.scrollTop = 0;
         document.documentElement.scrollTop = 0;
       }
+    </script>
+    <script type="text/javascript">
+        window.onload = function() {
+            registerSW();
+        };
+        async function registerSW(){
+        if('serviceWorker' in navigator) {
+            try{
+                await navigator.serviceWorker.register('./sw.js');
+            } catch(e) {
+                console.log('SW Registration Failed.');
+            }
+        }
+    }
     </script>
     <script type="text/javascript">
       function share(){
