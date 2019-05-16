@@ -77,7 +77,7 @@
           text-align: center;
       }
 </style>
-    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+  
   </head>
 
   <body>
@@ -148,12 +148,15 @@
     </script>
     <script type="text/javascript">
       function share(){
+        var currentLocation = window.location;
+        var currentTitle = document.title;
+        
           if (navigator.share) {
           navigator.share({
-              title: "{{ page.title }}",
-              url: "{{ site.baseurl }}/",
+              title: currentTitle,
+              url: currentLocation,
           })
-            .then(() => console.log('Successful share'))
+            .then(() => console.log('Successful Share'))
             .catch((error) => console.log('Error sharing', error));
         }  
       }
