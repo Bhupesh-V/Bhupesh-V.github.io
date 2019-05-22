@@ -1,4 +1,4 @@
-{  
+{
     "Name 😎":"Bhupesh Varshney",
     "Bio 🤗":"OpenSource Lover, Blogger & CodePervert",
     "Website 🖱":"https://bhupeshv.me/",
@@ -6,28 +6,24 @@
     "DEV 🦄":"https://dev.to/bhupesh",
     "Twitter 🐦":"https://twitter.com/codepervert",
     "LinkedIn 📎":"https://www.linkedin.com/in/bhupesh-v/",
-    "blogs":{  
-        "blog6":{  
+    "blogs":{
+        "blog5":{
             "name":"30 Seconds of C++",
             "link":"https://bhupeshv.me/30-Seconds-of-C++/"
         },
-        "blog5":{  
+        "blog4":{
             "name":"A Simple Scheduler in Python",
             "link":"https://bhupeshv.me/A-Simple-Scheduler-in-Python/"
         },
-        "blog4":{  
+        "blog3":{
             "name":"Exceptions in C++",
             "link":"https://bhupeshv.me/Exceptions-in-C++/"
         },
-        "blog3":{  
+        "blog2":{
             "name":"pipreqs - Automatically generate python dependencies",
             "link":"https://bhupeshv.me/pipreqs/"
         },
-        "blog2":{  
-            "name":"pipreqs - Automatically generate python dependencies",
-            "link":"https://bhupeshv.me/pipreqs/"
-        },
-        "blog1":{  
+        "blog1":{
             "name":"My dev life has just started 😎👩‍💻",
             "link":"https://bhupeshv.me/My-dev-life-has-just-started/"
         }
