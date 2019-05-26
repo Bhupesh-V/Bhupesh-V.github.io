@@ -20,7 +20,7 @@ permalink: /projects/
         }
         #name h2{
             text-align: center;
-            padding: 10px 10px 10px 10px; 
+            padding: 10px 10px 10px 10px;
         }
         #desct {
             display: flex;
@@ -105,13 +105,13 @@ permalink: /projects/
         .cards {
             display: grid;
             grid-template-columns: auto;
-            position: relative; 
+            position: relative;
             align-items: center;
             justify-content: center;
         }
 </style>
 <div class="cards">
-        <div id="projects" style="background-color: #3172CA;">          
+        <div id="projects" style="background-color: #3172CA;">
             <div id = "name">
                 <h2>30 Seconds of C++</h2>
             </div>
@@ -124,12 +124,10 @@ permalink: /projects/
                 </a>
             </div>
             <div id = "link2">
-                <a href="http://bhupeshv.me/30-seconds-of-cpp/">
-                    <img src="https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/view.png" alt="Github">
-                </a>
-            </div>  
+                <a href="http://bhupeshv.me/30-seconds-of-cpp/">Live Demo</a>
+            </div>
         </div>
-        <div id="projects" style="background-color: #dcd62c;">          
+        <div id="projects" style="background-color: #dcd62c;">
             <div id = "name">
                 <h2>HeckChat</h2>
             </div>
@@ -142,12 +140,10 @@ permalink: /projects/
                 </a>
             </div>
             <div id = "link2">
-                <a href="https://heckchat.herokuapp.com/">
-                    <img src="https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/view.png" alt="Github">
-                </a>
-            </div>  
+                <a href="https://heckchat.herokuapp.com/">Live Demo</a>
+            </div>
         </div>
-        <div id="projects" style="background-color: #38dc2c;">          
+        <div id="projects" style="background-color: #38dc2c;">
             <div id = "name">
                 <h2>CoderBot</h2>
             </div>
@@ -160,12 +156,10 @@ permalink: /projects/
                 </a>
             </div>
             <div id = "link2">
-                <a href="https://telegram.me/bhupesh_bot">
-                    <img src="https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/view.png" alt="Github">
-                </a>
-            </div>  
+                <a href="https://telegram.me/bhupesh_bot">Live Demo</a>
+            </div>
         </div>
-        <div id="projects" style="background-color: orange;">           
+        <div id="projects" style="background-color: orange;">
             <div id = "name">
                 <h2>Algorithms</h2>
             </div>
@@ -178,12 +172,10 @@ permalink: /projects/
                 </a>
             </div>
             <div id = "link2">
-                <a href="https://github.com/Bhupesh-V/Algorithms">
-                    <img src="https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/view.png" alt="Github">
-                </a>
-            </div>  
+                <a href="https://github.com/Bhupesh-V/Algorithms">Live Demo</a>
+            </div>
         </div>
-        <div id="projects" style="background-color: #f31213;">           
+        <div id="projects" style="background-color: #f31213;">
             <div id = "name">
                 <h2>Learn-Python-Packages</h2>
             </div>
@@ -196,9 +188,7 @@ permalink: /projects/
                 </a>
             </div>
             <div id = "link2">
-                <a href="https://github.com/Bhupesh-V/Learn-Python-Packages">
-                    <img src="https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/view.png" alt="Github">
-                </a>
-            </div>  
+                <a href="https://github.com/Bhupesh-V/Learn-Python-Packages">Live Demo</a>
+            </div>
         </div>
     </div>
