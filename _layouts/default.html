@@ -20,19 +20,16 @@
         scroll-behavior: smooth;
       }
       #myBtn {
-        display: none;
-        position: fixed;
-        bottom: 20px;
-        right: 30px;
-        z-index: 99;
-        font-size: 18px;
-        border: none;
-        outline: none;
-        background-color: red;
-        color: white;
-        cursor: pointer;
-        padding: 15px;
-        border-radius: 60px;
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            border: none;
+            outline: none;
+            background-color: #eb1515;
+            color: white;
+            cursor: pointer;
+            padding: 15px;
+            border-radius: 23px;
       }
       #myBtn:hover {
         background-color: #37dd0c;
@@ -62,11 +59,11 @@
         top:1px;
       }
       #mc_embed_signup {
-        background: #262121; 
+        background: #262121;
         clear:left;
-        color: white; 
+        color: white;
         font:14px Consolas, monaco, monospace;
-        text-align: center; 
+        text-align: center;
       }
       #mce-EMAIL {
           border-radius: 12px;
@@ -76,7 +73,7 @@
           text-align: center;
       }
 </style>
-  
+
   </head>
 
   <body>
@@ -149,7 +146,7 @@
       function share(){
         var currentLocation = window.location;
         var currentTitle = document.title;
-        
+
           if (navigator.share) {
           navigator.share({
               title: currentTitle,
@@ -157,7 +154,7 @@
           })
             .then(() => console.log('Successful Share'))
             .catch((error) => console.log('Error sharing', error));
-        }  
+        }
       }
     </script>
   </body>
