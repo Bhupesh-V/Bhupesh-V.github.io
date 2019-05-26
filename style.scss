@@ -221,10 +221,11 @@ img {
 }
 
 p.site-description:hover {
-  background-color: #d5f80d;
-  color: #000000;
-  padding: 3px 3px;
-  border-radius: 5px 5px;
+    background-color: #d5f80d;
+    color: #000000;
+    border-radius: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
 }
 
 .site-description {
