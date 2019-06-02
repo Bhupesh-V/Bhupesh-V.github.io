@@ -23,6 +23,6 @@ curl bhupeshv.me/me/
 My email is [varshneybhupesh@gmail.com](mailto:varshneybhupesh@gmail.com). I reply within 48 hours.
 
 ### FOLLOW ME
-I use Twitter. [Follow me](https://twitter.com/codepervert) to learn more about technology & people
+I use Twitter. [Follow me](https://twitter.com/iambhuups) to learn more about technology & people
 <br>
 You can invite me on [LinkedIn](https://www.linkedin.com/in/bhupesh-v/). Please introduce yourself when sending an invitation.
