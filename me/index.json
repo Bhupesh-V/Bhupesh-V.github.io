@@ -7,6 +7,10 @@
     "Twitter 🐦":"https://twitter.com/codepervert",
     "LinkedIn 📎":"https://www.linkedin.com/in/bhupesh-v/",
     "blogs":{
+        "blog6":{
+            "name":"Portfolio API + GitHub Pages",
+            "link":"https://bhupeshv.me/Portfolio-API+GitHub-Pages/"
+        },
         "blog5":{
             "name":"30 Seconds of C++",
             "link":"https://bhupeshv.me/30-Seconds-of-C++/"
