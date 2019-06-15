@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Exceptions in C++
+description: Learn how to create and handle exceptions in C++
 ---
 
 ![blog3](https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/blog3.png)

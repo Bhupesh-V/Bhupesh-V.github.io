@@ -1,7 +1,8 @@
 ---
 layout: post
 comments: true
-title: pipreqs - Automatically generate python dependencies
+title: pipreqs
+description: Automatically generate python dependencies
 ---
 
 ![blog2](https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/blog2.jpg)
