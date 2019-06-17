@@ -4,6 +4,7 @@ comments: true
 title: A Simple Scheduler in Python
 description: Making a scheduler in python
 tags: [python, python2, python3]
+headerimage: https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/blog4.png
 ---
 
 ![blog4](https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/blog4.png)

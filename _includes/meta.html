@@ -25,3 +25,9 @@
     <meta property="twitter:title" content="{{ page.title }}" />
     <meta property="og:url" content="{{ page.url }}" />
     {% endif %}
+
+    {% if page.headerimage %}
+    <meta property="og:image" content="{{ page.headimage }}"/>
+    {% else %}
+    <meta property="og:image" content="https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/profile1.jpg"/>
+    {% endif %}

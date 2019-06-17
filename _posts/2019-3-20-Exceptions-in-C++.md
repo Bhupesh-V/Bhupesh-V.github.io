@@ -4,6 +4,7 @@ comments: true
 title: Exceptions in C++
 description: Learn how to create and handle exceptions in C++
 tags: [c++, c++14, c++17, c++11]
+headerimage: https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/blog3.png
 ---
 
 ![blog3](https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/blog3.png)
