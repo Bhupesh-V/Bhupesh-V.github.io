@@ -3,6 +3,7 @@ layout: post
 comments: true
 title: pipreqs
 description: Automatically generate python dependencies
+tags: [pipreqs, python, python2, python3]
 ---
 
 ![blog2](https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/blog2.jpg)

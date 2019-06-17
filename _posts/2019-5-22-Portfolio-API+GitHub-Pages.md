@@ -3,6 +3,7 @@ layout: post
 comments: true
 title: Portfolio API + GitHub Pages
 description: Make a REST API for your portfolio and host it on GitHub Pages
+tags: [github, rest, api, portfolio]
 ---
 
 ![blog6](https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/blog6.png)
