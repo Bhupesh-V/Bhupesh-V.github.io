@@ -15,7 +15,6 @@
     <meta name="twitter:creator" content="@bhupeshimself">
     <meta name="twitter:title" content="{{ page.title }}">
     <meta name="twitter:description" content="{{ page.description }}">
-    <meta name="twitter:image" content="https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/profile1.jpg">
 
     {% endif %}
     <meta name="author" content="{{ site.name }}" />
@@ -27,7 +26,9 @@
     {% endif %}
 
     {% if page.headerimage %}
-    <meta property="og:image" content="{{ page.headimage }}"/>
+    <meta property="og:image" content="{{ page.headerimage }}"/>
+    <meta name="twitter:image" content="{{ page.headerimage }}">
     {% else %}
     <meta property="og:image" content="https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/profile1.jpg"/>
+    <meta name="twitter:image" content="https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/profile1.jpg">
     {% endif %}
