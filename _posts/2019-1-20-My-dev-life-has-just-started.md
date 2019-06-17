@@ -4,7 +4,7 @@ comments: true
 title: My dev life has just started 😎👩‍💻
 description: My journey in software develpment has just started
 tags: [devlife, opensource, career]
-image: https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/blog1.png
+image: blog1.png
 ---
 ![blog1](https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/blog1.png)
 

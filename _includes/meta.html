@@ -26,8 +26,8 @@
     {% endif %}
 
     {% if page.image %}
-    <meta property="og:image" content="{{ page.image }}"/>
-    <meta name="twitter:image" content="{{ page.image }}">
+    <meta property="og:image" content="{{ site.baseurl }}/images/{{ page.image }}"/>
+    <meta name="twitter:image" content="{{ site.baseurl }}/images/{{ page.image }}">
     {% else %}
     <meta property="og:image" content="https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/profile1.jpg"/>
     <meta name="twitter:image" content="https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/profile1.jpg">
