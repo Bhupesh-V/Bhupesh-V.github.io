@@ -23,6 +23,15 @@ body {
   color: $darkGray;
 }
 
+#shareIcon {
+  display: none;
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px){ 
+  #shareIcon { 
+    display: flex;
+    justify-content: center;
+  }
+}
 .container {
   margin: 0 auto;
   max-width: 740px;
