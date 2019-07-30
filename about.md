@@ -34,5 +34,5 @@ You can invite me on [LinkedIn](https://www.linkedin.com/in/bhupesh-v/). Please 
 If you like my work, you can support me on patreon.
 
 <a href="https://www.patreon.com/bePatron?u=18082750">
-<img src="https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/patreon.png" height="140" width="140" align="center">
+<img src="https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/patreon.png" height="70" align="center">
 </a>
