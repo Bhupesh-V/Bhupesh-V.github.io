@@ -23,14 +23,14 @@ curl bhupeshv.me/me/
 My email is [varshneybhupesh@gmail.com](mailto:varshneybhupesh@gmail.com). I reply within 48 hours.
 
 ### 📖 LEARN WITH ME
-I log whatever new I learn, Go to [bhupeshv.me/til](https://bhupeshv.me/til/) to see soem of it.
+I log whatever new I learn, Go to [bhupeshv.me/til](https://bhupeshv.me/til/) to see some of it.
 
 ### 🦄 FOLLOW ME 
 I use Twitter 🐦. [Follow me](https://twitter.com/bhupeshimself) to learn more about technology & people.
 <br>
 You can invite me on [LinkedIn](https://www.linkedin.com/in/bhupesh-v/). Please introduce yourself when sending an invitation.
 
-### Support 
+### 🖐 Support 
 If you like my work, you can support me on patreon.
 
 <a href="https://www.patreon.com/bePatron?u=18082750">
