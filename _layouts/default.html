@@ -20,7 +20,7 @@
       }
       #myBtn {
             position: fixed;
-            bottom: 20px;
+            bottom: 100px;
             right: 20px;
             border: none;
             outline: none;
@@ -32,6 +32,15 @@
       }
       #myBtn:hover {
         background-color: #37dd0c;
+      }
+      .read-more {
+        color: #1bd91b;
+        font-family: Montserrat, sans-serif;
+        font-weight: bold;
+      }
+      .site-name {
+        font-family: Montserrat,sans-serif;
+        font-weight: bold;
       }
     </style>
     <style type="text/css">
@@ -79,10 +88,25 @@
     <div class="wrapper-masthead">
       <div class="container">
         <header class="masthead clearfix">
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
-
           <div class="site-info">
             <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+            <div class="social-icons-custom">
+              <a href="https://github.com/{{ site.footer-links.github }}">
+                <i class="fab fa-github" style="color:white;"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/{{ site.footer-links.linkedin }}">
+                <i class="fab fa-linkedin" style="color:white;"></i>
+              </a>
+              <a href="https://dev.to/{{ site.footer-links.devto }}">
+                <i class="fab fa-dev" style="color:white;"></i>
+              </a>
+              <a href="https://www.twitter.com/{{ site.footer-links.twitter }}">
+                <i class="fab fa-twitter" style="color:white;"></i>
+              </a>
+              <a href="http://stackoverflow.com/{{ site.footer-links.stackoverflow }}">
+                <i class="fab fa-stack-overflow" style="color:white;"></i>
+              </a>
+            </div>
             <p class="site-description">{{ site.description }}</p>
           </div>
 
