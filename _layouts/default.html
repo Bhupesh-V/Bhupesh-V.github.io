@@ -19,19 +19,11 @@
         scroll-behavior: smooth;
       }
       #myBtn {
-            position: fixed;
-            bottom: 100px;
-            right: 20px;
-            border: none;
-            outline: none;
-            background-color: #eb1515;
-            color: white;
-            cursor: pointer;
-            padding: 15px;
-            border-radius: 23px;
-      }
-      #myBtn:hover {
-        background-color: #37dd0c;
+          position: fixed;
+          bottom: 100px;
+          right: 20px;
+          color: #0eec16;
+          cursor: pointer;
       }
       .read-more {
         color: #1bd91b;
@@ -107,6 +99,7 @@
                 <i class="fab fa-stack-overflow fa-lg" style="color:white;"></i>
               </a>
             </div>
+            <br>
             <p class="site-description">{{ site.description }}</p>
           </div>
 
@@ -121,7 +114,7 @@
     </div>
 
     <div id="main" role="main" class="container">
-      <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+      <i onclick="topFunction()" id="myBtn" style="display: none;" class="fas fa-arrow-up fa-2x"></i>
       {{ content }}
     </div>
 
