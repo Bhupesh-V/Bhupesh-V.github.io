@@ -2,9 +2,7 @@
 <html>
   <head>
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }}</title>
-
     {% include meta.html %}
-
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
     <link rel="apple-touch-icon" sizes="180x180" href="https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/favicons/apple-touch-icon.png">
@@ -15,67 +13,65 @@
     <meta name="google-site-verification" content="4coaO0YVCAhaE5LAetM4wCbwk1TgAjgNA_G0ywyitnI" />
     
     <style>
-      html {
-        scroll-behavior: smooth;
-      }
-      #myBtn {
-          position: fixed;
-          bottom: 100px;
-          right: 20px;
-          color: #0eec16;
-          cursor: pointer;
-      }
-      .read-more {
-        color: #1bd91b;
-        font-family: Montserrat, sans-serif;
-        font-weight: bold;
-      }
-      .site-name {
-        font-family: Montserrat,sans-serif;
-        font-weight: bold;
-      }
+    html {
+    scroll-behavior: smooth;
+    }
+    #myBtn {
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+    color: #0eec16;
+    cursor: pointer;
+    }
+    .read-more {
+    color: #1bd91b;
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    }
+    .site-name {
+    font-family: Montserrat,sans-serif;
+    font-weight: bold;
+    }
     </style>
     <style type="text/css">
-      .button {
-        background-color:#4fe377;
-        -moz-border-radius:28px;
-        -webkit-border-radius:28px;
-        border-radius:28px;
-        border:1px solid #18ab29;
-        display:inline-block;
-        cursor:pointer;
-        color:#ffffff;
-        font-family:Arial;
-        font-size:17px;
-        font-weight:bold;
-        padding: 10px;
-        text-shadow:0px 1px 0px #000000;
-      }
-      .button:hover {
-        background-color:#6d9657;
-      }
-      .button:active {
-        position:relative;
-        top:1px;
-      }
-      #mc_embed_signup {
-        background: #262121;
-        clear:left;
-        color: white;
-        font:14px Consolas, monaco, monospace;
-        text-align: center;
-      }
-      #mce-EMAIL {
-          border-radius: 12px;
-          margin: 5px;
-          -webkit-appearance: none;
-          height: 30px;
-          text-align: center;
-      }
-</style>
-
+    .button {
+    background-color:#4fe377;
+    -moz-border-radius:28px;
+    -webkit-border-radius:28px;
+    border-radius:28px;
+    border:1px solid #18ab29;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:17px;
+    font-weight:bold;
+    padding: 10px;
+    text-shadow:0px 1px 0px #000000;
+    }
+    .button:hover {
+    background-color:#6d9657;
+    }
+    .button:active {
+    position:relative;
+    top:1px;
+    }
+    #mc_embed_signup {
+    background: #262121;
+    clear:left;
+    color: white;
+    font:14px Consolas, monaco, monospace;
+    text-align: center;
+    }
+    #mce-EMAIL {
+    border-radius: 12px;
+    margin: 5px;
+    -webkit-appearance: none;
+    height: 30px;
+    text-align: center;
+    }
+    </style>
   </head>
-
   <body>
     <div class="wrapper-masthead">
       <div class="container">
@@ -102,7 +98,6 @@
             <br>
             <p class="site-description">{{ site.description }}</p>
           </div>
-
           <nav>
             <a href="{{ site.baseurl }}/">Blogs</a>
             <a href="{{ site.baseurl }}/about">About</a>
@@ -112,12 +107,10 @@
         </header>
       </div>
     </div>
-
     <div id="main" role="main" class="container">
       <i onclick="topFunction()" id="myBtn" style="display: none;" class="fas fa-arrow-up fa-2x"></i>
       {{ content }}
     </div>
-
     <div class="wrapper-footer">
       <div class="container">
         <footer class="footer">
@@ -127,51 +120,48 @@
     </div>
     {% include analytics.html %}
     <script>
-      // When the user scrolls down 20px from the top of the document, show the button
-      window.onscroll = function() {scrollFunction()};
-
-      function scrollFunction() {
-        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-          document.getElementById("myBtn").style.display = "block";
-        } else {
-          document.getElementById("myBtn").style.display = "none";
-        }
-      }
-
-      // When the user clicks on the button, scroll to the top of the document
-      function topFunction() {
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
-      }
-    </script>
-    <script type="text/javascript">
-        window.onload = function() {
-            registerSW();
-        };
-        async function registerSW(){
-        if('serviceWorker' in navigator) {
-            try{
-                await navigator.serviceWorker.register('{{ site.baseurl }}/SW.js');
-            } catch(e) {
-                console.log('SW Registration Failed.');
-            }
-        }
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+    function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("myBtn").style.display = "block";
+    } else {
+    document.getElementById("myBtn").style.display = "none";
+    }
+    }
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
     }
     </script>
     <script type="text/javascript">
-      function share(){
-        var currentLocation = window.location;
-        var currentTitle = document.title;
-
-          if (navigator.share) {
-          navigator.share({
-              title: currentTitle,
-              url: currentLocation,
-          })
-            .then(() => console.log('Successful Share'))
-            .catch((error) => console.log('Error sharing', error));
-        }
-      }
+    window.onload = function() {
+    registerSW();
+    };
+    async function registerSW(){
+    if('serviceWorker' in navigator) {
+    try{
+    await navigator.serviceWorker.register('{{ site.baseurl }}/SW.js');
+    } catch(e) {
+    console.log('SW Registration Failed.');
+    }
+    }
+    }
+    </script>
+    <script type="text/javascript">
+    function share(){
+    var currentLocation = window.location;
+    var currentTitle = document.title;
+    if (navigator.share) {
+    navigator.share({
+    title: currentTitle,
+    url: currentLocation,
+    })
+    .then(() => console.log('Successful Share'))
+    .catch((error) => console.log('Error sharing', error));
+    }
+    }
     </script>
   </body>
 </html>
