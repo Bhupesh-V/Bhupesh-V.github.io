@@ -54,9 +54,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 30px;
-  font-family: Consolas, monaco, monospace;
+  font-size: 28px;
+  font-family: Montserrat, sans-serif;
   text-align: center;
+  letter-spacing: -2px;
   a {
     color: white;
   }
@@ -143,8 +144,9 @@ img {
 }
 
 .date {
-  font-style: italic;
   color: $gray;
+  margin-left: 9px;
+  font-size: 14px;
 }
 
 // Specify the color of the selection
@@ -287,7 +289,7 @@ nav {
 
 .posts > .post {
   padding-bottom: 2em;
-  border-bottom: 1px solid $lightGray;
+  border-bottom: 1px solid $gray;
 }
 
 .posts > .post:last-child {
