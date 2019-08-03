@@ -18,21 +18,18 @@ html {
 }
 
 .social-icons-custom i {
-  color:white;
+  color:black;
 }
-
 #shareIcon i {
-  color: white;
+  color: black;
 }
-
 #myBtn {
   position: fixed;
   bottom: 100px;
   right: 20px;
-  color: #fff;
+  color: black;
   cursor: pointer;
 }
-    
 .mark {
   color: white;
   padding: 0;
@@ -50,7 +47,7 @@ html {
 }
 
 body {
-	background: #262121;
+	background: white;
   font: 18px/1.4 $helvetica;
   color: $darkGray;
 }
@@ -73,7 +70,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
-  color: white;
+  color: inherit;
   font-weight: bold;
 
   line-height: 1.7;
@@ -85,14 +82,17 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+h1 a {
+  color: black;
+}
+h1 a:hover {
+  color: #1e1e6a;
+}
 h1 {
   font-size: 28px;
   font-family: Montserrat, sans-serif;
   text-align: center;
   letter-spacing: -2px;
-  a {
-    color: white;
-  }
 }
 
 h2 {
@@ -113,12 +113,12 @@ li {
   border: 0;
   font-size: 100%;
   font: inherit;
-  color: white;
+  color: black;
   vertical-align: baseline;
 }
 p {
   margin: 15px 5px 5px 7px;
-  color: #FFF;
+  color: black;
   font-family: 'Merriweather','Georgia', serif;
   word-spacing: 2.5px;
   word-wrap: break-word;
@@ -253,7 +253,7 @@ img {
 
 .site-name {
   margin: 0;
-  color: $darkGray;
+  color: black;
   cursor: pointer;
   font-family: $helveticaNeue;
   font-weight: 300;

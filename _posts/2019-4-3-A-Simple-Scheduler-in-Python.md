@@ -29,10 +29,10 @@ First things first let us install the python package first
 pip install schedule  
 ```
   
-## Introduction  
+## Introduction
 [*schedule*](https://pypi.org/project/schedule/) is an in-process scheduler for periodic jobs that uses the builder pattern for configuration. Schedule lets you run Python functions (or any other callable) periodically at predetermined intervals using a simple, human-friendly syntax.  
   
-> Python job scheduling for humans.  
+> Python `job` scheduling for humans.  
   
 Let's not worry about what [in-process scheduling](https://en.wikipedia.org/wiki/Scheduling_(computing)) is for now  
 Let's write some code  

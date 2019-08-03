@@ -5,14 +5,19 @@ layout: default
   <h1>{{ page.title }}</h1>
   <div class="date">
     📅
-    {{ page.date | date: "%B %e, %Y" }} 🕣
+    {{ page.date | date: "%B %e, %Y" }} • 🕣
     {% include read-time.html %}
   </div>
+<!--   <div class="postTags" style="color: $gray; text-align: right;">
+    {% for tag in page.tags %}
+    #{{ tag }} 
+    {% endfor %}
+  </div> -->
   <div class="entry">
     {{ content }}
   </div>
   <div class="hmm" id="shareIcon">
-    <i class="fas fad fa-share-alt fa-2x" style="color:white" onclick="share()"></i>
+    <i class="fas fad fa-share-alt fa-2x" onclick="share()"></i>
   </div>
   <div id="mc_embed_signup">
     <form action="https://gmail.us20.list-manage.com/subscribe/post?u=34cec685469b748f2f5e44c8b&amp;id=8d3e189f1a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>

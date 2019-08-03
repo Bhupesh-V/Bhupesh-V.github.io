@@ -4,6 +4,7 @@
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }}</title>
     {% include meta.html %}
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+    <link disabled type="text/css" id="light-mode" rel="stylesheet" href="{{ site.baseurl }}/light.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
     <link rel="apple-touch-icon" sizes="180x180" href="https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/favicons/favicon-32x32.png">
@@ -15,13 +16,6 @@
     <style>
     html {
     scroll-behavior: smooth;
-    }
-    #myBtn {
-    position: fixed;
-    bottom: 100px;
-    right: 20px;
-    color: #0eec16;
-    cursor: pointer;
     }
     .read-more {
     color: #1bd91b;
@@ -76,27 +70,30 @@
   <body>
     <div class="wrapper-masthead">
       <div class="container">
+            <p id="tray-icon" style="cursor:pointer;position: fixed; right: 23px; top: 23px;" onclick="light_toggle()" title="Toggle night mode">🌗
+            </p>
         <header class="masthead clearfix">
           <div class="site-info">
             <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
             <div class="social-icons-custom">
               <a href="https://github.com/{{ site.footer-links.github }}">
-                <i class="fab fa-github fa-lg" style="color:white;"></i>
+                <i class="fab fa-github fa-lg"></i>
               </a>
               <a href="https://www.linkedin.com/in/{{ site.footer-links.linkedin }}">
-                <i class="fab fa-linkedin fa-lg" style="color:white;"></i>
+                <i class="fab fa-linkedin fa-lg"></i>
               </a>
               <a href="https://dev.to/{{ site.footer-links.devto }}">
-                <i class="fab fa-dev fa-lg" style="color:white;"></i>
+                <i class="fab fa-dev fa-lg"></i>
               </a>
               <a href="https://www.twitter.com/{{ site.footer-links.twitter }}">
-                <i class="fab fa-twitter fa-lg" style="color:white;"></i>
+                <i class="fab fa-twitter fa-lg"></i>
               </a>
               <a href="http://stackoverflow.com/{{ site.footer-links.stackoverflow }}">
-                <i class="fab fa-stack-overflow fa-lg" style="color:white;"></i>
+                <i class="fab fa-stack-overflow fa-lg"></i>
               </a>
             </div>
             <br>
+
             <p class="site-description">{{ site.description }}</p>
           </div>
           <nav>
@@ -109,7 +106,7 @@
       </div>
     </div>
     <div id="main" role="main" class="container">
-      <i onclick="topFunction()" id="myBtn" style="display: none;" class="fas fa-arrow-up fa-2x"></i>
+      <i onclick="topFunction()" id="myBtn" style="display: none;" class="fas fa-chevron-up fa-2x"></i>
       {{ content }}
     </div>
     <div class="wrapper-footer">
@@ -163,6 +160,27 @@
     .catch((error) => console.log('Error sharing', error));
     }
     }
+    </script>
+    <script>
+     if (localStorage.getItem("lightmode") == "enabled") {
+         document.getElementById("light-mode").disabled = false;
+     } else {
+         document.getElementById("light-mode").disabled = true;
+     }
+    </script>
+    <script type="text/javascript">
+        function light_toggle() {
+            var el1 = document.getElementById("light-mode");
+            if(el1.disabled) {
+                el1.disabled = false;
+                localStorage.setItem("lightmode", "enabled");
+                document.getElementById("tray-icon").innerHTML = "🌓";
+            } else {
+                el1.disabled = true;
+                localStorage.setItem("lightmode", "disabled");
+                document.getElementById("tray-icon").innerHTML = "🌗";
+            }
+        }
     </script>
   </body>
 </html>
