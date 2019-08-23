@@ -12,6 +12,7 @@ permalink: /projects/
             border-radius: 15px 15px;
             transition: all .2s ease-in-out;
             margin: 30px;
+            background-color: #292b26;
         }
         #projects:hover{
             transform: scale(1.1);
@@ -29,7 +30,7 @@ permalink: /projects/
         }
         h2 {
             margin: 0.8em 0 0.5em 0;
-            color: #171414;
+            color: #d7cece;
             font-weight: bold;
             font-family: 'Ultra', sans-serif;
             font-size: 30px;
@@ -111,7 +112,23 @@ permalink: /projects/
         }
 </style>
 <div class="cards">
-        <div id="projects" style="background-color: #3172CA;">
+        <div id="projects">
+            <div id = "name">
+                <h2>todohub</h2>
+            </div>
+            <div id = "desct">
+                <p>Create a to-do ✅ list using GitHub issues.</p>
+            </div>
+            <div id = "link">
+                <a href="https://github.com/Bhupesh-V/todohub">
+                    <i class="svg-icon github"></i>
+                </a>
+            </div>
+            <div id = "link2">
+                <a href="https://todohub.netlify.com/">Live Demo</a>
+            </div>
+        </div>
+            <div id="projects">
             <div id = "name">
                 <h2>30 Seconds of C++</h2>
             </div>
@@ -127,7 +144,7 @@ permalink: /projects/
                 <a href="http://bhupeshv.me/30-seconds-of-cpp/">Live Demo</a>
             </div>
         </div>
-        <div id="projects" style="background-color: #dcd62c;">
+        <div id="projects">
             <div id = "name">
                 <h2>HeckChat</h2>
             </div>
@@ -143,7 +160,7 @@ permalink: /projects/
                 <a href="https://heckchat.herokuapp.com/">Live Demo</a>
             </div>
         </div>
-        <div id="projects" style="background-color: #38dc2c;">
+        <div id="projects">
             <div id = "name">
                 <h2>CoderBot</h2>
             </div>
@@ -159,7 +176,7 @@ permalink: /projects/
                 <a href="https://telegram.me/bhupesh_bot">Live Demo</a>
             </div>
         </div>
-        <div id="projects" style="background-color: orange;">
+        <div id="projects">
             <div id = "name">
                 <h2>Algorithms</h2>
             </div>
@@ -175,12 +192,12 @@ permalink: /projects/
                 <a href="https://github.com/Bhupesh-V/Algorithms">Live Demo</a>
             </div>
         </div>
-        <div id="projects" style="background-color: #f31213;">
+        <div id="projects">
             <div id = "name">
                 <h2>Learn-Python-Packages</h2>
             </div>
             <div id = "desct">
-                <p>Jupyter Notebooks of different Python Packages like OpenCV ,numpy ,PIL (Pillow) etc</p>
+                <p>Jupyter Notebooks of different Python Packages like OpenCV, numpy, PIL (Pillow) etc.</p>
             </div>
             <div id = "link">
                 <a href="https://github.com/Bhupesh-V/Learn-Python-Packages">

@@ -8,7 +8,7 @@ permalink: /about/
 
 My name is Bhupesh Varshney, 19 year old Student Developer, 3<sup>rd</sup> year Computer Science student living in New Delhi, India.
 I code in Python, C++, C & JavaScript.<br>
-I usually write tech and have written some stuff for **OpenGenus** & **iC0DE Magazine**.
+I usually write tech and have written some stuff for **OpenGenus** & **iC0DE Magazine**, you can find more of my content on [DEV](https://dev.to/bhupesh)
 
 ![blog4](https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/profile1.jpg)
 <figcaption align="center" style="color: #939393;"><i>Yep, That's me</i></figcaption>
