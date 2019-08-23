@@ -6,7 +6,7 @@ layout: default
   <div class="date">
     📅
     {{ page.date | date: "%B %e, %Y" }} • 🕣
-    {% include read-time.html %}
+    {% include read-time.html content=content %}
   </div>
 <!--   <div class="postTags" style="color: $gray; text-align: right;">
     {% for tag in page.tags %}
