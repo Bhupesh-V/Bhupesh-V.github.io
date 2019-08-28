@@ -61,7 +61,16 @@ body {
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px){ 
   #shareIcon { 
     display: flex;
-    justify-content: center;
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 40px;
+    right: 10px;
+    background-color: #06C;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 2px 2px 3px #999;
   }
 }
 .container {
