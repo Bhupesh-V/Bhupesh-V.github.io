@@ -1,12 +1,20 @@
 {
     "Name 😎":"Bhupesh Varshney",
-    "Bio 🤗":"OpenSource Lover, Blogger & Student Developer",
+    "Bio 🤗":"OpenSource Enthusiast • Tech Writer • Develope",
     "Website 🖱":"https://bhupeshv.me/",
     "Github 💻":"https://github.com/Bhupesh-V",
     "DEV 🦄":"https://dev.to/bhupesh",
     "Twitter 🐦":"https://twitter.com/bhupeshimself",
     "LinkedIn 📎":"https://www.linkedin.com/in/bhupesh-v/",
     "blogs":{
+        "blog8":{
+            "name":"Making a Simple REST API Using Django REST Framework",
+            "link":"https://bhupeshv.me/simple-api-using-drf/"
+        },
+        "blog7":{
+            "name":"Internet for Developers",
+            "link":"https://bhupeshv.me/internet-for-devs/"
+        },
         "blog6":{
             "name":"Portfolio API + GitHub Pages",
             "link":"https://bhupeshv.me/Portfolio-API+GitHub-Pages/"
