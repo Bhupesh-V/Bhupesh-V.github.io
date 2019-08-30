@@ -22,7 +22,7 @@ So I thought instead of creating a user card why not do some *dev* fun 😉 and 
 
 For example, if you do
 ```bash
-curl bhupeshv.me/me/
+curl bhupeshv.me/api/
 ```
 Gives the following result on the terminal
 ```bash
@@ -35,6 +35,18 @@ Gives the following result on the terminal
     "Twitter 🐦":"https://twitter.com/codepervert",
     "LinkedIn 📎":"https://www.linkedin.com/in/bhupesh-v/",
     "blogs":{
+        "blog8":{
+            "name":"Making a Simple REST API Using Django REST Framework",
+            "link":"https://bhupeshv.me/simple-api-using-drf/"
+        },
+        "blog7":{
+            "name":"Internet for Developers",
+            "link":"https://bhupeshv.me/internet-for-devs/"
+        },
+        "blog6":{
+            "name":"Portfolio API + GitHub Pages",
+            "link":"https://bhupeshv.me/Portfolio-API+GitHub-Pages/"
+        },
         "blog5":{
             "name":"30 Seconds of C++",
             "link":"https://bhupeshv.me/30-Seconds-of-C++/"
@@ -63,7 +75,7 @@ You can also test it on [apitester](https://apitester.com/) and see that it inde
 Here is another demo using [HTTPie](https://httpie.org/).
 Do
 ```bash
-http GET bhupeshv.me/me/
+http GET bhupeshv.me/api/
 ```
 
 ```bash
@@ -117,7 +129,19 @@ X-Timer: S1558420625.037150,VS0,VE256
         "blog5": {
             "link": "https://bhupeshv.me/30-Seconds-of-C++/",
             "name": "30 Seconds of C++"
-        }
+        },
+        "blog6":{
+            "name":"Portfolio API + GitHub Pages",
+            "link":"https://bhupeshv.me/Portfolio-API+GitHub-Pages/"
+        },
+        "blog7":{
+            "name":"Internet for Developers",
+            "link":"https://bhupeshv.me/internet-for-devs/"
+        },
+        "blog8":{
+            "name":"Making a Simple REST API Using Django REST Framework",
+            "link":"https://bhupeshv.me/simple-api-using-drf/"
+        },
     }
 }
 ```
@@ -125,7 +149,7 @@ X-Timer: S1558420625.037150,VS0,VE256
 ## Tell me how ?
 ![](https://media.giphy.com/media/kQOxxwjjuTB7O/giphy.gif)
 
-Here is how you create a fun static API for your portfolio on GitHub Pages:
+Here is how you create a fun static API for your portfolio on GitHub Pages: 
 
 - Select the route, you want the users to send a GET request. For example you could choose `https://yourdomain.com/about/`
 Or any other route according to your choice.
@@ -142,7 +166,7 @@ Or any other route according to your choice.
   "Name 😎": " ",
   "Bio 🤗": " ",
   "Website 🖱": " ",
-  "Github 💻": " ",
+  "GitHub 💻": " ",
   "DEV 🦄": " ",
   "Twitter 🐦": " ",
   "LinkedIn 📎": " "
@@ -165,4 +189,3 @@ For example, if you place a `README.md` or `index.html` that will get served ins
  - Data is static.
 
 **Do share once you make one for yourself 😋 or just say how did you like the post below :)**
-
