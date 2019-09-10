@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-published: true
+published: false
 title: My devlearn flow
 description: Everyone learns through different ways this is the one I follow and recommend
 tags: [productivity, beginners, tips]
