@@ -181,7 +181,7 @@ permalink: /projects/
                 <h2>Algorithms</h2>
             </div>
             <div id = "desct">
-                <p>A Telegram Bot for Beginners to learn Programming</p>
+                <p>A collection of popular algorithms implemented in C++</p>
             </div>
             <div id = "link">
                 <a href="https://github.com/Bhupesh-V/Algorithms">
@@ -197,7 +197,7 @@ permalink: /projects/
                 <h2>Learn-Python-Packages</h2>
             </div>
             <div id = "desct">
-                <p>Jupyter Notebooks of different Python Packages like OpenCV, numpy, PIL (Pillow) etc.</p>
+                <p>Jupyter Notebook colletion of different Python Packages like OpenCV, numpy, PIL (Pillow) etc.</p>
             </div>
             <div id = "link">
                 <a href="https://github.com/Bhupesh-V/Learn-Python-Packages">
