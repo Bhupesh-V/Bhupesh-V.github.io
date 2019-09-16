@@ -1,18 +1,18 @@
 ---
 layout: post
 comments: true
-published: false
+published: true
 title: My devlearn flow
 description: Everyone learns through different ways this is the one I follow and recommend
 tags: [productivity, beginners, tips]
 image: blog9.png
 ---
 
-![blog9](https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/blog9.jpg)
+![blog9](https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/blog9.png)
 
 We all learn at our own pace and in our own way, in this post I "try" to explain what I do to grow and become an efficient dev one step at a time.
 
-> ⚠️ *This flow is a personally curated it may or may not help you.*
+> ⚠️ *This flow is personally curated it may or may not help you.*
 
 
 As you can see in the above flowchart there are 3 phases which you may encounter while being a programmmer/dev, I try to briefly describe them below.
@@ -44,11 +44,9 @@ I have been following the later approach for a while now and it has been rewardi
 ## Improve
 Once you are successfully able to get feedback your chances of improving increases.
 How you may ask?
-people give suggesstions for e.g some may suggest UI improvements, others may find a bug. 
+people may give suggesstions for e.g some may suggest UI improvements, others may find a bug. 
 
 Just make sure you share whatever you create with someone, sometimes I share my draft blog posts with my friends to give me reviews.
-
-Jot down all the things you thought you could have implemeted in the app or 
 
 > Tip : If you use GitHub for your projects use the "issues" they are very handy for remembering what you have to do or what not. I recently started doing this for even my not so great projects.
 
@@ -103,8 +101,9 @@ Simple,
 As simple as that.
 Don't worry if your app has bugs, you cannot make a perfect project overnight take your time create daily, learn daily.
 
-One approach of learning could be to find a good mentor who can guide you along your way of learning checkout [DEV Listings](https://dev.to/listings/mentors) or [CodingCoach](https://codingcoach.io/)
+One approach of learning could be to find a good mentor who can guide you along your way of learning checkout [DEV Listings](https://dev.to/listings/mentors) or [CodingCoach](https://codingcoach.io/).
 So far I have not been successful with the mentor approach but hey! maybe it may work for you.
 
+Don't forget to log whatever new you learn (you may use the TIL approach on github - [here is mine](https://bhupesh.codes/til/))
 
 > This strategy is pretty handy & has been giving me positive results 😃 since I started as a dev, it may not work on you but you may surely gain some insights from this.
