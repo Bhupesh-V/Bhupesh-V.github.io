@@ -4,7 +4,7 @@
 
 ### Hi folks :wave: :relaxed:
 ---
-[![website](https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/website2.png)](https://bhupeshv.me/)
+[![website](https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/website2.png)](https://bhupesh.codes)
 [![twitter](https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/twitter.png)](https://www.twitter.com/bhupeshimself)
 [![so](https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/so.png)](https://stackoverflow.com/users/8209510/bhupesh-varshney)
 [![devto](https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/devto.png)](https://dev.to/bhupesh)
