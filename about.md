@@ -11,14 +11,13 @@ I code in Python, C++, C & JavaScript.<br>
 I usually write tech and have written some stuff for **OpenGenus** & **iC0DE Magazine**, you can find more of my content on [DEV](https://dev.to/bhupesh)
 
 ![blog4](https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/profile1.jpg)
-<figcaption align="center" style="color: #939393;"><i>Yep, That's me</i></figcaption>
+<figcaption align="center" style="color: #939393;"><i>Yep, That's me ;)</i></figcaption>
 
 ### 🌐 API
 I am availabe as an API too 😜,
 
-```bash
-curl bhupeshv.me/me/
-```
+![blog6](https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/blog6.png)
+
 ### 📧 EMAIL ME
 My email is [varshneybhupesh@gmail.com](mailto:varshneybhupesh@gmail.com). I reply within 48 hours.
 
