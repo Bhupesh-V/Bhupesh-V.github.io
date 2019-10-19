@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <link rel="manifest" href="{{ site.url }}/manifest.json">
     <meta name="google-site-verification" content="4coaO0YVCAhaE5LAetM4wCbwk1TgAjgNA_G0ywyitnI" />
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/randomcolor/0.5.4/randomColor.min.js"></script>
     <style>
     html {
     scroll-behavior: smooth;
@@ -182,6 +182,12 @@
                 localStorage.setItem("lightmode", "disabled");
                 document.getElementById("tray-icon").innerHTML = "🌗";
             }
+        }
+    </script>
+    <script type="text/javascript">
+        var elem = document.getElementsByName("colorpad");
+        for (var j = 0; j < elem.length; j++){
+        elem[j].style.backgroundColor = randomColor({luminosity: 'light'});
         }
     </script>
   </body>
