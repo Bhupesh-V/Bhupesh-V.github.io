@@ -29,6 +29,11 @@ I use Twitter 🐦. [Follow me](https://twitter.com/bhupeshimself) to learn more
 <br>
 You can invite me on [LinkedIn](https://www.linkedin.com/in/bhupesh-v/). Please introduce yourself when sending an invitation.
 
+### 👨🏾‍💻 Find me on DEV
+<!-- https://github.com/saurabhdaware/DEV-widget -->
+<dev-widget data-username="bhupesh" data-width="100%" ></dev-widget>
+<script src="https://unpkg.com/dev-widget@1.0.3/dist/card.component.mjs" type="module"></script>
+
 ### 🖐 Support 
 If you like my work, you can support me on patreon.
 
