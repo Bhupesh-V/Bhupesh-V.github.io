@@ -132,15 +132,15 @@ permalink: /projects/
             </a>
         </div>
     </div>
-    <div id="projects" name="colorpad">
+     <div id="projects" name="colorpad">
         <div id = "name">
-            <h2>CoderBot</h2>
+            <h2>CodeRunner</h2>
         </div>
         <div id = "desct">
-            <p>A Telegram Bot for Beginners to learn Programming</p>
+            <p>A Python Package for Judge0 API</p>
         </div>
         <div id = "link">
-            <a href="https://github.com/Bhupesh-V/CoderBot">
+            <a href="https://github.com/codeclassroom/CodeRunner">
                 <i class="svg-icon github"></i>
             </a>
         </div>
@@ -160,13 +160,13 @@ permalink: /projects/
     </div>
     <div id="projects" name="colorpad">
         <div id = "name">
-            <h2>Learn-Python-Packages</h2>
+            <h2>PlagCheck</h2>
         </div>
         <div id = "desct">
-            <p>Jupyter Notebook colletion of different Python Packages like OpenCV, numpy, PIL (Pillow) etc.</p>
+            <p>A Powerful Moss results scrapper (Python Package).</p>
         </div>
         <div id = "link">
-            <a href="https://github.com/Bhupesh-V/Learn-Python-Packages">
+            <a href="https://github.com/codeclassroom/PlagCheck">
                 <i class="svg-icon github"></i>
             </a>
         </div>
