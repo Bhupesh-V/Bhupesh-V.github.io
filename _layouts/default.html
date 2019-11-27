@@ -183,6 +183,16 @@
                 document.getElementById("tray-icon").innerHTML = "🌗";
             }
         }
+        function msg(){
+              alert("I will reach you soon");
+              var frm = document.getElementsByName('gform')[0];
+              frm.submit(); // Submit the form
+              return false; // Prevent page refresh
+        }
+        function clear(){
+              var frm = document.getElementsByName('gform')[0];
+              frm.reset();  // Reset all form data
+        }     
     </script>
     <script type="text/javascript">
         var elem = document.getElementsByName("colorpad");
