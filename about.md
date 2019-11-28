@@ -4,28 +4,29 @@ title: About Me
 permalink: /about/
 ---
 <style type="text/css">
-	#entry\.389706550, #entry\.973008035, #entry\.1867581834 {
-	    width: 100%;
-	    margin: 10px;
+	input[type=text],textarea {
+	  width: 100%;
+	  padding: 12px 20px;
+	  margin: 8px 0;
+	  display: inline-block;
+	  border: 1px solid #ccc;
+	  border-radius: 4px;
+	  box-sizing: border-box;
 	}
-	#contact-button {
-		background-color: #7C10DC;
-		-moz-border-radius: 28px;
-		-webkit-border-radius: 28px;
-		border-radius: 28px;
-		border: 1px solid #7C10DC;
-		display: inline-block;
-		cursor: pointer;
-		color: #ffffff;
-		font-family: Arial;
-		font-size: 17px;
-		font-weight: bold;
-		padding: 10px;
-		text-shadow: 0px 1px 0px #000000;
-		color: white;
+
+	input[type=submit] {
+	  width: 100%;
+	  background-color: #7C10DC;
+	  color: white;
+	  padding: 14px 20px;
+	  margin: 8px 0;
+	  border: none;
+	  border-radius: 20px;
+	  cursor: pointer;
 	}
-	#contact-button:hover {
-		background-color: #464ec4;
+
+	input[type=submit]:hover {
+	  background-color: #464ec4;
 	}
 
 </style>
@@ -34,7 +35,7 @@ permalink: /about/
 I am Bhupesh Varshney, 19 year old Student Developer, 3<sup>rd</sup> year Computer Science student living in New Delhi, India.
 I code in Python, C++, & JavaScript.<br>I have an affinity towards Backend Development.<br>
 I make Memes, Web, Tools and OpenSource.<br>
-I have written some tech stuff for **OpenGenus** & **iC0DE Magazine** , you can find more of my content on [DEV](https://dev.to/bhupesh) (more than 30k views)
+I have written some tech stuff for **OpenGenus** & **iC0DE Magazine** , you can find more of my content on [DEV](https://dev.to/bhupesh) _(more than 30k views)_
 
 <center>
 <img src="https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/profile1.jpg" height="300px">
@@ -70,20 +71,14 @@ If you like my work, you can support me on patreon.
 </a>
 
 ### 💬 Contact
-<center>
-<form name="gform" id="myform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSfim3RiM1NLrTszkwOv2uJ8mFMfZR6WZU-qKK6oRUlgA9vjuw/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
-  <div class="fields">
-    <div class="field">
-      <input type="text" name="entry.389706550" id="entry.389706550" placeholder="E-mail" />
-    </div>
-    <div class="field">
-      <input type="text" name="entry.1867581834" id="entry.1867581834" placeholder="Name" />
-    </div>
-    <div class="field">
-      <textarea style="overflow:auto;resize:none" name="entry.973008035" id="entry.973008035" placeholder="Say something funny" rows="4"></textarea>
-    </div>
-  </div>
-  <input type="submit" id="contact-button" class="button" value="Send" onclick="msg()">
-</form>
-<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) { clear()}"></iframe>
-</center>
+Let's talk !!
+<div id="contactform">
+	<form enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSfim3RiM1NLrTszkwOv2uJ8mFMfZR6WZU-qKK6oRUlgA9vjuw/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
+		<input type="text" name="entry.389706550" id="entry.389706550" placeholder="E-mail" />
+		<input type="text" name="entry.1867581834" id="entry.1867581834" placeholder="Name" />
+		<textarea style="overflow:auto;resize:none;" name="entry.973008035" id="entry.973008035" placeholder="Say something funny :)" rows="4"></textarea>
+		<input type="submit" id="contact-button" value="Send" onclick="msg()">
+	</form>
+	<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) { clear()}"></iframe>
+</div>
+
