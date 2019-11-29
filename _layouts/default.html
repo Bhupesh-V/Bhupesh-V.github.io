@@ -13,6 +13,23 @@
     <link rel="manifest" href="/manifest.json">
     <meta name="google-site-verification" content="4coaO0YVCAhaE5LAetM4wCbwk1TgAjgNA_G0ywyitnI" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/randomcolor/0.5.4/randomColor.min.js"></script>
+
+    <script>
+    if ("serviceWorker" in navigator) {
+      if (navigator.serviceWorker.controller) {
+        console.log("[Bhupesh Varshney - Main] active service worker found, no need to register");
+      } else {
+        // Register the service worker
+        navigator.serviceWorker
+          .register("SW.js", {
+            scope: "./"
+          })
+          .then(function (reg) {
+            console.log("[Bhupesh Varshney - Main] Service worker has been registered for scope: " + reg.scope);
+          });
+      }
+    }
+    </script>
     <style>
     html {
     scroll-behavior: smooth;
@@ -133,20 +150,6 @@
     function topFunction() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
-    }
-    </script>
-    <script type="text/javascript">
-    window.onload = function() {
-    registerSW();
-    };
-    async function registerSW(){
-    if('serviceWorker' in navigator) {
-    try{
-    await navigator.serviceWorker.register('/SW.js');
-    } catch(e) {
-    console.log('SW Registration Failed.');
-    }
-    }
     }
     </script>
     <script type="text/javascript">
