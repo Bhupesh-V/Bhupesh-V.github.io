@@ -10,26 +10,8 @@
     <link rel="icon" type="image/png" sizes="32x32" href="https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/favicons/favicon-16x16.png">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-    <link rel="manifest" href="/manifest.json">
     <meta name="google-site-verification" content="4coaO0YVCAhaE5LAetM4wCbwk1TgAjgNA_G0ywyitnI" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/randomcolor/0.5.4/randomColor.min.js"></script>
-
-    <script>
-    if ("serviceWorker" in navigator) {
-      if (navigator.serviceWorker.controller) {
-        console.log("[Bhupesh Varshney - Main] active service worker found, no need to register");
-      } else {
-        // Register the service worker
-        navigator.serviceWorker
-          .register("SW.js", {
-            scope: "./"
-          })
-          .then(function (reg) {
-            console.log("[Bhupesh Varshney - Main] Service worker has been registered for scope: " + reg.scope);
-          });
-      }
-    }
-    </script>
     <style>
     html {
     scroll-behavior: smooth;
@@ -126,6 +108,12 @@
     </div>
     <div id="main" role="main" class="container">
       <i onclick="topFunction()" id="myBtn" style="display: none;" class="fas fa-chevron-up fa-2x"></i>
+<!--     <p>
+      Tagged 
+      {% for tag in page.tags %}
+      <a class="post" href="/tag/{{tag}}">#{{tag}}</a>{% unless forloop.last %}, {% endunless %}
+      {% endfor %}
+    </p> -->
       {{ content }}
     </div>
     <div class="wrapper-footer">
