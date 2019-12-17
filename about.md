@@ -48,10 +48,11 @@ I am availabe as an API too 😜,
 ![blog6](https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/blog6.png)
 
 ### 📧 EMAIL ME
-My email is [varshneybhupesh@gmail.com](mailto:varshneybhupesh@gmail.com). I reply within 48 hours.
+
+My email is <a href="mailto:varshneybhupesh@gmail.com" class="mark">varshneybhupesh@gmail.com</a>. I reply within 48 hours.
 
 ### 📖 LEARN WITH ME
-I log whatever new I learn, Go to [bhupesh.codes/til](https://bhupesh.codes/til/) to see some of it.
+I log whatever new I learn, Go to <a href="https://bhupesh.codes/til/"  class="mark">bhupesh.codes/til</a> to see some of it.
 
 ### 🦄 FOLLOW ME 
 I use Twitter 🐦. [Follow me](https://twitter.com/bhupeshimself) to learn more about technology & people.
