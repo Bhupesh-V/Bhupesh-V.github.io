@@ -37,34 +37,6 @@ permalink: /projects/
         justify-content: center;
         align-items: center;
     }
-    #link img {
-        width: 50px;
-        height: 50px;
-        transition: transform .3s ease-in-out;
-        float: left;
-    }
-    #link img:hover {
-        background-color: white;
-        border-radius: 50%;
-        transform: rotate(360deg);
-    }
-    #link .code-text {
-        visibility: hidden;
-        width: 120px;
-        background-color: black;
-        color: #fff;
-        text-align: center;
-        border-radius: 6px;
-        padding: 5px 0;
-
-        /* Position the tooltip */
-        position: absolute;
-        top: 170px;
-        left: 60%;
-    }
-    #link:hover .code-text {
-          visibility: visible;
-    }
     #desct p {
         font-size: 20px;
         line-height: 20px;
@@ -121,26 +93,26 @@ permalink: /projects/
     </div>
     <div id="projects" name="colorpad">
         <div id = "name">
-            <h2>HeckChat</h2>
+            <h2>CodeRunner</h2>
         </div>
         <div id = "desct">
-            <p>Real Tme Chat App, perfect for small talks</p>
+            <p>A judge for your programs, run and test your programs through Python</p>
         </div>
         <div id = "link">
-            <a href="https://github.com/Bhupesh-V/HeckChat">
+            <a href="https://github.com/codeclassroom/CodeRunner">
                 <i class="svg-icon github"></i>
             </a>
         </div>
     </div>
-     <div id="projects" name="colorpad">
+        <div id="projects" name="colorpad">
         <div id = "name">
-            <h2>CodeRunner</h2>
+            <h2>PlagCheck</h2>
         </div>
         <div id = "desct">
-            <p>A Python Package for Judge0 API</p>
+            <p>A Moss Results scraper with powerful insights & analysis 💡</p>
         </div>
         <div id = "link">
-            <a href="https://github.com/codeclassroom/CodeRunner">
+            <a href="https://github.com/codeclassroom/PlagCheck">
                 <i class="svg-icon github"></i>
             </a>
         </div>
@@ -160,13 +132,13 @@ permalink: /projects/
     </div>
     <div id="projects" name="colorpad">
         <div id = "name">
-            <h2>PlagCheck</h2>
+            <h2>HeckChat</h2>
         </div>
         <div id = "desct">
-            <p>A Powerful Moss results scrapper (Python Package).</p>
+            <p>Real Tme Chat App, perfect for small talks</p>
         </div>
         <div id = "link">
-            <a href="https://github.com/codeclassroom/PlagCheck">
+            <a href="https://github.com/Bhupesh-V/HeckChat">
                 <i class="svg-icon github"></i>
             </a>
         </div>
