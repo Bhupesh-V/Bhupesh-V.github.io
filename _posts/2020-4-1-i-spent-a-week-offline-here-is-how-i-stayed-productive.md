@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title: I spent a week offline here is how I stayed productive
-description: I spent a week offline here is how I stayed productive
+description: I was offline 🙈 for a week, in this post I logged what new I learned this time.
 tags: [javascript, cpp, linux, python, html]
 image: blog11.png
 ---
@@ -556,10 +556,9 @@ There is also one strong reason why you should read as an aspiring dev.<br>For e
 
 Its upto you what you want to keep in this journal, you could go ahead and create a **til**(today i learned) repo just like me 🙃
 
-<!-- inset my til repo link -->
+[![Bhupesh-V/til - GitHub](https://gh-card.dev/repos/Bhupesh-V/til.svg?fullname=)](https://github.com/Bhupesh-V/til)
 
 This also means that you should start your own blog (if you are reading this on DEV, then you are halfway there).
-<!-- (But bhupesh its hard & time consuming & doesn't really help me, for you my friend I have only one suggestion) -->
 
 There are no restrictions on your blog, it doesn't needs to be 1000 words, nobody is going to bother you in any way on what you write or share, its your personal space on internet.
 No problem if you are writing once a month (unless you want to earn 🤑 from it), as i said your blog, your choice.
