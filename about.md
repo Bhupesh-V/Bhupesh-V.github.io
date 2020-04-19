@@ -33,8 +33,8 @@ permalink: /about/
 <h1 align="center">Hi.👋</h1>
 
 I am Bhupesh Varshney, 19 year old Student Developer, 3<sup>rd</sup> year Computer Science student living in New Delhi, India.
-I code in Python, C++, & JavaScript.<br>I have an affinity towards Backend Development.<br>
-I make Memes, Web, Tools and OpenSource.<br>
+I code in Python, C++, & JavaScript.<br>
+I make Memes, Web, Tools and OpenSource<br>
 I have written some tech stuff for **OpenGenus** & **iC0DE Magazine** , you can find more of my content on [DEV](https://dev.to/bhupesh) _(more than 30k views)_
 
 <center>
@@ -55,8 +55,9 @@ My email is <a href="mailto:varshneybhupesh@gmail.com" class="mark">varshneybhup
 I log whatever new I learn, Go to <a href="https://bhupesh.codes/til/"  class="mark">bhupesh.codes/til</a> to see some of it.
 
 ### 🦄 FOLLOW ME 
-I use Twitter 🐦. [Follow me](https://twitter.com/bhupeshimself) to learn more about technology & people.
+I use Twitter 🐦. <a href="https://twitter.com/bhupeshimself?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @bhupeshimself</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> to learn more about technology & people.
 <br>
+
 You can invite me on [LinkedIn](https://www.linkedin.com/in/bhupesh-v/). Please introduce yourself when sending an invitation.
 
 ### 👨🏾‍💻 Find me on DEV

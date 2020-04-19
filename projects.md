@@ -29,8 +29,6 @@ permalink: /projects/
         font-family: 'Ultra', sans-serif;
         font-size: 30px;
         line-height: 40px;
-        text-transform: uppercase;
-        text-shadow: 0 5px #928d8d, 0 6px #777;
     }
     #link {
         display: flex;
@@ -52,6 +50,19 @@ permalink: /projects/
     }
 </style>
 <div class="cards">
+    <div id="projects" name="colorpad">
+        <div id = "name">
+            <h2>defe</h2>
+        </div>
+        <div id = "desct">
+            <p>A Tech feed Aggregator for Developers & Tech Enthusiasts</p>
+        </div>
+        <div id = "link">
+            <a href="https://github.com/Bhupesh-V/defe">
+                <i class="svg-icon github"></i>
+            </a>
+        </div>
+    </div>
     <div id="projects" name="colorpad">
         <div id = "name">
             <h2>tutorialdb</h2>
@@ -113,19 +124,6 @@ permalink: /projects/
         </div>
         <div id = "link">
             <a href="https://github.com/codeclassroom/PlagCheck">
-                <i class="svg-icon github"></i>
-            </a>
-        </div>
-    </div>
-    <div id="projects" name="colorpad">
-        <div id = "name">
-            <h2>Algorithms</h2>
-        </div>
-        <div id = "desct">
-            <p>A collection of popular algorithms implemented in C++</p>
-        </div>
-        <div id = "link">
-            <a href="https://github.com/Bhupesh-V/Algorithms">
                 <i class="svg-icon github"></i>
             </a>
         </div>

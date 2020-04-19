@@ -7,6 +7,18 @@
     "Twitter 🐦":"https://twitter.com/bhupeshimself",
     "LinkedIn 📎":"https://www.linkedin.com/in/bhupesh-v/",
     "blogs":{
+        "blog13":{
+            "name":"Memer Action - GitHub Action for Programmer Memes",
+            "link":"https://bhupesh.codes/memer-action-github-action-for-programmer-memes/"
+        },
+        "blog12":{
+            "name":"defe - All your Tech Updates at one place",
+            "link":"https://bhupesh.codes/defe-tech-feed-aggregator-for-develpers/"
+        },
+        "blog11":{
+            "name":"I spent a week offline here is how I stayed productive",
+            "link":"https://bhupesh.codes/i-spent-a-week-offline-here-is-how-i-stayed-productive/"
+        },
         "blog10":{
             "name":"I reviewed 200+ PRs in 10 days - Here is what I learned",
             "link":"https://bhupesh.codes/hacktoberfest-pr-review/"
