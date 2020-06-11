@@ -7,7 +7,6 @@ tags: [python, python2, python3]
 image: blog4.png
 ---
 
-![blog4](https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/blog4.png)
 
 
 We all encounter things in life which we want to automate, Setting up reminders and schedules are one of them  

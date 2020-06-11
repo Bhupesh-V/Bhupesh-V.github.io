@@ -12,8 +12,6 @@ TLDR;
 > I created defe (devfeed), a WebApp & CLI for aggregating popular "Tech" feeds for developers & Tech Enthusiasts
 
 
-![blog12](https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/blog12.png)
-
 
 ## Why did I built this ¯\_(ツ)_/¯
 

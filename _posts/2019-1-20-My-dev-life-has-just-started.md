@@ -6,7 +6,6 @@ description: My journey in software develpment has just started
 tags: [devlife, opensource, career]
 image: blog1.png
 ---
-![blog1](https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/blog1.png)
 
 > *This blog was originally posted on [dev.to](https://dev.to/bhupesh/my-dev-life-has-just-started--3959)*
 

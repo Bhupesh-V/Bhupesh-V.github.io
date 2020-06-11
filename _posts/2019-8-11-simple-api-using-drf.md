@@ -4,9 +4,8 @@ comments: true
 title: Making a Simple REST API Using Django REST Framework
 description: Learn how to make a simple REST API using django
 tags: [api, django, python, tutorial, rest, django-rest-framework, drf]
-image: blog7.png
+image: blog8.png
 ---
-![blog8](https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/blog8.png)
 
 <figcaption style="text-align: center; font-size: 12px;">Image Source <a href="django-rest-framework.org">django-rest-framework.org</a></figcaption>
 

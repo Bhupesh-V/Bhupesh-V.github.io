@@ -11,7 +11,6 @@ image: blog11.png
 Hi there, its been a long time since I have written something here.
 I hope all of you are in good health 💪.
 
-![blog11](https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/blog11.png)
 
 ## Backstory
 My Internet was affected recently due to some unforseen reasons, this means that I was completely offline (i.e no texting, no memes & no `git push` 😭).

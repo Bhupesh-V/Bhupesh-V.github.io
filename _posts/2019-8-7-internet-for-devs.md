@@ -7,8 +7,6 @@ tags: [social, dev]
 image: blog7.jpg
 ---
 
-![blog7](https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/blog7.jpg)
-
 <br>
 Here are my recommendations for some internet communities/social media to follow as a developer.
 This list is a personal suggestion so if you find any more, please comment them below.

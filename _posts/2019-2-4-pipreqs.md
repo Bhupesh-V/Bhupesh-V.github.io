@@ -7,7 +7,6 @@ tags: [pipreqs, python, python2, python3]
 image: blog2.jpg
 ---
 
-![blog2](https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/blog2.jpg)
 
 > *This blog was originally posted on [dev.to](https://dev.to/bhupesh/pipreqs-automatically-generate-python-dependencies-30nl)*
 

@@ -6,7 +6,7 @@ description: Some common mistakes beginners make while contributing on GitHub.
 tags: [beginners, hacktoberfest, c++]
 image: blog10.png
 ---
-![blog10](https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/blog10.png)
+
 
 > *This blog was originally posted on [dev.to](https://dev.to/bhupesh/i-reviewed-200-prs-in-10-days-here-is-what-i-learned-11ec)*
 

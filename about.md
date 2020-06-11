@@ -33,7 +33,7 @@ permalink: /about/
 <h1 align="center">Hi.👋</h1>
 
 I am Bhupesh Varshney, 19 year old Student Developer, 3<sup>rd</sup> year Computer Science student living in New Delhi, India.
-I code in Python, C++, & JavaScript.<br>
+I code in Python, Go, C++, & JavaScript.<br>
 I make Memes, Web, Tools and OpenSource<br>
 I have written some tech stuff for **OpenGenus** & **iC0DE Magazine** , you can find more of my content on [DEV](https://dev.to/bhupesh) _(more than 30k views)_
 

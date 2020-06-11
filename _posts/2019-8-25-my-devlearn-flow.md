@@ -8,8 +8,6 @@ tags: [productivity, beginners, tips]
 image: blog9.png
 ---
 
-![blog9](https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/blog9.png)
-
 We all learn at our own pace and in our own way, in this post I "try" to explain what I do to grow and become an efficient dev one step at a time.
 
 > ⚠️ *This flow is personally curated it may or may not help you.*

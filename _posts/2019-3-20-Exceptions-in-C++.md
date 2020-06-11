@@ -7,7 +7,6 @@ tags: [c++, c++14, c++17, c++11]
 image: blog3.png
 ---
 
-![blog3](https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/blog3.png)
 
 > *This blog was originally posted on [dev.to](https://dev.to/bhupesh/exceptions-in-c-296h)*
 

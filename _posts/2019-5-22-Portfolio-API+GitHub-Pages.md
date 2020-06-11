@@ -7,7 +7,6 @@ tags: [github, rest, api, portfolio]
 image: blog6.png
 ---
 
-![blog6](https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/blog6.png)
 
 > *This blog was originally posted on [dev.to](dev.to/bhupesh/portfolio-api-github-pages-21ag)*
 

@@ -22,17 +22,17 @@ layout: default
 	{% for post in paginator.posts %}
 		<article class="post">
 			<h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-			<div class="date" style="font-size: 10pt;">
-				📅 {{ post.date | date: "%B %e, %Y" }}
+			<div class="date" style="font-size: 13pt; text-align: center;">
+				Posted on 📅 {{ post.date | date: "%B %e, %Y" }}
 			</div>
-			<div class="entry">
+<!-- 			<div class="entry">
 				{{ post.excerpt }}
-			</div>
-			<a href="{{ site.baseurl }}{{ post.url }}" class="read-more">
+			</div> -->
+<!-- 			<a href="{{ site.baseurl }}{{ post.url }}" class="read-more">
 				<div>
-					<b>{{ post.description }}</b>
+					<b>Read More</b>
 				</div>
-			</a>
+			</a> -->
 		</article>
 	{% endfor %}
 </div>
