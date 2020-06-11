@@ -1,8 +1,25 @@
 ---
 layout: default
 ---
+<style>
+
+.pagination {
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #ddd;
+}
+
+.pagination a.active {
+  background-color: #4CAF50;
+  color: white;
+  border: 1px solid #4CAF50;
+}
+
+</style>
 <div class="posts">
-	{% for post in site.posts %}
+	{% for post in paginator.posts %}
 		<article class="post">
 			<h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 			<div class="date" style="font-size: 10pt;">
@@ -19,3 +36,24 @@ layout: default
 		</article>
 	{% endfor %}
 </div>
+
+<!-- Pagination links -->
+<center>
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class="previous">
+      ❮
+    </a>
+  {% else %}
+    <span class="previous">❮</span>
+  {% endif %}
+  <span class="page_number ">
+    {{ paginator.page }} of {{ paginator.total_pages }}
+  </span>
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="next">❯</a>
+  {% else %}
+    <span class="next ">❯</span>
+  {% endif %}
+</div>
+</center>

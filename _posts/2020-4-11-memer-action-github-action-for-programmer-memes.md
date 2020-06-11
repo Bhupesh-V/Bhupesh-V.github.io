@@ -6,11 +6,11 @@ description: A GitHub Action for Programmer Memes, greet contributors with some 
 tags: [github, python, developers, memes]
 image: blog13.png
 ---
-![blog13](https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/blog13.png)
 
 TTLDR;
 > I created a small github action to greet contributors with random programmer memes
 
+![blog13](https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/blog13.png)
 
 [![Bhupesh-V/memer-action - GitHub](https://gh-card.dev/repos/Bhupesh-V/memer-action.svg)](https://github.com/Bhupesh-V/memer-action)
 
