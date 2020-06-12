@@ -3,7 +3,7 @@ layout: post
 comments: true
 title: pipreqs
 description: Automatically generate python dependencies
-tags: [pipreqs, python, python2, python3]
+tags: python python3
 image: blog2.jpg
 ---
 

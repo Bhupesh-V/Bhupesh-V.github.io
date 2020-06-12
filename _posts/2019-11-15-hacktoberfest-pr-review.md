@@ -3,7 +3,7 @@ layout: post
 comments: true
 title: I reviewed 200+ PRs in 10 days - Here is what I learned 
 description: Some common mistakes beginners make while contributing on GitHub.
-tags: [beginners, hacktoberfest, c++]
+tags: beginners hacktoberfest c++
 image: blog10.png
 ---
 
@@ -14,6 +14,7 @@ image: blog10.png
 
 
 Ya I know it's "late" hacktoberfest but it taught us a ton of things specially to me.
+
 ### Did you enjoy contributing to opensource ? Was this your first one ? Share you thoughts below 👇
 I will be sharing some common mistakes beginners make while contributing on GitHub plus some handy tips for Maintainers as well.
 

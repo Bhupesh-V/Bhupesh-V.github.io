@@ -246,7 +246,7 @@ background-color: #FF6600
   <div class="postTags" style="color: $gray; text-align: center;">
     {% for tag in page.tags %}
       <span id="pagetags" name="colorpad">
-        <b>📌 {{ tag }}</b>
+        <a style="color: black;" href="/tag/{{ tag }}"><b>📌 {{ tag }}</b></a>
       </span>
     {% endfor %}
   </div>

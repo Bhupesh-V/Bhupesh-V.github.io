@@ -3,7 +3,7 @@ layout: post
 comments: true
 title: Exceptions in C++
 description: Learn how to create and handle exceptions in C++
-tags: [c++, c++14, c++17, c++11]
+tags: c++ c++14 c++17 c++11
 image: blog3.png
 ---
 

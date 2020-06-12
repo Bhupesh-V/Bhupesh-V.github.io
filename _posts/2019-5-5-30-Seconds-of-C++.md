@@ -3,7 +3,7 @@ layout: post
 comments: true
 title: 30 Seconds of C++
 description: A collection of C++ STL features (functions/libraries) which can be learned in 30 seconds or less
-tags: [c++, c++14, c++17, c++11]
+tags: c++ c++14 c++17
 image: blog5.png
 ---
 

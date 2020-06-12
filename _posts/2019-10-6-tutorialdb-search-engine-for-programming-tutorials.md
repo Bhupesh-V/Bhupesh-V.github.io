@@ -3,7 +3,7 @@ layout: post
 comments: true
 title: tutorialdb - search engine 🔍 for programming tutorials 
 description: A Search engine for programming and dev tutorials.
-tags: [python, django]
+tags: python django
 ---
 
 ![blog5](https://res.cloudinary.com/practicaldev/image/fetch/s--BFFIbV_w--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://res.cloudinary.com/practicaldev/image/fetch/s--o1O8C-0r--/c_imagga_scale%2Cf_auto%2Cfl_progressive%2Ch_420%2Cq_auto%2Cw_1000/https://thepracticaldev.s3.amazonaws.com/i/40l7kpzi0mn6jsofd2u3.png)

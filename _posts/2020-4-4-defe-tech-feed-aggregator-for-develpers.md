@@ -3,7 +3,7 @@ layout: post
 comments: true
 title: defe - All your Tech Updates at one place
 description: defe is a Tech Feed Aggregator for developers & Tech Enthusiasts
-tags: [devfeed, tech, python, javascript]
+tags: tech python javascript
 image: blog12.png
 ---
 
@@ -13,7 +13,7 @@ TLDR;
 
 
 
-## Why did I built this ¯\_(ツ)_/¯
+## Why did I built this `¯\_(ツ)_/¯`
 
 Well I like reading tech, this involves subscribing to newsletters & listening to various podcasts.
 But the only problem with this is that all of this is distributed causing me to waste my time by installing various apps (which I open only once per day) & subscribing to a number of newsletters.

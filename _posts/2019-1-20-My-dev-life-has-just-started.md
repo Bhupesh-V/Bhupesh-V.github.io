@@ -3,7 +3,7 @@ layout: post
 comments: true
 title: My dev life has just started 😎👨🏾‍💻
 description: My journey in software develpment has just started
-tags: [devlife, opensource, career]
+tags: devlife opensource career
 image: blog1.png
 ---
 

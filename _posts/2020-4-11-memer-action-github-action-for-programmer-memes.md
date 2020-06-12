@@ -3,7 +3,7 @@ layout: post
 comments: true
 title: Memer Action - GitHub Action for Programmer Memes
 description: A GitHub Action for Programmer Memes, greet contributors with some programmer humor ;)
-tags: [github, python, developers, memes]
+tags: github python developers memes
 image: blog13.png
 ---
 

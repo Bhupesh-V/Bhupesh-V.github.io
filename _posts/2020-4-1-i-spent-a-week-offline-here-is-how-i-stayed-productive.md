@@ -3,7 +3,7 @@ layout: post
 comments: true
 title: I spent a week offline here is how I stayed productive
 description: I was offline 🙈 for a week, in this post I logged what new I learned this time.
-tags: [javascript, cpp, linux, python, html]
+tags: javascript c++ linux python html
 image: blog11.png
 ---
 
