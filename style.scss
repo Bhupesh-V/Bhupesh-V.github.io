@@ -330,6 +330,14 @@ nav {
 // .main
 //
 
+.pagination {
+    color: #fefbfb;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #fff;
+}
+
 .posts > .post {
   padding-bottom: 2em;
   border-bottom: 1px solid $gray;
@@ -361,9 +369,6 @@ nav {
 
 .wrapper-footer {
   margin-top: 50px;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
 }
 
 footer {
