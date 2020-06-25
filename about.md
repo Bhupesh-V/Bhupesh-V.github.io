@@ -29,13 +29,23 @@ permalink: /about/
 	  background-color: #464ec4;
 	}
 
+	input[type=email] {
+		width: 100%;
+	    padding: 12px 20px;
+	    margin: 8px 0;
+	    display: inline-block;
+	    border: 1px solid #ccc;
+	    border-radius: 4px;
+	    box-sizing: border-box;
+	}
+
 </style>
 <h1 align="center">Hi.👋</h1>
 
-I am Bhupesh Varshney, 19 year old Student Developer, 3<sup>rd</sup> year Computer Science student living in New Delhi, India.
+I am Bhupesh Varshney, 21 year old Student Developer, 3<sup>rd</sup> year Computer Science (BCA) student living in New Delhi, India.
 I code in Python, Go, C++, & JavaScript.<br>
 I make Memes, Web, Tools and OpenSource<br>
-I have written some tech stuff for **OpenGenus** & **iC0DE Magazine** , you can find more of my content on [DEV](https://dev.to/bhupesh) _(more than 30k views)_
+I have written some tech stuff for **OpenGenus** & **iC0DE Magazine** , you can find more of my content on [DEV](https://dev.to/bhupesh) _(more than 40k views)_
 
 <center>
 <img src="https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/profile1.jpg" height="300px">
@@ -50,15 +60,16 @@ I am availabe as an API too 😜,
 ### 📧 EMAIL ME
 
 My email is <a href="mailto:varshneybhupesh@gmail.com" class="mark">varshneybhupesh@gmail.com</a>. I reply within 48 hours.
+PS: Don't spam me for improving my SEO metrics.
 
 ### 📖 LEARN WITH ME
-I log whatever new I learn, Go to <a href="https://bhupesh.codes/til/"  class="mark">bhupesh.codes/til</a> to see some of it.
+I log whatever new I learn, Go to <a href="https://github.com/Bhupesh-V/til/"  class="mark">bhupesh.codes/til</a> to see some of it.
 
 ### 🦄 FOLLOW ME 
 I use Twitter 🐦. <a href="https://twitter.com/bhupeshimself?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @bhupeshimself</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> to learn more about technology & people.
 <br>
 
-You can invite me on [LinkedIn](https://www.linkedin.com/in/bhupesh-v/). Please introduce yourself when sending an invitation.
+You can send me an invite on [LinkedIn](https://www.linkedin.com/in/bhupesh-v/). Please introduce yourself while sending an invitation.
 
 ### 👨🏾‍💻 Find me on DEV
 <!-- https://github.com/saurabhdaware/DEV-widget -->
@@ -66,19 +77,22 @@ You can invite me on [LinkedIn](https://www.linkedin.com/in/bhupesh-v/). Please 
 <script src="https://unpkg.com/dev-widget@1.0.3/dist/card.component.mjs" type="module"></script>
 
 ### 🖐 Support 
-If you like my work, you can support me on patreon.
+If you like my work, consider supporting me.
 
 <a href="https://www.patreon.com/bePatron?u=18082750">
-<img src="https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/patreon.png" height="70" align="center">
+	<img src="https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/patreon.png" height="40" align="justified">
+</a>&nbsp;
+<a href="https://liberapay.com/bhupesh/donate">
+	<img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg" height="40">
 </a>
 
 ### 💬 Contact
 Let's talk !!
 <div id="contactform">
 	<form enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSfim3RiM1NLrTszkwOv2uJ8mFMfZR6WZU-qKK6oRUlgA9vjuw/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
-		<input type="text" name="entry.389706550" id="entry.389706550" placeholder="E-mail" />
+		<input type="email" name="entry.389706550" id="entry.389706550" placeholder="E-mail" />
 		<input type="text" name="entry.1867581834" id="entry.1867581834" placeholder="Name" />
-		<textarea style="overflow:auto;resize:none;" name="entry.973008035" id="entry.973008035" placeholder="Say something funny :)" rows="4"></textarea>
+		<textarea style="overflow:auto;resize:none;" name="entry.973008035" id="entry.973008035" placeholder="Send me a Hi.👋 :)" rows="4"></textarea>
 		<input type="submit" id="contact-button" value="Send" onclick="msg()">
 	</form>
 	<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) { clear()}"></iframe>
