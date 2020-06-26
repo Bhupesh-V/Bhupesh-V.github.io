@@ -73,7 +73,7 @@ kramdown:
 sass:
   style: :expanded # You might prefer to minify using :compressed
 
-paginate: 5
+paginate: 8
 
 # Use the following plug-ins
 gems:

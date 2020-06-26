@@ -1,6 +1,6 @@
 ---
 layout: tagpage
-title: "Tag: tech"
+title: "Tag: tech 👨‍💻"
 tag: tech
 robots: noindex
 ---

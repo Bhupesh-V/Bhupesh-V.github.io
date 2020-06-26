@@ -1,6 +1,6 @@
 ---
 layout: tagpage
-title: "Tag: linux 🐧"
-tag: linux
+title: "Tag: til"
+tag: til
 robots: noindex
 ---

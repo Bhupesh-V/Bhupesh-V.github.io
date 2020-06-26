@@ -114,7 +114,6 @@ h1 {
   font-size: 28px;
   font-family: Montserrat, sans-serif;
   text-align: center;
-  letter-spacing: -2px;
 }
 
 h2 {
@@ -349,6 +348,7 @@ nav {
     text-decoration: none;
     transition: background-color .3s;
     border: 1px solid #000;
+     margin-top: 40px;
 }
 
 .posts > .post {
