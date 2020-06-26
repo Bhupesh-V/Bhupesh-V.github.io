@@ -73,4 +73,12 @@ func main() {
 }
 ```
 
+Here is a sample output
+
+```
+7
+1
+5
+```
+
 See this demo on [Go Playground](https://play.golang.org/p/8nH6t0HfnGu).
