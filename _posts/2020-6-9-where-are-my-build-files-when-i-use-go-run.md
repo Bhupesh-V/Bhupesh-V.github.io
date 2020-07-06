@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: Where are my build files when I use `go run`
+title: Where are my build files when I use go run
 description: Where are my build files when I use `go run`
 tags: go til
 ---

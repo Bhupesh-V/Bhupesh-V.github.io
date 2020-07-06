@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: Creating Python's `next()` alternative using Go Closures
+title: Creating Python's next() alternative using Go Closures
 description: Using go closures for a replacement of next() in python
 tags: go til
 ---
