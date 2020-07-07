@@ -128,17 +128,4 @@ permalink: /projects/
             </a>
         </div>
     </div>
-    <div id="projects" name="colorpad">
-        <div id = "name">
-            <h2>HeckChat</h2>
-        </div>
-        <div id = "desct">
-            <p>Real Tme Chat App, perfect for small talks</p>
-        </div>
-        <div id = "link">
-            <a href="https://github.com/Bhupesh-V/HeckChat">
-                <i class="svg-icon github"></i>
-            </a>
-        </div>
-    </div>
 </div>
