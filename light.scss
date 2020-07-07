@@ -353,12 +353,11 @@ nav {
 
 .posts > .post {
   padding-bottom: 2em;
-  border-bottom: 1px solid $gray;
-}
-
-.posts > .post:last-child {
-  padding-bottom: 1em;
-  border-bottom: none;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  border: thick double #000;
+  margin-top: 20px;
+  border-radius: 5px; 
 }
 
 .post {
