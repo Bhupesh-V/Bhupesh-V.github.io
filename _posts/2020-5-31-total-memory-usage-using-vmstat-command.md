@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: Get Total System Memory using vmstat command
+title: Get total system memory using vmstat command
 description: get total system memory
 tags: linux shell tips
 ---

@@ -1,8 +1,8 @@
 ---
 layout: post
 comments: true
-title: Reading & Setting Environment variables in Go
-description: Reading & Setting Environment variables in Go
+title: Reading & Setting environment variables in Go
+description: Reading and Setting Environment variables in Go
 tags: go til
 ---
 

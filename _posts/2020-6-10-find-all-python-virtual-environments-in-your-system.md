@@ -1,8 +1,8 @@
 ---
 layout: post
 comments: true
-title: Find all Python Virtual Environments in your system
-description: Finding all Python Virtual Environments in your system
+title: Find all python virtual environments in your system
+description: Find all python virtual environments in your system
 tags: linux python shell
 ---
 

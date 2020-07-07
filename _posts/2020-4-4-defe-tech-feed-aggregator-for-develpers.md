@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: defe - All your Tech Updates at one place
+title: defe - All your tech updates at one place
 description: defe is a Tech Feed Aggregator for developers & Tech Enthusiasts
 tags: tech python javascript
 image: blog12.png

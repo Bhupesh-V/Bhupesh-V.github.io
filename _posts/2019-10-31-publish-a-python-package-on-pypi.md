@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: Publishing a Python Package on PyPI
+title: Publishing a Python package on PyPI
 description: Write functional code in python
 tags: python til
 ---

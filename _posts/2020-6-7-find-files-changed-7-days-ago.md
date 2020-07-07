@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: Find files changed since 7 days ago
+title: Find files changed 7 days ago
 description: Find files changed 7 days ago
 tags: linux shell tips
 ---

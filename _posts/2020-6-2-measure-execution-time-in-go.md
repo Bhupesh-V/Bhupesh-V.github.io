@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: Measure Execution time in Go
+title: Measure execution time in Go
 description: How to measure execution time of go code
 tags: go til
 ---
