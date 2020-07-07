@@ -1,63 +1,22 @@
 {
-    "Name 😎":"Bhupesh Varshney",
-    "Bio 🤗":"OpenSource Enthusiast • Tech Writer • Developer",
-    "Website 🖱":"https://bhupesh.codes/",
-    "Github 💻":"https://github.com/Bhupesh-V",
-    "DEV 🦄":"https://dev.to/bhupesh",
-    "Twitter 🐦":"https://twitter.com/bhupeshimself",
-    "LinkedIn 📎":"https://www.linkedin.com/in/bhupesh-v/",
-    "blogs":{
-        "blog13":{
-            "name":"Memer Action - GitHub Action for Programmer Memes",
-            "link":"https://bhupesh.codes/memer-action-github-action-for-programmer-memes/"
+    "Name" : "Bhupesh Varshney",
+    "Bio" : "Developer • OpenSource Enthusiast • Tech Writer",
+    "Web" : "https://bhupesh.codes/",
+    "Mail" : "varshneybhupesh@gmail.com",
+    "GitHub" : "https://github.com/Bhupesh-V",
+    "DEV" : "https://dev.to/bhupesh",
+    "Twitter" : "https://twitter.com/bhupeshimself",
+    "Telegram" : "https://t.me/bhupeshimself",
+    "LinkedIn" : "https://www.linkedin.com/in/bhupesh-v/",
+    "Tools" : {
+        "Languages": {
+            "Back-End" : "Python, Go",
+            "Front-End" : "Javascript, HTML"
         },
-        "blog12":{
-            "name":"defe - All your Tech Updates at one place",
-            "link":"https://bhupesh.codes/defe-tech-feed-aggregator-for-develpers/"
-        },
-        "blog11":{
-            "name":"I spent a week offline here is how I stayed productive",
-            "link":"https://bhupesh.codes/i-spent-a-week-offline-here-is-how-i-stayed-productive/"
-        },
-        "blog10":{
-            "name":"I reviewed 200+ PRs in 10 days - Here is what I learned",
-            "link":"https://bhupesh.codes/hacktoberfest-pr-review/"
-        },
-        "blog9":{
-            "name":"My Devlearn Flow",
-            "link":"https://bhupesh.codes/my-devlearn-flow/"
-        },
-        "blog8":{
-            "name":"Making a Simple REST API Using Django REST Framework",
-            "link":"https://bhupesh.codes/simple-api-using-drf/"
-        },
-        "blog7":{
-            "name":"Internet for Developers",
-            "link":"https://bhupesh.codes/internet-for-devs/"
-        },
-        "blog6":{
-            "name":"Portfolio API + GitHub Pages",
-            "link":"https://bhupesh.codes/Portfolio-API+GitHub-Pages/"
-        },
-        "blog5":{
-            "name":"30 Seconds of C++",
-            "link":"https://bhupesh.codes/30-Seconds-of-C++/"
-        },
-        "blog4":{
-            "name":"A Simple Scheduler in Python",
-            "link":"https://bhupesh.codes/A-Simple-Scheduler-in-Python/"
-        },
-        "blog3":{
-            "name":"Exceptions in C++",
-            "link":"https://bhupesh.codes/Exceptions-in-C++/"
-        },
-        "blog2":{
-            "name":"pipreqs - Automatically generate python dependencies",
-            "link":"https://bhupesh.codes/pipreqs/"
-        },
-        "blog1":{
-            "name":"My dev life has just started 😎👩‍💻",
-            "link":"https://bhupesh.codes/My-dev-life-has-just-started/"
-        }
-    }
+        "Databases": "MySQL, SQLite",
+        "Frameworks": "Django, Flask, Bulma.io, MaterializeCSS",
+        "Miscellaneous" : "Travis CI, codecov.io, Pythonanywhere, Heroku, Netlify"
+    },
+    "Editors" : "Sublime Text, Neovim, Nano",
+    "OS" : "Ubuntu (Mate)"
 }
