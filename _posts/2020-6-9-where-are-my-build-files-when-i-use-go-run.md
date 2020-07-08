@@ -18,7 +18,7 @@ go run --work fizzbuzz.go
 
 Sample Output
 
-```
+```bash
 WORK=/tmp/go-build645222420
 [1 2 Fizz]
 ```
