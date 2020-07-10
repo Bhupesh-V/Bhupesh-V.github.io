@@ -23,5 +23,11 @@ $georgia: Georgia, serif;
 @mixin mobile {
   @media screen and (max-width: 640px) {
     @content;
+    .social-icons-custom i {
+      margin: 0px 8px;
+    }
+    .social-icons-custom {
+      margin-top: 15px;
+    }
   }
 }
