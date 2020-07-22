@@ -43,24 +43,24 @@ permalink: /about/
 <h1 align="center">Hi.👋</h1>
 
 I am Bhupesh Varshney, 21 year old Student Developer, 3<sup>rd</sup> year Computer Science (BCA) student living in New Delhi, India.
-I code in Python, Go, C++, & JavaScript.<br>
+I code in Python, Go, C++, Bash & JavaScript.<br>
 I make Memes, Web, Tools and OpenSource<br>
-I have written some tech stuff for **OpenGenus** & **iC0DE Magazine** , you can find more of my content on [DEV](https://dev.to/bhupesh) _(more than 40k views)_
+I have written some tech stuff for [**freeCodeCamp**](https://www.freecodecamp.org/news/author/bhupesh/), **OpenGenus** & **iC0DE Magazine**, you can find more of my content on [DEV](https://dev.to/bhupesh) _(more than 45k views)_
 
+<br>
 <center>
-<img src="https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/profile1.jpg" height="300px">
+<img alt="Bhupesh Varshney Profile Image" src="https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/profile1.jpg" height="300px">
 <figcaption align="center" style="color: #939393;"><i>Yep, That's me ;)</i></figcaption>
 </center>
 
 ### 🌐 API
 I am availabe as an API too 😜,
 
-![blog6](https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/blog6.png)
+![Bhupesh Varshney API](https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/blog6.png)
 
 ### 📧 EMAIL ME
 
 My email is <a href="mailto:varshneybhupesh@gmail.com" class="mark">varshneybhupesh@gmail.com</a>. I reply within 48 hours.
-PS: Don't spam me for improving my SEO metrics.
 
 ### 📖 LEARN WITH ME
 I log whatever new I learn, Go to <a href="https://github.com/Bhupesh-V/til/"  class="mark">bhupesh.codes/til</a> to see some of it.
@@ -80,7 +80,7 @@ You can send me an invite on [LinkedIn](https://www.linkedin.com/in/bhupesh-v/).
 If you like my work, consider supporting me.
 
 <a href="https://www.patreon.com/bePatron?u=18082750">
-	<img src="https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/patreon.png" height="40" align="justified">
+	<img alt="Donate using Patreon" src="https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/patreon.png" height="40" align="justified">
 </a>&nbsp;
 <a href="https://liberapay.com/bhupesh/donate">
 	<img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg" height="40">
@@ -90,8 +90,8 @@ If you like my work, consider supporting me.
 Let's talk !!
 <div id="contactform">
 	<form enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSfim3RiM1NLrTszkwOv2uJ8mFMfZR6WZU-qKK6oRUlgA9vjuw/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
-		<input type="email" name="entry.389706550" id="entry.389706550" placeholder="E-mail" />
-		<input type="text" name="entry.1867581834" id="entry.1867581834" placeholder="Name" />
+		<input type="email" name="entry.389706550" id="entry.389706550" placeholder="yo@hello.com" required />
+		<input type="text" name="entry.1867581834" id="entry.1867581834" placeholder="Name" required />
 		<textarea style="overflow:auto;resize:none;" name="entry.973008035" id="entry.973008035" placeholder="Send me a Hi.👋 :)" rows="4"></textarea>
 		<input type="submit" id="contact-button" value="Send" onclick="msg()">
 	</form>

@@ -3,12 +3,11 @@ layout: post
 comments: true
 title: Exceptions in C++
 description: Learn how to create and handle exceptions in C++
+canonical_url: https://iq.opengenus.org/exception-handling-cpp/
 tags: c++ c++14 c++17 c++11
 image: blog3.png
 ---
 
-
-> *This blog was originally posted on [dev.to](https://dev.to/bhupesh/exceptions-in-c-296h)*
 
 Exceptions are scary but we must know how to handle them when they try to sabotage our program flow. 
 In this post I will go from A to E (pun intended ;) of handling **Exceptions in C++**.

@@ -3,6 +3,7 @@ layout: post
 comments: true
 title: Making a Simple REST API Using Django REST Framework
 description: Learn how to make a simple REST API using django
+canonical_url: https://icodemag.com/making-a-simple-rest-api-using-django-rest-framework/
 tags: django python rest django-rest-framework
 image: blog8.png
 ---
