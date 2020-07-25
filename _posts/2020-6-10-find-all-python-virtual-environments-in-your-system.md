@@ -50,6 +50,16 @@ Only problem, it is slow.
 find /home -name "*activate"  2.57s user 4.14s system 7% cpu 1:31.72 total
 ```
 
+_Update: 25 July 2020_
+
+Use `-O` option to do fast searching.
+
+```bash
+find -O3 $HOME -name "*activate" -type f
+```
+
+Available optimization levels are : `O0`, `O1`(default), `O2` & `O3`
+
 ## Using `locate`
 
 ```bash
