@@ -40,12 +40,11 @@ permalink: /about/
 	}
 
 </style>
-<h1 align="center">Hi.👋</h1>
+<h1 align="center">Hi 👋</h1>
 
 I am Bhupesh Varshney, 21 year old Student Developer, 3<sup>rd</sup> year Computer Science (BCA) student living in New Delhi, India.
 I code in Python, Go, C++, Bash & JavaScript.<br>
-I make Memes, Web, Tools and OpenSource<br>
-I have written some tech stuff for [**freeCodeCamp**](https://www.freecodecamp.org/news/author/bhupesh/), **OpenGenus** & **iC0DE Magazine**, you can find more of my content on [DEV](https://dev.to/bhupesh) _(more than 45k views)_
+I make Memes, Web, Tools and Open-Source & frequently write about tech on [**freeCodeCamp**](https://www.freecodecamp.org/news/author/bhupesh/), **OpenGenus** & **iC0DE Magazine**, you can find more of my content on [DEV](https://dev.to/bhupesh) _(more than 45k views)_
 
 <br>
 <center>
@@ -56,22 +55,34 @@ I have written some tech stuff for [**freeCodeCamp**](https://www.freecodecamp.o
 ### 🌐 API
 I am availabe as an API too 😜,
 
-![Bhupesh Varshney API](https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/blog6.png)
+<img alt="Bhupesh's API" src="https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/blog6.png" height="200px">
 
-### 📧 EMAIL ME
+## 👷 Projects
+Some of my significant projects & tools include
 
-My email is <a href="mailto:varshneybhupesh@gmail.com" class="mark">varshneybhupesh@gmail.com</a>. I reply within 48 hours.
+<ul style="list-style-type: ''; ">
+	<li><details><summary><a href="https://github.com/Bhupesh-V/30-seconds-of-cpp">30 Seconds of C++</a></summary>
+	A collection of STL (Standard Template Library) features of C++ which can be learned in 30 seconds or less.
+	</details></li>
+	<li><details><summary><a href="https://github.com/Bhupesh-V/tutorialdb">tutorialdb</a></summary>
+	tutorialdb is a small scale search engine for programming/dev tutorials, it is meant to help anyone who is getting started to learn a new technology
+	</details></li>
+	<li><details><summary><a href="https://github.com/Bhupesh-V/defe">defe</a></summary>
+	A Tech feed Aggregator for Developers & Tech Enthusiasts
+	</details></li>
+	<li><details><summary><a href="https://github.com/codeclassroom/CodeRunner">CodeRunner</a></summary>
+	A judge for your programs, run and test your programs through Python
+	</details></li>	
+	<li><details><summary><a href="https://github.com/Bhupesh-V/dotman">dotman</a></summary>
+	dotman is a simple, elegant & easy to use dotfiles manager 🖖🏽
+	</details></li>
+</ul>
 
 ### 📖 LEARN WITH ME
-I log whatever new I learn, Go to <a href="https://github.com/Bhupesh-V/til/"  class="mark">bhupesh.codes/til</a> to see some of it.
+I log whatever new I learn, Go to <a href="https://bhupesh.codes/til"  class="mark">bhupesh.codes/til</a> to see some of it.
 
-### 🦄 FOLLOW ME 
-I use Twitter 🐦. <a href="https://twitter.com/bhupeshimself?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @bhupeshimself</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> to learn more about technology & people.
-<br>
-
-You can send me an invite on [LinkedIn](https://www.linkedin.com/in/bhupesh-v/). Please introduce yourself while sending an invitation.
-
-### 👨🏾‍💻 Find me on DEV
+### 🦄 CONNECT
+I use [twitter](https://twitter.com/bhupeshimself) mostly to rant about tech, share memes & learn what other are doing. I am on [LinkedIn](https://www.linkedin.com/in/bhupesh-v/). You can also find me on DEV
 <!-- https://github.com/saurabhdaware/DEV-widget -->
 <dev-widget data-username="bhupesh" data-width="100%" ></dev-widget>
 <script src="https://unpkg.com/dev-widget@1.0.3/dist/card.component.mjs" type="module"></script>
@@ -79,11 +90,11 @@ You can send me an invite on [LinkedIn](https://www.linkedin.com/in/bhupesh-v/).
 ### 🖐 Support 
 If you like my work, consider supporting me.
 
-<a href="https://www.patreon.com/bePatron?u=18082750">
-	<img alt="Donate using Patreon" src="https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/patreon.png" height="40" align="justified">
-</a>&nbsp;
 <a href="https://liberapay.com/bhupesh/donate">
 	<img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg" height="40">
+</a>&nbsp;
+<a href="https://ko-fi.com/bhupesh">
+	<img title="ko-fi/bhupesh" alt="Support on ko-fi" src="https://user-images.githubusercontent.com/34342551/88784787-12507980-d1ae-11ea-82fe-f55753340168.png" width="185">
 </a>
 
 ### 💬 Contact
