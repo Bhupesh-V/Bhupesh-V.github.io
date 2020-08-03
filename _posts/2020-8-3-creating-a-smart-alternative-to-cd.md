@@ -7,10 +7,10 @@ image: scd.png
 tags: linux shell
 ---
 
-Do you sometimes forget the actual location of directories & have to juggle through `cd` & `ls` to know the right path ?
-In this short post we discuss how to make a "smart" alternative to `cd` commnand on Linux (& probably MacOS 🙄).
+Do you sometimes forget the actual location of directories & have to juggle through `cd` & `ls` to know the right path?
+In this short post, we discuss how to make a "smart" alternative to `cd` command on Linux (& probably MacOS 🙄).
 
-The problem is simple we just need to automate this task of finding actual location of directories and the 2 most popular commnands to do that are `find` & `locate`:
+The problem is simple we just need to automate this task of finding the actual location of directories and the 2 most popular commands to do that are `find` & `locate`:
 
 ## 1. `locate`
 
@@ -18,7 +18,7 @@ The problem is simple we just need to automate this task of finding actual locat
 - Limited functionality.
 - Depends on external database for fast finding (`/var/lib/mlocate/mlocate.db`).
 ```bash
-# search file paths which exactly match pattern, "memes"
+# search file paths which exactly match the pattern, "memes"
 locate -r '/memes$' | grep $HOME
 ```
 
@@ -62,7 +62,7 @@ fi
 
 > Note: If you are on Mac, `locate` would probably be not available, use `find` instead.
 
-Not yet convinced ?
+Not yet convinced?
 Ok, a more advance version with options like `..`, `-`
 
 ```bash
@@ -87,8 +87,8 @@ scd() {
 
 ### Cons 😤
 
-- Well one of the problems with our bash function is that we wouldn't be able to leverage "tab" auto-suggestions.
-- Newly created directories won't be readily available with the `locate` commnand as it depends on its own database `mlocate.db`. The database is udpated automatically by our system through a cron job. Although you can still do it manually.
+- Well, one of the problems with our bash function is that we wouldn't be able to leverage "tab" auto-suggestions.
+- Newly created directories won't be readily available with the `locate` command as it depends on its own database `mlocate.db`. The database is updated automatically by our system through a cron job. Although you can still do it manually.
 ```bash
 sudo updatedb
 ```
@@ -99,4 +99,4 @@ sudo updatedb
 - Even if `scd` switches to the wrong directory (in case of multiple matches), you will still be able to see what's the actual path in output & then switch to it manually.
 
 
-what do you think ?
+what do you think?
