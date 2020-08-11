@@ -98,5 +98,24 @@ sudo updatedb
 - Don't have to search for directory paths & cd into it.
 - Even if `scd` switches to the wrong directory (in case of multiple matches), you will still be able to see what's the actual path in output & then switch to it manually.
 
+<span class="mark">UPDATE: 9 Aug 2020</span>
+
+Thanks to Santosh's comment on my [LinkedIn post](https://www.linkedin.com/feed/update/urn:li:activity:6696322663343910912/) there is another way of switching directories "smartly".
+
+#### The `CDPATH`
+
+It is used as a search path for the cd command. A colon-separated list of directories in which the shell looks for destination directories specified by the cd command.
+
+It gives you a limited functionality to cd into sub-directories of a specific parent directory.
+
+For e.g in your `.bashrc` or `.zshrc` add this line.
+
+```bash
+export CDPATH=".:/home/bhupesh/Desktop"
+```
+
+And now you can freely switch directories inside Desktop & would not have to use `cd ~/Desktop/dirB` or `cd /home/username/Desktop/dirB`.
+Well of-course now you need to do this manually & find out which directories you usually spent more time in.
+
 
 what do you think?
