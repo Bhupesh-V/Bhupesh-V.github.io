@@ -79,7 +79,7 @@ Some of my significant projects & tools include
 </ul>
 
 ### 📖 LEARN WITH ME
-I log whatever new I learn, Go to <a href="https://bhupesh.codes/til"  class="mark">bhupesh.codes/til</a> to see some of it.
+I log whatever new I learn, Go to <a href="https://bhupesh-v.github.io/til"  class="mark">bhupesh-v.github.io/til</a> to see some of it.
 
 ### 🦄 CONNECT
 I use [twitter](https://twitter.com/bhupeshimself) mostly to rant about tech, share memes & learn what other are doing. I am on [LinkedIn](https://www.linkedin.com/in/bhupesh-v/). You can also find me on DEV
