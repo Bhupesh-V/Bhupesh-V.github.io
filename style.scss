@@ -261,32 +261,14 @@ img {
   text-align: inherit;
 }
 
-p.site-description:hover {
-    background-color: #d5f80d;
-    color: #000000;
-    border-radius: 12px;
-    padding-left: 3px;
-    padding-right: 3px;
-    line-height: 22px;
-}
-
 .site-description {
   margin: -5px 0 0 0;
-  color:#0cd4df;
   font-weight: bold;
   font-size: 16px;
 
   @include mobile {
     margin: 3px 0;
   }
-}
-
-nav a:hover {
-  /* border-bottom: red; */
-  /* text-decoration-line: underline; */
-  text-decoration: none;
-  border-bottom: 6px solid #eb1515;
-  color: #00ff09;
 }
 
 nav {
