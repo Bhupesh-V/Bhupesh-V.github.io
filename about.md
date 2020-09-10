@@ -44,7 +44,7 @@ permalink: /about/
 
 I am Bhupesh Varshney, 21 year old Student Developer, 3<sup>rd</sup> year Computer Science (BCA) student living in New Delhi, India.
 I code in Python, Go, C++, Bash & JavaScript.<br>
-I make Memes, Web, Tools and Open-Source & frequently write about tech on [**freeCodeCamp**](https://www.freecodecamp.org/news/author/bhupesh/), **OpenGenus** & **iC0DE Magazine**, you can find more of my content on [DEV](https://dev.to/bhupesh) _(more than 45k views)_
+I make Memes, Web, Tools and Open-Source & frequently write about tech on [**freeCodeCamp**](https://www.freecodecamp.org/news/author/bhupesh/), **OpenGenus** & **iC0DE Magazine**, you can find more of my content on [DEV](https://dev.to/bhupesh) _(more than 47k views)_
 
 <br>
 <center>
@@ -52,11 +52,11 @@ I make Memes, Web, Tools and Open-Source & frequently write about tech on [**fre
 <figcaption align="center" style="color: #939393;"><i>Yep, That's me ;)</i></figcaption>
 </center>
 
-### 🌐 API
+<!-- ### 🌐 API
 I am availabe as an API too 😜,
 
 <img alt="Bhupesh's API" src="https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/blog6.png" height="200px">
-
+ -->
 ## 👷 Projects
 Some of my significant projects & tools include
 
@@ -69,12 +69,15 @@ Some of my significant projects & tools include
 	</details></li>
 	<li><details><summary><a href="https://github.com/Bhupesh-V/defe">defe</a></summary>
 	A Tech feed Aggregator for Developers & Tech Enthusiasts
+	</details></li>	
+	<li><details><summary><a href="https://github.com/Bhupesh-V/memer-action">memer-action</a></summary>
+	A GitHub Action for Programmer Memes xD
+	</details></li>
+	<li><details><summary><a href="https://github.com/Bhupesh-V/dotman">dotman</a></summary>
+	dotman is a simple, elegant & easy to use dotfiles manager 🖖🏽
 	</details></li>
 	<li><details><summary><a href="https://github.com/codeclassroom/CodeRunner">CodeRunner</a></summary>
 	A judge for your programs, run and test your programs through Python
-	</details></li>	
-	<li><details><summary><a href="https://github.com/Bhupesh-V/dotman">dotman</a></summary>
-	dotman is a simple, elegant & easy to use dotfiles manager 🖖🏽
 	</details></li>
 </ul>
 
@@ -82,7 +85,7 @@ Some of my significant projects & tools include
 I log whatever new I learn, Go to <a href="https://bhupesh-v.github.io/til"  class="mark">bhupesh-v.github.io/til</a> to see some of it.
 
 ### 🦄 CONNECT
-I use [twitter](https://twitter.com/bhupeshimself) mostly to rant about tech, share memes & learn what other are doing. I am on [LinkedIn](https://www.linkedin.com/in/bhupesh-v/). You can also find me on DEV
+I use [**twitter**](https://twitter.com/bhupeshimself) mostly to rant about tech, share memes & learn what others are doing. I am on [**LinkedIn**](https://www.linkedin.com/in/bhupesh-v/). You can also find me on [**dev.to**](https://dev.to/bhupesh)
 <!-- https://github.com/saurabhdaware/DEV-widget -->
 <dev-widget data-username="bhupesh" data-width="100%" ></dev-widget>
 <script src="https://unpkg.com/dev-widget@1.0.3/dist/card.component.mjs" type="module"></script>
