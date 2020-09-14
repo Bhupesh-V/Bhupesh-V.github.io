@@ -1,0 +1,14 @@
+---
+layout: default
+title: Post Archive
+permalink: /all-posts/
+---
+
+<h1>{{ site.posts.size }} posts in Archive</h1>
+<div class="all-posts">
+	{% for post in site.posts %}
+	<section>
+		<h4><a class="mark" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a> 📅 {{ post.date | date: "%B %e, %Y" }}</h4>
+	</section>
+	{% endfor %}
+</div>
