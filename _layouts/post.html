@@ -222,6 +222,27 @@ background-color: #FF6600
 .resp-sharing-button--telegram:hover {
   background-color: #4B97D1;}
 
+.PageNavigation {
+  font-size: 14px;
+  display: block;
+  width: auto;
+  overflow: hidden;
+}
+
+.PageNavigation a {
+  display: block;
+  width: 50%;
+  float: left;
+  margin: 1em 0;
+  font-weight: bolder;
+  color: #0eff0e;
+  font-size: 16px;
+}
+
+.PageNavigation .next {
+  text-align: right;
+}
+
 </style>
 <article class="post">
   <h1>{{ page.title }}</h1>
@@ -243,6 +264,16 @@ background-color: #FF6600
     {% endif %}
     {{ content }}
   </div>
+</article>
+
+<div class="PageNavigation">
+  {% if page.previous.url %}
+    <a class="prev" href="{{page.previous.url}}">◀️ {{page.previous.title}}</a>
+  {% endif %}
+  {% if page.next.url %}
+    <a class="next" href="{{page.next.url}}">{{page.next.title}} ▶️</a>
+  {% endif %}
+</div>
 
 <center>
   <!-- Sharingbutton Facebook -->
@@ -302,8 +333,7 @@ background-color: #FF6600
 </a>
 </center>
 
-  <div class="hmm" id="shareIcon">
-    <i class="fas fa-share-alt" onclick="share()" style="margin-top: 10px; font-size: 28px; margin-left: 10px;"></i>
-  </div>
-  {% include disqus.html %}
-</article>
+<div class="hmm" id="shareIcon">
+  <i class="fas fa-share-alt" onclick="share()" style="margin-top: 10px; font-size: 28px; margin-left: 10px;"></i>
+</div>
+{% include disqus.html %}
