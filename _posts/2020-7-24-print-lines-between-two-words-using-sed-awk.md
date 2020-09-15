@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title: Print lines between 2 words using sed & awk
-description: Learn how to print everything between 2 specific words using sed and awk
+description: print lines of a file between two matching patterns using sed and awk.
 tags: linux shell til
 ---
 

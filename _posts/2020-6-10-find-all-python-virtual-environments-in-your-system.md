@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title: Find all python virtual environments in your system
-description: Find all python virtual environments in your system
+description: Find all python virtual environments in your system, lsvirtualenv command not found, list all virtual environments python
 tags: linux python shell
 ---
 

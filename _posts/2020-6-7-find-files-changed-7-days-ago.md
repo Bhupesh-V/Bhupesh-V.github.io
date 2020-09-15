@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title: Find files changed 7 days ago
-description: Find files changed 7 days ago
+description: Find files changed in linux
 tags: linux shell tips
 ---
 

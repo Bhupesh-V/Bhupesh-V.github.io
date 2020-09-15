@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title: Get complete system info using Shell Commands
-description: Learn how to get system info like CPU temperature, memory intensive processes etc
+description: Learn how to get system info like CPU temperature, memory intensive processes etc on your linux or ubuntu machine
 tags: linux shell til
 ---
 

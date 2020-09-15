@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title: Monitor network (data) usage in linux
-description: Learn how to write a shell script to find network usage statistics of your linux machine
+description: Learn how to how to check data usage in linux by writing a  shell script to find network usage statistics of your linux machine.
 tags: linux shell til
 ---
 
