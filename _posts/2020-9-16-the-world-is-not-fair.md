@@ -119,7 +119,7 @@ Oh you did MCA, you know iT Is EqUaL to bTeCh ?
 No don't let me start on practicals. I hate how its done.
 
 You know how practical are done for programming subjects?
-We have to "hard print" the whole goddamn file which contains single page programs like "_Write a program to implement fibonacci series_". No i am not kidding. I was so frustated with this that I started to build a [platform]() for our minor project report to address this issue (still a WIP).
+We have to "hard print" the whole goddamn file which contains single page programs like "_Write a program to implement fibonacci series_". No i am not kidding. I was so frustated with this that I started to build a [platform](https://github.com/codeclassroom/codeclassroom) for our minor project report to address this issue (still a WIP).
 
 Anyways a few months back we gave our external practical examination, the examiner was going to ask questions on the said Minor project report. This sums up how our viva went.
 
@@ -150,7 +150,7 @@ No its not a joke you know why? Because,
 
 > Now i understand why students here in India spend there time doing Competitive Programming. I mean its the only way to hack a big company if you are not getting placed by your college in Google.
 
-Dont't believe me? See discussions on [DevelopersIndia](https://www.reddit.com/r/developersIndia/search?q=flair%3Acareer&restrict_sr=on&sort=relevance&t=all) subreddit.
+Dont't believe me? See discussions on [r/DevelopersIndia](https://www.reddit.com/r/developersIndia/search?q=flair%3Acareer&restrict_sr=on&sort=relevance&t=all) subreddit.
 
 ### Final thoughts
 
