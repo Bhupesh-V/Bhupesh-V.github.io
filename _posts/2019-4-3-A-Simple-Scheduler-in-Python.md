@@ -3,7 +3,7 @@ layout: post
 comments: true
 title: A Simple Scheduler in Python
 description: Making a scheduler in python
-tags: python python3
+tags: python
 image: blog4.png
 ---
 

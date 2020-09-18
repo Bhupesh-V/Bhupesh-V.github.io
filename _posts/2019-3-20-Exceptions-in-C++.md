@@ -4,7 +4,7 @@ comments: true
 title: Exceptions in C++
 description: Learn how to create and handle exceptions in C++
 canonical_url: https://iq.opengenus.org/exception-handling-cpp/
-tags: c++ c++14 c++17 c++11
+tags: c++
 image: blog3.png
 ---
 

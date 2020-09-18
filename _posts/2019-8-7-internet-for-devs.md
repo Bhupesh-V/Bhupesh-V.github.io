@@ -3,7 +3,7 @@ layout: post
 comments: true
 title: Internet for Developers
 description: list of online communities & social media for developers
-tags: social dev
+tags: social developers
 image: blog7.jpg
 ---
 

@@ -4,7 +4,7 @@ comments: true
 published: true
 title: My devlearn flow
 description: Everyone learns through different ways this is the one I follow and recommend
-tags: productivity beginners tips
+tags: productivity beginners tips devlife
 image: blog9.png
 ---
 
