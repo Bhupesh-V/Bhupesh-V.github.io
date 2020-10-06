@@ -42,9 +42,9 @@ permalink: /about/
 </style>
 <h1 align="center">Hi 👋</h1>
 
-I am Bhupesh Varshney, 21 year old Student Developer, 3<sup>rd</sup> year Computer Science (BCA) student living in New Delhi, India.
+I am Bhupesh Varshney, 21 year old Developer & FOSS Enthusiast living in New Delhi, India. I like to create stuff from scratch.
 I code in Python, Go, C++, Bash & JavaScript.<br>
-I make Memes, Web, Tools and Open-Source & frequently write about tech on [**freeCodeCamp**](https://www.freecodecamp.org/news/author/bhupesh/), **OpenGenus** & **iC0DE Magazine**, you can find more of my content on [DEV](https://dev.to/bhupesh) _(more than 47k views)_
+I make Memes, Web, Tools and Open-Source & frequently write about tech & my journey here & on [**freeCodeCamp**](https://www.freecodecamp.org/news/author/bhupesh/), **OpenGenus** & **iC0DE Magazine**, you can find more of my content on [DEV](https://dev.to/bhupesh) _(more than 47k views)_
 
 <br>
 <center>
@@ -86,9 +86,6 @@ I log whatever new I learn, Go to <a href="https://bhupesh-v.github.io/til"  cla
 
 ### 🦄 CONNECT
 I use [**twitter**](https://twitter.com/bhupeshimself) mostly to rant about tech, share memes & learn what others are doing. I am on [**LinkedIn**](https://www.linkedin.com/in/bhupesh-v/). You can also find me on [**dev.to**](https://dev.to/bhupesh)
-<!-- https://github.com/saurabhdaware/DEV-widget -->
-<dev-widget data-username="bhupesh" data-width="100%" ></dev-widget>
-<script src="https://unpkg.com/dev-widget@1.0.3/dist/card.component.mjs" type="module"></script>
 
 ### 🖐 Support 
 If you like my work, consider supporting me.
