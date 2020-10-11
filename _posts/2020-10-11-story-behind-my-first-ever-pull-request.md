@@ -68,6 +68,6 @@ Thanks a lot, both of you.
 
 I still have a lot to learn. I will be sharing what new things I do right here on my blog or on my [twitter](https://twitter.com/bhupeshimself).
 
-Anyways "Who did you feel when you made that first PR?, A faster beating of heart 💓, No ?"
+Anyways "How did you feel when you made that first PR?, A faster beating of heart 💓, No ?"
 
 ![jerry-quick-heartbeat](https://media1.tenor.com/images/75092f912fdab0e8e83cac21d6e9439c/tenor.gif?itemid=7839058)
