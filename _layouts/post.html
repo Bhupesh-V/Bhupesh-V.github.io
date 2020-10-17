@@ -244,12 +244,43 @@ background-color: #FF6600
 }
 
 </style>
+<style type="text/css">
+
+  input[type=submit] {
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    border: thick double #15c822;
+    font-weight: bold;
+  }
+
+  input[type=submit]:hover {
+    background-color: #0eff0e;
+  }
+
+  input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+</style>
 <article class="post">
   <h1>{{ page.title }}</h1>
   <div class="date">
     📅
     {{ page.date | date: "%B %e, %Y" }} • 🕣
-    {% include read-time.html content=content %}
+    {% include read-time.html content=content %} • 
+    {{ page.content | number_of_words }} totalwords
   </div><br/>
   <div class="postTags" style="color: $gray; text-align: center;">
     {% for tag in page.tags %}
@@ -332,6 +363,20 @@ background-color: #FF6600
   </div>
 </a>
 </center>
+
+<!-- Newsletter -->
+<form
+  action="https://buttondown.email/api/emails/embed-subscribe/bhupesh"
+  method="post"
+  target="popupwindow"
+  onsubmit="window.open('https://buttondown.email/bhupesh', 'popupwindow')"
+  class="embeddable-buttondown-form"
+>
+  <label for="bd-email">Subscribe to receive more such content 🔥🚀</label>
+  <input type="email" name="email" id="bd-email" placeholder="you@.com"></input>
+  <input type="hidden" value="1" name="embed"></input>
+  <input type="submit" value="Subscribe"></input>
+</form>
 
 <div class="hmm" id="shareIcon">
   <i class="fas fa-share-alt" onclick="share()" style="margin-top: 10px; font-size: 28px; margin-left: 10px;"></i>
