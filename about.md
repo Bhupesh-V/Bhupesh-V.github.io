@@ -44,7 +44,7 @@ permalink: /about/
 
 I am Bhupesh Varshney, 21 year old Developer & FOSS Enthusiast living in New Delhi, India. I like to create stuff from scratch.
 I code in Python, Go, C++, Bash & JavaScript.<br>
-I make Memes, Web, Tools and Open-Source & frequently write about tech & my journey here & on [**freeCodeCamp**](https://www.freecodecamp.org/news/author/bhupesh/), **OpenGenus** & **iC0DE Magazine**, you can find more of my content on [DEV](https://dev.to/bhupesh) _(more than 47k views)_
+I make Memes, Web, Tools and Open-Source & frequently write about tech & my journey here & on other publications like [**freeCodeCamp**](https://www.freecodecamp.org/news/author/bhupesh/), you can find more of my content on [DEV](https://dev.to/bhupesh) _(more than 47k views)_
 
 <br>
 <center>
