@@ -25,7 +25,7 @@ netu() {
 ```
 
 - Only works per session, i.e stats are gathered once you power up your PC (or login) and are lost when you shutdown.
-- Good to have if you have limited data availability & want to montior your data usage.
+- Good to have if you have limited data availability & want to monitor your data usage.
 
 Let's just review on what utilities we used here.
 
@@ -60,32 +60,32 @@ enp0s20u4u1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 ```
 
-You see the `RX` and `TX` packets ? Yup thats our stats. Now we will use `awk` to extract those packet infos.
+You see the `RX` and `TX` packets? Yup that's our stats. Now we will use `awk` to extract those packet infos.
 
 ## `awk`
 
 AWK is a pattern scanning language, generally used for data manipulation needs.
 
-Now this is not a tutorial about awk but lets just understand our usecase here. A simple awk statement might look like this.
+Now, this is not a tutorial about awk but let's just understand our use-case here. A simple awk statement might look like this.
 
 ```bash
 awk '/pattern/ { action }'
 ```
 
-So in our case we want to look for _pattern_ which matches `TX packets`.
+So in our case, we want to look for _pattern_ which matches `TX packets`.
 
 ```bash
 $ ifconfig enp0s20u4u1 |  awk '/TX packets/'
         TX packets 18554  bytes 3411366 (3.4 MB)
 ```
 
-Meh, this doesn't look good. We want that human readable format `3.4MB`. One thing which excites me is that we can access/read each individual field (or word or record) in that line. Each word can then be printed using `print $<field-no>` (an [_action_](http://kirste.userpage.fu-berlin.de/chemnet/use/info/gawk/gawk_9.html#SEC87))
+Meh, this doesn't look good. We want that human-readable format `3.4MB`. One thing which excites me is that we can access/read each individual field (or word or record) in that line. Each word can then be printed using `print $<field-no>` (an [_action_](http://kirste.userpage.fu-berlin.de/chemnet/use/info/gawk/gawk_9.html#SEC87))
 
 
-<figure align="center">
+<picture align="center">
 	<img alt="awk fields when using ifconfig command in linux" src="https://drive.google.com/uc?export=view&id=1Zx4J4VdcufOlCGEjClrG-vdFbmdYEBhj">
 	<figcaption>I know the last two rows are f**ked up. Maybe its a bug ?</figcaption>
-</figure>
+</picture>
 
 Now we just print both the `$6` and `$7` fields.
 
@@ -99,7 +99,7 @@ $ ifconfig enp0s20u4u1 |  awk '/TX packets/ { print $6$7 }'
 ![netu-monitor-network-data-usage](https://user-images.githubusercontent.com/34342551/97838566-75e6c780-1d06-11eb-86ae-6b3f562969a1.png)
 
 
-And of-course you can `watch` this script to get a realtime feedback as well.
+And of course, you can `watch` this script to get real-time feedback as well.
 
 ```bash
 watch -ct -n0 netu.sh
@@ -107,4 +107,4 @@ watch -ct -n0 netu.sh
 
 > **Homework**: Figure out how to make this data persist.
 
-Also have you ever been a class montior in your school?, I was once in 9th grade :)
+Also, have you ever been a class monitor in your school? I was once in 9th grade :)
