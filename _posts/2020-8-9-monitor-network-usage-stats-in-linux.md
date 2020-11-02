@@ -107,9 +107,4 @@ watch -ct -n0 netu.sh
 
 > **Homework**: Figure out how to make this data persist.
 
-
-If you have any other ideas, drop them below 👇
-
-> Seems interesting?, [Subscribe 🚀](https://buttondown.email/bhupesh) to receive more such cool stuff or just connect with me on [![bhupesh-twitter-image](https://kutt.it/bhupeshimself)](https://twitter.com/bhupeshimself).
-
 Also have you ever been a class montior in your school?, I was once in 9th grade :)
