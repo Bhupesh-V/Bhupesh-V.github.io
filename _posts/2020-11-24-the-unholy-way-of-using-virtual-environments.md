@@ -131,7 +131,9 @@ vcd() {
 
 ```
 
-The variable `VIRTUAL_ENV` is updated every time you activate an environment. It stores the absolute path of your env folder and is responsible for showing that env (prompt) in your terminal. We wrote this scaffold code so that retains the original function of the `cd` command remains intact.
+> Note that you will need Bash version 4.x or greater for this to vcd to work
+
+The environment variable `VIRTUAL_ENV` is set (or updated) every time you activate an environment. It stores the absolute path of your env folder and is responsible for showing that env (prompt) in your terminal. We wrote this scaffold code so that retains the original function of the `cd` command remains intact.
 
 ### For Type A
 
@@ -147,7 +149,7 @@ done
 ## END ACTIVATOR LOGIC
 ```
 
-`$(echo */)` would result in an array of directories inside the present working directory.  This can then be filtered for finding the `activate` script which is present inside every virtual environment.
+`$(echo */)` would result in an array of directories  inside the present working directory.  This can then be filtered for finding the `activate` script which is present inside the _bin_ folder of the venv.
 
 > Note that there are other variations of the activate script for different shells `activate.csh` and `activate.fish`.
 
