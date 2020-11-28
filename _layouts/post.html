@@ -240,27 +240,20 @@ layout: default
 
 <div class="PageNavigation">
         <center>
-        <table>
-                <tr>
-                        <td>{% if page.previous.url %}
-    <a class="prev" href="{{page.previous.url}}">◀️ {{page.previous.title}}</a>
-  {% endif %}
-</td>
-                </tr>
-                <tr>
-                        <td>{% if page.next.url %}
-    <a class="next" href="{{page.next.url}}">{{page.next.title}} ▶️</a>
-  {% endif %}
-</td>
-                </tr>
-        </table>
+                <table>
+                        {% if page.previous.url %}
+                        <tr>
+                                <td><a class="prev" href="{{page.previous.url}}">◀️ {{page.previous.title}}</a>
+                                </td>
+                        </tr>
+                        {% endif %}
+                        {% if page.next.url %}
+                        <tr>
+                                <td> <a class="next" href="{{page.next.url}}">{{page.next.title}} ▶️</a>
+                        </tr>
+                        {% endif %}
+                </table>
         </center>
-  <!--{% if page.previous.url %}
-    <a class="prev" href="{{page.previous.url}}">◀️ {{page.previous.title}}</a>
-  {% endif %}
-  {% if page.next.url %}
-    <a class="next" href="{{page.next.url}}">{{page.next.title}} ▶️</a>
-    {% endif %}-->
 </div>
 
 <center>
@@ -321,8 +314,8 @@ layout: default
   onsubmit="window.open('https://buttondown.email/bhupesh', 'popupwindow')"
   class="embeddable-buttondown-form"
 >
-  <label for="bd-email">Subscribe to receive more such content 🔥🚀</label>
-  <input type="email" name="email" id="bd-email" placeholder="you@.com"></input>
+  <label for="bd-email">Subscribe to receive more such cool stuff 🔥🚀</label>
+  <input type="email" name="email" id="bd-email" placeholder="you@website.com"></input>
   <input type="hidden" value="1" name="embed"></input>
   <input type="submit" value="Subscribe"></input>
 </form>
