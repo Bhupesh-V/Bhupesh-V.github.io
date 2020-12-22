@@ -46,7 +46,7 @@ This will create a Vim `Ex` command called Pretty which invokes our external bas
 That's it, Everything is Sexy now. Invoke the `:Pretty` command on your current buffer & `pj` will do its job.
 
 <video playsinline width="100%" controls style="margin-top: 12px">
-  <source src="https://user-images.githubusercontent.com/34342551/102857778-0c09b500-444f-11eb-9028-69dca7627ce5.mp4" type="video/mp4">
+  <source src="https://user-images.githubusercontent.com/34342551/102857778-0c09b500-444f-11eb-9028-69dca7627ce5.mp4" type="video/mp4" codecs="avc1.42E01E, mp4a.40.2">
   Your browser does not support the video tag.
 </video>
 
