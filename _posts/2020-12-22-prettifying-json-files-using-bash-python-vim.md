@@ -45,9 +45,11 @@ This will create a Vim `Ex` command called Pretty which invokes our external bas
 
 That's it, Everything is Sexy now. Invoke the `:Pretty` command on your current buffer & `pj` will do its job.
 
-<video playsinline width="100%" controls style="margin-top: 12px" src="https://user-images.githubusercontent.com/34342551/102857778-0c09b500-444f-11eb-9028-69dca7627ce5.mp4">
-  Your browser does not support the video tag.
-</video>
+![Prettify-json-demo-gif](https://drive.google.com/uc?export=view&id=1ZMGVYbc5hHfBxtlQLLSr_K6kaox8Indj)
+
+<!-- <video playsinline width="100%" controls style="margin-top: 12px" src="https://user-images.githubusercontent.com/34342551/102857778-0c09b500-444f-11eb-9028-69dca7627ce5.mp4"> -->
+<!-- Your browser does not support the video tag. -->
+<!-- </video> -->
 
 > Always know your tools. Master the fuck outta them!
 
