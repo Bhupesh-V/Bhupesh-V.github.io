@@ -215,6 +215,23 @@ layout: default
   }
 
 </style>
+<script type="application/ld+json">
+{ "@context": "https://schema.org",
+ "@type": "TechArticle",
+ "headline": "{{ page.title }}",
+ "alternativeHeadline": "{{ page.description }}",
+ {% if page.image %}
+ "image": "{{ site.url }}/images/{{ page.image }}",
+ {% endif %}
+ "author": "{{ site.name }}",
+/* "keywords": "{{ page.tags}} | join: ' ' ", */
+ "wordcount": "{{ page.content | number_of_words }}",
+ "url": "{{ site.url }}{{ page.url }}",
+ "dateCreated": "{{ page.date | date: "%B %e, %Y" }}",
+ "description": "{{ page.description }}",
+ "articleBody": "{{ page.content | strip_html | strip_newlines }}"
+ }
+</script>
 <article class="post">
   <h1>{{ page.title }}</h1>
   <div class="date">
