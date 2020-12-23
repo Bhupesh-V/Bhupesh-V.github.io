@@ -229,7 +229,14 @@ layout: default
  "image": "{{ site.url }}/images/{{ page.image }}",
  {% endif %}
  "author": "{{ site.name }}",
- "publisher": "{{ site.name }}",
+ "publisher": {
+    "@type": "Person",
+    "name": "{{ site.name }}",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/profile1.jpg"
+    }
+  },
  "keywords": "{{ page.tags | join: ' ' }}", 
  "wordcount": "{{ page.content | number_of_words }}",
  "url": "{{ site.url }}{{ page.url }}",
