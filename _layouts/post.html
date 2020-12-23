@@ -224,12 +224,11 @@ layout: default
  "image": "{{ site.url }}/images/{{ page.image }}",
  {% endif %}
  "author": "{{ site.name }}",
-/* "keywords": "{{ page.tags}} | join: ' ' ", */
+ "keywords": "{{ page.tags | join: ' ' }}", 
  "wordcount": "{{ page.content | number_of_words }}",
  "url": "{{ site.url }}{{ page.url }}",
  "dateCreated": "{{ page.date | date: "%B %e, %Y" }}",
  "description": "{{ page.description }}",
- "articleBody": "{{ page.content | strip_html | strip_newlines }}"
  }
 </script>
 <article class="post">
