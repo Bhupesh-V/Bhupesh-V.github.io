@@ -215,20 +215,27 @@ layout: default
   }
 
 </style>
+<!-- Rich snippet -->
 <script type="application/ld+json">
 { "@context": "https://schema.org",
  "@type": "TechArticle",
+ "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "{{ site.url }}{{ page.url }}"
+ },
  "headline": "{{ page.title }}",
  "alternativeHeadline": "{{ page.description }}",
  {% if page.image %}
  "image": "{{ site.url }}/images/{{ page.image }}",
  {% endif %}
  "author": "{{ site.name }}",
+ "publisher": "{{ site.name }}",
  "keywords": "{{ page.tags | join: ' ' }}", 
  "wordcount": "{{ page.content | number_of_words }}",
  "url": "{{ site.url }}{{ page.url }}",
  "dateCreated": "{{ page.date | date: "%B %e, %Y" }}",
- "description": "{{ page.description }}",
+ "datePublished": "{{ page.date | date: "%B %e, %Y" }}",
+ "description": "{{ page.description }}"
  }
 </script>
 <article class="post">
