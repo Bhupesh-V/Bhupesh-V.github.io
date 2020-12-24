@@ -67,7 +67,53 @@
     {% if site.tags != "" %}
       {% include collecttags.html %}
     {% endif %}
-
+<script type="application/ld+json">
+{ "@context": "https://schema.org",
+ "@type": "TechArticle",
+ "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "{{ site.url }}{{ page.url }}"
+ },
+ "headline": "{{ page.title }}",
+ "alternativeHeadline": "{{ page.description }}",
+ {% if page.image %}
+ "image": "{{ site.url }}/images/{{ page.image }}",
+ {% endif %}
+		"accountablePerson": {
+			"@type": "Person",
+      "name": "{{ site.name }}",
+      "url": "{{ site.url }}"
+		},
+		"author": {
+			"@type": "Person",
+      "name": "{{ site.name }}",
+      "url": "{{ site.url }}"
+		},
+		"creator": {
+			"@type": "Person",
+      "name": "{{ site.name }}",
+      "url": "{{ site.url }}"
+		},
+		"publisher": {
+			"@type": "Organization",
+      "name": "{{ site.name }}",
+      "url": "{{ site.url }}",
+			"logo": {
+				"@type": "ImageObject",
+				"url": "https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/profile1.jpg"
+			}
+		},
+ "keywords": "{{ page.tags | join: ' ' }}",
+ "wordcount": "{{ page.content | number_of_words }}",
+ "url": "{{ site.url }}{{ page.url }}",
+ "inLanguage": "en-US",
+ "dateCreated": "{{ page.date | date: "%B %e, %Y" }}",
+ "datePublished": "{{ page.date | date: "%B %e, %Y" }}",
+ "dateModified": "{{ page.date | date: "%B %e, %Y" }}",
+ "description": "{{ page.description }}",
+ "articleBody": {{ page.content | strip_html | jsonify }}
+ }
+</script>
   </head>
   <body>
     <div class="wrapper-masthead">
