@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: bhupesh-v.github.io
+Token: 379703808582beee54bc09c35968e00290e3e3d0832bef2a1775873f8cd1a60e
