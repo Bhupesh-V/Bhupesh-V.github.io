@@ -7,10 +7,11 @@ tags: git shell
 image: git-cake-day-demo.png
 ---
 
-Do you want to know when was a file/directory committed in your git history?
-Well here is `git log` at your rescue
+Do you want to know when was a file/directory committed in your git repo?
+Well here is `git log` at your rescue!
 
 ```bash
+
 git log --date=format:'%d %b %Y' --diff-filter=A --name-only --pretty='%n%C(yellow bold)🎂️ %ad%Creset by (%C(blue bold)%h%Creset)'
 
 ```
@@ -22,7 +23,7 @@ Ok ok! Let me explain for you lazy asses
 
 - `--date=format:'%d %b %Y'`
 
-  This is pretty much self explanatory, suit this to your own preferred date format.
+  This is pretty much self explanatory, suit this to your own preferred date format. [Other date formats](https://git-scm.com/docs/git-log#Documentation/git-log.txt---dateltformatgt)
 
 - `--diff-filter=A --name-only`
 
@@ -33,7 +34,7 @@ Ok ok! Let me explain for you lazy asses
 
 - `--pretty='%n%C(yellow bold)🎂️ %ad%Creset by (%C(blue bold)%h%Creset)`
 
-  This is the beauty that is responsible for the line `🎂️ 18 Jun 2019 by (f72312c)`.
+  This is the beauty that is responsible for printing `🎂️ 18 Jun 2019 by (f72312c)`.
 
   Git provides us with various format specifiers these include.
   - %n  : newline
@@ -42,7 +43,7 @@ Ok ok! Let me explain for you lazy asses
 
 [**Read git pretty docs**](https://git-scm.com/docs/git-log#_pretty_formats) for info. on all 50+ options
 
-> When you feel you are absolutely free do a `git log --help` & read that manual.
+> Read more than 2000 lines worth of git log manual (`git log --help`) when you feel absolutely free :)
 
 
 You should add this in your `.gitconfig`.
