@@ -14,7 +14,7 @@ avatar: https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/i
 #
 # Flags below are optional
 #
-include: .well-known
+include: [.well-known]
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
