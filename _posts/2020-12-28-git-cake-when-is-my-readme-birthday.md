@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title: "git cake: when is my README's birthday?"
-description: Use git log command to find when was a file was added or created in your git repository
+description: Use git log command to find when a file was added or created in your git repository
 tags: git shell 
 image: git-cake-day-demo.png
 ---
