@@ -3,6 +3,7 @@ layout: post
 comments: true
 title: What I have learned from blogging so far - A retrospect
 description: My thoughts on blogging as a developer in 2021, sharing what I achieved & some advice for newcomers
+tags: tech devlife
 ---
 
 Yesterday I completed my 2nd anniversary of Tech blogging, Yes my blog is now 2 years old 🎂
