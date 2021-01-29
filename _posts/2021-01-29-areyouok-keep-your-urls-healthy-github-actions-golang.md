@@ -36,6 +36,7 @@ Once that's done, check if you have the latest version installed
 ```bash
 $ ./areyouok-linux-amd64 --version
 AreYouOk v1.1.0 built on (26 Jan 2021)
+
 ```
 
 Using it is pretty straight-forward, AreYouOk accepts 3 optional arguments followed by a directory path
@@ -47,7 +48,7 @@ Using it is pretty straight-forward, AreYouOk accepts 3 optional arguments follo
   This is handy if you are sure that certain files or directories won't contain any URLs, plus this makes areyouok work quickly too!
 
 3. `-r` type of report to generate (available formats include _json_, _html_, _txt_ & _github_)<br>
-  The most superior format is HTML which gives a visual perspective on all the URLs scanned (you can see this in the blog header as well)
+  The most superior format is HTML which gives a visual perspective on all the URLs scanned (you can see this in the blog header as well)<br>
   ![aro-html-demo](https://user-images.githubusercontent.com/34342551/105046278-e80db380-5a8e-11eb-8371-124fae8b3d7f.png)
 
 
@@ -55,6 +56,7 @@ OK! Enough talking, lets see it in action on my [til](https://github.com/bhupesh
 
 ```bash
 $ areyouok-linux-amd64 -i=_layouts,.git,_site,README.md,build.py,USAGE.md -r=txt ~/Documents/til/
+
 ```
 
 We are ignoring folders: `_layouts`, `.git`, `_site` & files `README.md`, `USAGE.md` & `build.py` using the `i` flag.
@@ -98,7 +100,7 @@ jobs:
         run: rm report.github
 ```
 
-Our workflow will execute every 30 days, then download a fresh copy of areyouok using curl.
+Our workflow will execute every 30 days then downloads a fresh copy of areyouok using curl & executes it inside the repo. Note the report format is `github` here. Its largely HTML but is compatible with GitHub's commonmark markdown renderer.
 
 > Make sure you set the executable permissions on areyouok once downloaded
 
