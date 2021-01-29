@@ -219,10 +219,14 @@ layout: default
 <article class="post">
   <h1>{{ page.title }}</h1>
   <div class="date">
-    📅
-    {{ page.date | date: "%B %e, %Y" }} • 🕣
-    {% include read-time.html content=content %} • 
-    {{ page.content | number_of_words }} totalwords
+    {%- if page.last_modified_at -%}
+    📅️ Last Updated: {{ page.last_modified_at | date: "%B %e, %Y" }}&nbsp;  
+    •&nbsp;📅️ Published: {{ page.date | date: "%B %e, %Y" }}
+    {%- else -%}
+    📅️ Published: {{ page.date | date: "%B %e, %Y" }} 
+    {%- endif -%} &nbsp; • 🕣
+    {% include read-time.html content=content %}
+    <!-- {{ page.content | number_of_words }} totalwords -->
   </div><br/>
   <div class="postTags" style="color: $gray; text-align: center;">
     {% for tag in page.tags %}

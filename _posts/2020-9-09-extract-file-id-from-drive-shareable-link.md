@@ -3,6 +3,7 @@ layout: post
 comments: true
 title: Extract file id from drive shareable link
 description: Get file id from files stored on Google Drive
+last_modified_at: 2021-01-29
 tags: shell til
 ---
 
