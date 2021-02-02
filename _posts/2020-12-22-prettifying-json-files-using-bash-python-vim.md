@@ -3,7 +3,7 @@ layout: post
 comments: true
 title: Prettifying JSON using Vim, Python & Bash 
 description: How to format JSON files in Linux. Combining the power of Bash, Python and Vim to prettify JSON files without any external plugins
-tags: python bash linux vim
+tags: python shell linux vim
 ---
 
 
