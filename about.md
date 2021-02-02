@@ -42,9 +42,9 @@ permalink: /about/
 </style>
 <h1 align="center">Hi 👋</h1>
 
-I am Bhupesh Varshney, 21 year old Developer & FOSS Enthusiast living in New Delhi, India. I like to create stuff from scratch.
+I am Bhupesh Varshney, 21 year old Developer & FOSS Enthusiast & Creator living in New Delhi, India. I like to create stuff from scratch.
 I code in Python, Go, C++, Bash & JavaScript.<br>
-I make Memes, Web, Tools and Open-Source & frequently write about tech & my journey here & on other publications like [**freeCodeCamp**](https://www.freecodecamp.org/news/author/bhupesh/), you can find more of my content on [DEV](https://dev.to/bhupesh) _(more than 47k views)_
+I make Memes, Web, Tools and Open-Source & frequently write about tech & my journey here & on other publications like [**freeCodeCamp**](https://www.freecodecamp.org/news/author/bhupesh/), you can find more of my content on [DEV](https://dev.to/bhupesh) _(more than 50k views)_
 
 <br>
 <center>
@@ -61,6 +61,9 @@ I am availabe as an API too 😜,
 Some of my significant projects & tools include
 
 <ul style="list-style-type: ''; ">
+	<li><details><summary><a href="https://github.com/Bhupesh-V/areyouok">AreYouOk</a></summary>
+	A fast and easy to use URL health checker ⛑️  Keep your links healthy during tough times.
+	</details></li>
 	<li><details><summary><a href="https://github.com/Bhupesh-V/30-seconds-of-cpp">30 Seconds of C++</a></summary>
 	A collection of STL (Standard Template Library) features of C++ which can be learned in 30 seconds or less.
 	</details></li>
@@ -95,6 +98,9 @@ If you like my work, consider supporting me.
 </a>&nbsp;
 <a href="https://ko-fi.com/bhupesh">
 	<img title="ko-fi/bhupesh" alt="Support on ko-fi" src="https://user-images.githubusercontent.com/34342551/88784787-12507980-d1ae-11ea-82fe-f55753340168.png" width="185">
+</a>&nbsp;
+<a href="https://paypal.me/BhupeshVarshney">
+	<img title="PayPal Bhupesh Varshney" alt="PayPal Bhupesh Varshney" src="https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white" width="120">
 </a>
 
 ### 💬 Contact
