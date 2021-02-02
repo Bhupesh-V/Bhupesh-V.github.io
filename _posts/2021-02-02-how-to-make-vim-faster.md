@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title: How to make Vim faster ⚡️
-description: How to increase vim/neovim startup time. Enable these settings to make Vim run more faster than you
+description: How to increase vim/neovim startup time. A list of things to add in your vimrc that will make Vim run more faster than you
 tags: vim
 ---
 

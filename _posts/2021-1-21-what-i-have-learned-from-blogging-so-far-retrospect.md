@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title: What I have learned from blogging so far - A retrospect
-description: My thoughts on blogging as a developer in 2021, sharing what I achieved & some advice for newcomers
+description: My thoughts on blogging as a developer in 2021, sharing what I achieved & some advice for newcomers. Tips for software developers
 tags: tech devlife
 ---
 
