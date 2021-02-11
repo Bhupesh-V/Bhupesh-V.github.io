@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title: Debugging Go in Vim
-description: Learn how to setup makeprg for Go. How to setup make for Go development, make command in vim/neovim. Setting Vim for Golang
+description: Learn how to setup makeprg for Go. Debugging Vim with Go. How to setup make for Go development, make command in vim/neovim. Setting Vim for Golang. Vim makeprg for Go
 tags: go vim
 ---
 
