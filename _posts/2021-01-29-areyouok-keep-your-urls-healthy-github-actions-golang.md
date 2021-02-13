@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title: Keep your URLs healthy using Github Actions and Go
-description: Check and audit link/URL health using github actions. Test dead links in a fast and efficient manner
+description: URL Health checker. Check and audit link/URL health using github actions. Test dead links in a fast and efficient manner
 tags: go github 
 image: areyouok-demo-html.png
 ---
