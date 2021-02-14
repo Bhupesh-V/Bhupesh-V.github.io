@@ -1,6 +1,14 @@
+pre {
+font-family: revert;
+    color: wheat;
+}
+code {
+  font-family:'Bitstream Vera Sans Mono','Courier', monospace;
+  color: #2ae1e0;
+}
 
-pre.highlight {
-  background-color: #282923;
+pre.highlight{
+  background-color: #232323;
   padding: 7px 7px 7px 10px;
   -moz-box-shadow: 3px 3px rgba(0,0,0,0.1);
   -webkit-box-shadow: 3px 3px rgba(0,0,0,0.1);
@@ -9,10 +17,13 @@ pre.highlight {
   overflow: auto;
   border-radius: 5px;
 }
-
-code {
-  font-family:'Bitstream Vera Sans Mono','Courier', monospace;
-  color: #2ae1e0;
+/* inline code, singe backtick */
+code.highlighter-rouge {
+  background-color: #2F3339;
+  font-family:monospace, monospace;
+  padding: 3.5px;
+  color: #ffe52f;
+  border-radius: 6px;
 }
 
 .highlight .c { color: #586E75 } /* Comment */

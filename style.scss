@@ -354,6 +354,16 @@ footer {
 figcaption {
   color: #a19f9f
 }
+
+td {
+        color: white;
+        padding-bottom:8px;
+}
+th {
+color: white;
+    padding: 8px;
+    font-weight: bold;
+}
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
