@@ -41,10 +41,9 @@ Code snippet ecosystem in Vim is segregated into different plugins, here is how 
                 ---------------------
 </pre>
 
+For this tutorial we will be only focusing on ultisnips (the snippet manager) and vim-snippets (the snippet provider).
 
 ### Installing Plugins
-
-For this tutorial we will be installing Ultisnips and vim-snippets.
 
 If you use [Plug](https://github.com/junegunn/vim-plug),
 
@@ -211,7 +210,8 @@ $0
 endsnippet
 ```
 
-The part in braces `{1:title}` is called a placeholder. When the snippet is expanded, `Ctrl` + `j` will visually select the next placeholder so that you can change the text. In the same way `Ctrl` + `k` will visually select the previously entered placeholder 
+The part in braces `{1:title}` is called a placeholder. When the snippet is expanded, `Ctrl` + `j` will visually select the next placeholder so that you can change the text. In the same way `Ctrl` + `k` will visually select the previously entered placeholder.
+A snippet can have any number of placeholders starting from `$1`. The last placeholder is set to `$0` which marks the position of where your cursor will be at the end.
 
 Here is a short demo of how this works
 
@@ -220,6 +220,6 @@ Here is a short demo of how this works
 > Read more about authoring snippets in manual `:help UltiSnips-authoring-snippets`
 
 
-That's it for this tutorial, why don't you share you code snippets below 👇️ 
+That's it for this tutorial, why don't you share you code snippets below 👇️
 
 
