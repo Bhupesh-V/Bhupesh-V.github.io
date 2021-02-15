@@ -3,7 +3,8 @@ layout: page
 title: About Me
 permalink: /about/
 ---
-<style type="text/css">
+
+<!--<style type="text/css">
 	input[type=text],textarea {
 	  width: 100%;
 	  padding: 12px 20px;
@@ -30,21 +31,22 @@ permalink: /about/
 	}
 
 	input[type=email] {
-		width: 100%;
-	    padding: 12px 20px;
-	    margin: 8px 0;
-	    display: inline-block;
-	    border: 1px solid #ccc;
-	    border-radius: 4px;
-	    box-sizing: border-box;
+	 width: 100%;
+	 padding: 12px 20px;
+	 margin: 8px 0;
+	 display: inline-block;
+	 border: 1px solid #ccc;
+         border-radius: 4px;
+         box-sizing: border-box;
 	}
 
 </style>
+-->
 <h1 align="center">Hi 👋</h1>
 
 I am Bhupesh Varshney, 21 year old Developer & FOSS Enthusiast & Creator living in New Delhi, India. I like to create stuff from scratch.
 I code in Python, Go, C++, Bash & JavaScript.<br>
-I make Memes, Web, Tools and Open-Source & frequently write about tech & my journey here & on other publications like [**freeCodeCamp**](https://www.freecodecamp.org/news/author/bhupesh/), you can find more of my content on [DEV](https://dev.to/bhupesh) _(more than 50k views)_
+I make Web, Tools and Open-Source & frequently write about tech & my journey here & on other publications like [**freeCodeCamp**](https://www.freecodecamp.org/news/author/bhupesh/), you can find more of my content on [DEV](https://dev.to/bhupesh) _(more than 50k views)_
 
 <br>
 <center>
@@ -88,7 +90,7 @@ Some of my significant projects & tools include
 I log whatever new I learn, Go to <a href="https://bhupesh-v.github.io/til"  class="mark">bhupesh-v.github.io/til</a> to see some of it or you can just [subscribe 🚀](https://buttondown.email/bhupesh) to receive my latest posts right in your inbox.
 
 ### 🦄 CONNECT
-I use [**twitter**](https://twitter.com/bhupeshimself) mostly to rant about tech, share memes & learn what others are doing. I am on [**LinkedIn**](https://www.linkedin.com/in/bhupesh-v/). You can also find me on [**dev.to**](https://dev.to/bhupesh)
+I use [**twitter**](https://twitter.com/bhupeshimself) mostly to rant about tech & learn what others are doing. I am on [**LinkedIn**](https://www.linkedin.com/in/bhupesh-v/). You can also find me on [**dev.to**](https://dev.to/bhupesh)
 
 ### 🖐 Support 
 If you like my work, consider supporting me.
@@ -103,15 +105,13 @@ If you like my work, consider supporting me.
 	<img title="PayPal Bhupesh Varshney" alt="PayPal Bhupesh Varshney" src="https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white" width="120">
 </a>
 
-### 💬 Contact
-Let's talk !!
-<div id="contactform">
-	<form enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSfim3RiM1NLrTszkwOv2uJ8mFMfZR6WZU-qKK6oRUlgA9vjuw/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
-		<input type="email" name="entry.389706550" id="entry.389706550" placeholder="yo@hello.com" required />
-		<input type="text" name="entry.1867581834" id="entry.1867581834" placeholder="Name" required />
-		<textarea style="overflow:auto;resize:none;" name="entry.973008035" id="entry.973008035" placeholder="Send me a Hi.👋 :)" rows="4"></textarea>
-		<input type="submit" id="contact-button" value="Send" onclick="msg()">
-	</form>
-	<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) { clear()}"></iframe>
-</div>
+<!-- <div id="contactform"> -->
+<!-- <form enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSfim3RiM1NLrTszkwOv2uJ8mFMfZR6WZU-qKK6oRUlgA9vjuw/formResponse?" target="hidden_iframe" onsubmit="submitted=true;"> -->
+<!-- <input type="email" name="entry.389706550" id="entry.389706550" placeholder="yo@hello.com" required /> -->
+<!-- <input type="text" name="entry.1867581834" id="entry.1867581834" placeholder="Name" required /> -->
+<!-- <textarea style="overflow:auto;resize:none;" name="entry.973008035" id="entry.973008035" placeholder="Send me a Hi.👋 :)" rows="4"></textarea> -->
+<!-- <input type="submit" id="contact-button" value="Send" onclick="msg()"> -->
+<!-- </form> -->
+<!-- <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) { clear()}"></iframe> -->
+<!-- </div> -->
 
