@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title: How to use code snippets in Vim like a cowboy 🤠️
-description: A quick tour on how to get started with code snippets in Vim. Learn how to setup Ultisnips & vim-snippets in Vim and Neovim for Go, Python, Bash & Markdown
+description: A quick tour on how to get started with code snippets in Vim. Learn how to setup Ultisnips & vim-snippets in Vim and Neovim. How to install vim-snippets, How to use snippets in vim.
 tags: vim go python shell
 image: vim-snippets-banner.png
 ---
