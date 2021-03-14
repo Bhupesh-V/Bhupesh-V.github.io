@@ -87,7 +87,7 @@ Some of my significant projects & tools include
 </ul>
 
 ### 📖 LEARN WITH ME
-I log whatever new I learn, Go to <a href="https://bhupesh-v.github.io/til"  class="mark">bhupesh-v.github.io/til</a> to see some of it or you can just [subscribe 🚀](https://buttondown.email/bhupesh) to receive my latest posts right in your inbox.
+I log whatever new I learn, Go to <a href="https://bhupesh.gitbook.io/notes"  class="mark">bhupesh.gitbook.io/notes</a> to see some of it or you can just [subscribe 🚀](https://buttondown.email/bhupesh) to receive my latest posts right in your inbox.
 
 ### 🦄 CONNECT
 I use [**twitter**](https://twitter.com/bhupeshimself) mostly to rant about tech & learn what others are doing. I am on [**LinkedIn**](https://www.linkedin.com/in/bhupesh-v/). You can also find me on [**dev.to**](https://dev.to/bhupesh)
