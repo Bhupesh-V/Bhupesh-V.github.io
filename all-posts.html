@@ -3,12 +3,35 @@ layout: default
 title: Post Archive
 permalink: /all-posts/
 ---
-
+<style>
+.post{
+  padding-bottom: 2em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  border: thick double #fff;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+a{
+  color: #4aff00;
+}
+ul{
+  list-style: none;
+}
+#tils{
+  text-align: center;
+}
+</style>
+<article class="post">
+  <h1>Recent <a class="mark" href="https://github.com/Bhupesh-V/til">TILs</a></h1>
+  <div id="tils">
+  </div>
+</article>
 <h1>{{ site.posts.size }} posts in Archive</h1>
 <div class="all-posts">
-	{% for post in site.posts %}
-	<section>
-		<h4><a class="mark" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a> 📅 {{ post.date | date: "%B %e, %Y" }}</h4>
-	</section>
-	{% endfor %}
+  {% for post in site.posts %}
+  <section>
+    <h4><a class="mark" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a> 📅 {{ post.date | date: "%B %e, %Y" }}</h4>
+  </section>
+  {% endfor %}
 </div>
