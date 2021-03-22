@@ -79,6 +79,8 @@
  "alternativeHeadline": "{{ page.description }}",
  {% if page.image %}
  "image": "{{ site.url }}/images/{{ page.image }}",
+ {% else if page.banner_image %}
+ "image": "{{ page.banner_image }}",
  {% endif %}
 		"accountablePerson": {
 			"@type": "Person",
