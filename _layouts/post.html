@@ -315,26 +315,19 @@ input[type=submit] {
 
 <!-- Newsletter -->
 <form
-     action="https://buttondown.email/api/emails/embed-subscribe/bhupesh"
-     method="post"
-     target="popupwindow"
-     onsubmit="window.open('https://buttondown.email/bhupesh', 'popupwindow')"
-     class="embeddable-buttondown-form"
-     >
-     <label for="bd-email">Thanks a lot for visiting my site. You can subscribe to my newsletter to read more such cool stuff 🔥🚀</label>
-     <input type="email" name="email" id="bd-email" placeholder="you@website.com"></input>
-     <input type="hidden" value="1" name="embed"></input>
-     <input type="submit" value="Subscribe"></input>
+       action="https://buttondown.email/api/emails/embed-subscribe/bhupesh"
+       method="post"
+       target="popupwindow"
+       onsubmit="window.open('https://buttondown.email/bhupesh', 'popupwindow')"
+       class="embeddable-buttondown-form"
+       >
+       <label for="bd-email">Thanks a lot for visiting my site. You can subscribe to my newsletter to read more such cool stuff 🔥🚀</label>
+       <input type="email" name="email" id="bd-email" placeholder="you@website.com"></input>
+       <input type="hidden" value="1" name="embed"></input>
+       <input type="submit" value="Subscribe"></input>
 </form>
 
 <div class="hmm" id="shareIcon">
   <i class="fas fa-share-alt" onclick="share()" style="margin-top: 10px; font-size: 28px; margin-left: 10px;"></i>
 </div>
-    <script>
-    document.addEventListener("visibilitychange", function() {
-    	currTitle = document.title;
-	    document.title = document.hidden ? "Did your learn somethng new ?" : "{{ site.title }}";
-	    document.querySelector("link").href = document.hidden ? "data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💡</text></svg>" : "data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📖</text></svg>";
-	});
-    </script>
-    {% include utterances.html %} 
+{% include utterances.html %} 
