@@ -93,7 +93,7 @@ I log whatever new I learn, Go to <a href="https://bhupesh.gitbook.io/notes"  cl
 I use [**twitter**](https://twitter.com/bhupeshimself) mostly to rant about tech & learn what others are doing. I am on [**LinkedIn**](https://www.linkedin.com/in/bhupesh-v/). You can also find me on [**dev.to**](https://dev.to/bhupesh)
 
 ### 🖐 Support 
-If you like my work, consider supporting me.
+If you like my work, consider supporting me. I am registered as a Creator on Brave browser so you can tip me BATs either on this website or on my github. This website is also [web-monetization](https://community.webmonetization.org/) enabled therefore you can install [coil](https://coil.com/) browser extension to tip me.
 
 <a href="https://liberapay.com/bhupesh/donate">
 	<img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg" height="40">
