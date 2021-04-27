@@ -213,9 +213,9 @@ input[type=submit] {
     border-radius: 4px;
     box-sizing: border-box;
   }
-
 </style>
 
+<main>
 <article class="post">
   <h1>{{ page.title }}</h1>
   <div class="date">
@@ -244,6 +244,8 @@ input[type=submit] {
     {{ content }}
   </div>
 </article>
+</main>
+
 
 <div class="PageNavigation">
   <center>
@@ -326,6 +328,8 @@ input[type=submit] {
        <input type="hidden" value="1" name="embed"></input>
        <input type="submit" value="Subscribe"></input>
 </form>
+
+{% include project-ad.html %}
 
 <div class="hmm" id="shareIcon">
   <i class="fas fa-share-alt" onclick="share()" style="margin-top: 10px; font-size: 28px; margin-left: 10px;"></i>
