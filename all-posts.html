@@ -35,3 +35,22 @@ ul{
   </section>
   {% endfor %}
 </div>
+<script charset="utf-8">
+  const til_feed_url = "https://raw.githubusercontent.com/Bhupesh-V/til/master/recent_tils.json";
+      let div_tils = document.getElementById("tils");
+      var list = document.createElement("ul");
+      const fetcher = fetch(til_feed_url) 
+        .then(response => response.json()) 
+        .then(data => {
+          for (til = 0; til < data.length; til++) {
+            var anchor = document.createElement("a");
+            anchor.href = data[til].url;
+            anchor.innerText = data[til].title;
+
+            var elem = document.createElement("li");
+        elem.appendChild(anchor);
+        list.appendChild(elem);
+        }
+        div_tils.appendChild(list);
+        }); 
+</script>
