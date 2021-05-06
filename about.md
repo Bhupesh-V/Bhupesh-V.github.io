@@ -62,29 +62,27 @@ I am availabe as an API too 😜,
 ## 👷 Projects
 Some of my significant projects & tools include
 
-<ul style="list-style-type: ''; ">
-	<li><details><summary><a href="https://github.com/Bhupesh-V/areyouok">AreYouOk</a></summary>
-	A fast and easy to use URL health checker ⛑️  Keep your links healthy during tough times.
-	</details></li>
-	<li><details><summary><a href="https://github.com/Bhupesh-V/30-seconds-of-cpp">30 Seconds of C++</a></summary>
-	A collection of STL (Standard Template Library) features of C++ which can be learned in 30 seconds or less.
-	</details></li>
-	<li><details><summary><a href="https://github.com/Bhupesh-V/tutorialdb">tutorialdb</a></summary>
-	tutorialdb is a small scale search engine for programming/dev tutorials, it is meant to help anyone who is getting started to learn a new technology
-	</details></li>
-	<li><details><summary><a href="https://github.com/Bhupesh-V/defe">defe</a></summary>
-	A Tech feed Aggregator for Developers & Tech Enthusiasts
-	</details></li>	
-	<li><details><summary><a href="https://github.com/Bhupesh-V/memer-action">memer-action</a></summary>
-	A GitHub Action for Programmer Memes xD
-	</details></li>
-	<li><details><summary><a href="https://github.com/Bhupesh-V/dotman">dotman</a></summary>
-	dotman is a simple, elegant & easy to use dotfiles manager 🖖🏽
-	</details></li>
-	<li><details><summary><a href="https://github.com/codeclassroom/CodeRunner">CodeRunner</a></summary>
-	A judge for your programs, run and test your programs through Python
-	</details></li>
-</ul>
+#### [ugit](https://github.com/Bhupesh-V/ugit)
+ugit helps you undo your last `git` command without any hassle
+
+#### [AreYouOk](https://github.com/Bhupesh-V/areyouok)
+A fast and easy to use URL health checker ⛑️  Keep your links healthy during tough times.
+
+#### [30 Seconds of C++](https://github.com/Bhupesh-V/30-seconds-of-cpp)
+A collection of STL (Standard Template Library) features of C++ which can be learned in 30 seconds or less.
+
+#### [tutorialdb](https://github.com/Bhupesh-V/tutorialdb)
+tutorialdb is a small scale search engine for programming/dev tutorials, it is meant to help anyone who is getting started to learn a new technology
+
+#### [defe](https://github.com/Bhupesh-V/defe)
+A Tech feed Aggregator for Developers & Tech Enthusiasts
+
+#### [memer-action](https://github.com/Bhupesh-V/memer-action)
+A GitHub Action for Programmer Memes xD
+
+#### [dotman](https://github.com/Bhupesh-V/dotman)
+dotman is a simple, elegant & easy to use dotfiles manager 🖖🏽
+
 
 ### 📖 LEARN WITH ME
 I log whatever new I learn, Go to <a href="https://bhupesh.gitbook.io/notes"  class="mark">bhupesh.gitbook.io/notes</a> to see some of it or you can just [subscribe 🚀](https://buttondown.email/bhupesh) to receive my latest posts right in your inbox.
