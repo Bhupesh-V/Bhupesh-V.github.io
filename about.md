@@ -56,14 +56,14 @@ I make Web, Tools and Open-Source & frequently write about tech & my journey her
 
 ## 📅️ Timeline
 
-Jun 2021: Started working as a _Backend Developer_ at mindship.io
-May 2021: Completed my first ever paid tech writing gig
-Mar 2021: This blog hit 10,000 page views :)
-Nov 2020: Graduated with a BCA from GGSIPU
-July 2020: Volunteered at PyCon India 2020
-Feb 2020: Mentored New Developers to contribute to open-source via GirlScript Summer of Code
-Jun 2019: Completed my Internship at DyfoLabs
-Jan 2019: Started working as a _Backend Developer Intern_ at DyfoLabs Pvt Ltd
+Jun 2021: Started working as a _Backend Developer_ at mindship.io<br>
+May 2021: Completed my first ever paid tech writing gig<br>
+Mar 2021: This blog hit 10,000 page views :)<br>
+Nov 2020: Graduated with a BCA from GGSIPU<br>
+July 2020: Volunteered at PyCon India 2020<br>
+Feb 2020: Mentored New Developers to contribute to open-source via GirlScript Summer of Code<br>
+Jun 2019: Completed my Internship at DyfoLabs<br>
+Jan 2019: Started working as a _Backend Developer Intern_ at DyfoLabs Pvt Ltd<br>
 
 <!-- ### 🌐 API
 I am availabe as an API too 😜,
