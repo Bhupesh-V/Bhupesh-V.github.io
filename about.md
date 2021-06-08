@@ -44,8 +44,8 @@ permalink: /about/
 -->
 <h1 align="center">Hi 👋</h1>
 
-I am Bhupesh Varshney, 21 year old Developer & FOSS Enthusiast & Creator living in New Delhi, India. I like to create stuff from scratch.
-I code in Python, Go, C++, Bash & JavaScript.<br>
+I am Bhupesh Varshney, Developer & FOSS Enthusiast & Creator living in New Delhi, India. I like to build & create stuff from scratch.
+I code in Python, Go, Bash & JavaScript.<br>
 I make Web, Tools and Open-Source & frequently write about tech & my journey here & on other publications like [**freeCodeCamp**](https://www.freecodecamp.org/news/author/bhupesh/), you can find more of my content on [DEV](https://dev.to/bhupesh) _(more than 50k views)_
 
 <br>
@@ -53,6 +53,17 @@ I make Web, Tools and Open-Source & frequently write about tech & my journey her
 <img alt="Bhupesh Varshney Profile Image" src="https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/profile1.jpg" height="300px">
 <figcaption align="center" style="color: #939393;"><i>Yep, That's me ;)</i></figcaption>
 </center>
+
+## 📅️ Timeline
+
+Jun 2021: Started working as a _Backend Developer_ at mindship.io
+May 2021: Completed my first ever paid tech writing gig
+Mar 2021: This blog hit 10,000 page views :)
+Nov 2020: Graduated with a BCA from GGSIPU
+July 2020: Volunteered at PyCon India 2020
+Feb 2020: Mentored New Developers to contribute to open-source via GirlScript Summer of Code
+Jun 2019: Completed my Internship at DyfoLabs
+Jan 2019: Started working as a _Backend Developer Intern_ at DyfoLabs Pvt Ltd
 
 <!-- ### 🌐 API
 I am availabe as an API too 😜,
