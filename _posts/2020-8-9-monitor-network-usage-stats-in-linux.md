@@ -3,6 +3,7 @@ layout: post
 comments: true
 title: Monitor network (data) usage in linux
 description: Learn how to find network usage statistics of your linux machine by writing a shell script .
+last_modified_at: 2021-06-20
 tags: linux shell til
 ---
 
@@ -24,7 +25,7 @@ netu() {
 
 ```
 
-- Only works per session, i.e stats are gathered once you power up your PC (or login) and are lost when you shutdown.
+- Only works per Session, i.e stats are gathered once you power up your PC (or login) and are lost when you shutdown.
 - Good to have if you have limited data availability & want to monitor your data usage.
 
 Let's just review on what utilities we used here.
@@ -45,6 +46,8 @@ The first line of output lists our default network interface (the string followe
 ## `ifconfig`
 
 This is a good old tool used by network professionals to configure a network interface. `ifconfig $net_device` will display the status of our default net device.
+
+> Install net-tools if you are missing ifconfig `sudo apt install net-tools`
 
 ```bash
 $ ifconfig enp0s20u4u1

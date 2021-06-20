@@ -16,7 +16,7 @@ git log --date=format:'%d %b %Y' --diff-filter=A --name-only --pretty='%n%C(yell
 
 ```
 
-![git-cake-demo-paager](https://user-images.githubusercontent.com/34342551/103223519-6b366080-494c-11eb-9d54-acebd0179ffb.png)
+![git-cake-demo-pager](https://user-images.githubusercontent.com/34342551/103223519-6b366080-494c-11eb-9d54-acebd0179ffb.png)
 
 
 Ok ok! Let me explain for you lazy asses
