@@ -42,13 +42,13 @@ Below are some GIF demos of undoing some git operations, the list is long (aroun
 ### Undoing `git add`
 
 <video width="100%" controls>
-  <source src="https://drive.google.com/uc?export=view&id=1YSHnAp2gDho-a-U7IhXcyo069JuoxMeP" type="video/mp4">
+  <source src="https://user-images.githubusercontent.com/34342551/121651365-29dbdc80-cab8-11eb-8c43-6d0c4b1509ad.mp4" type="video/mp4">
 </video>
 
 ### Undoing `git branch -D` (Restore deleted branch)
 
 <video width="100%" controls>
-  <source src="https://drive.google.com/uc?export=view&id=1JJ1j3A3SFWlUpusSzrhKZv7espkpcDrk" type="video/mp4">
+  <source src="https://user-images.githubusercontent.com/34342551/121650985-c487eb80-cab7-11eb-9b6a-9257fa704d1c.mp4" type="video/mp4">
 </video>
 
 ## Undoing/Restoring file to previous version
@@ -60,7 +60,7 @@ Below are some GIF demos of undoing some git operations, the list is long (aroun
 ### Undoing `git merge`
 
 <video width="100%" controls>
-  <source src="https://drive.google.com/uc?export=view&id=1zZYGyI0DnvmZ2NYl6GdlpE-u1fdzo3T2" type="video/mp4">
+  <source src="https://user-images.githubusercontent.com/34342551/121651071-d9fd1580-cab7-11eb-929d-d9359a64f0eb.mp4" type="video/mp4">
 </video>
 
 
