@@ -4,24 +4,28 @@ comments: true
 title: Embedding static files in Go
 description: Learn how to embed or add static files in Golang binaries using the embed package
 tags: go
+last_modified_at: 2021-07-03
 ---
 
-Embedding static files in 2021 has become a bit easier since the release of [Go 1.16](https://golang.org/dl/#unstable). The new release comes with a new module `embed` which provides a handy set of interface and methods to attach static file in go binaries
+Embedding static files in 2021 has become a bit easier since the release of [Go 1.16](https://golang.org/dl/#stable). The new release comes with a new package `embed` which provides a handy set of interface and methods to attach static file in go binaries
 
 Let's have a short look at how to use this.
 
-First of all you will need Go 1.16
+First of all you will need Go 1.16, 
 
 ```bash
-$ go get golang.org/dl/go1.16rc1
-$ go1.16rc1 download
-$ go1.16rc1 version
-go version go1.16rc1
+$ go get golang.org/dl/go1.16.15
+$ go1.16.5 download
+$ go1.16.5 version
+go version go1.16.5
 ```
 
-Now before we do that, let's create a project directory
+Head over to [install instructions](https://golang.org/doc/install#install) to install go binaries directly.
+
+Now before we do anything, let's create a project directory
 
 ```bash
+$ mkdir embed-demo && cd $_
 $ tree
 .
 ├── assets
@@ -148,5 +152,7 @@ $ go run static-demo.go
 
 It worked!
 
-Embedding files inside the binaries itself opens up emense out of opportunities that we would see as this feature gets stable 
+### Resources
+- [embed - golang](https://tip.golang.org/pkg/embed/)
+- You can also run `go doc embed` to view the documentaion locally
 
