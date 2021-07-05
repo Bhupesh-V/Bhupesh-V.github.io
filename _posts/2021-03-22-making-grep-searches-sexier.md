@@ -2,8 +2,9 @@
 layout: post
 comments: true
 title: Making grep searches sexier 🌶️
-description: Beautifying grep searches & using AWK to modify grep output. Changing grep colors. 
+description: Beautifying grep searches & using AWK to modify grep output. Changing grep colors. Exploring codebase using grep
 tags: shell linux awk
+last_modified_at: 2021-07-05
 banner_image: https://ik.imagekit.io/bhupesh/banners/sexy-grep__3__mi_pC8-ge.png
 ---
 
@@ -112,7 +113,11 @@ All you need to do is just pipe the output of grep to this script, using the `-f
 grep --winr --color=always | awk -f pretty-grep.awk
 ```
 
-I have this in my [`.bash_functions`](https://github.com/Bhupesh-V/.Varshney/blob/master/.bash_functions),
+Here is how it looks like,
+
+![pretty-grep-demo](https://ik.imagekit.io/bhupesh/blog_content_pics/pretty-grep_abimNGqhH.png)
+
+I recommend creating a custom bash function, I have this in my [`.bash_functions`](https://github.com/Bhupesh-V/.Varshney/blob/master/.bash_functions),
 
 ```bash
 lk (){ 
