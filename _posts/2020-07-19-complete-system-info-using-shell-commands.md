@@ -33,6 +33,6 @@ ps axch -o cmd:15,%mem --sort=-%mem | head
 ps axch -o cmd:15,%cpu --sort=-%cpu | head
 ```
 
-I [wrote a small shell script](https://github.com/Bhupesh-V/.Varshney/blob/master/scripts/sys.sh) to get _(almost)_ realtime update of your system.
+I [wrote a small shell script](https://github.com/Bhupesh-V/.Varshney/blob/master/scripts/sys) to get _(almost)_ real-time update of your system.
 
 If you have any other ideas, drop them below 👇

@@ -102,6 +102,6 @@ Don't worry if your app has bugs, you cannot make a perfect project overnight ta
 One approach of learning could be to find a good mentor who can guide you along your way of learning checkout [DEV Listings](https://dev.to/listings/mentors) or [CodingCoach](https://codingcoach.io/).
 So far I have not been successful with the mentor approach but hey! maybe it may work for you.
 
-Don't forget to log whatever new you learn (you may use the TIL approach on github - [here is mine](https://bhupesh.codes/til/))
+Don't forget to log whatever new you learn (you may use the TIL approach on github - [here is mine](https://bhupesh.gitbook.io/notes/))
 
 > This strategy is pretty handy & has been giving me positive results 😃 since I started as a dev, it may not work on you but you may surely gain some insights from this.

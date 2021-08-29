@@ -7,7 +7,7 @@ tags: python shell linux vim
 ---
 
 
-So I recently switched my editor to Vim (last month to be exact), I will probably post my experience sometime later on. If you are interested I am documenting my vim journey (or cheatsheet) [**here**](https://github.com/Bhupesh-V/til/blob/master/Miscellaneous/my-vim-cheatsheet.md).
+So I recently switched my editor to Vim (last month to be exact), I will probably post my experience sometime later on. If you are interested I am documenting my vim journey (or cheatsheet) [**here**](https://github.com/Bhupesh-V/til/blob/master/Vim/my-vim-cheatsheet.md).
 
 Let me show you how to combine 3 most powerful tools I use in my daily workflow to achieve this. Note that this post is only for users who are on *nix environments because they probably have Bash, Python & Vim installed anyways.
 

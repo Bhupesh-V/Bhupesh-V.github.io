@@ -70,7 +70,7 @@ rm "$filename".png
 
 ```
 
-[**🔽️ Download complete script**](https://github.com/Bhupesh-V/.Varshney/blob/master/scripts/convert-to-gif.sh)
+[**🔽️ Download complete script**](https://github.com/Bhupesh-V/.Varshney/blob/master/scripts/gif)
 
 ## Resources
 
