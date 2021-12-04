@@ -238,7 +238,8 @@ input[type=submit] {
   <div class="entry">
     {% if page.image %}
     <img alt="{{ page.title }}" style="padding: 50px;" src="https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/{{ page.image }}">
-    {% else if page.banner_image %}
+    {% endif %}
+    {% if page.banner_image %}
     <img alt="{{ page.title }}" style="padding: 50px;" src="{{ page.banner_image }}">
     {% endif %}
     {{ content }}
