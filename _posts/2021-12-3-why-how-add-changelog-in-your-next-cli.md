@@ -3,7 +3,7 @@ layout: post
 comments: true
 title: Why and How to add changelog in your next CLI
 description: Using golang to embed and parse changelogs for your next CLI
-tags: golang
+tags: go
 ---
 
 Your CLI application might be good but its not great, you know what would be great. If it had release notes shipped with it. 
