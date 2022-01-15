@@ -58,14 +58,17 @@ I make Web, Tools and Open-Source & frequently write about tech & my journey her
 
 Some important highlights in my personal journey as a developer/engineer/programmer so far:
 
-Jun 2021: Started working as a _Backend Developer_ at mindship.io<br>
-May 2021: Completed my first ever freelance tech writing gig<br>
-Mar 2021: This blog finally hit 10,000 page views :)<br>
-Oct 2020: Graduated with a BCA from GGSIPU<br>
-July 2020: Volunteered at PyCon India 2020<br>
-Feb 2020: Mentored New Developers to contribute to open-source via GirlScript Summer of Code 2020<br>
-Jun 2019: Completed my Internship at DyfoLabs<br>
-Jan 2019: Started working as a _Backend Developer Intern_ at DyfoLabs Pvt Ltd<br>
+|    Date   | Highlight                                                                           |
+|:---------:|-------------------------------------------------------------------------------------|
+| July 2021 | Started working as a Product Engineer at creatorstack.com                           |
+|  Jun 2021 | Started working as a _Backend Developer_ at mindship.io                             |
+|  May 2021 | Completed my first ever freelance tech writing gig                                  |
+|  Mar 2021 | This blog finally hit 10,000 page views :)                                          |
+|  Oct 2020 | Graduated with a BCA from GGSIPU                                                    |
+| July 2020 | Volunteered at PyCon India 2020                                                     |
+|  Feb 2020 | Mentored Developers to contribute to open-source via GirlScript Summer of Code 2020 |
+|  Jun 2019 | Completed my Internship at DyfoLabs                                                 |
+|  Jan 2019 | Started working as a _Backend Developer Intern_ at DyfoLabs Pvt Ltd                 |
 
 <!-- ### 🌐 API
 I am availabe as an API too 😜,
@@ -101,7 +104,9 @@ dotman is a simple, elegant & easy to use dotfiles manager 🖖🏽
 I log whatever new I learn, Go to <a href="https://bhupesh.gitbook.io/notes"  class="mark">bhupesh.gitbook.io/notes</a> to see some of it or you can just [subscribe 🚀](https://buttondown.email/bhupesh) to receive my latest posts right in your inbox.
 
 ### 🦄 CONNECT
-I use [**twitter**](https://twitter.com/bhupeshimself) mostly to rant about tech & learn what others are doing. I am on [**LinkedIn**](https://www.linkedin.com/in/bhupesh-v/). You can also find me on [**dev.to**](https://dev.to/bhupesh)
+- I use [**twitter**](https://twitter.com/bhupeshimself) mostly to rant about tech, share & learn what others are doing.
+- Wanna have a quick chat about something?, [**schedule a call here**](https://cal.com/bhupesh)
+- I am also active on [**r/developersIndia**](https://www.reddit.com/r/developersIndia/)
 
 ### 🖐 Support 
 If you like my work, consider supporting me. I am registered as a Creator on Brave browser so you can tip me BATs either on this website or on my github. This website is also [web-monetization](https://community.webmonetization.org/) enabled therefore you can install [coil](https://coil.com/) browser extension to tip me.
