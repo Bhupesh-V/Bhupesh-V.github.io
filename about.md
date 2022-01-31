@@ -101,7 +101,7 @@ dotman is a simple, elegant & easy to use dotfiles manager 🖖🏽
 
 
 ### 📖 LEARN WITH ME
-I log whatever new I learn, Go to <a href="https://bhupesh.gitbook.io/notes"  class="mark">bhupesh.gitbook.io/notes</a> to see some of it or you can just [subscribe 🚀](https://buttondown.email/bhupesh) to receive my latest posts right in your inbox.
+I log whatever new I learn, Go to <a href="https://bhupesh.gitbook.io/notes"  class="mark">til.bhupesh.me</a> to see some of it or you can just [subscribe 🚀](https://buttondown.email/bhupesh) to receive my latest posts right in your inbox.
 
 ### 🦄 CONNECT
 - I use [**twitter**](https://twitter.com/bhupeshimself) mostly to rant about tech, share & learn what others are doing.
