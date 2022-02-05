@@ -1,9 +1,9 @@
 <html lang="en">
 <head>
-    <meta charset="utf-8"/>
+    {% include meta.html %}
     <meta http-equiv="refresh" content="0;url={{ page.target }}"/>
     <link rel="canonical" href="{{ page.target }}"/>
-    <title>Redirecting</title>
+    <title>{{ page.title }}</title>
 </head>
 <body>
   <p>Redirecting to {{ page.target }}, if you aren't automatically redirected 
