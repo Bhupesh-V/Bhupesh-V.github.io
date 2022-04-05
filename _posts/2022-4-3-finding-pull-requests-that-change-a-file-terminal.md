@@ -160,6 +160,13 @@ find_files_prs
 ## Demo & Source
 
 The source is [**available here**](https://github.com/Bhupesh-V/.Varshney/blob/master/scripts/git/git-prs) if you want to reference or hack anything.
+You can install the script
+
+```bash
+# make sure to move it somewhere in your path like /usr/local/bin
+wget -q https://raw.githubusercontent.com/Bhupesh-V/.Varshney/master/scripts/git/git-prs && chmod +x git-prs
+```
+
 I took the liberty to beautify the output from our script. Here is how the finalized version looks like
 
 <video width="100%" controls>
