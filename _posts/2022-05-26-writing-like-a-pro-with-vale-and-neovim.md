@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title: Writing like a pro with vale & neovim
-description: Learn how to setup and use vale, a syntax-aware prose linter with neovim
+description: Learn how to setup and use vale, a syntax-aware prose linter with neovim for technical writing be it personal blogs or technical documentation.
 tags: vim
 banner_image: https://user-images.githubusercontent.com/34342551/170456293-0464b805-6c22-4b8d-8a44-e5f929cd846a.png
 ---
