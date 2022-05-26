@@ -24,7 +24,7 @@ Consider a real-life absurd example which recently happened with me, I am a big 
 - A lot of folks are excited about the release of _Spiderman No Way Home_, me on another hand has no expectations from this movie (probably not a big fan). I went to go this movie, and there you go in the first 20 minutes or so Daredevil pops up (I love this character, I would recommend watching the Daredevil TV series on Hotstar to understand why this was a big moment in the movie), nobody knew about this and honestly this moment made the movie 10x for me. No disappointment whatsoever.
 - Now consider the release of _Doctor Strange in Multiverse of Madness_, my hopes for this were high because we knew so much could happen in this movie but Marvel decided to go lightweight this time (I mean yes, it was a good storyline) but I was a little "disappointed" thinking a "lot of things" could happen.
 
-I know this is very circumstantial & personal, but I encourage you to have a look at moments from your life on how many times have your felt something similar.
+I know this is circumstantial & personal, but I encourage you to have a look at moments from your life on how many times have your felt something similar.
 
 Getting disappointed with something can lead you to demotivation and self-doubt.
 Now this doesn't mean to not do anything when expectations are not met. 
@@ -37,7 +37,7 @@ My point is to do things that are in your control. Don't overload it, Don't over
 Now I am not a life-coach but I believe simple changes in your thinking capacity can eliminate disappointment from your life.
 
 - Just give your best effort on things you can control. Whatever the results may be, positive or negative, accept them and move on. And ofc make a mental note on what things to improve on future.
-- Another thing that I like to practice nowadays is whenever I start raising my hope levels, I try to ground my thoughts back to reality, Just realising you are thinking to much helps.
+- Another thing that I like to practice nowadays is whenever I start raising my hope levels, I try to ground my thoughts back to reality, Just realising you are thinking too much helps.
 
 Try to adapt a similar practice in your life as well, Say avoid overthinking things like
 
