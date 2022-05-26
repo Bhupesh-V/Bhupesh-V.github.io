@@ -51,7 +51,7 @@ Choosing what styles suits best for your writing needs depends on your writing s
 
 ## Setting up Neovim
 
-The [null-ls.nvim](https://github.com/jose-elias-alvarez/null-ls.nvim) neovim plugin let's you use vale as a pose linter.
+The [null-ls.nvim](https://github.com/jose-elias-alvarez/null-ls.nvim) neovim plugin let's you use vale as a prose linter.
 
 Install null-ls.nvim using `Plug`
 
