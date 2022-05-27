@@ -44,5 +44,7 @@ Try to adapt a similar practice in your life as well, Say avoid overthinking thi
 - _Oh God, If I had this much money I would buy ..._
 - _If I get my dream job, I would do this and this ..._
 
+> Appreciate every step forward, but modulate your expectations.
+
 
 I hope this helps the reader to atleast ponder over eliminating disappointing thoughts, until next time 👋
