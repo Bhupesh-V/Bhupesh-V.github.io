@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: College is finally over
+tags: lyf
 description: I have completed my undergraduation degree, this post is just a small thank you post and life update.
 ---
 

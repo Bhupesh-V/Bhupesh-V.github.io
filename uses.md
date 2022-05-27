@@ -4,6 +4,8 @@ title: Uses
 permalink: /uses/
 ---
 
+This page documents on what stack I use in my day-to-day workflow.
+
 ## Hardware
 
 ### Laptop

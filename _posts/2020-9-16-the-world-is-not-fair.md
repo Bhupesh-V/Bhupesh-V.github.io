@@ -3,6 +3,7 @@ layout: post
 comments: true
 title: The world is not fair
 description: My two cents on CS education & tech culture in India and life in general (Spoiler-It sucks).
+tags: lyf
 ---
 
 
