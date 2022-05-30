@@ -46,5 +46,9 @@ Try to adapt a similar practice in your life as well, Say avoid overthinking thi
 
 > Appreciate every step forward, but modulate your expectations.
 
+Here is a comic by [theawkwardyeti](https://twitter.com/theawkwardyeti), which demonstrates my sentiments
+
+![optimism by theawkwardyeti](https://user-images.githubusercontent.com/34342551/170971889-137d3be1-3792-40f3-b52e-1fc7740389ee.png)
+
 
 I hope this helps the reader to atleast ponder over eliminating disappointing thoughts, until next time 👋
