@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Uses
+description: Learn what kind of tools I use in my everyday workflow
 permalink: /uses/
 ---
 
