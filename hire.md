@@ -2,6 +2,7 @@
 layout: page
 title: Hire Me
 description: Interested to work with me professionally? Know more about my freelance work
+image: hire.png
 permalink: /hire/
 ---
 
