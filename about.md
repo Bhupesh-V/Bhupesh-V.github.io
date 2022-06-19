@@ -59,6 +59,7 @@ Some important highlights in my personal journey as a developer/engineer/program
 
 |    Date   | Highlight                                                                           |
 |:---------:|-------------------------------------------------------------------------------------|
+| April 2022 | Gave my first ever conference talk at GitHub Constellation India 2022              |
 | July 2021 | Started working as a Product Engineer at creatorstack.com (backstage.army)          |
 |  Jun 2021 | Started working as a _Backend Developer_ at mindship.io                             |
 |  May 2021 | Completed my first ever freelance tech writing gig                                  |
@@ -102,7 +103,7 @@ dotman is a simple, elegant & easy to use dotfiles manager 🖖🏽
 
 
 ### 📖 LEARN WITH ME
-I log whatever new I learn, Go to <a href="https://til.bhupesh.me"  class="mark">til.bhupesh.me</a> to see some of it or you can just [**subscribe** 🚀](https://buttondown.email/bhupesh) to receive my latest posts right in your inbox.
+I log whatever new I learn, Go to <a href="https://til.bhupesh.me"  class="mark">til.bhupesh.me</a> to see some of it. I also have a [**newsletter** 🚀](https://buttondown.email/bhupesh) where I share interesting stuff, some tips around tech.
 
 ### 🦄 CONNECT
 - I use [**twitter**](https://twitter.com/bhupeshimself) mostly to rant about tech, share & learn what others are doing.
