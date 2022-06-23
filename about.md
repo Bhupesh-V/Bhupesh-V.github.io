@@ -77,30 +77,6 @@ I am availabe as an API too 😜,
 
 <img alt="Bhupesh's API" src="https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/blog6.png" height="200px">
  -->
-## 👷 Projects
-Some of my significant projects & tools include
-
-#### [ugit](https://github.com/Bhupesh-V/ugit)
-ugit helps you undo your last `git` command without any hassle
-
-#### [AreYouOk](https://github.com/Bhupesh-V/areyouok)
-A fast and easy to use URL health checker ⛑️  Keep your links healthy during tough times.
-
-#### [30 Seconds of C++](https://github.com/Bhupesh-V/30-seconds-of-cpp)
-A collection of STL (Standard Template Library) features of C++ which can be learned in 30 seconds or less.
-
-#### [tutorialdb](https://github.com/Bhupesh-V/tutorialdb)
-tutorialdb is a small scale search engine for programming/dev tutorials, it is meant to help anyone who is getting started to learn a new technology
-
-#### [defe](https://github.com/Bhupesh-V/defe)
-A Tech feed Aggregator for Developers & Tech Enthusiasts
-
-#### [memer-action](https://github.com/Bhupesh-V/memer-action)
-A GitHub Action for Programmer Memes xD
-
-#### [dotman](https://github.com/Bhupesh-V/dotman)
-dotman is a simple, elegant & easy to use dotfiles manager 🖖🏽
-
 
 ### 📖 LEARN WITH ME
 I log whatever new I learn, Go to <a href="https://til.bhupesh.me"  class="mark">til.bhupesh.me</a> to see some of it. I also have a [**newsletter** 🚀](https://buttondown.email/bhupesh) where I share interesting stuff, some tips around tech.
