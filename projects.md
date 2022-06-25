@@ -13,6 +13,7 @@ Some of my significant projects & tools include
 - [**memer-action**](https://github.com/Bhupesh-V/memer-action) - A GitHub Action for Programmer Memes xD.
 - [**surf**](https://github.com/Bhupesh-V/.Varshney/blob/master/scripts/surf) - A standalone script to surf web (Powered by searx).
 - [**bkp**](https://github.com/Bhupesh-V/.Varshney/blob/master/scripts/bkp) - Script to backup files as a GitHub Gist with 0 dependency.
+- [**git-feed**](https://til.bhupesh.me/shell/generate-feed-files-in-git-repo) - Generate a RSS Feed of recent files inside a Git repository.
 - [**contributors**](https://github.com/Bhupesh-V/.Varshney/blob/master/scripts/contributors) - Find total contributors on all repositories of a github user.
 - [**myosc**](https://github.com/developersIndia/myosc) - A github action to list your opensource contributions in a README.
 - [**PlagCheck**](https://codeclassroom.github.io/PlagCheck/) - Moss Results wrapper with powerful insights & analysis 💡.
