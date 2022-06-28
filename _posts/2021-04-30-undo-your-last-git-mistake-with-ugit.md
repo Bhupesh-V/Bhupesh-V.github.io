@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title: Undo your last git mistake with ugit
-description: Learn how to use ugit or git undo to undo git commands like git commit, git push, git merge among many more. ugit helps you fix your last git fuck-up without any hassle
+description: Learn how to use ugit or git undo to undo git commands like git commit, git push, git merge among many more. ugit helps you fix your last git fuck-up without any hassle, undo from 19+ git scenarios
 tags: linux git
 last_modified_at: 2020-06-28
 banner_image: https://ik.imagekit.io/bhupesh/banners/Untitled__4___FERl1OiR.png
@@ -30,7 +30,7 @@ Ok enough talking.
 
 ## What is `ugit`?
 
-It's just a simple shell script with guided programmatic steps to undo your last git command, powered by [FZF]() built for people who live and work with terminals every day.
+It's just a shell script with guided programmatic steps to undo your last git command, powered by [FZF]() built for people who live and work with terminals every day.
 
 
 ## Guided Tutorials
@@ -69,12 +69,12 @@ Below are some GIF demos of undoing some git operations, the list is long (aroun
 Part of credits go to [Anthony](https://twitter.com/anthonypjshaw) & [Trey](https://twitter.com/treyhunner) for the idea, I stumbled upon [their tweet](https://twitter.com/anthonypjshaw/status/1377162020554874886?s=20) while lurking on Twitter.
 So thanks!
 
-## I don't like your stupid script
+## I don't like your script
 
 <img alt="sad dogo crying" height="120px" src="https://ik.imagekit.io/bhupesh/blog_content_pics/sed-doggo_e7RD-mM7L.webp">
 
-Cool, I mean we are still friends right??
-Friends help friends avoid git mistakes, that's why I wrote an accompanying text guide on [How to undo anything in Git](https://bhupesh.gitbook.io/notes/git/how-to-undo-anything-in-git).
+Cool, I mean we are still friends right?
+Friends help friends avoid git mistakes, that's why I wrote an accompanying text guide on [How to undo anything in Git](https://til.bhupesh.me/notes/git/how-to-undo-anything-in-git).
 
 Share it with your friends, co-workers. No hard feelings
 
