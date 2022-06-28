@@ -4,7 +4,7 @@ comments: true
 title: Undo your last git mistake with ugit
 description: Learn how to use ugit or git undo to undo git commands like git commit, git push, git merge among many more. ugit helps you fix your last git fuck-up without any hassle
 tags: linux git
-last_modified_at: 2020-05-01
+last_modified_at: 2020-06-28
 banner_image: https://ik.imagekit.io/bhupesh/banners/Untitled__4___FERl1OiR.png
 ---
 
@@ -82,3 +82,8 @@ Peace ✌️
 
 Update: Woke up to an email, that ugit was [Featured on Changelog News](https://changelog.com/news/ugit-helps-you-undo-your-last-git-command-with-grace-8X6L#discussion), yay 🎉️
 
+Update: I also covered a talk at GitHub India Constellation 2022, regarding the git tooling ecosystem & why we need a `git-undo` right now.
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jpR9BMFmh4Y?start=15240" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
