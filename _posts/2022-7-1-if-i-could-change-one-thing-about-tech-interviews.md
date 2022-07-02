@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title: If I could change one thing about tech interviews
-description: If I had some magical powers to change one thing about interviews experience for software engineering roles
+description: If I had some magical powers to change one thing about interview experience for software engineering roles
 tags: devlife tech tips
 banner_image: https://user-images.githubusercontent.com/34342551/176908585-cc9a66ac-87a4-4abe-8505-dead9ace9b35.png
 ---
@@ -11,7 +11,9 @@ banner_image: https://user-images.githubusercontent.com/34342551/176908585-cc9a6
 So I have been interviewing for a while for my next role in tech. I have given all type of interviews by now. Take home assignments, DSA, solution write-ups you name it.
 I am fine with all kinds of interviews, honestly at this moment I don't even care about what style of interviews are good or bad.
 
-What I would like to see a change in our ecosystem is to **GIVE FEEDBACK AFTER INTERVIEWING**. Yes I am screaming because I can't even believe this simple and most minimal amount of decency is not followed anywhere, and nobody seems to give a shit about it?
+What I would like to see a change in our ecosystem is to **GIVE FEEDBACK AFTER INTERVIEWS**.
+
+Yes I am screaming because I can't even believe this simple and most minimal amount of decency is not followed anywhere, and nobody seems to give a shit about it?
 
 I say forget about giving feedback at application stage, but what about when a candidate sits in your 3-round and 1-hour long tech interviews & you don't even bother to say why they were rejected? Is this what our industry have come down to?
 
