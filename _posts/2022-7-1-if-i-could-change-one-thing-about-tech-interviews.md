@@ -43,13 +43,13 @@ For folks who are in-charge of taking interviews. How do you communicate to the 
 
 > Aren't we told that a "good software engineer" has good communication skills apart from coding skills. If that's the case take a step back and ponder how you folks communicate "during" and "after" the interview process is over. Can you try to improve it?
 
-If you say you don't have time to right down your thoughts because of large number of interviews, Or maybe back-to-back interviews or maybe tight deadlines etc. Here are some minimal tips you could follow
+If you say you don't have time to write down your thoughts because of large number of interviews, Or maybe back-to-back interviews or maybe tight deadlines etc. Here are some minimal tips you could follow
 
 _(Full disclosure: I am not an interviewer, never have I ever interviewed anyone but I believe this is how would I go about doing it)_.
 
 
 1. Reserve some 5-10 minutes before the interview to go through candidate's resume/portfolio. Get an understanding what do they write about themselves, read every resume as a short story, this would probably take 5 mins max.
-2. During the interview when they are busy solving problems (and there is a awkward silence), right your understanding of the candidate.
+2. During the interview when they are busy solving problems (and there is a awkward silence), write your understanding of the candidate.
 3. After the interview is over, and you have made your mind not to move forward with them, Take 2 mins to write what caused you to make that decision and ask your HR to _"copy-paste"_ and send it to the candidate with the obvious _"rejection-template-copy"_. 
 
 That's all we ask. Literally how hard is it?
