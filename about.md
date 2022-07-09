@@ -59,6 +59,8 @@ Some important highlights in my personal journey as a developer/engineer/program
 
 |    Date   | Highlight                                                                           |
 |:---------:|-------------------------------------------------------------------------------------|
+| July 2022 | Started Volunteering at PyDelhi                                                     |
+| May 2022 | Completed my 3rd freelance tech writing gig                                          |
 | April 2022 | Gave my first ever conference talk at GitHub Constellation India 2022              |
 | July 2021 | Started working as a Product Engineer at creatorstack.com (backstage.army)          |
 |  Jun 2021 | Started working as a _Backend Developer_ at mindship.io                             |
