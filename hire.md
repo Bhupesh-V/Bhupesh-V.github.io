@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Hire Me
 description: Interested to work with me professionally? Know more about my freelance work
 image: hire.png
@@ -44,7 +44,7 @@ If you have a developer-facing product I can help you figure out your documentat
 - [How to Design a Transactional Key-value Store in Go](https://www.freecodecamp.org/news/design-a-key-value-store-in-go/) - freeCodeCamp
 - [How to Build Your Own Linux Dotfiles Manager from Scratch](https://www.freecodecamp.org/news/build-your-own-dotfiles-manager-from-scratch/) - freeCodeCamp
 
-You can find more of my writing on my [**newsletter**](https://buttondown.email/bhupesh/archive/) and [notes site](https://til.bhupesh.me)
+You can find more of my writing on my [**newsletter**](https://buttondown.email/bhupesh/archive/) and [**digital garden 🍀**](https://til.bhupesh.me)
 
 If any of this makes sense, feel free to reach me via email **varshneybhupesh@gmail[dot]com** or <a class="mark" href="https://bhupesh.me/chat"><b>schedule a 30 min e-meet</b></a> to discuss more about my charges & how I work.
 
