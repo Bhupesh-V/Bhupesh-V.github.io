@@ -44,9 +44,11 @@ permalink: /about/
 -->
 <h1 align="center">Hi 👋</h1>
 
-I am Bhupesh Varshney, Developer & FOSS Enthusiast & Creator living in New Delhi, India. I like to build & create stuff from scratch.
-I code in Python, Go, Flutter & Bash.<br>
-I make Web, Tools and Open-Source & frequently write about tech & my journey here. You can find more of my content on [**dev.to**](https://dev.to/bhupesh) _(more than 70k views)_ and [**freeCodeCamp**](https://www.freecodecamp.org/news/author/bhupesh/).
+I am Bhupesh Varshney, Developer & FOSS Enthusiast & Creator living in New Delhi, India. I like to build & create stuff using Python, Go, Flutter & Bash.<br>
+I make Web, Tools and Open-Source & frequently write about tech & my journey here. You can find more of my content on  [**dev.to**](https://dev.to/bhupesh) and [**freeCodeCamp**](https://www.freecodecamp.org/news/author/bhupesh/).
+
+I use [**twitter**](https://twitter.com/bhupeshimself) mostly to rant about tech, share & learn what others are doing, I am also a Community Admin at [**r/developersIndia**](https://www.reddit.com/r/developersIndia/), a community of more than 30K software & tech folks in India.
+
 <br>
 <center>
 <img alt="Bhupesh Varshney Profile Image" src="https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/profile1.jpg" height="300px">
@@ -81,11 +83,9 @@ I am availabe as an API too 😜,
  -->
 
 ### 📖 LEARN WITH ME
-I log whatever new I learn, Go to <a href="https://til.bhupesh.me"  class="mark">til.bhupesh.me</a> to see some of it. I also have a [**newsletter** 🚀](https://buttondown.email/bhupesh) where I share interesting stuff, some tips around tech.
+I log whatever new I learn, Go to <a href="https://til.bhupesh.me"  class="mark">til.bhupesh.me</a> to see some of it. I also have a [**newsletter** 🚀](https://buttondown.email/bhupesh) where I share interesting stuff and tips around tech.
 
 ### 🦄 CONNECT
-- I use [**twitter**](https://twitter.com/bhupeshimself) mostly to rant about tech, share & learn what others are doing.
-- I am also active on [**r/developersIndia**](https://www.reddit.com/r/developersIndia/)
 - Wanna have a quick chat about something?, schedule a call below
 
 <center>
@@ -93,7 +93,7 @@ I log whatever new I learn, Go to <a href="https://til.bhupesh.me"  class="mark"
 </center>
 
 ### 🖐 Support 
-If you like my work, consider supporting me. I am registered as a Creator on Brave browser so you can tip me BATs either on this website or on my github. This website is also [web-monetization](https://community.webmonetization.org/) enabled therefore you can install [coil](https://coil.com/) browser extension to tip me.
+If you like my work, consider supporting me. I am registered as a Creator on Brave browser so you can tip me BATs either on this website or on my github. This website is also [web-monetization](https://community.webmonetization.org/) enabled therefore you can install [coil](https://coil.com/) browser extension to tip me. You can also choose to [sponsor my work on GitHub](https://github.com/sponsors/Bhupesh-V)
 
 <!-- <a href="https://liberapay.com/bhupesh/donate">
 	<img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg" height="40">
