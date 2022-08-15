@@ -44,10 +44,11 @@ permalink: /about/
 -->
 <h1 align="center">Hi 👋</h1>
 
-I am Bhupesh Varshney, Developer & FOSS Enthusiast & Creator living in New Delhi, India. I like to build & create stuff using Python, Go, Flutter & Bash.<br>
+I am Bhupesh Varshney, Developer & FOSS Enthusiast & Creator living in New Delhi, India. I like to build & create stuff using Python, Go, Flutter & Bash. Professionally I have around 15 months of experience in Product-Based Startups.
+
 I make Web, Tools and Open-Source & frequently write about tech & my journey here. You can find more of my content on  [**dev.to**](https://dev.to/bhupesh) and [**freeCodeCamp**](https://www.freecodecamp.org/news/author/bhupesh/).
 
-I use [**twitter**](https://twitter.com/bhupeshimself) mostly to rant about tech, share & learn what others are doing, I am also a Community Admin at [**r/developersIndia**](https://www.reddit.com/r/developersIndia/), a community of more than 30K software & tech folks in India.
+I use [**twitter**](https://twitter.com/bhupeshimself) mostly to rant about tech, share & learn what others are doing, I am also a Community Admin at [**r/developersIndia**](https://www.reddit.com/r/developersIndia/), a community of more than 50K software & tech folks across India.
 
 <br>
 <center>
