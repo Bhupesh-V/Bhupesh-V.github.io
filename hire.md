@@ -38,9 +38,10 @@ If you have a developer-facing product I can help you figure out your documentat
 - Open-Source
 - Side-projects
 
-### Some of my published work ✍️
+### Some of my _public_ published work ✍️
 
 - [OpenMetrics vs OpenTelemetry - A guide on understanding these two specifications](https://signoz.io/blog/openmetrics-vs-opentelemetry/) - SigNoz
+- [Get your git game up with worktrees](https://blog.invidelabs.com/git-worktree-to-make-daily-git-workflow-better/) - InvideLabs
 - [How to Design a Transactional Key-value Store in Go](https://www.freecodecamp.org/news/design-a-key-value-store-in-go/) - freeCodeCamp
 - [How to Build Your Own Linux Dotfiles Manager from Scratch](https://www.freecodecamp.org/news/build-your-own-dotfiles-manager-from-scratch/) - freeCodeCamp
 
