@@ -14,11 +14,10 @@ If you want to work with me on any paid contract/freelance gigs, I usually work 
 
 I work with following technologies:
 
-- Go (Microservices, GraphQL, REST, CLIs)
+- Go (Microservices, GraphQL, gRPC, REST, CLIs)
 - Python (Django, Flask, APIs, CLIs)
 - Flutter (Desktop and Android)
-- Bash/Shell scripting
-- Vanilla JS
+- Bash/Shell Scripting
 
 ## As a Technical Writer
 
