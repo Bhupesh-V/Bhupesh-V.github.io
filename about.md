@@ -62,6 +62,8 @@ Some important highlights in my personal journey as a developer/engineer/program
 
 |    Date   | Highlight                                                                           |
 |:---------:|-------------------------------------------------------------------------------------|
+| Sep 2022 | Started Working as a Backend Engineer (Contract) at nucash.money                     |
+| July 2022 | Started Working as a Freelance Tech Writer for ContentTurbine                       |
 | July 2022 | Started Volunteering at PyDelhi                                                     |
 | May 2022 | Completed my 3rd freelance tech writing gig                                          |
 | April 2022 | Gave my first ever conference talk at GitHub Constellation India 2022              |
