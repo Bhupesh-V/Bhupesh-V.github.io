@@ -65,7 +65,7 @@ I use the Brave Browser both on my PC as well on my phone.
 
 Although there a bunch of schemes I switch through, [see the complete list on github](https://github.com/stars/Bhupesh-V/lists/vim-colorschemes)
 
-#### VSCodium
+#### VSCode
 
 - Theme: [Bearded Theme](https://marketplace.visualstudio.com/items?itemName=BeardedBear.beardedtheme)
 - Font: 'Droid Sans Mono', 'monospace', monospace

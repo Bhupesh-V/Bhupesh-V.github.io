@@ -44,7 +44,7 @@ permalink: /about/
 -->
 <h1 align="center">Hi 👋</h1>
 
-I am Bhupesh Varshney, Developer & FOSS Enthusiast & Creator living in New Delhi, India. I like to build & create stuff using Python, Go, Flutter & Bash. Professionally I have around 15 months of experience in Product-Based Startups.
+I am Bhupesh Varshney, Developer & FOSS Enthusiast & Creator living in New Delhi, India. I like to build & create stuff using Python, Go, Flutter & Bash. Professionally I have around 17 months of experience in Product-Based Startups.
 
 I make Web, Tools and Open-Source & frequently write about tech & my journey here. You can find more of my content on  [**dev.to**](https://dev.to/bhupesh) and [**freeCodeCamp**](https://www.freecodecamp.org/news/author/bhupesh/).
 
@@ -62,6 +62,7 @@ Some important highlights in my personal journey as a developer/engineer/program
 
 |    Date   | Highlight                                                                           |
 |:---------:|-------------------------------------------------------------------------------------|
+| Nov 2022 | Started Working as a Software Engineer (fulltime) at Nurdsoft.co                     |
 | Sep 2022 | Started Working as a Backend Engineer (Contract) at nucash.money                     |
 | July 2022 | Started Working as a Freelance Tech Writer for ContentTurbine                       |
 | July 2022 | Started Volunteering at PyDelhi                                                     |

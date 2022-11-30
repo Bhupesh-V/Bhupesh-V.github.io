@@ -8,8 +8,6 @@ permalink: /hire/
 
 If you want to work with me on any paid contract/freelance gigs, I usually work in 2 different but connected domains.
 
-> I am also open for any full-time roles at the moment.
-
 ## As a Software Developer/Programmer/Engineer
 
 I work with following technologies:
