@@ -18,7 +18,7 @@ html {
 }
 
 .social-icons-custom i {
-  color:white;
+  color: white;
 }
 
 #shareIcon i {
@@ -36,25 +36,26 @@ html {
   color: #fff;
   cursor: pointer;
 }
-    
+
 .mark {
   color: white;
   padding: 0;
   text-decoration: none;
-  background-image: linear-gradient( transparent 0%, transparent calc(50% - 8px), rgba(0, 255, 0, 0.35) calc(50% - 8px), rgba(0, 255, 0, 0.35) 100% );
+  background-image: linear-gradient(transparent 0%, transparent calc(50% - 8px), rgba(0, 255, 0, 0.35) calc(50% - 8px), rgba(0, 255, 0, 0.35) 100%);
   transition: background-position 120ms ease-in-out, padding 120ms ease-in-out;
   background-size: 100% 200%;
   background-position: 0 0;
 }
+
 .mark:hover {
   padding: 2px 0 4px 0;
-  background-image: linear-gradient( transparent 0%, transparent calc(50% - 8px), rgba(0, 255, 0, 1) calc(50% - 8px), rgba(0, 255, 0, 1) 100% );
+  background-image: linear-gradient(transparent 0%, transparent calc(50% - 8px), rgba(0, 255, 0, 1) calc(50% - 8px), rgba(0, 255, 0, 1) 100%);
   background-position: 0 100%;
   color: black;
 }
 
 body {
-	background: #0D0E0F;
+  background: #0D0E0F;
   font: 18px/1.4 $helvetica;
   color: $darkGray;
 }
@@ -62,8 +63,9 @@ body {
 #shareIcon {
   display: none;
 }
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px){ 
-  #shareIcon { 
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  #shareIcon {
     display: flex;
     position: fixed;
     width: 50px;
@@ -76,11 +78,13 @@ body {
     text-align: center;
     box-shadow: 2px 2px 3px #332d2d;
   }
+
   #resume-frame {
     width: 100%;
     height: 560px;
   }
 }
+
 .container {
   margin: 0 auto;
   max-width: 900px;
@@ -88,8 +92,13 @@ body {
   width: 100%;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, segoe ui, Roboto, helvetica neue, Arial, noto sans, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol, noto color emoji;
   color: white;
   font-weight: bold;
 
@@ -104,8 +113,9 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 1.875rem;
-  font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, segoe ui, Roboto, helvetica neue, Arial, noto sans, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol, noto color emoji;
   text-align: center;
+
   a {
     color: white;
   }
@@ -121,8 +131,9 @@ h3 {
 
 h4 {
   font-size: 18px;
-  color: $gray;
+  color: $white;
 }
+
 li {
   margin: 0;
   padding: 0;
@@ -132,10 +143,11 @@ li {
   color: white;
   vertical-align: baseline;
 }
+
 p {
   margin: 15px 5px 5px 7px;
   color: #FFF;
-  font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, segoe ui, Roboto, helvetica neue, Arial, noto sans, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol, noto color emoji;
   word-spacing: 2.5px;
   word-wrap: break-word;
 }
@@ -143,13 +155,16 @@ p {
 a {
   color: $blue;
   text-decoration: none;
-	cursor: pointer;
-  &:hover, &:active {
+  cursor: pointer;
+
+  &:hover,
+  &:active {
     color: $blue;
   }
 }
 
-ul, ol {
+ul,
+ol {
   margin: 15px 0;
   padding-left: 30px;
 }
@@ -162,19 +177,25 @@ ol {
   list-style-type: decimal;
 }
 
-ol ul, ul ol, ul ul, ol ol {
+ol ul,
+ul ol,
+ul ul,
+ol ol {
   margin: 0;
 }
 
-ul ul, ol ul {
+ul ul,
+ol ul {
   list-style-type: circle;
 }
 
-em, i {
+em,
+i {
   font-style: italic;
 }
 
-strong, b {
+strong,
+b {
   font-weight: bold;
 }
 
@@ -201,6 +222,7 @@ img {
 ::-moz-selection {
   background: #17be6e;
 }
+
 ::selection {
   background: #17be6e;
 }
@@ -209,12 +231,12 @@ img {
 // http://nicolasgallagher.com/micro-clearfix-hack/
 .clearfix:before,
 .clearfix:after {
-    content: " ";
-    display: table;
+  content: " ";
+  display: table;
 }
 
 .clearfix:after {
-    clear: both;
+  clear: both;
 }
 
 /*********************/
@@ -301,21 +323,21 @@ nav {
 //
 
 .pagination {
-    color: #fefbfb;
-    padding: 8px 16px;
-    text-decoration: none;
-    transition: background-color .3s;
-    border: 1px solid #fff;
-    margin-top: 40px;
+  color: #fefbfb;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #fff;
+  margin-top: 40px;
 }
 
-.posts > .post {
+.posts>.post {
   padding-bottom: 2em;
   padding-left: 0.5em;
   padding-right: 0.5em;
   border: thick double #fff;
   margin-top: 20px;
-  border-radius: 5px; 
+  border-radius: 5px;
 }
 
 .post {
@@ -338,7 +360,7 @@ form {
 }
 
 label {
-  color:white;
+  color: white;
   font-weight: bold;
 }
 
@@ -356,15 +378,36 @@ figcaption {
 }
 
 td {
-        color: white;
-        padding: 8px;
-        padding-bottom:8px;
+  color: white;
+  padding: 8px;
+  padding-bottom: 8px;
 }
+
 th {
-color: white;
-    padding: 8px;
-    font-weight: bold;
+  color: white;
+  padding: 8px;
+  font-weight: bold;
 }
+
+.header-link {
+  position: absolute;
+  // left: -0.5em;
+  padding-left: 0.25em;
+  opacity: 0;
+
+  \-webkit-transition: opacity 0.2s ease-in-out 0.1s;
+  \-moz-transition: opacity 0.2s ease-in-out 0.1s;
+  \-ms-transition: opacity 0.2s ease-in-out 0.1s;
+}
+
+h2:hover .header-link,
+h3:hover .header-link,
+h4:hover .header-link,
+h5:hover .header-link,
+h6:hover .header-link {
+  opacity: 1;
+}
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
