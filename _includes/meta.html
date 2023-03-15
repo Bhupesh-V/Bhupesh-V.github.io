@@ -42,7 +42,8 @@
 <meta property="twitter:title" content="{{ page.title }}">
 <meta property="og:url" content="{{ site.url }}{{ page.url }}">
 {% else %}
-<meta property="twitter:title" content="{{ site.name }}">
+<meta property="og:title" content="{{ site.name }} - {{ site.description }}">
+<meta property="twitter:title" content="{{ site.name }} - {{ site.description }}">
 <meta property="og:url" content="{{ site.url }}{{ page.url }}">
 {% endif %}
 
