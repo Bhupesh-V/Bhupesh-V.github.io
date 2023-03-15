@@ -1,64 +1,66 @@
-	<meta charset="utf-8">
-	<meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
-	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
-	<meta name='viewport' content='width=device-width, initial-scale=1.0'>
-	<meta name="theme-color" content="#EE7364" />
-	<meta name="apple-mobile-web-app-status-bar-style" content="#EE7364">
-	<meta name="twitter:site" content="@bhupeshimself">
-	<meta name="twitter:creator" content="@bhupeshimself">
-	<meta property="og:type" content="article">
-	<meta property="og:site_name" content="Bhupesh Varshney">
-	<meta name="author" content="{{ site.name }}" />
-	<meta property="og:image" content="https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/banner.png">
-	<meta property="og:image:alt" content="Bhupesh's OG Social Preview">
-	<meta property="og:image:type" content="image/png">
-	<meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:image" content="https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/banner.png">
+<meta charset="utf-8">
+<meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+<meta name="theme-color" content="#EE7364" />
+<meta name="apple-mobile-web-app-status-bar-style" content="#EE7364">
+<meta name="author" content="{{ site.name }}" />
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Bhupesh Varshney">
+<meta property="og:image"
+	content="https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/banner.png">
+<meta property="og:image:alt" content="Bhupesh's OG Social Preview">
+<meta property="og:image:type" content="image/png">
+<meta name="twitter:site" content="@bhupeshimself">
+<meta name="twitter:creator" content="@bhupeshimself">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image"
+	content="https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/banner.png">
 
-	{% if page.canonical_url %}
-	<link rel="canonical" href="{{ page.canonical_url }}">
-	{% else %}
-	<link rel="canonical" href="{{ site.url }}{{ page.url }}">
-	{% endif %}
+{% if page.canonical_url %}
+<link rel="canonical" href="{{ page.canonical_url }}">
+{% else %}
+<link rel="canonical" href="{{ site.url }}{{ page.url }}">
+{% endif %}
 
-	{% if page.tags.size > 0 %}
-	<meta name="keywords" content="{{ page.tags | join: ", " }}">
-	{% endif %}
+{% if page.tags.size > 0 %}
+<meta name="keywords" content="{{ page.tags | join: " , " }}">
+{% endif %}
 
-	{% if page.description %}
-	<meta name="description" content="{{ page.description }}">
-	<meta property="og:description" content="{{ page.description }}" />
-	<meta name="twitter:description" content="{{ page.description }}">
-	{% else %}
-	<meta name="description" content="{{ site.description }}">
-	<meta property="og:description" content="{{ site.description }}" />
-	<meta name="twitter:description" content="{{ site.description }}">
-	{% endif %}
+{% if page.description %}
+<meta name="description" content="{{ page.description }}">
+<meta property="og:description" content="{{ page.description }}" />
+<meta name="twitter:description" content="{{ page.description }}">
+{% else %}
+<meta name="description" content="{{ site.description }}">
+<meta property="og:description" content="{{ site.description }}" />
+<meta name="twitter:description" content="{{ site.description }}">
+{% endif %}
 
-	{% if page.title %}
-	<meta property="og:title" content="{{ page.title }}">
-	<meta property="twitter:title" content="{{ page.title }}">
-	<meta property="og:url" content="{{ site.url }}{{ page.url }}">
-	{% else %}
-	<meta property="twitter:title" content="{{ site.name }}">
-	<meta property="og:url" content="{{ site.url }}{{ page.url }}">
-	{% endif %}
+{% if page.title %}
+<meta property="og:title" content="{{ page.title }}">
+<meta property="twitter:title" content="{{ page.title }}">
+<meta property="og:url" content="{{ site.url }}{{ page.url }}">
+{% else %}
+<meta property="twitter:title" content="{{ site.name }}">
+<meta property="og:url" content="{{ site.url }}{{ page.url }}">
+{% endif %}
 
-	{% if page.image %}
-	<meta property="og:image" content="{{ site.url }}/images/{{ page.image }}">
-	<meta property="og:image:width" content="640">
-	<meta property="og:image:height" content="360">
-	<meta property="og:image:alt" content="{{ page.title }}">
-	<meta property="og:image:type" content="image/png">
-	<meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:image" content="{{ site.url }}/images/{{ page.image }}">
-	{% endif %}
-  {% if page.banner_image %}
-  <meta property="og:image" content="{{ page.banner_image }}">
-	<meta property="og:image:width" content="640">
-	<meta property="og:image:height" content="360">
-	<meta property="og:image:alt" content="{{ page.title }}">
-	<meta property="og:image:type" content="image/png">
-	<meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:image" content="{{ page.banner_image }}">
-	{% endif %}
+{% if page.image %}
+<meta property="og:image" content="{{ site.url }}/images/{{ page.image }}">
+<meta property="og:image:width" content="640">
+<meta property="og:image:height" content="360">
+<meta property="og:image:alt" content="{{ page.title }}">
+<meta property="og:image:type" content="image/png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="{{ site.url }}/images/{{ page.image }}">
+{% endif %}
+{% if page.banner_image %}
+<meta property="og:image" content="{{ page.banner_image }}">
+<meta property="og:image:width" content="640">
+<meta property="og:image:height" content="360">
+<meta property="og:image:alt" content="{{ page.title }}">
+<meta property="og:image:type" content="image/png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="{{ page.banner_image }}">
+{% endif %}
