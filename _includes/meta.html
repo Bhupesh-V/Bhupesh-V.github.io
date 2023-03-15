@@ -7,15 +7,9 @@
 <meta name="author" content="{{ site.name }}" />
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="Bhupesh Varshney">
-<meta property="og:image"
-	content="https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/banner.png">
-<meta property="og:image:alt" content="Bhupesh's OG Social Preview">
-<meta property="og:image:type" content="image/png">
 <meta name="twitter:site" content="@bhupeshimself">
 <meta name="twitter:creator" content="@bhupeshimself">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image"
-	content="https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/banner.png">
 
 {% if page.canonical_url %}
 <link rel="canonical" href="{{ page.canonical_url }}">
@@ -53,7 +47,6 @@
 <meta property="og:image:height" content="360">
 <meta property="og:image:alt" content="{{ page.title }}">
 <meta property="og:image:type" content="image/png">
-<meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="{{ site.url }}/images/{{ page.image }}">
 {% endif %}
 {% if page.banner_image %}
@@ -62,6 +55,12 @@
 <meta property="og:image:height" content="360">
 <meta property="og:image:alt" content="{{ page.title }}">
 <meta property="og:image:type" content="image/png">
-<meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="{{ page.banner_image }}">
+{% else %}
+<meta property="og:image"
+	content="https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/banner.png">
+<meta property="og:image:alt" content="Bhupesh's OG Social Preview">
+<meta property="og:image:type" content="image/png">
+<meta name="twitter:image"
+	content="https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/banner.png">
 {% endif %}
