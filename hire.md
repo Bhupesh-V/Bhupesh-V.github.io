@@ -41,6 +41,7 @@ If you have a developer-facing product I can help you figure out your documentat
 - [Get your git game up with worktrees](https://blog.invidelabs.com/git-worktree-to-make-daily-git-workflow-better/) - InvideLabs
 - [How to Design a Transactional Key-value Store in Go](https://www.freecodecamp.org/news/design-a-key-value-store-in-go/) - freeCodeCamp
 - [How to Build Your Own Linux Dotfiles Manager from Scratch](https://www.freecodecamp.org/news/build-your-own-dotfiles-manager-from-scratch/) - freeCodeCamp
+- [Building a basic search experience with Postgres](https://pacenthink.io/post/building-a-basic-search-experience-with-postgres/)
 
 You can find more of my writing on my [**newsletter**](https://buttondown.email/bhupesh/archive/) and [**digital garden 🍀**](https://til.bhupesh.me)
 
