@@ -99,7 +99,9 @@ I log whatever new I learn, Go to <a href="https://til.bhupesh.me"  class="mark"
 </center>
 
 ### 🖐 Support 
-If you like my work, consider supporting me. I am registered as a Creator on Brave browser so you can tip me BATs either on this website or on my github. This website is also [web-monetization](https://community.webmonetization.org/) enabled therefore you can install [coil](https://coil.com/) browser extension to tip me. You can also choose to [sponsor my work on GitHub](https://github.com/sponsors/Bhupesh-V)
+If you like my work, consider supporting me. You can choose to [sponsor my work on GitHub](https://github.com/sponsors/Bhupesh-V). Or maybe find something on my [amazon wishlist](https://www.amazon.in/hz/wishlist/ls/2KGB001RHJJUA?ref_=wl_share)
+
+<!-- I am registered as a Creator on Brave browser so you can tip me BATs either on this website or on my github. This website is also [web-monetization](https://community.webmonetization.org/) enabled therefore you can install [coil](https://coil.com/) browser extension to tip me.  -->
 
 <!-- <a href="https://liberapay.com/bhupesh/donate">
 	<img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg" height="40">
