@@ -44,11 +44,11 @@ permalink: /about/
 -->
 <h1 align="center">Hi 👋</h1>
 
-I am Bhupesh Varshney, Developer & FOSS Enthusiast & Creator living in New Delhi, India. I like to build & create stuff using Python, Go, Flutter & Bash. Professionally I have around 17 months of experience in Product-Based Startups.
+I am Bhupesh Varshney, Developer & FOSS Enthusiast & Creator living in New Delhi, India. I like to build & create stuff using Python, Go, Flutter & Bash. Professionally I have around 19 months of experience in Product-Based Startups. I happen to be Community Manager for [**r/developersIndia**](https://www.reddit.com/r/developersIndia/), a community of more than 100K software & tech folks across India.
 
 I make Web, Tools and Open-Source & frequently write about tech & my journey here. You can find more of my content on  [**dev.to**](https://dev.to/bhupesh) and [**freeCodeCamp**](https://www.freecodecamp.org/news/author/bhupesh/).
 
-I use [**twitter**](https://twitter.com/bhupeshimself) mostly to rant about tech, share & learn what others are doing, I am also a Community Admin at [**r/developersIndia**](https://www.reddit.com/r/developersIndia/), a community of more than 50K software & tech folks across India.
+I use [**twitter**](https://twitter.com/bhupeshimself) mostly to rant about tech, share & learn what others are doing.
 
 <br>
 <center>
@@ -87,6 +87,7 @@ I am availabe as an API too 😜,
  -->
 
 ### 📖 LEARN WITH ME
+
 I log whatever new I learn, Go to <a href="https://til.bhupesh.me"  class="mark">til.bhupesh.me</a> to see some of it. I also have a [**newsletter** 🚀](https://buttondown.email/bhupesh) where I share interesting stuff and tips around tech.
 
 ### 🦄 CONNECT
@@ -96,6 +97,7 @@ I log whatever new I learn, Go to <a href="https://til.bhupesh.me"  class="mark"
 
 
 ### 🖐 Support 
+
 If you like my work, consider supporting me. You can choose to [sponsor my work on GitHub](https://github.com/sponsors/Bhupesh-V). Or maybe find something on my [amazon wishlist](https://www.amazon.in/hz/wishlist/ls/2KGB001RHJJUA?ref_=wl_share)
 
 <!-- I am registered as a Creator on Brave browser so you can tip me BATs either on this website or on my github. This website is also [web-monetization](https://community.webmonetization.org/) enabled therefore you can install [coil](https://coil.com/) browser extension to tip me.  -->
