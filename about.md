@@ -92,11 +92,8 @@ I log whatever new I learn, Go to <a href="https://til.bhupesh.me"  class="mark"
 ### 🦄 CONNECT
 
 - I usually hangout in [r/developersIndia Discord Server](https://discord.gg/Ep6zGAuWbq). Come and say hi 👋
-- Wanna have a quick chat about something?, schedule a call below
+- Wanna have a quick chat about something?, [schedule a call](https://bhupesh.me/chat/).
 
-<center>
-<iframe style="height:450px;width:100%;border:none;overflow:hidden;" src="https://app.cal.com/bhupesh" frameborder="0" allowfullscreen></iframe>
-</center>
 
 ### 🖐 Support 
 If you like my work, consider supporting me. You can choose to [sponsor my work on GitHub](https://github.com/sponsors/Bhupesh-V). Or maybe find something on my [amazon wishlist](https://www.amazon.in/hz/wishlist/ls/2KGB001RHJJUA?ref_=wl_share)
