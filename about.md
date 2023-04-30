@@ -100,7 +100,6 @@ I log whatever new I learn, Go to <a href="https://til.bhupesh.me"  class="mark"
 
 If you like my work, consider supporting me. You can choose to [sponsor my work on GitHub](https://github.com/sponsors/Bhupesh-V). Or maybe find something on my [amazon wishlist](https://www.amazon.in/hz/wishlist/ls/2KGB001RHJJUA?ref_=wl_share)
 
-<!-- I am registered as a Creator on Brave browser so you can tip me BATs either on this website or on my github. This website is also [web-monetization](https://community.webmonetization.org/) enabled therefore you can install [coil](https://coil.com/) browser extension to tip me.  -->
 
 <!-- <a href="https://liberapay.com/bhupesh/donate">
 	<img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg" height="40">
@@ -111,14 +110,3 @@ If you like my work, consider supporting me. You can choose to [sponsor my work 
 <a href="https://paypal.me/BhupeshVarshney">
 	<img title="PayPal Bhupesh Varshney" alt="PayPal Bhupesh Varshney" src="https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white" width="120">
 </a>
-
-<!-- <div id="contactform"> -->
-<!-- <form enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSfim3RiM1NLrTszkwOv2uJ8mFMfZR6WZU-qKK6oRUlgA9vjuw/formResponse?" target="hidden_iframe" onsubmit="submitted=true;"> -->
-<!-- <input type="email" name="entry.389706550" id="entry.389706550" placeholder="yo@hello.com" required /> -->
-<!-- <input type="text" name="entry.1867581834" id="entry.1867581834" placeholder="Name" required /> -->
-<!-- <textarea style="overflow:auto;resize:none;" name="entry.973008035" id="entry.973008035" placeholder="Send me a Hi.👋 :)" rows="4"></textarea> -->
-<!-- <input type="submit" id="contact-button" value="Send" onclick="msg()"> -->
-<!-- </form> -->
-<!-- <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) { clear()}"></iframe> -->
-<!-- </div> -->
-
