@@ -42,6 +42,28 @@ I came on the internet (or I join social media) to do either of these things: fi
 
 I don't come here to attack someone, or something (granted I may have done this unknowingly in the past but not anymore, if you see me doing something like this, send me a DM as a reminder, citing this blog).
 
+## How does hate gets generated anyway?
+
+Arguments, petty arguments, and conflicting opinions are a major root cause in my opinion. I mean, take the ways of communication nowadays, for instance (starting from the best to worst).
+
+1. Face-2-Face physical meetup.
+
+   Rarely, anyone will speak harsh words to your face (I am sorry if someone has). This mode is the best form of communication, exchanging ideas, and clearing out any context. That's why the way you presnet yourself in a physical interview is a thing.
+   Your body langauge, hand movements, eye co-ordination everything communicates.
+2. Face-2-Face online chat
+
+   Bit worse than a physical meetup, but still you get to see how a person communicates by looking at their hand movements, and facial emotions. Everything is visible for you to understand someone's stance on something.
+  > I know video meets suck, takes energy but is probably the best mode to communicate actively remotely (you can see this by how popular video content is).
+3. Phone calls/Audio calls
+
+   The ability to talk to someone and hear their emotions from the way they speak still gives out a lot of context.
+4. Text chat
+
+   The worse possible form of "active communication" (not like the passive form, the blog you are currently reading, or an email). This is literally the last possible way you will communicate with someone. You can't understand emotions (no facial expressions), or the way they sound. On top of that its soo time consuming (imagine explaining someone how git rebase works, or internals of GRPC on whatsapp).<br>
+   Just one line of text, and you may offend thousands, with no context, and no background whatsoever. Do you see where I am going with this?
+
+Now of course all modes of communication may give rise to some form of hate, but the ability to do so increases down the line. That's why being anonymous on the internet and saying the most random shit possible is soo common nowadays.
+
 ## What to do, If you mistakenly generated hate?
 
 - Apologise.
