@@ -44,7 +44,7 @@ permalink: /about/
 -->
 <h1 align="center">Hi 👋</h1>
 
-I am Bhupesh Varshney, a Software Craftsman & an occasional bug creator living in New Delhi, India. I like to build & create stuff using Go, Python, Flutter & Bash. Professionally I have around 2 years of experience in Product-Based Startups. I happen to be Community Manager for [**r/developersIndia**](https://www.reddit.com/r/developersIndia/), a community of more than 300K software & tech folks across India.
+I am Bhupesh Varshney, a Software Craftsman & an occasional bug creator living in New Delhi, India. I like to build & create stuff using Go, Python & Bash. Professionally I have around 2 years of experience in Product-Based Startups. I happen to be Community Lead for [**r/developersIndia**](https://www.reddit.com/r/developersIndia/), a community of more than 300K software & tech folks across India.
 
 I make Web, Tools and Open-Source & frequently write about tech & my journey here. You can find more of my content on  [**dev.to**](https://dev.to/bhupesh) and [**freeCodeCamp**](https://www.freecodecamp.org/news/author/bhupesh/).
 
@@ -64,21 +64,18 @@ Some important highlights in my personal journey as a developer/engineer/program
 |:---------:|-------------------------------------------------------------------------------------|
 | Nov 2022 | Started Working as a Software Engineer (fulltime) at Nurdsoft.co                     |
 | Sep 2022 | Started Working as a Backend Engineer (Contract) at nucash.money                     |
-| July 2022 | Started Working as a Freelance Tech Writer for ContentTurbine                       |
 | July 2022 | Started Volunteering at PyDelhi                                                     |
 | May 2022 | Completed my 3rd freelance tech writing gig                                          |
 | April 2022 | Gave my first ever conference talk at GitHub Constellation India 2022              |
-| July 2021 | Started working as a Product Engineer at creatorstack.com (backstage.army)          |
-|  Jun 2021 | Started working as a _Backend Developer_ at mindship.io                             |
+| July 2021 | Started working as a Product Engineer at creatorstack.com ([backstage.army](https://backstage.army))        |
 |  May 2021 | Completed my first ever freelance tech writing gig                                  |
 |  Mar 2021 | This blog finally hit 10,000 page views :)                                          |
 |  Oct 2020 | Graduated with a BCA from GGSIPU                                                    |
 | July 2020 | Volunteered at PyCon India 2020                                                     |
 |  Feb 2020 | Mentored Developers to contribute to open-source via GirlScript Summer of Code 2020 |
-|  Jun 2019 | Completed my Internship at DyfoLabs                                                 |
+|  Jun 2019 | Completed my internship at DyfoLabs                                                 |
 |  Jan 2019 | Started working as a _Backend Developer Intern_ at DyfoLabs Pvt Ltd                 |
 
-You can also view my work timeline at <a href="https://work.bhupesh.me"  class="mark"><b>work.bhupesh.me</b></a>
 
 <!-- ### 🌐 API
 I am availabe as an API too 😜,
@@ -95,8 +92,7 @@ I log whatever new I learn, Go to <a href="https://til.bhupesh.me"  class="mark"
 - I usually hangout in [r/developersIndia Discord Server](https://discord.gg/Ep6zGAuWbq). Come and say hi 👋
 - Wanna have a quick chat about something?, [schedule a call](https://bhupesh.me/chat/).
 
-
-### 🖐 Support 
+### 🖐 Support
 
 If you like my work, consider supporting me. You can choose to [sponsor my work on GitHub](https://github.com/sponsors/Bhupesh-V). Or maybe find something on my [amazon wishlist](https://www.amazon.in/hz/wishlist/ls/2KGB001RHJJUA?ref_=wl_share)
 
