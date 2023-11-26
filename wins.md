@@ -11,6 +11,10 @@ permalink: /wins/
 
 - [ugit](https://github.com/Bhupesh-V/ugit), a tool that I made to undo git commands crossed 1k stars.
 
+### Aug 2022
+
+- [r/developersIndia](https://www.reddit.com/r/developersIndia), a community that I have been helping out since its inception in 2020, [crossed 50k members](https://twitter.com/bhupeshimself/status/1557731759651196928).
+
 ### April 2022
 
 - Gave my first ever conference talk at [GitHub Constellation India 2022](https://youtu.be/jpR9BMFmh4Y?t=15240).
