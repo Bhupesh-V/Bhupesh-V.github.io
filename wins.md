@@ -12,7 +12,7 @@ permalink: /wins/
 1. Completed my 1 year work-anniversary at Nurdsoft.
 2. First time stayed at a 4.5-star hotel.
 3. First time visited Hyderabad & Pune.
-4. Attended 3 different conferences: `PydelhiConf 2023`, `Pycon India 2023`, `GopherconIndia 2023`.
+4. Attended 3 different conferences: `PyDelhiConf 2023`, `Pycon India 2023` & `GopherConIndia 2023`.
 5. Tried Go-Karting for the first time.
 6. Bought my first ever hotwheels.
 7. Started AMAs over at `r/developersIndia`. Organized 2 successful AMAs.
