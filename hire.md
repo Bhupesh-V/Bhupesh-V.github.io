@@ -10,7 +10,7 @@ If you want to work with me on any paid contract/freelance gigs, I usually work 
 
 ## As a Software Developer/Programmer/Engineer
 
-I work with following technologies:
+I work with following stuff:
 
 - Go (Microservices, GraphQL, gRPC, REST, CLIs)
 - Python (Django, Flask, APIs, CLIs)
