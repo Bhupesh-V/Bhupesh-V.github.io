@@ -241,7 +241,7 @@
     <script>
       headings = document.querySelectorAll("h1, h2, h3, h4, h5, h6");
       headings.forEach(function(heading, _) {
-        console.log(heading);
+        //console.log(heading);
         var  icon, id;
         heading_id = heading.id;
         if (heading_id) {
@@ -249,7 +249,7 @@
           heading_link.href = "#"+heading_id;
           heading_link.classList.add("header-link");
           
-          console.log(heading_link);
+          //console.log(heading_link);
 
           heading_icon = document.createElement("i");
           heading_icon.classList.add("fa");

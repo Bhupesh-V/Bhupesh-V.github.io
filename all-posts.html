@@ -21,12 +21,34 @@ ul{
 #tils{
   text-align: center;
 }
+#newsletter{
+  text-align: center;
+}
+.parent-div {
+  display: flex;
+}
+.parent-div > article {
+  flex: 1;
+}
+
+@media screen and (max-width: 600px) {
+  .parent-div {
+    display: block;
+  }
+}
 </style>
-<article class="post">
-  <h1>Recent <a class="mark" href="https://github.com/Bhupesh-V/til">TILs</a></h1>
-  <div id="tils">
-  </div>
-</article>
+<div class="parent-div">
+  <article class="post">
+    <h1>Recent <a class="mark" href="https://github.com/Bhupesh-V/til">TILs</a></h1>
+    <div id="tils">
+    </div>
+  </article>
+  <article class="post">
+    <h1>Recent <a class="mark" href="https://buttondown.email/bhupesh">Newsletter</a></h1>
+    <div id="newsletter">
+    </div>
+  </article>
+</div>
 <h1>{{ site.posts.size }} posts in Archive</h1>
 <div class="all-posts">
   {% for post in site.posts %}
@@ -37,20 +59,45 @@ ul{
 </div>
 <script charset="utf-8">
   const til_feed_url = "https://raw.githubusercontent.com/Bhupesh-V/til/master/recent_tils.json";
-      let div_tils = document.getElementById("tils");
-      var list = document.createElement("ul");
-      const fetcher = fetch(til_feed_url) 
-        .then(response => response.json()) 
-        .then(data => {
-          for (til = 0; til < data.length; til++) {
-            var anchor = document.createElement("a");
-            anchor.href = data[til].url;
-            anchor.innerText = data[til].title;
+  const newsletter_feed_url = "https://buttondown.email/bhupesh/rss";
+  let div_tils = document.getElementById("tils");
+  var list = document.createElement("ul");
+  const fetcher = fetch(til_feed_url) 
+    .then(response => response.json()) 
+    .then(data => {
+      for (til = 0; til < data.length; til++) {
+        var anchor = document.createElement("a");
+        anchor.href = data[til].url;
+        anchor.innerText = data[til].title;
 
-            var elem = document.createElement("li");
-        elem.appendChild(anchor);
-        list.appendChild(elem);
-        }
-        div_tils.appendChild(list);
-        }); 
+        var elem = document.createElement("li");
+    elem.appendChild(anchor);
+    list.appendChild(elem);
+    }
+    div_tils.appendChild(list);
+    });
+    async function fetchAndDisplayRSSItems() {
+      const response = await fetch(newsletter_feed_url);
+      const rssText = await response.text();
+      const parser = new DOMParser();
+      const rssDocument = parser.parseFromString(rssText, 'application/xml');
+      const items = Array.from(rssDocument.querySelectorAll('item'));
+  
+      let div_tils = document.getElementById("newsletter");
+      var list = document.createElement("ul");
+  
+      items.forEach(item => {
+          var anchor = document.createElement("a");
+          anchor.href = item.querySelector('link').textContent;
+          anchor.innerText = item.querySelector('title').textContent;
+  
+          var elem = document.createElement("li");
+          elem.appendChild(anchor);
+          list.appendChild(elem);
+      });
+  
+      div_tils.appendChild(list);
+  }
+  fetchAndDisplayRSSItems();
+  
 </script>
