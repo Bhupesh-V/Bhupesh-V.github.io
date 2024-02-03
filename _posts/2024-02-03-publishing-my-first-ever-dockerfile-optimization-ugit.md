@@ -473,6 +473,7 @@ I did, and the size optimization was nearly negligible. Here's a log of the squa
 
 - Big thanks to the authors of `ldd`, and everyone in the `docker` & `alpine` linux community.
 - Thanks to folks on the **developersIndia** discord for helping out with advice & suggestions.
+- [dive](https://github.com/wagoodman/dive) for helping me visualize the image layers.
 
 ## Resources
 
@@ -481,3 +482,12 @@ I did, and the size optimization was nearly negligible. Here's a log of the squa
 - [About docker storage drivers](https://docs.docker.com/storage/storagedriver/)
 
 I hope you guys got something interesting to read today. Until next time, happy hacking & before you go please give [ugit](https://github.com/Bhupesh-V/ugit) a star & a [docker pull](https://hub.docker.com/r/bhupeshimself/ugit)? 🧡
+
+---
+
+<br>
+
+<small>Read what the community is saying on <a href="https://news.ycombinator.com/item?id=39240471">hackernews</a> & <a href="https://www.reddit.com/r/programming/comments/1ahwyx2/how_i_reduced_the_size_of_my_very_first_published/?utm_source=share&utm_medium=web2x&context=3">reddit</a>.</small>
+
+<br>
+<br>
