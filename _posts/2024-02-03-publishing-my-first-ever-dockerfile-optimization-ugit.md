@@ -12,7 +12,7 @@ Yeah, I know, I know. REWRITE IT IN GO/RUST/MAGICLANG. The script is now more th
 
 Anyway, the rest of the article is about how I went about writing the official Dockerfile for [**ugit (a shell script)**](https://github.com/Bhupesh-V/ugit/blob/master/ugit) and reduced the image size by almost **40%** (_going from 31.4 MB to 17.6 MB_) by performing step-by-step guided optimization attempts. I hope this motivates other shell enthusiasts to also publish their scripts as docker images!
 
-> PS: I am not a DevOps or Docker expert, so if you are and see something wrong or something that could be done better, please let me know in the comments below or reachout [somewhere](https://bhupesh.me/about/#-connect).
+> PS: I am not a DevOps or Docker expert, so if you are and see something wrong or something that could be done better, please let me know in the comments below or reachout [somewhere](https://bhupesh.me/about/#-connect). The final Dockerfile is available on [docker hub](https://hub.docker.com/r/bhupeshimself/ugit)
 
 
 - [The very first `Dockerfile` ~attempt~](#the-very-first-dockerfile-attempt)
