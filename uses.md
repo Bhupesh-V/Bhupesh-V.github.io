@@ -11,11 +11,11 @@ This page documents on what stack I use in my day-to-day workflow.
 
 ### Laptop
 
-Lenovo ThinkPad E14 gen 3 with AMD Ryzen Pro 5
+- Lenovo ThinkPad E14 gen 3 with AMD Ryzen Pro 5
 
 ## OS
 
-Currently on Ubuntu Mate Release 20.04.4 LTS (Focal Fossa) with Linux Kernel on 5.13.0
+- Currently on Ubuntu Mate Release 20.04.4 LTS (Focal Fossa) with Linux Kernel on 5.13.0
 
 ## Software
 
@@ -39,26 +39,28 @@ I use the Brave Browser both on my PC as well on my phone.
 2. [Grammar & Spell Checker — LanguageTool](https://chrome.google.com/webstore/detail/grammar-spell-checker-%E2%80%94-l/oldceeleldhonbafppcapldpdifcinji)
 3. [Screenity - Screen Recorder & Annotation Tool](https://chrome.google.com/webstore/detail/screenity-screen-recorder/kbbdabhdfibnancpjfhlkhafgdilcnji)
 4. Grammarly
-5. [Tweak New Twitter](https://chrome.google.com/webstore/detail/tweak-new-twitter/kpmjjdhbcfebfjgdnpjagcndoelnidfj)
-6. [Upvote Anywhere](https://chrome.google.com/webstore/detail/upvote-anywhere/amlfbbehleledmbphnielafhieceggal)
+5. ~~[Tweak New Twitter](https://chrome.google.com/webstore/detail/tweak-new-twitter/kpmjjdhbcfebfjgdnpjagcndoelnidfj)~~
+6. ~~[Upvote Anywhere](https://chrome.google.com/webstore/detail/upvote-anywhere/amlfbbehleledmbphnielafhieceggal)~~
 
 ### Desktop & PWAa
 
 #### PWAs
-- Spotify
-- Excalidraw
+
+- ~~Spotify~~
+- ~~Excalidraw~~
 
 #### Native Desktop Apps
+
 - Discord
-- LosslessCut
-- OBS
-- Insomnia
-- Telegram
-- Zoom
+- ~~LosslessCut~~
+- ~~OBS~~
+- ~~Insomnia~~
+- ~~Telegram~~
+- ~~Zoom~~
 
 ### Editors
 
-#### NeoVim
+#### ~~NeoVim~~
 
 - Font: JetBrains Nerd Font Mono
 - Colorscheme: PaperColor
@@ -69,5 +71,3 @@ Although there a bunch of schemes I switch through, [see the complete list on gi
 
 - Theme: [Bearded Theme](https://marketplace.visualstudio.com/items?itemName=BeardedBear.beardedtheme)
 - Font: 'Droid Sans Mono', 'monospace', monospace
-
-
