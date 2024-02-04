@@ -480,6 +480,7 @@ I did, and the size optimization was nearly negligible. Here's a log of the squa
 - [TLDP.org - Shared Libraries](https://tldp.org/HOWTO/Program-Library-HOWTO/shared-libraries.html)
 - [Dockerfile best practices](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/)
 - [About docker storage drivers](https://docs.docker.com/storage/storagedriver/)
+- [How to reduce Docker image size for IoT devices](https://staex.io/blog/how-to-reduce-docker-image-size)
 
 I hope you guys got something interesting to read today. Until next time, happy hacking & before you go please give [ugit](https://github.com/Bhupesh-V/ugit) a star & a [docker pull](https://hub.docker.com/r/bhupeshimself/ugit)? 🧡
 
