@@ -44,9 +44,9 @@ permalink: /about/
 -->
 <h1 align="center">Hi 👋</h1>
 
-I am Bhupesh Varshney, a Software Craftsman & an occasional bug creator living in New Delhi, India. I like to build & create stuff using Go, Python & Bash. Professionally I have around 2 years of experience in Product-Based Startups. I happen to be Community Lead for [**r/developersIndia**](https://www.reddit.com/r/developersIndia/), a community of more than 300K software & tech folks across India.
+I am Bhupesh Varshney, a Software Craftsman & Tech Writer living in New Delhi, India. Professionally I more than 2 years of experience in product-based startups. I happen to be Community Lead for [**r/developersIndia**](https://www.reddit.com/r/developersIndia/), a community of more than 400K software & tech folks across India.
 
-I make Web, Tools and Open-Source & frequently write about tech & my journey here. You can find more of my content on  [**dev.to**](https://dev.to/bhupesh) and [**freeCodeCamp**](https://www.freecodecamp.org/news/author/bhupesh/).
+I frequently write about tech & my journey here. You can find more of my work on my [**hire page**](/hire). If you are interested in thing I have built head over to my [**projects page**](/projects).
 
 I use [**twitter**](https://twitter.com/bhupeshimself) mostly to rant about tech, share & learn what others are doing.
 
@@ -56,7 +56,7 @@ I use [**twitter**](https://twitter.com/bhupeshimself) mostly to rant about tech
 <figcaption align="center" style="color: #939393;"><i>Yep, That's me ;)</i></figcaption>
 </center>
 
-## 📅️ Timeline
+<!-- ## 📅️ Timeline
 
 Some important highlights in my personal journey as a developer/engineer/programmer so far:
 
@@ -74,7 +74,7 @@ Some important highlights in my personal journey as a developer/engineer/program
 | July 2020 | Volunteered at PyCon India 2020                                                     |
 |  Feb 2020 | Mentored Developers to contribute to open-source via GirlScript Summer of Code 2020 |
 |  Jun 2019 | Completed my internship at DyfoLabs                                                 |
-|  Jan 2019 | Started working as a _Backend Developer Intern_ at DyfoLabs Pvt Ltd                 |
+|  Jan 2019 | Started working as a _Backend Developer Intern_ at DyfoLabs Pvt Ltd                 | -->
 
 
 <!-- ### 🌐 API
@@ -94,7 +94,7 @@ I log whatever new I learn, Go to <a href="https://til.bhupesh.me"  class="mark"
 
 ### 🖐 Support
 
-If you like my work, consider supporting me. You can choose to [sponsor my work on GitHub](https://github.com/sponsors/Bhupesh-V). Or maybe find something on my [amazon wishlist](https://www.amazon.in/hz/wishlist/ls/2KGB001RHJJUA?ref_=wl_share)
+If you like my work, consider supporting me. You can choose to [sponsor my work on GitHub](https://github.com/sponsors/Bhupesh-V). Or maybe gift something on my [amazon wishlist](https://www.amazon.in/hz/wishlist/ls/2LBG6D40Z02RJ?ref_=wl_share)
 
 
 <!-- <a href="https://liberapay.com/bhupesh/donate">
