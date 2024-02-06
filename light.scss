@@ -373,6 +373,26 @@ footer {
   font-size: 25px;
 }
 
+.resp-sharing-button__link {
+  // text-decoration: none;
+  color: #000000;
+  // margin: 0.2em;
+  // font-size: xx-large;
+}
+.PageNavigation table {
+  border-collapse: collapse;
+  border: thick double #000000;
+  margin-top: 20px;
+  margin-bottom: 34px;
+  // border-radius: 5px;
+  // color: #0fba0f;
+  // font-size: 34px;
+}
+.PageNavigation td {
+  // padding-left: 0.5em;
+  // padding-right: 0.5em;
+  border: thick double #000000;
+}
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
