@@ -83,11 +83,11 @@ I am availabe as an API too 😜,
 <img alt="Bhupesh's API" src="https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/blog6.png" height="200px">
  -->
 
-### 📖 LEARN WITH ME
+### 📖 Learn With Me
 
 I log whatever new I learn, Go to <a href="https://til.bhupesh.me"  class="mark">til.bhupesh.me</a> to see some of it. I also have a [**newsletter** 🚀](https://buttondown.email/bhupesh) where I share interesting stuff and tips around tech.
 
-### 🦄 CONNECT
+### 🦄 Connect
 
 - I usually hangout in [r/developersIndia Discord Server](https://discord.gg/Ep6zGAuWbq). Come and say hi 👋
 - Wanna have a quick chat about something?, [schedule a call](https://bhupesh.me/chat/).
