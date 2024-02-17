@@ -19,11 +19,12 @@ Moreover, I cross-posted this on [DEV](https://dev.to/bhupesh/my-dev-life-has-ju
 
 In this blog, I retrospect on what I have learned and achieved. I hope this helps the reader & future me.
 
-- [You help someone!](#you-help-yourself)
-- [You help yourself](#you-help-someone)
-- [You are mostly alone](#you-are-mostly-alone)
+- [You help yourself](#you-help-yourself)
+- [You help someone](#you-help-someone)
 - [You don't have to be a "content creator"](#you-dont-have-to-be-a-content-creator)
+- [You are mostly alone](#you-are-mostly-alone)
 - [Should you blog?](#should-you-blog)
+  - [Why not Video?](#why-not-video)
 
 
 ## You help yourself
@@ -32,15 +33,19 @@ Writing of-course improves on how you think as a human. Blogging for the past ye
 
 At the time of publishing this post my [personal blog](https://bhupesh-v.github.io) currently sits at 6515 unique page views
 
-![google-analytics-website](https://drive.google.com/uc?export=view&id=1NRcHnpRYXShbMMHYO8d9lbdj9zCpfUI6)
+<!-- ![google-analytics-website](https://drive.google.com/uc?export=view&id=1NRcHnpRYXShbMMHYO8d9lbdj9zCpfUI6) -->
+![google-analytics-website](https://i.imgur.com/iDiQJej.png)
 
 Not to mention I am active on DEV as well with more than 8000 followers and 53,000 views.
 
-![dev-analytics-dashboard](https://drive.google.com/uc?export=view&id=1FfOMdojPa_q8F4UmRFhwQfoVjDYIDJoA)
+<!-- ![dev-analytics-dashboard](https://drive.google.com/uc?export=view&id=1FfOMdojPa_q8F4UmRFhwQfoVjDYIDJoA) -->
+![dev-analytics-dashboard](https://i.imgur.com/1FliX4N.png)
 
 I also published [2 blogs on freeCodeCamp](https://www.freecodecamp.org/news/author/bhupesh/) last year, attracting more than 18,000 unique page views
 
-![freecodecamp-stats-bhupesh](https://drive.google.com/uc?export=view&id=1Hc-alJ3jvQVuCezAcxULw7dU3dyYL-Pj)
+<!-- ![freecodecamp-stats-bhupesh](https://drive.google.com/uc?export=view&id=1Hc-alJ3jvQVuCezAcxULw7dU3dyYL-Pj) -->
+![freecodecamp-stats-bhupesh](https://i.imgur.com/acpoB5P.png)
+
 
 This leaves us with a total of 78,695 people reading what I wrote. That's fucking crazy!!
 
@@ -56,7 +61,10 @@ Thanks a lot!
 
 Nothing is more valuable than helping someone without asking anything in return. This was a recent comment on one of my blog posts (1-year-old)
 
-[![i-am-god-python-scheduler-blog](https://drive.google.com/uc?export=view&id=1KMwZGSXlpWLugfog4ftXtdJsmO0jNWjG)](https://dev.to/bhupesh/a-simple-scheduler-in-python-49di)
+<!-- [![i-am-god-python-scheduler-blog](https://drive.google.com/uc?export=view&id=1KMwZGSXlpWLugfog4ftXtdJsmO0jNWjG)](https://dev.to/bhupesh/a-simple-scheduler-in-python-49di) -->
+
+[![i-am-god-python-scheduler-blog](https://i.imgur.com/xD7iBNY.png)](https://dev.to/bhupesh/a-simple-scheduler-in-python-49di)
+
 
 No matter what your experience level is if you push content on the Internet someone would find it valuable & that's when you make a difference.
 
