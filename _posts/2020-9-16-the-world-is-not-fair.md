@@ -30,10 +30,12 @@ It's not, there will always be descrimination, majority-minority, suppression-op
 Note that I live in tech culture so I can speak from that perspective only.
 Just keep reading and you will know why. Here is a nice index of what I share.
 
-- [Higher Education in Computer Science](#higher-education-in-computer-science)
-  - [Practicals ?, oh jeez!!](#practicals-oh-jeez)
-- [Tech Culture in India](#tech-culture-in-india)
-- [Final thoughts](#final-thoughts)
+- [My status in 2020](#my-status-in-2020)
+- [Why the world is not fair bhupesh ?](#why-the-world-is-not-fair-bhupesh-)
+	- [Higher Education in Computer Science](#higher-education-in-computer-science)
+	- [Practicals, oh jeez!!](#practicals-oh-jeez)
+	- [Tech Culture in India](#tech-culture-in-india)
+	- [Final thoughts](#final-thoughts)
 
 
 
@@ -67,7 +69,7 @@ Lets compare the syllabuses of these entrance tests.
 
 	This is my favourite (because I actually gave one, remember I am not eligible for Mtech). Here is a depiction of stuff asked in [Delhi University's](http://cs.du.ac.in/) MCA entrance.
 
-	[![MCA-entrance-exam-syllabus](https://drive.google.com/uc?export=view&id=1e7qJySMlDNGmno0_2gdeI8-t6FXeXJJo)](http://cs.du.ac.in/admission/mca/)
+	[![MCA-entrance-exam-syllabus](https://i.imgur.com/9v9XVtE.png)](http://cs.du.ac.in/admission/mca/)
 
 	[See complete syllabus](http://cs.du.ac.in/uploads/admissions/2017-18/mca/syllabus_mca_2017_2018_entrance_test.pdf)
 
@@ -80,7 +82,7 @@ Lets compare the syllabuses of these entrance tests.
 
 	And the [syllabus](http://cs.du.ac.in/uploads/admissions/2017-18/mcs/syllabus_mcs_2017_2018_entrance_test.pdf) for MSc Entrance for the same institute.
 
-	[![MSC-entrance-exam-syllabus](https://drive.google.com/uc?export=view&id=1PPsnhI-yoNAkzsezeREKqrBttMwSO_aV)](http://cs.du.ac.in/admission/mcs/)
+	[![MSC-entrance-exam-syllabus](https://i.imgur.com/LQaYVfE.png)](http://cs.du.ac.in/admission/mcs/)
 
 	Ok, tbh this is pretty neat, this is what I needed (but i didn't gave this exam 😞).
 	But why the partiality here?
@@ -124,7 +126,8 @@ We have to "hard print" the whole goddamn file which contains single page progra
 
 Anyways a few months back we gave our external practical examination, the examiner was going to ask questions on the said Minor project report. This sums up how our viva went.
 
-![bca-practical-exam-viva-meme](https://drive.google.com/uc?export=view&id=1LyZbEU0EuVmvZtgChsdtddRTpaUnTdD5)
+![bca-practical-exam-viva-meme](https://i.imgur.com/246VQQR.jpg)
+
 
 
 ### Tech Culture in India

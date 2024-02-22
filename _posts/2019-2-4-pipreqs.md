@@ -29,17 +29,17 @@ To generate a requirements.txt file run.
 pipreqs /<your_project_path>/
 ```
 
-![pipreqs](https://drive.google.com/uc?export=view&id=1Lf1sJfl4qTdHuIJAilSyr7VUOgOYej6N)
+![pipreqs](https://i.imgur.com/Wc7g2IQ.png)
 
 You can verify that the **requirements.txt** appears in the same folder.
 
-![pipreqs](https://drive.google.com/uc?export=view&id=1HzA9OSeJeWJ2A8maFyUj_wkdAYKEEq4L)
+![pipreqs](https://i.imgur.com/M1OakME.png)
 
 You can also list the requirements in command terminal itself by using
 **--print** additional flag.
 
 
-![pipreqs](https://drive.google.com/uc?export=view&id=1cslm9_LzUSyHVf0SFY9L1Wv3uNn-shQd)
+![pipreqs](https://i.imgur.com/7Vzhcqp.png)
 
 Also for other options you can always run 
 

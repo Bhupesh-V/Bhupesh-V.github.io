@@ -86,7 +86,7 @@ Meh, this doesn't look good. We want that human-readable format `3.4MB`. One thi
 
 
 <picture align="center">
-	<img alt="awk fields when using ifconfig command in linux" src="https://drive.google.com/uc?export=view&id=1Zx4J4VdcufOlCGEjClrG-vdFbmdYEBhj">
+	<img alt="awk fields when using ifconfig command in linux" src="https://i.imgur.com/8mQs3Wa.png">
 	<figcaption>I know the last two rows are f**ked up. Maybe its a bug ?</figcaption>
 </picture>
 

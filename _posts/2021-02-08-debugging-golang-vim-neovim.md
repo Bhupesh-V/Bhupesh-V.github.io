@@ -94,7 +94,7 @@ nnoremap <kMinus> :cp<CR>
 
 Let's see how all this setup works
 
-![go-make-demo](https://drive.google.com/uc?export=view&id=1IdMIzKAgOyntAOwRkXeVTmh2dOGhe-1S)
+![go-make-demo](https://i.imgur.com/nvzfAD9.gif)
 
 ## Resources
 

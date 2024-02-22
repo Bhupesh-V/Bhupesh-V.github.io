@@ -33,17 +33,14 @@ Writing of-course improves on how you think as a human. Blogging for the past ye
 
 At the time of publishing this post my [personal blog](https://bhupesh-v.github.io) currently sits at 6515 unique page views
 
-<!-- ![google-analytics-website](https://drive.google.com/uc?export=view&id=1NRcHnpRYXShbMMHYO8d9lbdj9zCpfUI6) -->
 ![google-analytics-website](https://i.imgur.com/iDiQJej.png)
 
 Not to mention I am active on DEV as well with more than 8000 followers and 53,000 views.
 
-<!-- ![dev-analytics-dashboard](https://drive.google.com/uc?export=view&id=1FfOMdojPa_q8F4UmRFhwQfoVjDYIDJoA) -->
 ![dev-analytics-dashboard](https://i.imgur.com/1FliX4N.png)
 
 I also published [2 blogs on freeCodeCamp](https://www.freecodecamp.org/news/author/bhupesh/) last year, attracting more than 18,000 unique page views
 
-<!-- ![freecodecamp-stats-bhupesh](https://drive.google.com/uc?export=view&id=1Hc-alJ3jvQVuCezAcxULw7dU3dyYL-Pj) -->
 ![freecodecamp-stats-bhupesh](https://i.imgur.com/acpoB5P.png)
 
 
@@ -60,8 +57,6 @@ Thanks a lot!
 ## You help someone
 
 Nothing is more valuable than helping someone without asking anything in return. This was a recent comment on one of my blog posts (1-year-old)
-
-<!-- [![i-am-god-python-scheduler-blog](https://drive.google.com/uc?export=view&id=1KMwZGSXlpWLugfog4ftXtdJsmO0jNWjG)](https://dev.to/bhupesh/a-simple-scheduler-in-python-49di) -->
 
 [![i-am-god-python-scheduler-blog](https://i.imgur.com/xD7iBNY.png)](https://dev.to/bhupesh/a-simple-scheduler-in-python-49di)
 

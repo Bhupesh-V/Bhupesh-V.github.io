@@ -45,7 +45,7 @@ This will create a Vim `Ex` command called Pretty which invokes our external bas
 
 That's it, Everything is Sexy now. Invoke the `:Pretty` command on your current buffer & `pj` will do its job.
 
-![Prettify-json-demo-gif](https://drive.google.com/uc?export=view&id=1ZMGVYbc5hHfBxtlQLLSr_K6kaox8Indj)
+![Prettify-json-demo-gif](https://i.imgur.com/vwFFZu9.gif)
 
 <!-- <video playsinline width="100%" controls style="margin-top: 12px" src="https://user-images.githubusercontent.com/34342551/102857778-0c09b500-444f-11eb-9028-69dca7627ce5.mp4"> -->
 <!-- Your browser does not support the video tag. -->
@@ -58,4 +58,3 @@ What's the use if I have a plugin?
 Well I love plugins too but I know this is a very simple thing to do & can be easily achieved using things I already know, so why install an external plugin?
 
 Wait Wait not everything is lilies and roses. This might not be very efficient for large JSON files. Let me know if the reader finds a better way to do it.
-

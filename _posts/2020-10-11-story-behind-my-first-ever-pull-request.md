@@ -35,7 +35,6 @@ I found the newspaper article where I got to know about HackerRank for the first
 
 <center>
 <figure>
-	<!-- <img alt="Web developer interview" src="https://drive.google.com/uc?export=view&id=1hwC_4SzghloDYfLCaZCVvuMloJ4YWF3s"> -->
 	<img alt="Web developer interview" src="https://i.imgur.com/glty9xb.jpeg">
 	<figcaption>Important parts are underlined (sorry for weird image scan, the paper is almost 3+ years old)</figcaption>
 </figure>

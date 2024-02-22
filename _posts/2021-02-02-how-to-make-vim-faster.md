@@ -27,8 +27,6 @@ Below is the startup time **with** & **without** these settings enabled.
 
 You can generate the startup log using `vim --startuptime startup.log`
 
-![vim-startup-time-comparison](https://drive.google.com/uc?export=view&id=1aCI2gHiGvj3JYVDE9AI2QsaJ_6sU1hqS)
-
+![vim-startup-time-comparison](https://i.imgur.com/w0VAxhz.png)
 
 > This is a progressive document, I will add more things here as I learn & discover. If you have any suggestion, please comment them below.
-

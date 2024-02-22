@@ -225,7 +225,7 @@ man file-hierarchy
 
 - I know this might kinda feel dumb, but i didn't know we had a simple version control in Linux built-in, running the `diff` command prints the difference between 2 files.
 
-<img src="https://drive.google.com/uc?export=view&id=1ILsHOKx5q7ZIF1qL-uFYySxBIshzcwVq">
+<img src="https://i.imgur.com/5DJeLHz.png">
 
 - `tr`, lets you translate squeeze, and/or delete characters from standard input & write them to standard output.
 ```bash
