@@ -46,9 +46,9 @@ permalink: /about/
 
 I am Bhupesh Varshney, a Software Craftsman & Tech Writer living in New Delhi, India. Professionally I more than 2 years of experience in product-based startups. In my free time I volunteer as a Community Lead for [**r/developersIndia**](https://www.reddit.com/r/developersIndia/), a community of more than 400K software & tech folks across India.
 
-I frequently write about tech & my journey here. You can find more of my work on my [**hire page**](/hire). If you are interested in thing I have built head over to my [**projects page**](/projects).
+I frequently write about tech & my journey here. You can find more of my work on my [**hire page**](/hire). If you are interested in things I have built, head over to my [**projects page**](/projects).
 
-I use [**twitter**](https://twitter.com/bhupeshimself) mostly to rant about tech, share & learn what others are doing.
+I use [**X (formerly twitter)**](https://twitter.com/bhupeshimself) mostly to rant about tech, share & learn what others are doing.
 
 <br>
 <center>
@@ -85,7 +85,7 @@ I am availabe as an API too 😜,
 
 ### 📖 Learn With Me
 
-I log whatever new I learn, Go to <a href="https://til.bhupesh.me"  class="mark">til.bhupesh.me</a> to see some of it. I also have a [**newsletter** 🚀](https://buttondown.email/bhupesh) where I share interesting stuff and tips around tech.
+I log whatever new stuff I learn, Go to <a href="https://til.bhupesh.me"  class="mark">til.bhupesh.me</a> to see some of it. I also have a [**newsletter** 🚀](https://buttondown.email/bhupesh) where I share interesting stuff and tips around tech.
 
 ### 🦄 Connect
 
@@ -94,7 +94,7 @@ I log whatever new I learn, Go to <a href="https://til.bhupesh.me"  class="mark"
 
 ### 🖐 Support
 
-If you like my work, consider supporting me. You can choose to [sponsor my work on GitHub](https://github.com/sponsors/Bhupesh-V). Or maybe gift something on my [amazon wishlist](https://www.amazon.in/hz/wishlist/ls/2LBG6D40Z02RJ?ref_=wl_share)
+If you like my work, consider supporting me. You can choose to [sponsor my work on GitHub](https://github.com/sponsors/Bhupesh-V). Or maybe gift something on my [tech books wishlist](https://www.amazon.in/hz/wishlist/ls/2LBG6D40Z02RJ?ref_=wl_share)
 
 
 <!-- <a href="https://liberapay.com/bhupesh/donate">
@@ -103,6 +103,6 @@ If you like my work, consider supporting me. You can choose to [sponsor my work 
 <!-- <a href="https://ko-fi.com/bhupesh">
 	<img title="ko-fi/bhupesh" alt="Support on ko-fi" src="https://user-images.githubusercontent.com/34342551/88784787-12507980-d1ae-11ea-82fe-f55753340168.png" width="185">
         </a>&nbsp; -->
-<a href="https://paypal.me/BhupeshVarshney">
+<!-- <a href="https://paypal.me/BhupeshVarshney">
 	<img title="PayPal Bhupesh Varshney" alt="PayPal Bhupesh Varshney" src="https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white" width="120">
-</a>
+</a> -->
