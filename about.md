@@ -44,7 +44,7 @@ permalink: /about/
 -->
 <h1 align="center">Hi 👋</h1>
 
-I am Bhupesh Varshney, a Software Craftsman & Tech Writer living in New Delhi, India. Professionally I more than 2 years of experience in product-based startups. I happen to be Community Lead for [**r/developersIndia**](https://www.reddit.com/r/developersIndia/), a community of more than 400K software & tech folks across India.
+I am Bhupesh Varshney, a Software Craftsman & Tech Writer living in New Delhi, India. Professionally I more than 2 years of experience in product-based startups. In my free time I volunteer as a Community Lead for [**r/developersIndia**](https://www.reddit.com/r/developersIndia/), a community of more than 400K software & tech folks across India.
 
 I frequently write about tech & my journey here. You can find more of my work on my [**hire page**](/hire). If you are interested in thing I have built head over to my [**projects page**](/projects).
 
