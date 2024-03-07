@@ -1,14 +1,18 @@
 ---
-layout: post
+layout: page
 title: Hire Me
 description: Interested to work with me professionally? Know more about my freelance work
 image: hire.png
 permalink: /hire/
 ---
 
+![hire-bhupesh]({{ site.baseurl }}/images/hire.png)
+
+<br>
+
 If you want to work with me on any paid contract/freelance gigs, I usually work in 2 different but connected domains.
 
-## `Domain 1`: As a Software Developer/Programmer/Engineer
+## `Domain A`: As a Software Developer/Programmer/Engineer
 
 I work with following stuff:
 
@@ -17,7 +21,7 @@ I work with following stuff:
 - Flutter (Desktop and Android)
 - Bash/Shell Scripting, the Unix ecosystem
 
-## `Domain 2`: As a Technical Writer
+## `Domain B`: As a Technical Writer
 
 If you have a developer-facing product I can help you figure out your documentation, blogs, marketing tactics etc.
 
