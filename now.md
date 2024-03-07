@@ -22,3 +22,4 @@ Updated **{{ page.last_modified_at | date: "%B %e, %Y" }}**.
 ## Trying to lead efforts as a volunteer
 
 - I have been with [r/developersIndia](https://reddit.com/r/developersIndia) since its inception in 2020 as a volunteer, acting as a lead. So struggling with the responsibilities and trying to make it better.
+- This includes moderating the community, organizing events, potentially evangelizing about it.

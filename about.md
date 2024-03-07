@@ -83,6 +83,10 @@ I am availabe as an API too 😜,
 <img alt="Bhupesh's API" src="https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/blog6.png" height="200px">
  -->
 
+### What I am doing now
+
+See my [now](/now) page for a snapshot of what I am doing at the moment.
+
 ### 📖 Learn With Me
 
 I log whatever new stuff I learn, Go to <a href="https://til.bhupesh.me"  class="mark">til.bhupesh.me</a> to see some of it. I also have a [**newsletter** 🚀](https://buttondown.email/bhupesh) where I share interesting stuff and tips around tech.
