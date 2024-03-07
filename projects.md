@@ -13,7 +13,7 @@ Projects that I comeback to from time to time, unless of-course I don't have to.
 
 - [**ugit**](https://github.com/Bhupesh-V/ugit) - ugit helps you undo git commands without any hassle.
 
-## I was burdered with glorious purpose
+## Burdened with glorious purpose
 
 These projects served their purpose, some of them still work.
 
