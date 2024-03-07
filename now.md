@@ -14,6 +14,7 @@ Updated **{{ page.last_modified_at | date: "%B %e, %Y" }}**.
 - 2 key things I am trying to figure out:
   - Working with large scale systems, i.e. products/projects with a large user base. Not sure if that even matters in the grand scheme of things.
   - How to lead larger projects. As in taking _more_ responsibilites & ownership.
+- Programming stack wise, I have worked majorly with Go, with a touch of Dart (Flutter) & Python for few months or short term work projects. I guess I will stick with Go for a while but the next item on my list is most definitely Elixir.
 
 ## Working on personal projects
 
