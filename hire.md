@@ -42,9 +42,9 @@ List of some of the work I have written for various publications:
 - [Get your git game up with worktrees](https://blog.invidelabs.com/git-worktree-to-make-daily-git-workflow-better/) - InvideLabs
 - [How to Design a Transactional Key-value Store in Go](https://www.freecodecamp.org/news/design-a-key-value-store-in-go/) - freeCodeCamp
 - [How to Build Your Own Linux Dotfiles Manager from Scratch](https://www.freecodecamp.org/news/build-your-own-dotfiles-manager-from-scratch/) - freeCodeCamp
-- [Building a basic search experience with Postgres](https://pacenthink.io/post/building-a-basic-search-experience-with-postgres/)
-- [A Closer Look at Server Sent Events using Go](https://www.pacenthink.io/post/a-closer-look-at-server-sent-events/)
-- [Feeding a Hungry Mouse Using Chromedp and Go](https://www.pacenthink.io/post/feeding-a-hungry-mouse-using-chromedp-and-golang/)
+- [Building a basic search experience with Postgres](https://pacenthink.io/post/building-a-basic-search-experience-with-postgres/) - Workplace RnD
+- [A Closer Look at Server Sent Events using Go](https://www.pacenthink.io/post/a-closer-look-at-server-sent-events/) - Workplace RnD
+- [Feeding a Hungry Mouse Using Chromedp and Go](https://www.pacenthink.io/post/feeding-a-hungry-mouse-using-chromedp-and-golang/) - Workplace RnD
 
 You can find more of my writing on my [**newsletter**](https://buttondown.email/bhupesh/archive/) and [**digital garden 🍀**](https://til.bhupesh.me)
 
