@@ -9,7 +9,6 @@
 <meta property="og:site_name" content="Bhupesh Varshney">
 <meta name="twitter:site" content="@bhupeshimself">
 <meta name="twitter:creator" content="@bhupeshimself">
-<meta name="twitter:card" content="summary_large_image">
 
 {% if page.canonical_url %}
 <link rel="canonical" href="{{ page.canonical_url }}">
@@ -48,6 +47,7 @@
 <meta property="og:image:alt" content="{{ page.title }}">
 <meta property="og:image:type" content="image/png">
 <meta name="twitter:image" content="{{ site.url }}/images/{{ page.image }}">
+<meta name="twitter:card" content="summary_large_image">
 {% elsif page.banner_image %}
 <meta property="og:image" content="{{ page.banner_image }}">
 <meta property="og:image:width" content="640">
@@ -55,6 +55,7 @@
 <meta property="og:image:alt" content="{{ page.title }}">
 <meta property="og:image:type" content="image/png">
 <meta name="twitter:image" content="{{ page.banner_image }}">
+<meta name="twitter:card" content="summary_large_image">
 {% else %}
 <meta property="og:image" content="https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/profile1.jpg">
 <meta property="og:image:alt" content="Bhupesh Varshney Pic">
