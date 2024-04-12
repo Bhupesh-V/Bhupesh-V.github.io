@@ -94,7 +94,7 @@ I log whatever new stuff I learn, Go to <a href="https://til.bhupesh.me"  class=
 ### 🦄 Connect
 
 - I usually hangout in [r/developersIndia Discord Server](https://discord.gg/Ep6zGAuWbq). Come and say hi 👋
-- Wanna have a quick chat about something?, [schedule a call](https://bhupesh.me/chat/).
+- Wanna have a quick chat about something?, [schedule a call](/chat).
 
 ### 🖐 Support
 

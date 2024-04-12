@@ -18,7 +18,6 @@ I work with following stuff:
 
 - Go (Microservices, GraphQL, gRPC, REST, CLIs)
 - Python (Django, Flask, APIs, CLIs)
-- Flutter (Desktop and Android)
 - Bash/Shell Scripting, the Unix ecosystem
 
 ## `Domain B`: As a Technical Writer
@@ -48,6 +47,6 @@ List of some of the work I have written for various publications:
 
 You can find more of my writing on my [**newsletter**](https://buttondown.email/bhupesh/archive/) and [**digital garden 🍀**](https://til.bhupesh.me)
 
-If any of this makes sense, feel free to reach me via email **varshneybhupesh[at]gmail[dot]com** or <a class="mark" href="https://bhupesh.me/chat"><b>schedule a 30 min e-meet</b></a> to discuss more about how I work.
+If any of this makes sense, feel free to reach me via email **varshneybhupesh[at]gmail[dot]com** or <a class="mark" href="/chat"><b>schedule a 30 min e-meet</b></a> to discuss more about how I work.
 
 <br>
