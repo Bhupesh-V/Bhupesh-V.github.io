@@ -68,11 +68,13 @@ input[type=submit] {
 </article>
 </main>
 
+<!--
 <div style="padding: 4px;">
   <a href="https://notbyai.fyi/">
   <img src="https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/Written-By-Human-Not-By-AI-Badge-white.svg" alt="Written by Human, Not by AI">
   </a>
 </div>
+-->
 
 <div class="PageNavigation">
   <center>
@@ -93,11 +95,6 @@ input[type=submit] {
 </div>
 
 <center>
-  <!-- Sharingbutton Facebook -->
-  <a class="resp-sharing-button__link" href="https://facebook.com/sharer/sharer.php?u=http%3A%2F%2Fsharingbuttons.io" target="_blank" rel="noopener" aria-label=""> 
-      <i class="fab fa-facebook-square"></i>
-  </a>
-
   <!-- Sharingbutton Twitter -->
   <a class="resp-sharing-button__link" href="https://twitter.com/intent/tweet/?text={{ page.title }}&amp;url={{ site.url }}{{ page.url }}" target="_blank" rel="noopener" aria-label="">
     <i class="fab fa-twitter-square"></i>
@@ -121,6 +118,11 @@ input[type=submit] {
   <!-- Sharingbutton Telegram -->
   <a class="resp-sharing-button__link" href="https://telegram.me/share/url?text={{ page.title }}&amp;url={{ site.url }}{{ page.url }}" target="_blank" rel="noopener" aria-label="">
     <i class="fab fa-telegram"></i>
+  </a>
+
+  <!-- Sharingbutton HackerNews -->
+  <a class="resp-sharing-button__link" href="https://news.ycombinator.com/submitlink?u={{ site.url }}{{ page.url }}&amp;t={{ page.title }}" target="_blank" rel="noopener" aria-label="">
+    <i class="fab fa-hacker-news"></i>
   </a>
 </center>
 
