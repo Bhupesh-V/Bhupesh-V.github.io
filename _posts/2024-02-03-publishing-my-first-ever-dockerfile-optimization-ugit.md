@@ -251,8 +251,6 @@ exec /bin/bash: no such file or directory
 
 ```
 
-![resitas laughing](https://media1.tenor.com/m/3KONHAjX7LAAAAAC/el-risitas-risitaslaughing.gif)
-
 Turns out, we broke the bash binary by not shipping its dependencies. Let's see what we can do about it.
 
 ### Identifying transitive dependencies
@@ -318,7 +316,6 @@ If you look at the very [first line of ugit](https://github.com/Bhupesh-V/ugit/b
 
 But since using shebangs is optional, and we already copy the `bash` binary, we just need to invoke our script using it. This saves us a couple of bytes in the image size as well. Close to 1.9 MB to be precise.
 
-![get rid of shebang](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWNmdHQ3bGQ0czN1eG9vYTlicGd0aXRjeDJqbXg5aXZreTNhM3hoeiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3o6Mbi2vzeke98ApAA/giphy.gif)
 
 ```Dockerfile
 # Run ugit when the container launches
@@ -353,8 +350,6 @@ ENV TERM=xterm-256color
 
 
 ## Everything needed to run `ugit`
-
-![everything-everywhere](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExc3N1YWJsbm84anNydG5rN3NoNTh2b3RramJ0NWMzcWZjcnZtMDhwNiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/TejmLnMKgnmPInMQjV/giphy.gif)
 
 The final Docker image sits at 17.6 MB with no security vulnerabilities (as reported by [docker scout](https://docs.docker.com/scout/), at the time of writing this article). We have successfully reduced the image size by 40% compare to our [first attempt](/publishing-my-first-ever-dockerfile-optimization-ugit/#the-very-first-dockerfile-attempt).
 
@@ -435,8 +430,6 @@ This is everything to make our shell app work. No more, no less. Time for a beer
 > PS: The final docker image came down to 16.2 MB. You can find the updated Dockerfile [here](https://github.com/Bhupesh-V/ugit/blob/master/Dockerfile). For the sake of this article, I kept the image size at 17.6 MB.
 
 ## Could we reduce the size further?
-
-![](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDh5dzF6cHUzbWtybDY4dmc3b3BwNmRvaWpkOG1yanJhc2p0d2xkNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/tAFVuG6fanerHd6VOf/giphy.gif)
 
 Yes, but there are 2 reasons why I didn't go any further:
 
