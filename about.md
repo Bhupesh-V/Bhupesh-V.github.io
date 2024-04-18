@@ -52,7 +52,7 @@ I use [**X (formerly twitter)**](https://twitter.com/bhupeshimself) mostly to ra
 
 <br>
 <center>
-<img alt="Bhupesh Varshney Profile Image" src="https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/headshot.jpg" height="300px">
+<img alt="Bhupesh Varshney Profile Image" src="{{ site.avatar }}" height="300px">
 <figcaption align="center" style="color: #939393;"><i>Yep, That's me ;)</i></figcaption>
 </center>
 

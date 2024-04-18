@@ -35,8 +35,8 @@
 <meta property="twitter:title" content="{{ page.title }}">
 <meta property="og:url" content="{{ site.url }}{{ page.url }}">
 {% else %}
-<meta property="og:title" content="{{ site.name }} - {{ site.description }}">
-<meta property="twitter:title" content="{{ site.name }} - {{ site.description }}">
+<meta property="og:title" content="{{ site.name }} - {{ site.bio }}">
+<meta property="twitter:title" content="{{ site.name }} - {{ site.bio }}">
 <meta property="og:url" content="{{ site.url }}{{ page.url }}">
 {% endif %}
 
@@ -57,8 +57,8 @@
 <meta name="twitter:image" content="{{ page.banner_image }}">
 <meta name="twitter:card" content="summary_large_image">
 {% else %}
-<meta property="og:image" content="https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/headshot.jpg">
+<meta property="og:image" content="{{ site.avatar }}">
 <meta property="og:image:alt" content="Bhupesh Varshney Pic">
 <meta property="og:image:type" content="image/jpg">
-<meta name="twitter:image" content="https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/headshot.jpg">
+<meta name="twitter:image" content="{{ site.avatar }}">
 {% endif %}
