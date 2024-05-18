@@ -1,7 +1,7 @@
 ---
 layout: page
 title: What I am doing now
-description: What is Bhupesh doing nowadays? A snapshot of what I am doing at the moment.
+description: What is Bhupesh upto nowadays? A snapshot of what I am doing at the moment.
 permalink: /now/
 last_modified_at: 2024-05-13
 ---

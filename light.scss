@@ -49,7 +49,7 @@ html {
   color: black;
   padding: 0;
   text-decoration: none;
-  background-image: linear-gradient( transparent 0%, transparent calc(50% - 8px), rgba(0, 255, 0, 0.35) calc(50% - 8px), rgba(0, 255, 0, 0.35) 100% );
+  background-image: linear-gradient(transparent 0%, transparent calc(50% - 8px), rgb(255 216 9) calc(50% - 8px),rgb(255 216 9) 100%);
   transition: background-position 120ms ease-in-out, padding 120ms ease-in-out;
   background-size: 100% 200%;
   background-position: 0 0;
@@ -57,13 +57,13 @@ html {
 
 .mark:hover {
   padding: 2px 0 4px 0;
-  background-image: linear-gradient( transparent 0%, transparent calc(50% - 8px), rgba(0, 255, 0, 1) calc(50% - 8px), rgba(0, 255, 0, 1) 100% );
+  background-image: linear-gradient( transparent 0%, transparent calc(50% - 8px), rgba(255, 234, 24, 1) calc(50% - 8px), rgba(255, 234, 24, 1) 100% );
   background-position: 0 100%;
   color: black;
 }
 
 body {
-	background: white;
+	background: floralwhite;
   font: 18px/1.4 $helvetica;
   color: $darkGray;
 }
@@ -209,11 +209,11 @@ img {
 // Specify the color of the selection
 ::-moz-selection {
   color: $black;
-  background: $lightGray;
+  background: $orangish;
 }
 ::selection {
   color: $black;
-  background: $lightGray;
+  background: $orangish;
 }
 
 
@@ -296,16 +296,20 @@ nav {
 
   a {
     margin-left: 20px;
-    color: #1ABC9C;
+    color: #1f58d6;
     text-align: right;
     font-weight: bold;
     letter-spacing: 1px;
 
     @include mobile {
       margin: 0 10px;
-      color: #1ABC9C;
+      color: #1f58d6;
     }
   }
+}
+
+a{
+  color: #1f58d6;
 }
 
 //
@@ -319,6 +323,14 @@ nav {
     transition: background-color .3s;
     border: 1px solid #000;
      margin-top: 40px;
+}
+
+.PageNavigation a {
+  display: block;
+  margin: 1em 0;
+  font-weight: bolder;
+  color: #1f58d6;
+  font-size: 16px;
 }
 
 .posts > .post {
@@ -345,6 +357,33 @@ nav {
   }
 }
 
+input[type=submit] {
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  border: thick double #ffea18;
+  font-weight: bold;
+}
+
+  input[type=submit]:hover {
+    background-color: #ffea18;
+    color: black;
+  }
+
+  input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
 
 form {
   margin: 20px;
@@ -392,6 +431,21 @@ footer {
   // padding-left: 0.5em;
   // padding-right: 0.5em;
   border: thick double #000000;
+}
+
+td {
+  color: black;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+#project-ad {
+  padding: 1.5em;
+  border: medium solid #ffea18;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 23px;
+  margin: 12px;
 }
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start

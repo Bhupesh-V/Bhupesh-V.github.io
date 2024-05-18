@@ -3,3 +3,4 @@ _site
 .jekyll-metadata
 areyouok-linux-amd64
 .jekyll-cache/
+.DS_Store

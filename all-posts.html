@@ -8,21 +8,17 @@ permalink: /all-posts/
   padding-bottom: 2em;
   padding-left: 0.5em;
   padding-right: 0.5em;
-  border: thick double #fff;
   margin-top: 20px;
   border-radius: 5px;
-}
-a{
-  color: #4aff00;
 }
 ul{
   list-style: none;
 }
 #tils{
-  text-align: center;
+  text-align: left;
 }
 #newsletter{
-  text-align: center;
+  text-align: left;
 }
 .parent-div {
   display: flex;
@@ -60,44 +56,55 @@ ul{
 <script charset="utf-8">
   const til_feed_url = "https://raw.githubusercontent.com/Bhupesh-V/til/master/recent_tils.json";
   const newsletter_feed_url = "https://buttondown.email/bhupesh/rss";
+  
   let div_tils = document.getElementById("tils");
-  var list = document.createElement("ul");
-  const fetcher = fetch(til_feed_url) 
-    .then(response => response.json()) 
+  let table = document.createElement("table");
+  
+  fetch(til_feed_url)
+    .then(response => response.json())
     .then(data => {
-      for (til = 0; til < data.length; til++) {
-        var anchor = document.createElement("a");
-        anchor.href = data[til].url;
-        anchor.innerText = data[til].title;
-
-        var elem = document.createElement("li");
-    elem.appendChild(anchor);
-    list.appendChild(elem);
-    }
-    div_tils.appendChild(list);
-    });
-    async function fetchAndDisplayRSSItems() {
-      const response = await fetch(newsletter_feed_url);
-      const rssText = await response.text();
-      const parser = new DOMParser();
-      const rssDocument = parser.parseFromString(rssText, 'application/xml');
-      const items = Array.from(rssDocument.querySelectorAll('item'));
+      data.forEach(til => {
+        let row = document.createElement("tr");
   
-      let div_tils = document.getElementById("newsletter");
-      var list = document.createElement("ul");
+        let cell = document.createElement("td");
+        let anchor = document.createElement("a");
+        anchor.href = til.url;
+        anchor.innerText = til.title;
+        cell.appendChild(anchor);
   
-      items.forEach(item => {
-          var anchor = document.createElement("a");
-          anchor.href = item.querySelector('link').textContent;
-          anchor.innerText = item.querySelector('title').textContent;
-  
-          var elem = document.createElement("li");
-          elem.appendChild(anchor);
-          list.appendChild(elem);
+        row.appendChild(cell);
+        table.appendChild(row);
       });
   
-      div_tils.appendChild(list);
+      div_tils.appendChild(table);
+    });
+  
+  async function fetchAndDisplayRSSItems() {
+    const response = await fetch(newsletter_feed_url);
+    const rssText = await response.text();
+    const parser = new DOMParser();
+    const rssDocument = parser.parseFromString(rssText, 'application/xml');
+    const items = Array.from(rssDocument.querySelectorAll('item'));
+  
+    let div_newsletter = document.getElementById("newsletter");
+    let table = document.createElement("table");
+  
+    items.forEach(item => {
+      let row = document.createElement("tr");
+  
+      let cell = document.createElement("td");
+      let anchor = document.createElement("a");
+      anchor.href = item.querySelector('link').textContent;
+      anchor.innerText = item.querySelector('title').textContent;
+      cell.appendChild(anchor);
+  
+      row.appendChild(cell);
+      table.appendChild(row);
+    });
+  
+    div_newsletter.appendChild(table);
   }
+  
   fetchAndDisplayRSSItems();
   
 </script>

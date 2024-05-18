@@ -336,7 +336,7 @@ nav {
   padding-bottom: 2em;
   padding-left: 0.5em;
   padding-right: 0.5em;
-  border: thick double #fff;
+  // border: thick double #fff;
   margin-top: 20px;
   border-radius: 5px;
 }
@@ -386,8 +386,8 @@ figcaption {
 
 td {
   color: white;
-  padding: 8px;
-  padding-bottom: 8px;
+  border: 1px solid white;
+  padding: 10px;
 }
 
 th {
@@ -451,6 +451,9 @@ h6:hover .header-link {
 .resp-sharing-button__icon {
   stroke: #fff;
   fill: none
+}
+a {
+  color: #4aff00;
 }
 
 // /* Solid icons get a fill */
@@ -604,6 +607,33 @@ h6:hover .header-link {
 .social-icons-custom{
   font-size: 23px;
 }
+
+input[type=submit] {
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  border: thick double #15c822;
+  font-weight: bold;
+}
+
+  input[type=submit]:hover {
+    background-color: #0eff0e;
+  }
+
+  input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
