@@ -49,7 +49,7 @@ html {
   color: black;
   padding: 0;
   text-decoration: none;
-  background-image: linear-gradient(transparent 0%, transparent calc(50% - 8px), rgb(255 216 9) calc(50% - 8px),rgb(255 216 9) 100%);
+  background-image: linear-gradient(transparent 0%, transparent calc(50% - 8px), rgba(255 216 9) calc(50% - 8px),rgba(255 216 9) 100%);
   transition: background-position 120ms ease-in-out, padding 120ms ease-in-out;
   background-size: 100% 200%;
   background-position: 0 0;
