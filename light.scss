@@ -13,9 +13,6 @@
 /* BASE RULES */
 /**************/
 
-html {
-  font-size: 100%;
-}
 
 .highlighter-rouge {
   color: #1b4591;
@@ -447,6 +444,18 @@ td {
   font-size: 23px;
   margin: 12px;
 }
+.header-link {
+  position: absolute;
+  // left: -0.5em;
+  padding-left: 0.25em;
+  color: rgba(255, 216, 9, 1);
+  // opacity: 0;
+
+  \-webkit-transition: opacity 0.2s ease-in-out 0.1s;
+  \-moz-transition: opacity 0.2s ease-in-out 0.1s;
+  \-ms-transition: opacity 0.2s ease-in-out 0.1s;
+}
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
