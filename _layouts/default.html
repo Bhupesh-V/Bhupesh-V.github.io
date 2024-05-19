@@ -116,6 +116,13 @@
  "articleBody": {{ page.content | strip_html | jsonify }}
  }
 </script>
+<script>
+  if (localStorage.getItem("lightmode") == "enabled") {
+      document.getElementById("light-mode").disabled = false;
+  } else {
+      document.getElementById("light-mode").disabled = true;
+  }
+ </script>
   </head>
   <body>
     <div class="wrapper-masthead">
@@ -197,13 +204,7 @@
     }
     }
     </script>
-    <script>
-     if (localStorage.getItem("lightmode") == "enabled") {
-         document.getElementById("light-mode").disabled = false;
-     } else {
-         document.getElementById("light-mode").disabled = true;
-     }
-    </script>
+
     <script type="text/javascript">
         function light_toggle() {
             var el1 = document.getElementById("light-mode");
