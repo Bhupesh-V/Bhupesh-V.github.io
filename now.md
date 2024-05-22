@@ -19,9 +19,11 @@ Updated **{{ page.last_modified_at | date: "%B %e, %Y" }}**.
 ## Working on personal projects
 
 - Recently started a new project called [shedock](https://github.com/shedock/shedock), it's an experimental tool to dockerize shell scripts. Doing this exercise to learn more about the container and shell ecosystems.
-- Launced a fun little project called [heavenorhell.xyz](https://heavenorhell.xyz/), a social experiment app for people to book tickets to heaven or hell.
+- Launced a stupid & fun little project called [heavenorhell.xyz](https://heavenorhell.xyz/), a poll based social experiment app to capture everyone's sentiment on where they wanna go, heaven or hell.
 
-## Trying to lead efforts as a volunteer
+## Trying to lead efforts as a lead volunteer
 
-- I have been with [r/developersIndia](https://reddit.com/r/developersIndia) since its inception in 2020 as a volunteer, acting as a lead. So struggling with the responsibilities and trying to make it better. It's a self-appointed role.
-- This includes moderating the community, organizing events, evangelizing etc.
+- I have been with [r/developersIndia](https://reddit.com/r/developersIndia) since its inception in 2020 as a volunteer. So struggling with the responsibilities and trying to make the community experience better. It's a self-appointed role. Some of the major stuff I take care of:
+  - Organizing AMAs and Weekly Discussions.
+  - Helping the forum moderation team.
+  - Adding folks who want to help in the voluntere team.
