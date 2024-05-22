@@ -64,6 +64,28 @@
       margin: 3px;
     }
     </style>
+    <style type="text/css">
+      #link-preview {
+        position: absolute;
+        width: 300px; /* Adjust the width as needed */
+        padding: 12px;
+        text-align: left;
+        border: 1px solid #dbdbdb;
+        border-radius: 5px;
+        background-color: #fff; /* Ensure background is white */
+        z-index: 1000; /* Ensure it is on top */
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    #link-preview img {
+        width: 100%;
+        height: auto; /* Maintain aspect ratio */
+    }
+    #link-preview h2, #link-preview p {
+        margin: 0;
+        color: black;
+    }
+    
+  </style>
     {% if site.tags != "" %}
       {% include collecttags.html %}
     {% endif %}
@@ -250,5 +272,86 @@
       })
       </script>     
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-N4J53QJR31"></script> 
+      <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var links = document.querySelectorAll('.entry a');
+            links.forEach(function(link) {
+                link.setAttribute('onmouseover', 'preview(event)');
+                link.setAttribute('onmouseout', 'undo(event)');
+            });
+        });
+    </script>
+    <script type="text/javascript">
+      function undo(event) {
+          var card = document.getElementById("link-preview");
+          if (card !== null) {
+            card.parentNode.removeChild(card);
+          }
+      }
+
+      function append_card_node(image_src, title, description, link) {
+          var div = document.createElement("div");
+          div.setAttribute("id", "link-preview");
+          div.setAttribute("popover", "");
+
+          var img = document.createElement("img");
+          img.setAttribute("src", image_src);
+          div.appendChild(img);
+
+          var h2 = document.createElement("h2");
+          h2.textContent = title;
+          div.appendChild(h2);
+  
+          var p = document.createElement("p");
+          p.textContent = description;
+          div.appendChild(p);
+
+          document.body.appendChild(div);
+          div.togglePopover();
+          
+          var rect = link.getBoundingClientRect();
+          div.style.top = `${rect.bottom + window.scrollY}px`;
+          div.style.left = `${rect.left + window.scrollX}px`;
+      }
+
+      function parse_page(page, url, link) {
+          var parser = new DOMParser();
+          var htmlDoc = parser.parseFromString(page, 'text/html');
+          var meta_tags = htmlDoc.querySelectorAll("meta");
+          var title, description, image;
+          for (var i = 0; i < meta_tags.length; i++) {
+              if (meta_tags[i].getAttribute("property") == "og:image") {
+                  image = meta_tags[i].content;
+              }
+              if (meta_tags[i].getAttribute("property") == "og:title") {
+                  title = meta_tags[i].content;
+              }
+              if (meta_tags[i].getAttribute("property") == "og:description") {
+                  description = meta_tags[i].content;
+              }
+              if (image && title && description) break; // stop the loop once all data has been found
+          }
+          console.log(image, title, description);
+          var cache = JSON.parse(localStorage.getItem('cache')) || {};
+          cache[url] = { image: image, title: title, description: description };
+          localStorage.setItem('cache', JSON.stringify(cache));
+          append_card_node(image, title, description, link);
+      }
+
+      function preview(event) {
+        var cache = JSON.parse(localStorage.getItem('cache')) || {};
+        var link = event.target;
+        if (cache[link.href]) {
+            append_card_node(cache[link.href].image, cache[link.href].title, cache[link.href].description, link);
+        } else {
+            let fetchPromise = fetch(`https://api.allorigins.win/get?url=${encodeURIComponent(link.href)}`);
+            fetchPromise.then(response => {
+                return response.json();
+            }).then(data => {
+                parse_page(data.contents, link.href, link);
+            });
+        }
+    }
+  </script>
   </body>
 </html>
