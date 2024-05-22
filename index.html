@@ -11,10 +11,10 @@ layout: default
 			<div class="date" style="font-size: 13pt; text-align: center;">
 				Posted on 📅 {{ post.date | date: "%B %e, %Y" }}
 			</div><br>
-			<div class="postTags" style="color: $gray; text-align: center;">
+			<div class="postTags" style="text-align: center;">
 		    {% for tag in post.tags %}
-		      <span id="pagetags" name="colorpad">
-		        <a style="color: black;" href="/tag/{{ tag }}"><b>📌 {{ tag }}</b></a>
+		      <span id="pagetags" class="mark">
+		        <a href="/tag/{{ tag }}"><b>📌 {{ tag }}</b></a>
 		      </span>
 		    {% endfor %}
 		    </div>

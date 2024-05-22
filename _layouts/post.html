@@ -15,10 +15,10 @@ layout: default
     {% include read-time.html content=content %}
     <!-- {{ page.content | number_of_words }} totalwords -->
   </div><br/>
-  <div class="postTags" style="color: $gray; text-align: center;">
+  <div class="postTags" style="text-align: center;">
     {% for tag in page.tags %}
-    <span id="pagetags" name="colorpad">
-      <a style="color: black;" href="/tag/{{ tag }}"><b>📌 {{ tag }}</b></a>
+    <span id="pagetags" class="mark">
+      <a href="/tag/{{ tag }}"><b>📌 {{ tag }}</b></a>
     </span>
     {% endfor %}
   </div>
