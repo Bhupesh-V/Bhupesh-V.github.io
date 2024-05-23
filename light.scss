@@ -412,9 +412,11 @@ footer {
 .resp-sharing-button__link {
   // text-decoration: none;
   color: #000000;
+  filter: invert(0%) sepia(100%) saturate(15%) hue-rotate(246deg) brightness(105%) contrast(105%);
   // margin: 0.2em;
   // font-size: xx-large;
 }
+
 .PageNavigation table {
   border-collapse: collapse;
   border: thick double #000000;

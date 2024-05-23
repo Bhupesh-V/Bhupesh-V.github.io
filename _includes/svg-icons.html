@@ -1,5 +1,21 @@
-{% if site.footer-links.github %}<a href="https://github.com/{{ site.footer-links.github }}" aria-label="GitHub"><i class="mark fab fa-github fa-lg" aria-hidden="true"></i></a>{% endif %}
-{% if site.footer-links.linkedin %}<a href="https://www.linkedin.com/in/{{ site.footer-links.linkedin }}" aria-label="LinkedIn"><i class="mark fab fa-linkedin fa-lg" aria-hidden="true"></i></a>{% endif %}
-{% if site.footer-links.rss %}<a href="{{ site.baseurl }}/feed.xml" aria-label="RSS Feed"><i class="mark fas fa-rss" aria-hidden="true"></i></a>{% endif %}
-{% if site.footer-links.twitter %}<a href="https://www.twitter.com/{{ site.footer-links.twitter }}" aria-label="Twitter"><i class="mark fab fa-twitter fa-lg" aria-hidden="true"></i></a>{% endif %}
+{% if site.footer-links.github %}
+<a href="https://github.com/{{ site.footer-links.github }}" aria-label="GitHub">
+  <img class="mark" width="32px" src="/images/socials/github.svg" alt="">
+</a>
+{% endif %}
+{% if site.footer-links.linkedin %}
+<a href="https://www.linkedin.com/in/{{ site.footer-links.linkedin }}" aria-label="LinkedIn">
+  <img class="mark" width="32px" src="/images/socials/linkedin.svg" alt="">
+</a>
+{% endif %}
+{% if site.footer-links.rss %}
+<a href="{{ site.baseurl }}/feed.xml" aria-label="RSS Feed">
+  <img class="mark" width="32px" src="/images/socials/rss-solid.svg" alt="">
+</a>
+{% endif %}
+{% if site.footer-links.twitter %}
+<a href="https://www.twitter.com/{{ site.footer-links.twitter }}" aria-label="Twitter">
+  <img class="mark" width="32px" src="/images/socials/x-twitter.svg" alt="">
+</a>
+{% endif %}
 <!-- {% if site.footer-links.stackoverflow %}<a href="http://stackoverflow.com/{{ site.footer-links.stackoverflow }}" aria-label="Stackoverflow"><i class="svg-icon stackoverflow" aria-hidden="true"></i></a>{% endif %} -->

@@ -23,7 +23,7 @@ $helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
 @mixin mobile {
   @media screen and (max-width: 640px) {
     @content;
-    .social-icons-custom i {
+    .social-icons-custom img {
       margin: 0px 9px;
     }
     .social-icons-custom {

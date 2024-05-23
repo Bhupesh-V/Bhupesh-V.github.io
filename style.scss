@@ -412,16 +412,13 @@ h6:hover .header-link {
   opacity: 1;
 }
 
-.resp-sharing-button__link,
-.resp-sharing-button__icon {
-  display: inline-block
-}
-
 .resp-sharing-button__link {
+  display: inline-block;
   text-decoration: none;
   color: #fff;
   margin: 0.2em;
   font-size: xx-large;
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
 }
 
 .resp-sharing-button {
@@ -488,7 +485,8 @@ a {
 }
 
 .social-icons-custom{
-  font-size: 23px;
+  width: 55%;
+  display: flex;
 }
 
 input[type=submit] {
