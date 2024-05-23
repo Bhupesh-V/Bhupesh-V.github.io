@@ -16,14 +16,13 @@ If you want to work with me on any paid contract/freelance gigs, I usually work 
 
 I work with following stuff:
 
-- Go (Microservices, GraphQL, gRPC, REST, CLIs)
-- Python (Django, Flask, APIs, CLIs)
-- Bash/Shell Scripting, the Unix ecosystem
+- Go (Microservices, GraphQL, gRPC, REST, CLIs).
+- Python (Django, Flask, APIs, CLIs).
+- Bash/Shell Scripting, the Unix ecosystem.
 
 ## `Domain B`: As a Technical Writer
 
 If you have a developer-facing product I can help you figure out your documentation, blogs, marketing tactics etc.
-
 
 ### Things I usually write about (open-ended)
 
@@ -35,8 +34,6 @@ If you have a developer-facing product I can help you figure out your documentat
 
 ### Work for extenal publications ✍️
 
-List of some of the work I have written for various publications:
-
 - [OpenMetrics vs OpenTelemetry - A guide on understanding these two specifications](https://signoz.io/blog/openmetrics-vs-opentelemetry/) - SigNoz
 - [Get your git game up with worktrees](https://blog.invidelabs.com/git-worktree-to-make-daily-git-workflow-better/) - InvideLabs
 - [How to Design a Transactional Key-value Store in Go](https://www.freecodecamp.org/news/design-a-key-value-store-in-go/) - freeCodeCamp
@@ -45,8 +42,9 @@ List of some of the work I have written for various publications:
 - [A Closer Look at Server Sent Events using Go](https://www.pacenthink.io/post/a-closer-look-at-server-sent-events/) - Workplace RnD
 - [Feeding a Hungry Mouse Using Chromedp and Go](https://www.pacenthink.io/post/feeding-a-hungry-mouse-using-chromedp-and-golang/) - Workplace RnD
 
-You can find more of my writing on my [**newsletter**](https://buttondown.email/bhupesh/archive/) and [**digital garden 🍀**](https://til.bhupesh.me)
 
-If any of this makes sense, feel free to reach me via email **varshneybhupesh[at]gmail[dot]com** or <a class="mark" href="/chat"><b>schedule a 30 min e-meet</b></a> to discuss more about how I work.
+> You can find more of my writing on my [**newsletter**](https://buttondown.email/bhupesh/archive/) and [**digital garden 🍀**](https://til.bhupesh.me)
+
+If any of this makes sense, feel free to reach via **varshneybhupesh[at]gmail[dot]com** or <a class="mark" href="/chat"><b>schedule a 30 min e-meet</b></a> to discuss more about how I work.
 
 <br>

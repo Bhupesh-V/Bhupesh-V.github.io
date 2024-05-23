@@ -5,17 +5,20 @@ description: My Achievements & Wins
 permalink: /wins/
 ---
 
-## Wins
+Things I consider as wins or achievements in my life.
 
 ### 2023
 
 1. Completed my 1 year work-anniversary at Nurdsoft.
-2. First time stayed at a 4.5-star hotel.
-3. First time visited Hyderabad & Pune.
-4. Attended 3 different conferences: `PyDelhiConf 2023`, `Pycon India 2023` & `GopherConIndia 2023`.
+2. First time stay at a 4.5-star hotel.
+3. First time visit to Hyderabad & Pune.
+4. Attended 3 different conferences:
+   1. **PyDelhiConf 2023**
+   2. **Pycon India 2023**, &
+   3. **GopherConIndia 2023**.
 5. Tried Go-Karting for the first time.
-6. Bought my first ever HotWheels.
-7. Started AMAs over at `r/developersIndia`. Organized 2 successful AMAs.
+6. Bought my first ever HotWheels (childhood dream came true).
+7. Started AMAs over at **r/developersIndia**. Organized 2 successful AMAs.
 
 ### 2022
 
@@ -27,5 +30,5 @@ permalink: /wins/
 
 1. Started working as a Product Engineer at creatorstack.com. My first full-time job.
 2. Completed my first ever freelance tech writing gig.
-3. GitHub's official Twitter account [featured one of my TIL guides](https://twitter.com/github/status/1392207961355862018) my tweet.
+3. GitHub's official Twitter account [featured one of my TIL guides](https://twitter.com/github/status/1392207961355862018).
 4. My Blog hit 10,000 page views.
