@@ -24,6 +24,7 @@ Updated **{{ page.last_modified_at | date: "%B %e, %Y" }}**.
 ## Trying to lead efforts as a lead volunteer
 
 - I have been with [r/developersIndia](https://reddit.com/r/developersIndia) since its inception in 2020 as a volunteer. So struggling with the responsibilities and trying to make the community experience better. It's a self-appointed role. Some of the major stuff I take care of:
-  - Organizing AMAs and Weekly Discussions.
+  - Organizing AMAs & Weekly Discussions.
   - Helping the forum moderation team.
-  - Adding folks who want to help in the voluntere team.
+  - Taking care of the job board, wiki & other open-source projects.
+  - Adding folks who want to help in the volunteer team.
