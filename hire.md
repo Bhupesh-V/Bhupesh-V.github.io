@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Work with Bhupesh
-description: Interested to work with me professionally? Know more about my freelance work
+description: Interested to work with me professionally? I can assist you as a Software Developer, Technical Writer, or Dev Community Builder. Find out more about my work domains and how I can help you.
 image: hire.png
 permalink: /hire/
 ---
