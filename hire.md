@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Hire Me
+title: Work with Bhupesh
 description: Interested to work with me professionally? Know more about my freelance work
 image: hire.png
 permalink: /hire/
@@ -10,11 +10,11 @@ permalink: /hire/
 
 <br>
 
-If you want to work with me on any paid contract/freelance gigs, I usually work in 2 different but connected domains.
+If you want to work with me on any paid contract/freelance gigs, I usually work in 3 different but connected domains.
 
 ## `Domain A`: As a Software Developer/Programmer/Engineer
 
-I work with following stuff:
+I work with following tools and technologies in this domain:
 
 - Go (Microservices, GraphQL, gRPC, REST, CLIs).
 - Python (Django, Flask, APIs, CLIs).
@@ -42,9 +42,20 @@ If you have a developer-facing product I can help you figure out your documentat
 - [A Closer Look at Server Sent Events using Go](https://www.pacenthink.io/post/a-closer-look-at-server-sent-events/) - Workplace RnD
 - [Feeding a Hungry Mouse Using Chromedp and Go](https://www.pacenthink.io/post/feeding-a-hungry-mouse-using-chromedp-and-golang/) - Workplace RnD
 
-
 > You can find more of my writing on my [**newsletter**](https://buttondown.email/bhupesh/archive/) and [**digital garden 🍀**](https://til.bhupesh.me)
 
-If any of this makes sense, feel free to reach via **varshneybhupesh[at]gmail[dot]com** or <a class="mark" href="/chat"><b>schedule a 30 min e-meet</b></a> to discuss more about how I work.
+## `Domain C`: As a Dev Community Builder/Manager
+
+I have been managing [r/developersIndia](https://reddit.com/r/developersIndia) since its inception in 2020 (4 years and counting). I can help you with:
+
+- Building & managing dev communities.
+- Understanding the developer ecosystem.
+- Moderation & community management.
+
+<br>
+
+---
+
+If any of this makes sense, feel free to reach out via **varshneybhupesh[at]gmail[dot]com** or <a class="mark" href="/chat"><b>schedule a 30 min e-meet</b></a> to discuss more about how I work.
 
 <br>
