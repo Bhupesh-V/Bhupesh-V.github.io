@@ -32,7 +32,7 @@ If you have a developer-facing product I can help you figure out your documentat
 - Open-Source
 - Side-projects
 
-### Work for extenal publications ✍️
+### Work for external publications ✍️
 
 - [OpenMetrics vs OpenTelemetry - A guide on understanding these two specifications](https://signoz.io/blog/openmetrics-vs-opentelemetry/) - SigNoz
 - [Get your git game up with worktrees](https://blog.invidelabs.com/git-worktree-to-make-daily-git-workflow-better/) - InvideLabs
