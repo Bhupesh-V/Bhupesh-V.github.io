@@ -12,13 +12,13 @@ permalink: /hire/
 
 If you want to work with me on any paid contract/freelance gigs, I usually work in 3 different but connected domains.
 
-## `Domain A`: As a Software Developer/Programmer/Engineer
+## `Domain A`: As a Software Dev
 
 I work with following tools and technologies in this domain:
 
-- Go (Microservices, GraphQL, gRPC, REST, CLIs).
-- Python (Django, Flask, APIs, CLIs).
-- Bash/Shell Scripting, the Unix ecosystem.
+- Go (Microservices, GraphQL, gRPC, REST).
+- Python (Django, Flask, APIs).
+- Bash/Shell Scripting, CLIs, the Unix ecosystem.
 
 ## `Domain B`: As a Technical Writer
 
@@ -46,11 +46,11 @@ If you have a developer-facing product I can help you figure out your documentat
 
 ## `Domain C`: As a Dev Community Builder/Manager
 
-I have been managing [r/developersIndia](https://reddit.com/r/developersIndia) since its inception in 2020 (4 years and counting). I can help you with:
+I have been managing India's largest dev network, [r/developersIndia](https://reddit.com/r/developersIndia) since its inception in 2020 (4 years and counting). I can help you with:
 
 - Building & managing dev communities.
 - Understanding the developer ecosystem.
-- Moderation & community management.
+- Developer marketing strategies.
 
 <br>
 
