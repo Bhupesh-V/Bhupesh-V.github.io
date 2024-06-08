@@ -56,6 +56,6 @@ I have been managing India's largest dev network, [r/developersIndia](https://re
 
 ---
 
-If any of this makes sense, feel free to reach out via **varshneybhupesh[at]gmail[dot]com** or <a class="mark" href="/chat"><b>schedule a 30 min e-meet</b></a> to discuss more about how I work.
+If any of this makes sense, feel free to reach out on **varshneybhupesh[at]gmail[dot]com** or <a class="mark" href="/chat"><b>schedule a 30 min e-meet</b></a> to discuss more about your needs and how can I help.
 
 <br>

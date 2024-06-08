@@ -4,9 +4,9 @@ title: About Me
 permalink: /about/
 ---
 
-I am Bhupesh Varshney, a Software Craftsman & Tech Writer living in New Delhi, India. Professionally I more than 2.5 years of experience in product-based startups. In my free time I volunteer as a Community Lead for [**r/developersIndia**](https://www.reddit.com/r/developersIndia/), a community of more than 600K software & tech folks across India.
+I am Bhupesh Varshney, a Software Craftsman & Tech Writer living in New Delhi, India. Professionally I have more than 2.5 years of experience in product-based startups. In my free time I volunteer as a Community Lead for [**r/developersIndia**](https://www.reddit.com/r/developersIndia/), a network of more than 600K software & tech folks across India.
 
-I frequently write about tech & my journey here. You can find more of my work on my [**hire page**](/hire). If you are interested in things I have built, head over to my [**projects page**](/projects).
+I frequently write about programming, tech & my journey here. You can find more of my work on my [**hire page**](/hire). If you are interested in things I have built, head over to my [**projects page**](/projects).
 
 I use [**X (formerly twitter)**](https://twitter.com/bhupeshimself) mostly to rant about tech, share & learn what others are doing.
 
@@ -19,9 +19,9 @@ I use [**X (formerly twitter)**](https://twitter.com/bhupeshimself) mostly to ra
 
 ### What I am doing now
 
-See my [now](/now) page for a snapshot of what I am doing at the moment.
+See my [**now**](/now) page for a snapshot of what I am doing at the moment.
 
-### 📖 Learn With Me
+### 📖 Learn with me
 
 I log whatever new stuff I learn, Go to <a href="https://til.bhupesh.me"  class="mark">til.bhupesh.me</a> to see some of it. I also have a [**newsletter** 🚀](https://buttondown.email/bhupesh) where I share interesting stuff and tips around tech.
 
