@@ -111,6 +111,7 @@ h1 {
   font-size: 1.875rem;
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, segoe ui, Roboto, helvetica neue, Arial, noto sans, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol, noto color emoji;
   text-align: center;
+  text-wrap: balance;
 
   a {
     color: white;
@@ -211,7 +212,8 @@ img {
 .date {
   color: #867a7a;
   margin-left: 9px;
-  font-size: 14px;
+  font-size: 16px;
+  text-align: center;
 }
 
 // Specify the color of the selection
