@@ -54,7 +54,7 @@ Below are some GIF demos of undoing some git operations, the list is long (aroun
 ## Undoing/Restoring file to previous version
 
 <video width="100%" controls>
-  <source src="https://drive.google.com/uc?export=view&id=1BrUdWc9EbPtuUHZfNIyfLT0NSBu802RR" type="video/mp4">
+  <source src="https://drive.google.com/file/d/1BrUdWc9EbPtuUHZfNIyfLT0NSBu802RR/view?usp=drive_link" type="video/mp4">
 </video>
 
 ### Undoing `git merge`

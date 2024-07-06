@@ -20,22 +20,20 @@ The problem is you (as a beginner) may or may not find the perfect tutorial to f
 
 Another reason for making it was that sometimes tutorials which are hosted on personal blogs do not get indexed easily on google (compared to tutorials hosted for e.g on medium ).
 
-<blockquote align="center" class="twitter-tweet"><p lang="en" dir="ltr">When you are starting, there is no best tutorial.<br><br>Just learn as much as you can from multiple sources.<br><br>You can always connect the dots later looking back.</p>&mdash; JavaScript Teacher (@js_tut) <a href="https://twitter.com/js_tut/status/1176978665374175232?ref_src=twsrc%5Etfw">September 25, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
-
 > Try not to fall in tutorial purgatory though !
 
 ## Features ✨
 - 🦄 Share your fav tutorials.
 
-![](https://drive.google.com/uc?export=view&id=1MrReD_S1kptsW4eZPwIXLtg0EOQTjNkk)
+![](https://i.imgur.com/ScVuzfC.png)
 
 - 📌 Search by tags.
 
-![](https://drive.google.com/uc?export=view&id=1nlgKv8LAcFTEr1uS1F0W0UIjuYEAf-Ti)
+![](https://i.imgur.com/vYCzytU.png)
 
 - 👷 It has an open [API](https://tutorialdb-app.herokuapp.com/api/).
 
-![](https://drive.google.com/uc?export=view&id=1KUYbLv6NjeRl_TdR93_yxxLsNb6tPEv6)
+![](https://i.imgur.com/AKvl1Gl.png)
 
 - ⚡ Super fast results. 
 - 🔗 Direct Link to original tutorials.

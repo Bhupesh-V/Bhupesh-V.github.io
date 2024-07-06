@@ -40,31 +40,31 @@ There are some interesting channels and groups you can follow being a dev.
 
 Some of them which I follow :
 - Channels
-	 - [The Hire](https://t.me/thehire)
-	 - [Ultimate Freemium Courses](https://t.me/freecourse)
-	 - [GitHub repos](https://t.me/github_repos)
-	 - [GitHub Trending](https://t.me/githubtrending)
-	 - [The Devs](https://t.me/thedevs)
-	 - [Internship Updates](https://t.me/internshipsIndia)
-	 - [The Daily C++](https://t.me/dailycpp)
-	 - [🎓 DevChampions — Grow with us](https://t.me/devchampions)
-	 - [Techjobs](https://t.me/technicaljobs)
-	 - [Competitive Programming](https://t.me/daily1interviewprogram)
-	 - [JavaScript Daily](https://t.me/javascriptdaily)
-	 - [ComputerScientist](https://t.me/computerScientist)
-	 - [Programming Tips 💡](https://t.me/ProgrammingTip)
-	 - [The Art of Programming](https://t.me/theprogrammingart)
-	 - [Audio Books Archive](https://t.me/AudiobooksArchive)
-	 - [Python Resources](https://t.me/pythonres)
-	 - [BinBreaker 🛃👾](https://t.me/BinBreaker)
-	 - [Free Open Source knowledge](https://t.me/free_open_source_knowledge)
+  - [The Hire](https://t.me/thehire)
+  - [Ultimate Freemium Courses](https://t.me/freecourse)
+  - [GitHub repos](https://t.me/github_repos)
+  - [GitHub Trending](https://t.me/githubtrending)
+  - [The Devs](https://t.me/thedevs)
+  - [Internship Updates](https://t.me/internshipsIndia)
+  - [The Daily C++](https://t.me/dailycpp)
+  - [🎓 DevChampions — Grow with us](https://t.me/devchampions)
+  - [Techjobs](https://t.me/technicaljobs)
+  - [Competitive Programming](https://t.me/daily1interviewprogram)
+  - [JavaScript Daily](https://t.me/javascriptdaily)
+  - [ComputerScientist](https://t.me/computerScientist)
+  - [Programming Tips 💡](https://t.me/ProgrammingTip)
+  - [The Art of Programming](https://t.me/theprogrammingart)
+  - [Audio Books Archive](https://t.me/AudiobooksArchive)
+  - [Python Resources](https://t.me/pythonres)
+  - [BinBreaker 🛃👾](https://t.me/BinBreaker)
+  - [Free Open Source knowledge](https://t.me/free_open_source_knowledge)
 
 BTW if you want to connect to me on Telegram, I am @[bhupeshimself](https://t.me/bhupeshimself)
 
 ## [Twitter](https://twitter.com/)
 
 <a href="https://twitter.com/iamdevloper/status/1158422539166552067">
-	<img src="https://drive.google.com/uc?export=view&id=1EeH0Kfm2I2Zl-zPIyvYTtwbaAad7uHD7">
+	<img src="https://i.imgur.com/YmrMqJZ.png">
 </a>
 
 Twitter is a nice social platform for connecting with people, there are some awesome developers out there on Twitter which provide great motivation.

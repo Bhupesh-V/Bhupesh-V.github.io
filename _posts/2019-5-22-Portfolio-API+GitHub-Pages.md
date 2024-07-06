@@ -157,8 +157,6 @@ Or any other route according to your choice.
 
 - Now go & make a directory with the same name `about`  and inside it create a new file named `index.json`.
 
-![](https://drive.google.com/uc?export=view&id=1lolJ3T9kVwJLNnCnUxypijhMmuTvNqyx)
-
 - Add the following contents in the JSON file.
 ```json
 {

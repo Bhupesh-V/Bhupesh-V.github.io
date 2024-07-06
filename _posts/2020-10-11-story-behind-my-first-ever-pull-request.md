@@ -30,7 +30,6 @@ Everything was new to us, although it was an easier transition for me because I 
 
 I found the newspaper article where I got to know about HackerRank for the first time, (yus I used to cut important things from the newspaper 👀, want to see my collection ?) this article helped (and motivated) me in a lot of ways.
 
-<!-- ![newspaper-article](https://drive.usercontent.google.com/download?id=1hwC_4SzghloDYfLCaZCVvuMloJ4YWF3s&export=view) -->
 <br/><br>
 
 <center>

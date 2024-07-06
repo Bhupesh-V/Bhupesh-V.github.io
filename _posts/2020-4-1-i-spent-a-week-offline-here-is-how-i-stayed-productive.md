@@ -272,7 +272,7 @@ One of the use case of symbol that it can be used to create private object prope
 - `console.time()` & `console.timeEnd()`
 This is not related to JS directly but the console API lets you time how long a piece of code executes.
 
-<img src="https://drive.google.com/uc?export=view&id=1at4UDzRPLf4a7UkA-5MqUrFWewVqKX-x">
+<img src="https://i.imgur.com/mrxLrfU.png">
 
 - File API
 You can read files in Javascript by using the `FileReader()`

@@ -20,7 +20,7 @@ But the only problem with this is that all of this is distributed causing me to 
 
 
 <figure>
-<img height="600px" width="300px" src="https://drive.google.com/uc?export=view&id=1x_ZKI5I0BCAebabsuRjXRyYWUkRGkJe0">
+<img height="600px" width="300px" src="https://i.imgur.com/PLvhcBR.jpeg">
 <figcaption>
 How Am I suppose to read these quickly :sweat_smile:
 </figcaption>
@@ -35,15 +35,15 @@ That's why I thought of creating a FOSS alternative which is
 
 ## Features ✨
 - PWA
-![PWA Stats](https://drive.google.com/uc?export=view&id=1edOOY73phTkFDFOK3LnutQGk2K5y7TGy)
+![PWA Stats](https://i.imgur.com/CfkVurJ.png)
 - Read & Share Stories
 - Dark Mode *
-<img height="300px" width="300px" src="https://drive.google.com/uc?export=view&id=1FThDzTgy0SkQsSvjZ0DRVSBw05dpqiWN">
+<img height="300px" width="300px" src="https://i.imgur.com/IJMgTZE.png">
 - Minimal UI
 - CLI
-<img height="300px" src="https://drive.google.com/uc?export=view&id=1bu9MOuUXUIjr7KpDIjwp6hgpPcH64jJ7">
+<img height="300px" src="https://i.imgur.com/u22oDEb.png">
 - Filter Feed
-<img height="200px" width="200px" src="https://drive.google.com/uc?export=view&id=1rtymay0PaQX6D8wNJ6xekzzgSkmTbRYm">
+<img height="200px" width="200px" src="https://i.imgur.com/hNZM2Kj.png">
 
 
 <br>
@@ -67,7 +67,7 @@ This will print all the News from available News Feeders. You can read the [docu
 The architecture is fairly simple
 
 <figure>
-<img height="500px" src="https://drive.google.com/uc?export=view&id=1C9etr79l2jjMdM5fP997SpHk3RH2mmT2">
+<img height="500px" src="https://i.imgur.com/U2QDY2T.png">
 <figcaption>
 An Overview of how defe works
 </figcaption>
@@ -98,16 +98,16 @@ Used for temporarily storing feeds for faster access.
 
 Here is a demo for the defe CLI
 
-<img src="https://drive.google.com/uc?export=view&id=1RRMZ_99TGkn3sgv4X3S3rfGcuFLs7QDh">
+<img src="https://i.imgur.com/5nIFZWs.gif">
 
 And the WebApp Looks like
 
-<img src="https://drive.google.com/uc?export=view&id=1fk7dloBeopGYT0VhAgMqoKjoHIx3A28E">
+<img src="https://i.imgur.com/gxdzQn4.png">
 
 
 ## Contribute 🤗
 
-<img height="400px" src="https://drive.google.com/uc?export=view&id=1cVAkT8fFnC-uWILY4PGypeEG2VxYIwsp">
+<img height="400px" src="https://i.imgur.com/L7h0ySa.png">
 
 [![Bhupesh-V/defe - GitHub](https://gh-card.dev/repos/Bhupesh-V/defe.svg?fullname=)](https://github.com/Bhupesh-V/defe)
 
