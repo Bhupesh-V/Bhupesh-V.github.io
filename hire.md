@@ -53,9 +53,6 @@ I have been managing India's largest dev network, [r/developersIndia](https://re
 - Developer marketing strategies.
 
 <br>
-
----
-
-If any of this makes sense, feel free to reach out on **varshneybhupesh[at]gmail[dot]com** or <a class="mark" href="/chat"><b>schedule a 30 min e-meet</b></a> to discuss more about your needs and how can I help.
-
-<br>
+<center>
+<a href="https://cal.com/bhupesh/hire" target="_blank" class="consultation">Schedule a Consultation</a>
+<center>

@@ -458,6 +458,20 @@ td {
   \-ms-transition: opacity 0.2s ease-in-out 0.1s;
 }
 
+
+.consultation {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 5px solid black;
+  color: black;
+  font-size: 16px;
+  font-weight: bolder;
+}
+.consultation:hover {
+  background-color: #ffe52f; /* Change background on hover */
+  color:black;           /* Text color stays yellow */
+}
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
