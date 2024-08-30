@@ -48,7 +48,7 @@ Really? I don't remember at all. -->
 
 ### What's the first thing you built? When and Why did you build it?
 
-I think the first every actual software I made was [**tutorialdb**](https://github.com/bhupesh-v/tutorialdb) in 2017. Back then, I described it as a search engine for programming tutorials. The main motivation behind this to stop asking questions like "Can you share resources to learn ABC".
+I think the first ever actual software I made was [**tutorialdb**](https://github.com/bhupesh-v/tutorialdb) in 2017. Back then, I described it as a search engine for programming tutorials. The main motivation behind this to stop asking questions like "Can you share resources to learn ABC".
 Now that I look back at it, it wasn't a full-fledged search engine but more of a glorified link aggregator.
 
 However, it did have indexing like capabilities, given a webpage URL it could detect whether it was a tutorial or not. It was built using Python and SQLite.
@@ -81,7 +81,7 @@ Nothing, honestly. I consider myself as an average human with average skills. I 
 
 Probably not, I use tools to the extent it helps me get the job done. As much us devs cherish our devtools, I believe that we create problems for ourselves with each new tool we add to our stack.
 
-If the tool, you are talking about is something that is absolutely necessary for the job (like shit will go down if this tool didn't exist), you can assume that I will learn to use it or adapt to it to a point where we can discuss it.
+If the tool you are talking about is something that is absolutely necessary for the job (like shit will go down if this tool didn't exist), you can assume that I will learn to use it or adapt to it to a point where we can discuss it.
 
 ### Do you know about `INSERT_PRACTICE` or `INSERT_PRINCIPLE`?
 
