@@ -54,5 +54,5 @@ I have been managing India's largest dev network, [r/developersIndia](https://re
 
 <br>
 <center>
-<a href="https://cal.com/bhupesh/hire" target="_blank" class="consultation">Schedule a Consultation</a>
+<a href="https://cal.com/bhupesh/hire" target="_blank" rel="noopener noreferrer" class="consultation">Schedule a Consultation</a>
 <center>

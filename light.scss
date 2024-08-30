@@ -358,15 +358,14 @@ a{
 
 input[type=submit] {
   width: 100%;
-  background-color: black;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  border-radius: 20px;
+  display: inline-block;
+  padding: 10px 20px;
+  border: 5px solid black;
+  color: black;
+  font-size: 16px;
+  background-color: floralwhite;
+  font-weight: bolder;
   cursor: pointer;
-  border: thick double #ffea18;
-  font-weight: bold;
 }
 
   input[type=submit]:hover {
