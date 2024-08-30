@@ -44,7 +44,7 @@ Really? I don't remember at all. -->
 
 ### What's the best thing you've made without anybody asking?
 
-[**ugit**](https://github.com/bhupesh-v/ugit), well not exactly, people indeed asked for it. Till date its probably the most popular project I have made.
+[**ugit**](https://github.com/bhupesh-v/ugit), well not exactly, people indeed [asked for it](https://bhupesh.me/undo-your-last-git-mistake-with-ugit/#story-behind-ugit). Till date its probably the most popular project I have made.
 
 ### What's the first thing you built? When and Why did you build it?
 
