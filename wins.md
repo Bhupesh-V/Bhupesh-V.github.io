@@ -5,7 +5,7 @@ description: My Achievements & Wins
 permalink: /wins/
 ---
 
-Things I consider as wins or achievements in my life.
+Things I consider as wins or achievements.
 
 ### 2023
 

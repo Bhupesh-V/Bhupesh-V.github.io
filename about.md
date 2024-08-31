@@ -4,9 +4,9 @@ title: About Me
 permalink: /about/
 ---
 
-I am Bhupesh Varshney, a Software Craftsman & Tech Writer living in New Delhi, India. Professionally I have more than 2.5 years of experience in product-based startups. In my free time I volunteer as a Community Lead for [**r/developersIndia**](https://www.reddit.com/r/developersIndia/), a network of more than 600K software & tech folks across India.
+I am Bhupesh Varshney, a Software Craftsman & Tech Writer living in New Delhi, India. Professionally I have more than 2.5 years of experience in product-based startups working on backend systems with Go & Python. In my free time I volunteer as a Community Lead for [**r/developersIndia**](https://www.reddit.com/r/developersIndia/), a network of more than 800K software & tech folks across India.
 
-I frequently write about programming, tech & my journey here. You can find more of my work on my [**hire page**](/hire/). If you are interested in things I have built, head over to my [**projects page**](/projects/).
+I frequently write about programming, tech & my journey here. You can find more of my work on my [**hire page**](/hire/). If you are interested in things I have built, head over to my [**/projects**](/projects/).
 
 I use [**X (formerly twitter)**](https://twitter.com/bhupeshimself) mostly to rant about tech, share & learn what others are doing.
 
@@ -21,19 +21,18 @@ I use [**X (formerly twitter)**](https://twitter.com/bhupeshimself) mostly to ra
 
 See my [**now**](/now/) page for a snapshot of what I am doing at the moment.
 
-### 📖 Learn with me
+### Learn with me
 
 I log whatever new stuff I learn, Go to <a href="https://til.bhupesh.me"  class="mark">til.bhupesh.me</a> to see some of it. I also have a [**newsletter** 🚀](https://buttondown.email/bhupesh) where I share interesting stuff and tips around tech.
 
-### 🦄 Connect
+### Connect
 
 - I usually hangout in [r/developersIndia Discord Server](https://discord.gg/Ep6zGAuWbq). Come and say hi 👋
 - Wanna have a quick chat about something?, [schedule a call](/chat/).
 
-### 🖐 Support
+### Support
 
 If you like my work, consider supporting me. You can choose to [sponsor my work on GitHub](https://github.com/sponsors/Bhupesh-V). Or maybe gift something from my [tech books wishlist](https://www.amazon.in/hz/wishlist/ls/2LBG6D40Z02RJ?ref_=wl_share)
-
 
 <!-- <a href="https://liberapay.com/bhupesh/donate">
 	<img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg" height="40">

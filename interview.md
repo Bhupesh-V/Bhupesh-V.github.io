@@ -91,13 +91,13 @@ I might have heard about it, but I am not sure. I am not a big fan of practices 
 
 ### How does an ideal codebase look like?
 
-- Has unit-tests.
-- Has monitoring data exposed (memory/CPU usage).
-- Has tools in place to check for security vulnerabilities.
-- Automated/Low-effort linting in place.
-- Config files don't exceed 1000 lines (don't ask the backstory for this).
-- Documentation is handled right inside the codebase in forms of "Diagrams As Code" i.e, Sequence & ER diagrams are checked into VCS.
-- Makefiles (or related) setup to get ready with codebase in a new machine.
+1. Has unit-tests.
+2. Has monitoring data exposed (memory/CPU usage).
+3. Has tools in place to check for security vulnerabilities.
+4. Automated/Low-effort linting in place.
+5. Config files don't exceed 1000 lines (don't ask the backstory for this).
+6. Documentation is handled right inside the codebase in forms of "Diagrams As Code" i.e, Sequence & ER diagrams are checked into VCS.
+7. Makefiles (or related) setup to get ready with codebase in a new machine.
 
 ### How often do you contribute to FOSS?
 
