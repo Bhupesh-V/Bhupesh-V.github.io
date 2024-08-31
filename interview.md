@@ -3,6 +3,7 @@ layout: page
 title: Interviewing Bhupesh
 description: Wanna interview me? I help you ask questions that matter!
 permalink: /interview/
+last_modified_at: 2024-08-31
 ---
 
 I help you interview me better. Here's a list of questions that matter, with my answers, saving you the time to know me better or analyze how I think.
@@ -10,10 +11,8 @@ I help you interview me better. Here's a list of questions that matter, with my 
 <!-- omit from toc -->
 ## Disclaimers
 
-- This document is only meant to be read by folks who take the final decision in hiring me. i.e, Senior/Staff Devs, EMs, CTOs, Founders, etc. It would be great if you read this very early in the hiring process. These are not HR questions.
-- This is a live document, if this was shared to you by me, assume it's the latest version.
-- For everyone else on the internet, feel free to steal questions but avoid copying my answers. Interviewers are not dumb, they will know whether you are putting your money where your mouth is or not.
-- If the interviewer isn't aware about this document, you can very well assume that I am going to read answers from this document. So, it's better to ask questions that are not listed here.
+- This document is only meant to be read by folks who take the final decision in hiring me & have an engineering background. i.e, Senior/Staff Devs, EMs, CTOs, Founders, etc. It would be great if you read this very early in the hiring process. These are not HR questions.
+- This is a live document, i.e the responses will change with time. If this was shared to you by me, assume it's the latest version.
 
 <!-- omit from toc -->
 ## Questions
@@ -30,7 +29,6 @@ I help you interview me better. Here's a list of questions that matter, with my 
 - [How often do you contribute to FOSS?](#how-often-do-you-contribute-to-foss)
 - [How good are you with Infra or DevOps?](#how-good-are-you-with-infra-or-devops)
 - [What are you working on right now?](#what-are-you-working-on-right-now)
-
 
 ### What makes you who you are today?
 
@@ -119,4 +117,5 @@ This is documented on my [now page](https://bhupesh.me/now/).
 ## More about me
 
 - [Understand my remote work style](https://bhupesh.me/open-letter-remote-tech-worker/).
+- [Know more about my contract/freelance work domains](https://bhupesh.me/hire/).
   
