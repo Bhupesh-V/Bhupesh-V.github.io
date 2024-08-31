@@ -6,7 +6,7 @@ permalink: /interview/
 last_modified_at: 2024-08-31
 ---
 
-I help you interview me better. Here's a list of questions that matter, with my answers, saving you the time to know me better or analyze how I think.
+I help you interview me better. Here's a list of questions that matter, with my answers, saving you the time to analyze how I think.
 
 <!-- omit from toc -->
 ## Disclaimers
@@ -117,5 +117,5 @@ This is documented on my [now page](https://bhupesh.me/now/).
 ## More about me
 
 - [Understand my remote work style](https://bhupesh.me/open-letter-remote-tech-worker/).
-- [Know more about my contract/freelance work domains](https://bhupesh.me/hire/).
+- [My contract/freelance work domains](https://bhupesh.me/hire/).
   
