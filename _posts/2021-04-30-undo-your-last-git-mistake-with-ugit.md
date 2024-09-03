@@ -74,7 +74,7 @@ So thanks!
 <img alt="sad dogo crying" height="120px" src="https://ik.imagekit.io/bhupesh/blog_content_pics/sed-doggo_e7RD-mM7L.webp">
 
 Cool, I mean we are still friends right?
-Friends help friends avoid git mistakes, that's why I wrote an accompanying text guide on [How to undo anything in Git](https://til.bhupesh.me/notes/git/how-to-undo-anything-in-git).
+Friends help friends avoid git mistakes, that's why I wrote an accompanying text guide on [How to undo anything in Git](https://til.bhupesh.me/git/how-to-undo-anything-in-git).
 
 Share it with your friends, co-workers. No hard feelings
 
