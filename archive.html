@@ -1,0 +1,60 @@
+---
+layout: default
+title: Post Archive
+permalink: /archive/
+---
+
+<style>
+  #tils {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+
+</style>
+<h1>Recent <a class="mark" href="https://github.com/Bhupesh-V/til">TILs</a></h1>
+<div id="tils"></div>
+
+<h1>{{ site.posts.size }} posts in Archive</h1>
+<div class="all-posts"></div>
+  {% assign posts_by_year = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
+  {% for year in posts_by_year %}
+  <h2>{{ year.name }}</h2>
+    {% assign sorted_posts = year.items | sort: 'date' | reverse %}
+    {% for post in sorted_posts %}
+      <section>
+        <h4>
+          <a class="mark" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+          📅 {{ post.date | date: "%B %e" }}
+        </h4>
+      </section>
+    {% endfor %}
+  {% endfor %}
+</div>
+<script charset="utf-8">
+  const til_feed_url =
+    "https://raw.githubusercontent.com/Bhupesh-V/til/master/recent_tils.json";
+  const newsletter_feed_url = "https://buttondown.email/bhupesh/rss";
+
+  let div_tils = document.getElementById("tils");
+  let table = document.createElement("table");
+
+  fetch(til_feed_url)
+    .then((response) => response.json())
+    .then((data) => {
+      data.forEach((til) => {
+        let row = document.createElement("tr");
+
+        let cell = document.createElement("td");
+        let anchor = document.createElement("a");
+        anchor.href = til.url;
+        anchor.innerText = til.title;
+        cell.appendChild(anchor);
+
+        row.appendChild(cell);
+        table.appendChild(row);
+      });
+
+      div_tils.appendChild(table);
+    });
+</script>
