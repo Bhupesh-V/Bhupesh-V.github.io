@@ -26,3 +26,7 @@ last_modified_at: 2024-05-13
   - Helping the forum moderation team.
   - Taking care of the job board, wiki & other open-source projects.
   - Building up the volunteer team.
+
+## Currently reading
+
+I have a dedicated digital bookshelf, head over to [bookshelf.bhupesh.me](https://bookshelf.bhupesh.me/) to see what I am reading at the moment.
