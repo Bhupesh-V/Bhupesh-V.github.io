@@ -3,7 +3,7 @@ layout: page
 title: Interviewing Bhupesh
 description: Wanna interview me? I help you ask questions that matter!
 permalink: /interview/
-last_modified_at: 2024-09-08
+last_modified_at: 2024-09-16
 ---
 
 I help you interview me better. Here's a list of questions that matter, with my answers, saving you the time to analyze how I think.
@@ -34,7 +34,7 @@ I help you interview me better. Here's a list of questions that matter, with my 
 
 Reading & Writing, at least from a career POV. Both have had a huge impact on how I think and approach problems. I have been reading since I was a high-school kid, mostly fiction and non-fiction. I have been writing [since 2019](/archive/), mostly technical stuff.
 
-> Two must read books I can recommend is [Wings of Fire](https://en.wikipedia.org/wiki/Wings_of_Fire_(autobiography)) and [48 Creative Meditations That Will Enrich Your Life](https://archive.org/details/mindthatchangese0000gawl)
+> I have a dedicated digital bookshelf, head over to [bookshelf.bhupesh.me](https://bookshelf.bhupesh.me/) to see what I am reading at the moment & some of my personal recommendations.
 
 <!-- ### Tell us about a really difficult technical problem you solved. What was it, and what did you build?
 
