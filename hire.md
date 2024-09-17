@@ -52,6 +52,8 @@ I have been managing India's largest dev network, [r/developersIndia](https://re
 - Understanding the developer ecosystem.
 - Developer marketing strategies.
 
+> You might also be interested in viewing my [**/interview**](https://bhupesh.me/interview/) page.
+
 <br>
 <center>
 <a href="https://cal.com/bhupesh/hire" target="_blank" rel="noopener noreferrer" class="consultation">Schedule a Consultation</a>
