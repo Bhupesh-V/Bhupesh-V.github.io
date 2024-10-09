@@ -1,11 +1,20 @@
 ---
 layout: page
 title: Wins
-description: My Achievements & Wins
+description: Stuff that I consider as achievements & wins
 permalink: /wins/
 ---
 
 Things I consider as wins or achievements.
+
+### 2024
+
+- Visited mountains for the first time (trip to Jibhi, Himachal Pradesh).
+- Visited Bengaluru for the first time (PyCon India 2024).
+- Launched 2 fun sites:
+  - [bookshelf.bhupesh.me](https://bookshelf.bhupesh.me) - My IRL bookshelf.
+  - [hotwheels.bhupesh.me](https://hotwheels.bhupesh.me) - My HotWheels collection :)
+<!-- - Successfully survived 3 years of full-time sofware engineering. -->
 
 ### 2023
 
