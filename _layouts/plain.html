@@ -1,0 +1,109 @@
+<!--
+
+Oh you think you can code better than me? Get phased, NERD! 🗣️
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>
+    {% if page.title %}{{ page.title }}{% else %}Bhupesh Varshney{% endif %}
+  </title>
+  {% include meta.html %}
+  <link async rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+  <link disabled type="text/css" id="light-mode" rel="stylesheet" href="{{ site.baseurl }}/light.css" async />
+  <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}"
+    href="{{ site.baseurl }}/feed.xml" />
+  <link rel="icon" href="https://bhupesh.me/images/favicons/headshot.ico" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" async />
+  <meta name="google-site-verification" content="4coaO0YVCAhaE5LAetM4wCbwk1TgAjgNA_G0ywyitnI" />
+  <meta charset="UTF-8" />
+  <script type="application/ld+json">
+      { "@context": "https://schema.org",
+       "@type": "TechArticle",
+       "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "{{ site.url }}{{ page.url }}"
+       },
+       "headline": "{{ page.title }}",
+       "alternativeHeadline": "{{ page.description }}",
+       {% if page.image %}
+       "image": "{{ site.url }}/images/{{ page.image }}",
+       {% else if page.banner_image %}
+       "image": "{{ page.banner_image }}",
+       {% endif %}
+      		"accountablePerson": {
+      			"@type": "Person",
+            "name": "{{ site.name }}",
+            "url": "{{ site.url }}"
+      		},
+      		"author": {
+      			"@type": "Person",
+            "name": "{{ site.name }}",
+            "url": "{{ site.url }}"
+      		},
+      		"creator": {
+      			"@type": "Person",
+            "name": "{{ site.name }}",
+            "url": "{{ site.url }}"
+      		},
+      		"publisher": {
+      			"@type": "Organization",
+            "name": "{{ site.name }}",
+            "url": "{{ site.url }}",
+      			"logo": {
+      				"@type": "ImageObject",
+      				"url": "https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/headshot.jpg"
+      			}
+      		},
+       "keywords": "{{ page.tags | join: ' ' }}",
+       "wordcount": "{{ page.content | number_of_words }}",
+       "url": "{{ site.url }}{{ page.url }}",
+       "inLanguage": "en-US",
+       "dateCreated": "{{ page.date | date: "%B %e, %Y" }}",
+       "datePublished": "{{ page.date | date: "%B %e, %Y" }}",
+       "dateModified": "{{ page.date | date: "%B %e, %Y" }}",
+       "description": "{{ page.description }}",
+       "articleBody": {{ page.content | strip_html | jsonify }}
+       }
+    </script>
+  <script>
+    if (
+      localStorage.getItem("lightmode") == "enabled" ||
+      !localStorage.getItem("lightmode")
+    ) {
+      document.getElementById("light-mode").disabled = false;
+    } else {
+      document.getElementById("light-mode").disabled = true;
+    }
+  </script>
+</head>
+
+<body>
+  <div id="main" role="main" class="container">
+    {{ content }}
+  </div>
+
+  {% include analytics.html %}
+
+  <script type="text/javascript">
+    function light_toggle() {
+      var el1 = document.getElementById("light-mode");
+      if (el1.disabled) {
+        el1.disabled = false;
+        localStorage.setItem("lightmode", "enabled");
+        document.getElementById("tray-icon").innerHTML = "🌓";
+      } else {
+        el1.disabled = true;
+        localStorage.setItem("lightmode", "disabled");
+        document.getElementById("tray-icon").innerHTML = "🌗";
+      }
+    }
+  </script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-N4J53QJR31"></script>
+</body>
+
+</html>

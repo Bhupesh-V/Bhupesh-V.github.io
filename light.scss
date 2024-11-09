@@ -471,6 +471,12 @@ td {
   color:black;           /* Text color stays yellow */
 }
 
+#tosCheckbox + label {
+  font-size: 14px;
+  color: #333; /* Change to your desired color */
+  cursor: pointer;
+}
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";

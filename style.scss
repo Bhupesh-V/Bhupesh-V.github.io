@@ -545,6 +545,22 @@ input[type=email] {
   box-sizing: border-box;
 }
 
+/* Custom styles for the Terms of Service label */
+#tosCheckbox + label {
+  font-size: 14px;
+  color: #ffffff; /* Change to your desired color */
+  cursor: pointer;
+}
+
+#tosCheckbox + label a {
+  color: #007bff; /* Change to your desired link color */
+  text-decoration: underline;
+}
+
+#tosCheckbox + label a:hover {
+  color: #0056b3; /* Change to your desired hover color */
+}
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";

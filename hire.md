@@ -56,5 +56,22 @@ I have been managing India's largest dev network, [r/developersIndia](https://re
 
 <br>
 <center>
-<a href="https://cal.com/bhupesh/hire" target="_blank" rel="noopener noreferrer" class="consultation">Schedule a Consultation</a>
-<center>
+  <input type="checkbox" id="tosCheckbox" onclick="toggleButton()">
+  <label for="tosCheckbox"> I agree to the <a href="/consultation-terms-of-service" target="_blank">Terms of Service</a></label>
+  <br><br>
+  <a href="https://cal.com/bhupesh/hire" target="_blank" rel="noopener noreferrer" class="consultation" id="consultationButton" style="pointer-events: none; opacity: 0.5;">Schedule a Consultation</a>
+</center>
+
+<script>
+  function toggleButton() {
+    var checkbox = document.getElementById('tosCheckbox');
+    var button = document.getElementById('consultationButton');
+    if (checkbox.checked) {
+      button.style.pointerEvents = 'auto';
+      button.style.opacity = '1';
+    } else {
+      button.style.pointerEvents = 'none';
+      button.style.opacity = '0.5';
+    }
+  }
+</script>
