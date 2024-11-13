@@ -46,7 +46,7 @@ If you have a developer-facing product I can help you figure out your documentat
 
 ## `Domain C`: As a Dev Community Builder/Manager
 
-I have been managing India's largest dev network, [r/developersIndia](https://reddit.com/r/developersIndia) since its inception in 2020 (4 years and counting). I can help you with:
+I have been managing India's largest dev network, [r/developersIndia](https://reddit.com/r/developersIndia) since its inception in 2020 (4 years & counting). Through this experience, I have gained valuable insights into the developer ecosystem. I can help you with:
 
 - Building & managing dev communities.
 - Understanding the developer ecosystem.
