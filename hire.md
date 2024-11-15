@@ -16,7 +16,7 @@ If you want to work with me on any paid contract/freelance gigs, I usually work 
 
 I work with following tools and technologies in this domain:
 
-- Go (Microservices, GraphQL, gRPC, REST).
+- Go (Microservices, GraphQL, gRPC, JSON Web APIs).
 - Python (Django, Flask, APIs).
 - Bash/Shell Scripting, CLIs, the Unix ecosystem.
 
@@ -32,17 +32,7 @@ If you have a developer-facing product I can help you figure out your documentat
 - Open-Source
 - Side-projects
 
-### Work for external publications ✍️
-
-- [OpenMetrics vs OpenTelemetry - A guide on understanding these two specifications](https://signoz.io/blog/openmetrics-vs-opentelemetry/) - SigNoz
-- [Get your git game up with worktrees](https://blog.invidelabs.com/git-worktree-to-make-daily-git-workflow-better/) - InvideLabs
-- [How to Design a Transactional Key-value Store in Go](https://www.freecodecamp.org/news/design-a-key-value-store-in-go/) - freeCodeCamp
-- [How to Build Your Own Linux Dotfiles Manager from Scratch](https://www.freecodecamp.org/news/build-your-own-dotfiles-manager-from-scratch/) - freeCodeCamp
-- [Building a basic search experience with Postgres](https://pacenthink.io/post/building-a-basic-search-experience-with-postgres/) - Workplace RnD
-- [A Closer Look at Server Sent Events using Go](https://www.pacenthink.io/post/a-closer-look-at-server-sent-events/) - Workplace RnD
-- [Feeding a Hungry Mouse Using Chromedp and Go](https://www.pacenthink.io/post/feeding-a-hungry-mouse-using-chromedp-and-golang/) - Workplace RnD
-
-> You can find more of my writing on my [**newsletter**](https://buttondown.email/bhupesh/archive/) and [**digital garden 🍀**](https://til.bhupesh.me)
+You can find a mega list of my favorite pieces of writing at the  [**/writing**](/writing/) page.
 
 ## `Domain C`: As a Dev Community Builder/Manager
 
@@ -52,7 +42,7 @@ I have been managing India's largest dev network, [r/developersIndia](https://re
 - Understanding the developer ecosystem.
 - Developer marketing strategies.
 
-> You might also be interested in viewing my [**/interview**](https://bhupesh.me/interview/) page.
+> You might also be interested in viewing my [**/interview**](/interview/) page.
 
 <br>
 <center>

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Writing works from Bhupesh
-description: 15+ pieces of my most favorite, influential & interested pieces of writing publicly available on the internet.
+description: 15+ pieces of my most favorite & interested pieces of writing publicly available on the internet.
 permalink: /writing/
 ---
 
