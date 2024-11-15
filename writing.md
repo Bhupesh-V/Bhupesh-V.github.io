@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Writing work from Bhupesh
-description: Some of my most favorite, influential & interested pieces of writing work.
+title: Writing works from Bhupesh
+description: Some of my most favorite, influential & interested pieces of writing across the internet.
 permalink: /writing/
 ---
 
