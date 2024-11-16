@@ -32,7 +32,7 @@ If you have a developer-facing product I can help you figure out your documentat
 - Open-Source
 - Side-projects
 
-You can find a mega list of my favorite pieces of writing at the  [**/writing**](/writing/) page.
+I also maintain a mega list of [my own favorite pieces of writing](/writing/).
 
 ## `Domain C`: As a Dev Community Builder/Manager
 

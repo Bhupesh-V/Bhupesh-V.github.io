@@ -3,12 +3,12 @@ layout: page
 title: What I am doing now
 description: What is Bhupesh upto nowadays? A snapshot of what I am doing at the moment.
 permalink: /now/
-last_modified_at: 2024-05-13
+last_modified_at: 2024-11-16
 ---
 
 ## Trying to level up
 
-- At the moment I have around 2+ YoE as a software professional, the transition from this mid-level position to a senior is a bit hard, but I'm trying to get there.
+- At the moment I have around 3+ YoE as a software professional, the transition from this mid-level position to a senior is a bit hard, but I'm trying to get there.
 - 2 key things I am trying to figure out:
   - Working with large scale systems, i.e. products/projects with a large user base. Not sure if that even matters in the grand scheme of things.
   - How to lead larger projects. As in taking _more_ responsibilites & ownership.

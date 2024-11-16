@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Writing works from Bhupesh
+title: Bhupesh's Featured Writings
 description: 15+ pieces of my most favorite & interested pieces of writing publicly available on the internet.
 permalink: /writing/
 ---
 
-My writing is somewhat scattered across the internet. Here are some of my most favorite, influential & interested pieces of writing grouped by categories.
+My writing is somewhat scattered across the internet. Here are some of my most favorite & interesting pieces of writing grouped by categories.
 
 - [Go](#go)
 - [Side-projects](#side-projects)
