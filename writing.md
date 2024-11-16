@@ -25,7 +25,7 @@ My writing is somewhat scattered across the internet. Here are some of my most f
 
 ## Side-projects
 
-- [Some tips to effectively identify what projects to build & why!](https://www.reddit.com/r/developersIndia/comments/1dv1m9w/some_tips_to_effectively_identify_what_projects/). - r/developersIndia Wiki
+- [Some tips to effectively identify what projects to build & why!](https://www.reddit.com/r/developersIndia/comments/1dv1m9w/some_tips_to_effectively_identify_what_projects/). - r/developersIndia
 - [Why it's OK to abandon your side projects 😉](https://buttondown.com/bhupesh/archive/why-its-ok-to-abandon-your-side-projects/).
 
 ## Git
@@ -35,7 +35,7 @@ My writing is somewhat scattered across the internet. Here are some of my most f
 
 ## Open-Source
 
-- [Discovering small FOSS projects for contributing on github](https://wiki.developersindia.in/faqs/finding-small-foss-projects-on-github). - r/developersIndia
+- [Discovering small FOSS projects for contributing on github](https://wiki.developersindia.in/faqs/finding-small-foss-projects-on-github). - r/developersIndia Wiki
 - [One secret tip for first-time OSS contributors. Shh! 🤫 don't tell anyone else](https://buttondown.com/bhupesh/archive/one-secret-tip-for-first-time-oss-contributors/).
 
 ## Bash
