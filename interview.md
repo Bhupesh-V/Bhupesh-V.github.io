@@ -3,7 +3,7 @@ layout: page
 title: Interviewing Bhupesh
 description: Wanna interview me? I help you ask questions that matter!
 permalink: /interview/
-last_modified_at: 2024-09-16
+last_modified_at: 2024-11-17
 ---
 
 I help you interview me better. Here's a list of questions that matter, with my answers, saving you the time to analyze how I think.
@@ -11,7 +11,7 @@ I help you interview me better. Here's a list of questions that matter, with my 
 <!-- omit from toc -->
 ## Disclaimers
 
-- This document is only meant to be read by folks who take the final decision in hiring me & have an engineering background. i.e, Senior/Staff Devs, EMs, CTOs, Founders, etc. It would be great if you read this very early in the hiring process. These are not HR questions.
+- This document is meant to be read by folks who take the final decision in hiring me & have an engineering background. i.e, Senior/Staff Devs, EMs, CTOs, Founders, etc. It would be great if you read this very early in the hiring process.
 - This is a live document, i.e the responses will change with time. If this was shared to you by me, assume it's the latest version.
 
 <!-- omit from toc -->
@@ -26,7 +26,7 @@ I help you interview me better. Here's a list of questions that matter, with my 
 - [Do you know how to use `INSERT_DEVTOOL`?](#do-you-know-how-to-use-insert_devtool)
 - [Do you know about `INSERT_PRACTICE` or `INSERT_PRINCIPLE`?](#do-you-know-about-insert_practice-or-insert_principle)
 - [How does an ideal codebase look like?](#how-does-an-ideal-codebase-look-like)
-- [How often do you contribute to FOSS?](#how-often-do-you-contribute-to-foss)
+- [How often do you contribute to Open-source?](#how-often-do-you-contribute-to-open-source)
 - [How good are you with Infra or DevOps?](#how-good-are-you-with-infra-or-devops)
 - [What are you working on right now?](#what-are-you-working-on-right-now)
 
@@ -52,10 +52,6 @@ Now that I look back at it, it wasn't a full-fledged search engine but more of a
 However, it did have indexing like capabilities, given a webpage URL it could detect whether it was a tutorial or not. It was built using Python and SQLite.
 
 > To be fair, the first thing I ever built was a simple calculator using Visual Basic 6.0 during my school days.
-
-<!-- ### What great software is nobody building?
-
-Honestly, I think we have built everything we need. -->
 
 ### Can you build scalable systems or system design `INSERT_FAMOUS_LIVE_PRODUCT`?
 
@@ -99,7 +95,7 @@ I might have heard about it, but I am not sure. I am not a big fan of practices 
 6. Documentation is handled right inside the codebase in forms of "Diagrams As Code" i.e, Sequence & ER diagrams are checked into VCS.
 7. Makefiles (or related) setup to get ready with codebase in a new machine.
 
-### How often do you contribute to FOSS?
+### How often do you contribute to Open-source?
 
 - Rarely, I need strong motivations to help upstream. Either I get paid or I realize project XYZ doesn't have something I require. If you combine both of these motivations, you can expect me to contribute to OSS when I work with your team.
 - I do however relate to the maintainer/author side of the ecosystem, having maintained a few projects of my own.
@@ -107,7 +103,7 @@ I might have heard about it, but I am not sure. I am not a big fan of practices 
 ### How good are you with Infra or DevOps?
 
 - Good enough to get the job done, given realistic contraints.
-- Not good enough to do it quickly or efficiently enough in comparison to someone whose career has been in these domain.
+- Not good enough to do it quickly or efficiently enough in comparison to someone whose career has been in these domains.
 
 ### What are you working on right now?
 
