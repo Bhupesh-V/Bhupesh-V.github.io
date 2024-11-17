@@ -1,22 +1,19 @@
 {
-    "Name" : "Bhupesh Varshney",
-    "Bio" : "Developer • OpenSource Enthusiast • Tech Writer",
-    "Web" : "https://bhupesh.codes/",
-    "Mail" : "varshneybhupesh@gmail.com",
-    "GitHub" : "https://github.com/Bhupesh-V",
-    "DEV" : "https://dev.to/bhupesh",
-    "Twitter" : "https://twitter.com/bhupeshimself",
-    "Telegram" : "https://t.me/bhupeshimself",
-    "LinkedIn" : "https://www.linkedin.com/in/bhupesh-v/",
-    "Tools" : {
+    "Name": "Bhupesh Varshney",
+    "Bio": "Software Craftsman | Tech Writer | Community Lead r/developersIndia",
+    "Web": "https://bhupesh.me/",
+    "GitHub": "https://github.com/Bhupesh-V",
+    "X": "https://x.com/bhupeshimself",
+    "LinkedIn": "https://www.linkedin.com/in/bhupesh-v/",
+    "Tools": {
         "Languages": {
-            "Back-End" : "Python, Go",
-            "Front-End" : "Javascript, HTML"
+            "Back-End": "Go, Python"
         },
-        "Databases": "MySQL, SQLite",
-        "Frameworks": "Django, Flask, Bulma.io, MaterializeCSS",
-        "Miscellaneous" : "Travis CI, codecov.io, Pythonanywhere, Heroku, Netlify"
+        "Databases": "Postgres, SQLite"
     },
-    "Editors" : "Sublime Text, Neovim, Nano",
-    "OS" : "Ubuntu (Mate)"
+    "Editors": "VSCode",
+    "OS": [
+        "MacOS (Sonoma)",
+        "Ubuntu (Mate)"
+    ]
 }
