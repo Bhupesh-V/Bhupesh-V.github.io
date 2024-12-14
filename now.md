@@ -16,6 +16,7 @@ last_modified_at: 2024-11-16
 
 ## Working on personal projects
 
+- Started a minimalistic web based tool, [**osscooking.com**](https://osscooking.com/) to analyze what's happening in open-source projects as a busy dev with just 10 minutes to spare.
 - Recently started a new project called [shedock](https://github.com/shedock/shedock), it's an experimental tool to dockerize shell scripts. Doing this exercise to learn more about the container and shell ecosystems.
 - Launched a stupid & fun little project called [heavenorhell.xyz](https://heavenorhell.xyz/), a poll based social experiment app to capture everyone's sentiment on where they wanna go, heaven or hell?
 

@@ -9,11 +9,12 @@ Some of my significant projects, tools & scripts
 
 ## Legends never die
 
-Projects that I comeback to from time to time, unless of-course I don't have to.
+Projects that I comeback to from time to time.
 
 - [**ugit**](https://github.com/Bhupesh-V/ugit) - ugit helps you undo git commands.
 - [**shedock**](https://github.com/shedock/shedock) - An experimental tool to dockerize shell scripts.
 - [**heavenorhell.xyz**](https://heavenorhell.xyz/) - A fun poll based social experiment app for people to book tickets to heaven or hell.
+- [**osscooking.com**](https://osscooking.com/) - Analyze what's happening in your favorite open-source projects as a busy dev with just 10 minutes to spare.
 
 ## Burdened with glorious purpose
 
