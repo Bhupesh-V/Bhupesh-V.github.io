@@ -9,12 +9,19 @@ Things I consider as wins or achievements.
 
 ### 2024
 
-- Visited mountains for the first time (trip to Jibhi, Himachal Pradesh).
-- Visited Bengaluru for the first time (PyCon India 2024).
-- Launched 2 fun sites:
-  - [bookshelf.bhupesh.me](https://bookshelf.bhupesh.me) - My IRL bookshelf.
-  - [hotwheels.bhupesh.me](https://hotwheels.bhupesh.me) - My HotWheels collection :)
-<!-- - Successfully survived 3 years of full-time sofware engineering. -->
+- Visited the mountains for the first time (trip to _Jibhi, Himachal Pradesh_).
+- Visited Bengaluru for the first time _(PyCon India 2024_). Chill city, not for my pocket though :D
+- Built a lot of stuff:
+  - **Fun**
+    - [heavenorhell.xyz](https://heavenorhell.xyz) - A poll based social experiment app to capture everyone's sentiment on where they wanna go, heaven or hell?
+  - **Personal**
+    - [bookshelf.bhupesh.me](https://bookshelf.bhupesh.me) - My IRL bookshelf.
+    - [hotwheels.bhupesh.me](https://hotwheels.bhupesh.me) - My Hot Wheels collection :)
+  - **Serious Stuff**
+    - [osscooking.com](https://osscooking.com) - A tool to analyze what's happening in open-source projects as a busy dev with just 10 minutes to spare.
+    - [shedock](https://github.com/shedock/shedock) - An experimental tool to dockerize shell scripts, currently on a hiatus.
+- Successfully survived 3 years of full-time sofware engineering. At this point, I am just winging it.
+- Organized 11 successful AMAs over at r/developersIndia.
 
 ### 2023
 

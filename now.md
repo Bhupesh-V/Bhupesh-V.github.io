@@ -3,12 +3,12 @@ layout: page
 title: What I am doing now
 description: What is Bhupesh upto nowadays? A snapshot of what I am doing at the moment.
 permalink: /now/
-last_modified_at: 2024-11-16
+last_modified_at: 2024-12-14
 ---
 
 ## Trying to level up
 
-- At the moment I have around 3+ YoE as a software professional, the transition from this mid-level position to a senior is a bit hard, but I'm trying to get there.
+- At the moment I have around 3+ YoE as a professional software engineer, the transition from this mid-level position to a senior is a bit hard, but I'm trying to get there. Frankly, I believe its going to take a lot of years to get there.
 - 2 key things I am trying to figure out:
   - Working with large scale systems, i.e. products/projects with a large user base. Not sure if that even matters in the grand scheme of things.
   - How to lead larger projects. As in taking _more_ responsibilites & ownership.
@@ -18,7 +18,7 @@ last_modified_at: 2024-11-16
 
 - Started a minimalistic web based tool, [**osscooking.com**](https://osscooking.com/) to analyze what's happening in open-source projects as a busy dev with just 10 minutes to spare.
 - Recently started a new project called [shedock](https://github.com/shedock/shedock), it's an experimental tool to dockerize shell scripts. Doing this exercise to learn more about the container and shell ecosystems.
-- Launched a stupid & fun little project called [heavenorhell.xyz](https://heavenorhell.xyz/), a poll based social experiment app to capture everyone's sentiment on where they wanna go, heaven or hell?
+- Launched a stupid & fun little thing called [heavenorhell.xyz](https://heavenorhell.xyz/), a poll based social experiment app to capture everyone's sentiment on where they wanna go, heaven or hell?
 
 ## Trying to lead efforts as a community lead
 
