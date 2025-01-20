@@ -3,7 +3,7 @@ layout: page
 title: What I am doing now
 description: What is Bhupesh upto nowadays? A snapshot of what I am doing at the moment.
 permalink: /now/
-last_modified_at: 2024-12-14
+last_modified_at: 2025-01-20
 ---
 
 ## Trying to level up
@@ -17,8 +17,6 @@ last_modified_at: 2024-12-14
 ## Working on personal projects
 
 - Started a minimalistic web based tool, [**osscooking.com**](https://osscooking.com/) to analyze what's happening in open-source projects as a busy dev with just 10 minutes to spare.
-- Recently started a new project called [shedock](https://github.com/shedock/shedock), it's an experimental tool to dockerize shell scripts. Doing this exercise to learn more about the container and shell ecosystems.
-- Launched a stupid & fun little thing called [heavenorhell.xyz](https://heavenorhell.xyz/), a poll based social experiment app to capture everyone's sentiment on where they wanna go, heaven or hell?
 
 ## Trying to lead efforts as a community lead
 
