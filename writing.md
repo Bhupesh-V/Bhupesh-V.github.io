@@ -22,6 +22,7 @@ My writing is somewhat scattered across the internet. Here are some of my most f
 - [A Closer Look at Server Sent Events using Go](https://www.pacenthink.io/post/a-closer-look-at-server-sent-events/) - Workplace RnD
 - [Feeding a Hungry Mouse Using Chromedp and Go](https://www.pacenthink.io/post/feeding-a-hungry-mouse-using-chromedp-and-golang/) - Workplace RnD
 - [How to Design a Transactional Key-value Store in Go](https://www.freecodecamp.org/news/design-a-key-value-store-in-go/) - freeCodeCamp
+- [Trying to clear some misjudgments about Go (or any tech stack) among newcomers & seasoned devs](https://www.reddit.com/r/developersIndia/comments/1i6o9kc/trying_to_clear_some_misjudgments_about_go_the/) - r/developersIndia
 
 ## Side-projects
 

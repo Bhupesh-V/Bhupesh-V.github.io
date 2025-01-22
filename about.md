@@ -4,7 +4,7 @@ title: About Me
 permalink: /about/
 ---
 
-I am Bhupesh, a Software Craftsman & Tech Writer living in New Delhi, India. Professionally I have spent more than 3 years working on backend systems with Go & Python. In my free time I volunteer as a Community Lead for [**r/developersIndia**](https://www.reddit.com/r/developersIndia/), a community of more than 900K software & tech folks across India.
+I am Bhupesh, a Software Craftsman & Tech Writer living in New Delhi, India. Professionally I have spent more than 3 years working on backend systems with Go & Python. In my free time I volunteer as a Community Lead for [**r/developersIndia**](https://www.reddit.com/r/developersIndia/), a community of more than a million software & tech folks across India.
 
 I frequently write about programming, tech & my journey here. You can find more of my work on my [**hire page**](/hire/). If you are interested in things I have built, head over to my [**projects**](/projects/).
 
