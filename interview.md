@@ -3,10 +3,10 @@ layout: page
 title: Interviewing Bhupesh
 description: Wanna interview me? I help you ask questions that matter!
 permalink: /interview/
-last_modified_at: 2024-11-17
+last_modified_at: 2025-01-27
 ---
 
-I help you interview me better. Here's a list of questions that matter, with my answers, saving you the time to analyze how I think.
+I help you interview me better. Here's a list of questions that matter, with my answers, saving you the time to analyze how I think or preceive my work domain.
 
 <!-- omit from toc -->
 ## Disclaimers
@@ -27,6 +27,8 @@ I help you interview me better. Here's a list of questions that matter, with my 
 - [Do you know about `INSERT_PRACTICE` or `INSERT_PRINCIPLE`?](#do-you-know-about-insert_practice-or-insert_principle)
 - [How does an ideal codebase look like?](#how-does-an-ideal-codebase-look-like)
 - [How often do you contribute to Open-source?](#how-often-do-you-contribute-to-open-source)
+  - [The world is a canvas](#the-world-is-a-canvas)
+  - [The world is pragmatic](#the-world-is-pragmatic)
 - [How good are you with Infra or DevOps?](#how-good-are-you-with-infra-or-devops)
 - [What are you working on right now?](#what-are-you-working-on-right-now)
 
@@ -97,8 +99,21 @@ I might have heard about it, but I am not sure. I am not a big fan of practices 
 
 ### How often do you contribute to Open-source?
 
-- Rarely, I need strong motivations to help upstream. Either I get paid or I realize project XYZ doesn't have something I require. If you combine both of these motivations, you can expect me to contribute to OSS when I work with your team.
-- I do however relate to the maintainer/author side of the ecosystem, having maintained a few projects of my own.
+Rarely, I need strong motivations to help upstream. I see the world of open-source through 2 lenses:
+
+#### The world is a canvas
+
+The code is made source available to the public by the author, they did that because they were _lost in a creative drive_ i.e., the code was used as a _way of communication_, and the finished project was/is a message to the world. The other necessities like writing thorough documentation, tests, fostering community contributions, etc. are secondary, and in the grand scheme of things, don't matter.
+
+It's possible that **I may voluntarily contribute if I somehow agree with the author's (artist's) vision of the project, or I just couldn't see myself letting a certain project die**. In either case, **the choice is a personal one**, just as it was for the author.
+
+#### The world is pragmatic
+
+We are talking business. All crucial (big or small) dependencies, main-stream frameworks, and languages fit into this.
+
+For this category, I am not going to spend any time contributing unless I have a strong motivation to do so, and that motivation is _responsibility_, **if you ask me, hey bhupesh we can't move forward unless we fix this upstream, I would be the first person to volunteer, I would put a ticket on the board & get to working**.
+
+Learning is subjective, toiling through millions of lines of code from Kubernetes is not worth my time if I clearly don't see an end goal.
 
 ### How good are you with Infra or DevOps?
 
