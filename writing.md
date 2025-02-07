@@ -1,11 +1,11 @@
 ---
 layout: page
 title: Bhupesh's Featured Writings
-description: 15+ pieces of my most favorite & interested pieces of writing publicly available on the internet.
+description: 15+ pieces of my most favorite pieces of writing, publicly available on the internet.
 permalink: /writing/
 ---
 
-My writing is somewhat scattered across the internet. Here are some of my most favorite & interesting pieces of writing grouped by categories.
+My writing is somewhat scattered across the internet. Here are some of my most favorite & interesting pieces of writing grouped by various categories & domains.
 
 - [Go](#go)
 - [Side-projects](#side-projects)
@@ -54,7 +54,8 @@ My writing is somewhat scattered across the internet. Here are some of my most f
 
 ## Community Building
 
-- [Thoughts on everyone's expectation from a community](https://x.com/bhupeshimself/status/1799132946479325334)
+- [5 years of maintaining India's largest dev community on the web](https://bhupesh.me/5-years-developersIndia/).
+- [Thoughts on everyone's expectation from a community](https://x.com/bhupeshimself/status/1799132946479325334).
 
 ## Meta
 
