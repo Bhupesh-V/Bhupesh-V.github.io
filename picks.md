@@ -23,6 +23,7 @@ This page documents some of the things that I found "really" interesting & thoug
 
 - [Modern Software Development Summarized](https://factoryfactoryfactory.net/).
 - [Is Good Code Impossible?](https://raptureinvenice.com/is-good-code-impossible/)
+- [he Evolution of SRE at Google](https://www.usenix.org/publications/loginonline/evolution-sre-google)
 
 ### Watch
 
