@@ -57,8 +57,10 @@
 <meta name="twitter:image" content="{{ page.banner_image }}">
 <meta name="twitter:card" content="summary_large_image">
 {% else %}
+{% if page.url == "/" or page.url == "/about/" %}
 <meta property="og:image" content="{{ site.avatar }}">
-<meta property="og:image:alt" content="Bhupesh Varshney Pic">
+<meta property="og:image:alt" content="Bhupesh Varshney's Pic">
 <meta property="og:image:type" content="image/jpg">
 <meta name="twitter:image" content="{{ site.avatar }}">
+{% endif %}
 {% endif %}

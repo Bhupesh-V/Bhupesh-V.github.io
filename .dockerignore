@@ -1,0 +1,5 @@
+_site
+.git
+*.log
+*.swp
+tmp
