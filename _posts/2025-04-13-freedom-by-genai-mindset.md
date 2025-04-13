@@ -5,9 +5,7 @@ title: What will you do with the freedom GenAI offers?
 description: The GenAI eco-system claims freedom from boring work but are you really free?
 ---
 
-You're still working, even after AI "automated" parts of your job. You're still accountable for what you deliver using these tools.
-
-The only difference is that you might be using less brainpower now which, I believe, is a bad thing overall, especially when you have no idea what you can do with that "extra" freedom.
+You're still working, even after AI "automated" parts of your job. You're still accountable for what you deliver using these tools. The only difference is that you might be using less brainpower now which, I believe, is a bad thing overall, especially when you have no idea what you can do with that "extra" freedom.
 
 ## The Freedom
 
