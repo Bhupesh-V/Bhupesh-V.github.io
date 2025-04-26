@@ -22,7 +22,7 @@ I work with following tools and technologies in this domain:
 
 ## `Domain B`: As a Technical Writer
 
-If you have a developer-facing product I can help you figure out your documentation, blogs, marketing tactics etc.
+As a freelance tech writer, I’ve completed 30+ successful projects for multiple clients. If you have a developer-facing product, I can help you figure out your documentation, blogs, marketing tactics etc.
 
 ### Things I usually write about (open-ended)
 
