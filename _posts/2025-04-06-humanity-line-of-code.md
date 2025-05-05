@@ -3,6 +3,7 @@ layout: post
 comments: true
 title: The humanity in each line of code
 description: Perspectives on why I think code in software engineering matters, Code is language. And language, whether in love or in systems, carries weight.
+tags: [career]
 ---
 
 Our hunt to _algorithmize_ (is that a word?) all the wrong things has ruined software engineering as it exists today. A few years back I used to look at code I wrote as replaceable, and saw it as a commodity (from what I read and understood from practitioners around me), I no longer see it that way. I think the human aspect of software engineering will be more crucial than ever now (if it wasn't already).

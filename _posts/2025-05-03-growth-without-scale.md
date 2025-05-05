@@ -3,6 +3,7 @@ layout: post
 comments: true
 title: Checklist for software engineers who think there's no growth without working at scale
 description: Challenging the perspective that growing as a software engineering is only possible in large-scale organizations.
+tags: [career]
 ---
 
 Some tech-workers aren't _lucky_ enough to end up working for organizations that deal with a gazillion users, there are some hard challenges to solve there, but this career is rarely about putting more server boxes. Software is a complex discipline, dealing with both code & humans. The Internet has painted the idea that there's no growth for a software engineer when there's no scale, thanks to software-scale porn on social media. I wanna challenge that perspective.
