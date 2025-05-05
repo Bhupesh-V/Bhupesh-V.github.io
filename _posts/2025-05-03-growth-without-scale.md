@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title: Checklist for software engineers who think there's no growth without working at scale
-description: Challenging the perspective that growth in software engineering is only possible in large-scale organizations.
+description: Challenging the perspective that growing as a software engineering is only possible in large-scale organizations.
 ---
 
 Some tech-workers aren't _lucky_ enough to end up working for organizations that deal with a gazillion users, there are some hard challenges to solve there, but this career is rarely about putting more server boxes. Software is a complex discipline, dealing with both code & humans. The Internet has painted the idea that there's no growth for a software engineer when there's no scale, thanks to software-scale porn on social media. I wanna challenge that perspective.
@@ -37,6 +37,6 @@ At an organizational level,
 
 Personally, I am not even halfway through the list. There's nothing wrong with chasing the big bucks, brand, or scale, but that doesn't necessarily mean everyone who doesn't do that is somehow lesser than you. Learn to have respect for your craft.
 
-Assuming the prerequisites are met, the only thing you need to change is how you think about your work, everything else will follow.
+Assuming the prerequisites are met, the only thing you need to change is [how you think about your work](https://bhupesh.me/humanity-line-of-code/), everything else will follow.
 
 Notice that none of the items I shared are part of _over-engineering_ anything (Automation/Optimizing without need) these are basic expectations from a software engineer in some organizations. I bet you don't have all of them checked out (if you do, I will buy you coffee, [let's chat](https://bhupesh.me/chat/)). There's so much to do even when your server doesn't receive 2M requests per day. Growth can happen wherever humans are evolved.
