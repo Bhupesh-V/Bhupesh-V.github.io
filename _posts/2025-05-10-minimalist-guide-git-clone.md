@@ -304,9 +304,7 @@ Results:
 135M    clones/single-branch
 ```
 
-According to our [acceptance criteria](#acceptance-criteria), the winner is the **Bare + Treeless** approach, I ended up rolling it out on [`osscooking.com`](https://osscooking.com) as we speak, come try it out?
-
-The migration was beneficial as it reduced the response time by seconds on the current deployment of osscooking.com.
+According to our [acceptance criteria](#acceptance-criteria), the winner is the **Bare + Treeless** approach, I ended up rolling it out on [`osscooking.com`](https://osscooking.com). The migration was beneficial as it reduced the repo lookup response time by seconds on the current production deployment.
 
 ![blobless](https://bhupesh.me/images/blobless.png)
 
