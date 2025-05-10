@@ -581,6 +581,41 @@ i.fa.fa-link {
   font-size: 14px;
 }
 
+.task-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.task-list-item-checkbox {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+  border: 2px solid #00ff00;
+  border-radius: 4px;
+  position: relative;
+  vertical-align: middle;
+}
+
+/* Bigger checkmark */
+.task-list-item-checkbox:checked::before {
+  content: '';
+  position: absolute;
+  left: 5px;
+  top: 2px;
+  width: 6px;
+  height: 12px;
+  border: solid #00ff00;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+}
+
+/* Optional: add disabled styling */
+.task-list-item-checkbox:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
 [role=doc-noteref] {
   vertical-align: super;
   font-size: smaller;

@@ -437,6 +437,12 @@ td {
   padding: 10px;
 }
 
+th {
+  color: black;
+  padding: 8px;
+  font-weight: bold;
+}
+
 #project-ad {
   padding: 1.5em;
   border: medium solid #ffea18;
@@ -479,6 +485,35 @@ td {
 
 i.fa.fa-link {
   font-size: 15px;
+}
+
+.task-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.task-list-item-checkbox {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+  border: 2px solid #ff6600;
+  border-radius: 4px;
+  position: relative;
+  vertical-align: middle;
+}
+
+/* Bigger checkmark */
+.task-list-item-checkbox:checked::before {
+  content: '';
+  position: absolute;
+  left: 5px;
+  top: 2px;
+  width: 6px;
+  height: 12px;
+  border: solid #ff6600;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
