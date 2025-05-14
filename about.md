@@ -22,16 +22,16 @@ See my [**now**](/now/) page for a snapshot of what I am doing at the moment.
 
 ### Learn with me
 
-I log whatever new stuff I learn, Go to <a href="https://til.bhupesh.me"  class="mark">til.bhupesh.me</a> to see some of it. I also have a [**newsletter** 🚀](https://buttondown.email/bhupesh) where I share interesting stuff and tips around tech.
+I log whatever new stuff I learn, Go to <a href="https://til.bhupesh.me" class="mark">til.bhupesh.me</a> to see some of it. I also have a [**newsletter** 🚀](https://buttondown.email/bhupesh) where I share interesting stuff and tips around tech.
 
 ### Connect
 
 - I usually hangout in [r/developersIndia Discord Server](https://discord.gg/Ep6zGAuWbq). Come and say hi 👋
 - Wanna have a quick chat about something?, [schedule a call](/chat/).
 
-### Support
+<!-- ### Support
 
-If you like my work, consider supporting me. You can choose to [sponsor my work on GitHub](https://github.com/sponsors/Bhupesh-V). Or maybe gift something from my [tech books wishlist](https://www.amazon.in/hz/wishlist/ls/2LBG6D40Z02RJ?ref_=wl_share).
+If you like my work, consider supporting me. You can choose to [sponsor my work on GitHub](https://github.com/sponsors/Bhupesh-V). Or maybe gift something from my [tech books wishlist](https://www.amazon.in/hz/wishlist/ls/2LBG6D40Z02RJ?ref_=wl_share). -->
 
 <!-- <a href="https://liberapay.com/bhupesh/donate">
 	<img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg" height="40">
