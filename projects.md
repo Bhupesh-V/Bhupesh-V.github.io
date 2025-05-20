@@ -11,43 +11,43 @@ Some of my significant projects, tools & scripts
 
 Projects that I comeback to from time to time.
 
+- [**ugit**](https://github.com/Bhupesh-V/ugit) - ugit helps you undo git commands.
 - [**osscooking.com**](https://osscooking.com/) - Analyze what's happening in your favorite open-source projects as a busy dev with just 10 minutes to spare.
+- [**godeping**](https://github.com/Bhupesh-V/godeping) - Identify Archived/Unmaintained Go project dependencies.
 
 ## Burdened with glorious purpose
 
-These projects served their purpose, some of them still work.
+These projects served their purpose, some of them still work, I occasionally come back to them every now and then.
 
-1. [**ugit**](https://github.com/Bhupesh-V/ugit)
-   - ugit helps you undo git commands.
-2. [**shedock**](https://github.com/shedock/shedock)
+1. [**shedock**](https://github.com/shedock/shedock)
    - An experimental tool to dockerize shell scripts.
-3. [**heavenorhell.xyz**](https://heavenorhell.xyz/)
+2. [**heavenorhell.xyz**](https://heavenorhell.xyz/)
    - A fun poll based social experiment app for people to book tickets to heaven or hell.
-4. [**zoe**](https://github.com/Bhupesh-V/zoe)
+3. [**zoe**](https://github.com/Bhupesh-V/zoe)
    - A barebones transactional in-memory key: value store with an interactive prompt.
    - This was built as part of writing a tutorial on solving a [interview question](https://www.freecodecamp.org/news/design-a-key-value-store-in-go/).
-5. [**git-feed**](https://til.bhupesh.me/shell/generate-feed-files-in-git-repo) (script)
+4. [**git-feed**](https://til.bhupesh.me/shell/generate-feed-files-in-git-repo) (script)
    - Generate a RSS Feed of recent files inside a Git repository.
    - This has a very niche use-case, but it will still work. I use a JSON feed for my [digital garden](https://til.bhupesh.me).
-6. [**git-prs**](https://bhupesh.me/finding-pull-requests-that-change-a-file-terminal/) (script)
+5. [**git-prs**](https://bhupesh.me/finding-pull-requests-that-change-a-file-terminal/) (script)
    - Find pull requests that modify a file path in the terminal.
    - Yeah, I don't know if its useful to anyone.
-7. [**surf**](https://github.com/Bhupesh-V/.Varshney/blob/master/scripts/surf) (script)
+6. [**surf**](https://github.com/Bhupesh-V/.Varshney/blob/master/scripts/surf) (script)
    - A standalone script to surf web (Powered by searx).
    - I no longer browse internet using terminal. Might come back to it again in future.
-8. [**memer-action**](https://github.com/Bhupesh-V/memer-action)
+7. [**memer-action**](https://github.com/Bhupesh-V/memer-action)
    - A GitHub Action for Programmer Memes xD.
    - I still use it, check my github profile for some memes.
-9. [**AreYouOk**](https://github.com/Bhupesh-V/areyouok)
+8. [**AreYouOk**](https://github.com/Bhupesh-V/areyouok)
    - A fast and easy to use URL health checker ⛑️  Keep your links healthy during tough times.
    - It works, there's not much maintenance required.
-10. [**bkp**](https://github.com/Bhupesh-V/.Varshney/blob/master/scripts/bkp) (script)
+9.  [**bkp**](https://github.com/Bhupesh-V/.Varshney/blob/master/scripts/bkp) (script)
    - Script to backup files as a GitHub Gist with 0 dependencies.
    - Nothing much to it, but it works.
-11. [**defe**](https://github.com/Bhupesh-V/defe)
+10. [**defe**](https://github.com/Bhupesh-V/defe)
    - A tech feed aggregator for Developers & Tech Enthusiasts.
    - One of my major web-based projects, it was fun to work on. This still works but I haven't managed to give any time to host it somewhere.
-12. [**dotman**](https://github.com/Bhupesh-V/dotman)
+11. [**dotman**](https://github.com/Bhupesh-V/dotman)
    - dotman is a simple, elegant & easy to use dotfiles manager 🖖🏽
    - I no longer actively maintain my dotfiles, hence my inactivity.
 
