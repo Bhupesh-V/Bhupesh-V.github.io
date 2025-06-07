@@ -4,6 +4,7 @@ comments: true
 title: A minimalist's guide to cloning git repositories
 description: A look at 10 different ways to clone a git repository by optimizing for size.
 tags: git
+last_modified_at: 2025-06-07
 ---
 
 Late last year, I launched [_osscooking.com_](https://osscooking.com) to provide real-time analysis of open-source projects on certain opinionated metrics. One of the first optimization techniques while doing on-demand git analysis is to have a copy of the repository locally. Waiting time with plain git clones can gradually increase as the repository size grows ultimately affecting the response time. The topic of cloning is simple, yet complex, so much so that companies like TikTok & Microsoft had to build [their own tools](#what-are-the-big-players-doing) to improve the git mono-repo experience with cloning being one of the key areas of focus.
@@ -107,7 +108,12 @@ Similarly, `--depth=4` will fetch the last 4 commits.
 - [ ] Access to git tags
 - [ ] Exclude file contents
 
-Shallow clones can be an ideal approach to clone a repo for ephemeral purposes, like CI/CD pipelines, or to quickly build the latest code images.
+Shallow clones can be an ideal approach to clone a repo for ephemeral purposes, like CI/CD pipelines, or to quickly build the latest code images. For instance, this is the default approach [which seems to be used](https://github.com/actions/checkout/blob/09d2acae674a48949e3602304ab46fd20ae0c42f/src/git-command-manager.ts#L254-L296) by Github's [checkout](https://github.com/actions/checkout) action, this is what happens under the hood when you add `- uses: actions/checkout@v4` in you `action.yaml`:
+
+```
+git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin HEAD
+```
+
 
 ## Bare Blobless Clone (aka Partial Clone)
 
