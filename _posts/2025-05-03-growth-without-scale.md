@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: Checklist for software engineers who think there's no growth without working at scale
+title: A software engineer's checklist for growing without working at scale
 description: Challenging the perspective that growing as a software engineering is only possible in large-scale organizations.
 tags: [career]
 ---
