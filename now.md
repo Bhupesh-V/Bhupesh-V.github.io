@@ -3,23 +3,19 @@ layout: page
 title: What I am doing now
 description: What is Bhupesh upto nowadays? A snapshot of what I am doing at the moment.
 permalink: /now/
-last_modified_at: 2025-04-16
+last_modified_at: 2025-10-18
 ---
 
-## Trying to level up
+## Main focus
 
-- At the moment I have around 3+ YoE as a professional software engineer, the transition from this mid-level position to a senior is a bit hard, but I'm trying to get there. Frankly, I believe its going to take a lot of years to get there.
-- 2 key things I am trying to figure out:
-  - Working with large scale systems, i.e. products/projects with a large user base. (Not sure if that even matters in the grand scheme of things).
-  - How to lead larger projects. As in taking _more_ responsibilites & ownership.
+- Getting back into the physical world. My living comes from being in the digital one, and I’m a bit tired of the stark difference between them. As a result, I’ve started journaling, got myself a pocket diary, and some Uni-ball pens.
+- Learning about systems thinking.
 
-## Working on personal projects
+## On the back burner
 
-- Started a minimalistic web based tool, [**osscooking.com**](https://osscooking.com/) to analyze what's happening in open-source projects as a busy dev with just 10 minutes to spare.
-
-## Learning
-
-- Currently into System's Thinking & Psychology.
+- Planning to get into Single Board Computers, get my first Raspberry Pi and hoping to run few of my projects on it.
+- Go back into adding more cool stuff on [**osscooking.com**](https://osscooking.com/).
+- Figure out actional goals to transition from a mid-level software engineer position to a senior. I believe its going to take a lot of years to get there. Plus the sad state of affairs in this industry just pisses me off.
 
 <!-- ## Trying to lead efforts as a community lead
 
@@ -29,6 +25,6 @@ last_modified_at: 2025-04-16
   - Taking care of the job board, wiki & other open-source projects.
   - Building up the volunteer team. -->
 
-## Currently reading
+<!-- ## Currently reading
 
-I have a dedicated digital bookshelf, head over to [bookshelf.bhupesh.me](https://bookshelf.bhupesh.me/) to see what I am reading at the moment.
+- I have a dedicated digital bookshelf, head over to [bookshelf.bhupesh.me](https://bookshelf.bhupesh.me/) to see what I am reading at the moment. -->
