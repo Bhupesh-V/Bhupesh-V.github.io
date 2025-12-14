@@ -126,7 +126,7 @@ Learning is subjective, toiling through millions of lines of code from Kubernete
 I have two schools of thought:
 
 1. At a personal level:
-   I came into this industry with a hobbyist mindset. I enjoy the process more than the end result, so I don’t see programming as a chore. I love all parts of it, boring and exciting alike. That makes these tools largely redundant in my own programming process.
+   I came into this industry with a [hobbyist mindset](https://bhupesh.me/my-first-loop/). I enjoy the process more than the end result, so I don’t see programming as a chore. I love all parts of it, boring and exciting alike. That makes these tools largely redundant in my own programming process.
 2. At a professional level:
    If a company can afford to pay for such tools, it should invest in them and share them with its engineers. Avoid micromanagement, and let the team figure out whether they can move faster with these tools or without them.
 
