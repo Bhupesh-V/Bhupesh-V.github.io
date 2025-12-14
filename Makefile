@@ -1,4 +1,4 @@
-build-image:
+build:
 	docker build -t bhupesh.me .
 run:
 	docker run --rm -p 4000:4000 \
