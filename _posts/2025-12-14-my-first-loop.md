@@ -9,7 +9,7 @@ I used to fear the "computer classes" during my school years (6th-7th grade). I 
 
 ## The Beginnings
 
-Once I got my hands on my first computer (an Intel [Pentium 4](https://en.wikipedia.org/wiki/Pentium_4) machine with XP), sometime around 9th grade, my days were filled with being overwhelmed by looking at Microsoft [Visual Basic 6.0](https://en.wikipedia.org/wiki/Visual_Basic_(classic)) and being excited about writing HTML pages. The rest of my free time I spent on online games, browsing _Miniclip_ for hours (remember when Flash was still alive?). I started tinkering with Windows XP, messing around with the Windows registry—changing start button colors, adding images to the right-click context menu, and more. Needless to say, that stuff was addictive, and I could spend hours doing it without feeling any burnout.
+Once I got my hands on my first computer (an Intel [Pentium 4](https://en.wikipedia.org/wiki/Pentium_4) machine with XP and 1.5 gigs of RAM), sometime around 9th grade, my days were filled with being overwhelmed by looking at Microsoft [Visual Basic 6.0](https://en.wikipedia.org/wiki/Visual_Basic_(classic)) and being excited about writing HTML pages. The rest of my free time I spent on online games, browsing _Miniclip_ for hours (remember when Flash was still alive?). I started tinkering with Windows XP, messing around with the Windows registry—changing start button colors, adding images to the right-click context menu, and more. Needless to say, that stuff was addictive, and I could spend hours doing it without feeling any burnout.
 
 > My favorite game to this day is the [_Zombotron_](https://zombotron.fandom.com/wiki/Zombotronipedia) series. I still [play it](https://www.friv.com/z/games/zombotron/game.html) sometimes!
 
