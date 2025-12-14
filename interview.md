@@ -3,7 +3,7 @@ layout: page
 title: Interviewing Bhupesh
 description: Wanna interview me? I help you ask questions that matter!
 permalink: /interview/
-last_modified_at: 2025-01-27
+last_modified_at: 2025-12-14
 ---
 
 I help you interview me better. Here's a list of questions that matter, with my answers, saving you the time to analyze how I think or preceive my work domain.
@@ -30,6 +30,7 @@ I help you interview me better. Here's a list of questions that matter, with my 
   - [The world is a canvas](#the-world-is-a-canvas)
   - [The world is pragmatic](#the-world-is-pragmatic)
 - [How good are you with Infra or DevOps?](#how-good-are-you-with-infra-or-devops)
+- [Thoughts on AI-assisted programming?](#thoughts-on-ai-assisted-programming)
 - [What are you working on right now?](#what-are-you-working-on-right-now)
 
 ### What makes you who you are today?
@@ -119,6 +120,15 @@ Learning is subjective, toiling through millions of lines of code from Kubernete
 
 - Good enough to get the job done, given realistic contraints.
 - Not good enough to do it quickly or efficiently enough in comparison to someone whose career has been in these domains.
+
+### Thoughts on AI-assisted programming?
+
+I have two schools of thought:
+
+1. At a personal level:
+   I came into this industry with a hobbyist mindset. I enjoy the process more than the end result, so I don’t see programming as a chore. I love all parts of it, boring and exciting alike. That makes these tools largely redundant in my own programming process.
+2. At a professional level:
+   If a company can afford to pay for such tools, it should invest in them and share them with its engineers. Avoid micromanagement, and let the team figure out whether they can move faster with these tools or without them.
 
 ### What are you working on right now?
 
