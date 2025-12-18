@@ -3,7 +3,7 @@ layout: page
 title: Interviewing Bhupesh
 description: Wanna interview me? I help you ask questions that matter!
 permalink: /interview/
-last_modified_at: 2025-12-14
+last_modified_at: 2025-12-18
 ---
 
 I help you interview me better. Here's a list of questions that matter, with my answers, saving you the time to analyze how I think or preceive my work domain.
@@ -20,24 +20,25 @@ I help you interview me better. Here's a list of questions that matter, with my 
 - [What makes you who you are today?](#what-makes-you-who-you-are-today)
 - [What's the best thing you've made without anybody asking?](#whats-the-best-thing-youve-made-without-anybody-asking)
 - [What's the first thing you built? When and Why did you build it?](#whats-the-first-thing-you-built-when-and-why-did-you-build-it)
-- [Can you build scalable systems or system design `INSERT_FAMOUS_LIVE_PRODUCT`?](#can-you-build-scalable-systems-or-system-design-insert_famous_live_product)
-- [Do you prefer working on coding projects alone or with a team?](#do-you-prefer-working-on-coding-projects-alone-or-with-a-team)
-- [What sets you apart from other applicants for `ABC` position?](#what-sets-you-apart-from-other-applicants-for-abc-position)
-- [Do you know how to use `INSERT_DEVTOOL`?](#do-you-know-how-to-use-insert_devtool)
-- [Do you know about `INSERT_PRACTICE` or `INSERT_PRINCIPLE`?](#do-you-know-about-insert_practice-or-insert_principle)
+- [Can you build scalable systems or system design INSERT\_FAMOUS\_LIVE\_PRODUCT?](#can-you-build-scalable-systems-or-system-design-insert_famous_live_product)
+- [Do you prefer working on projects alone or with a team?](#do-you-prefer-working-on-projects-alone-or-with-a-team)
+- [What sets you apart from other applicants for ABC position?](#what-sets-you-apart-from-other-applicants-for-abc-position)
+- [Do you know how to use INSERT\_DEVTOOL?](#do-you-know-how-to-use-insert_devtool)
+- [Do you know about INSERT\_PRACTICE or INSERT\_PRINCIPLE?](#do-you-know-about-insert_practice-or-insert_principle)
 - [How does an ideal codebase look like?](#how-does-an-ideal-codebase-look-like)
 - [How often do you contribute to Open-source?](#how-often-do-you-contribute-to-open-source)
   - [The world is a canvas](#the-world-is-a-canvas)
   - [The world is pragmatic](#the-world-is-pragmatic)
 - [How good are you with Infra or DevOps?](#how-good-are-you-with-infra-or-devops)
 - [Thoughts on AI-assisted programming?](#thoughts-on-ai-assisted-programming)
+- [What kind of problems do you want to be solving five years from now?](#what-kind-of-problems-do-you-want-to-be-solving-five-years-from-now)
 - [What are you working on right now?](#what-are-you-working-on-right-now)
 
 ### What makes you who you are today?
 
 Reading & Writing, at least from a career POV. Both have had a huge impact on how I think and approach problems. I have been reading since I was a high-school kid, mostly fiction and non-fiction. I have been writing [since 2019](/archive/), mostly technical stuff.
 
-> I have a dedicated digital bookshelf, head over to [bookshelf.bhupesh.me](https://bookshelf.bhupesh.me/) to see what I am reading at the moment & some of my personal recommendations.
+I have a dedicated digital bookshelf, head over to [bookshelf.bhupesh.me](https://bookshelf.bhupesh.me/) to see what I am reading at the moment & some of my personal recommendations.
 
 <!-- ### Tell us about a really difficult technical problem you solved. What was it, and what did you build?
 
@@ -45,42 +46,40 @@ Really? I don't remember at all. -->
 
 ### What's the best thing you've made without anybody asking?
 
-[**ugit**](https://github.com/bhupesh-v/ugit), well not exactly, people indeed [asked for it](https://bhupesh.me/undo-your-last-git-mistake-with-ugit/#story-behind-ugit). Till date its probably the most popular project I have made.
+[**ugit**](https://github.com/bhupesh-v/ugit), well not exactly, people indeed [asked for it](https://bhupesh.me/undo-your-last-git-mistake-with-ugit/#story-behind-ugit). Till date its probably the most popular project I have made (that I could gloat about, not that I would if you met me IRL).
 
 ### What's the first thing you built? When and Why did you build it?
 
-I think the first ever actual software I made was [**tutorialdb**](https://github.com/bhupesh-v/tutorialdb) in 2017. Back then, I described it as a search engine for programming tutorials. The main motivation behind this to stop asking questions like "Can you share resources to learn ABC".
+I think the first ever actual "full-fledged" software I made was [**tutorialdb**](https://github.com/bhupesh-v/tutorialdb) in 2017. Back then, I described it as a search engine for programming tutorials. The main motivation behind this to stop asking questions like "Can you share resources to learn ABC".
 Now that I look back at it, it wasn't a full-fledged search engine but more of a glorified link aggregator.
 
 However, it did have indexing like capabilities, given a webpage URL it could detect whether it was a tutorial or not. It was built using Python and SQLite.
 
-> To be fair, the first thing I ever built was a simple calculator using Visual Basic 6.0 during my school days.
+### Can you build scalable systems or system design INSERT_FAMOUS_LIVE_PRODUCT?
 
-### Can you build scalable systems or system design `INSERT_FAMOUS_LIVE_PRODUCT`?
-
-No. "Scalable" for me means the "[Potential] Business" & "Team" is changing (in either direction), so we need to account for that in the engineering decisions we make. It's not an exercise to put a bunch of boxes and arrows on a whiteboard.
+No. "Scalable" for me means the "Potential Business" & "Team" is changing (in upwards direction), so we need to account for that in the engineering decisions we make. It's not an exercise to put a bunch of boxes and arrows on a whiteboard.
 
 Let's talk about scalability once the product you work for is going through an exponential growth. However, I am eager to build _stable_ systems.
 
-So no, I cannot design a system for a product that scales to million magical users a day. If you see me doing (or talk about) this, **don't trust me**.
+So no, I cannot design a system for a product that scales to million magical MAU from day one. If you see me doing (or talk about) this, **don't trust me**.
 
-### Do you prefer working on coding projects alone or with a team?
+### Do you prefer working on projects alone or with a team?
 
 Both, both is good. I require alone time to be productive solo, and I need a team to get things done faster. I am very much open to brainstorming sessions, pair programming, etc.
 
-### What sets you apart from other applicants for `ABC` position?
+### What sets you apart from other applicants for ABC position?
 
 Nothing, honestly. I consider myself as an average human with average skills. I am not going to sit here gloat about things that can change your perspective. A lot of public stuff that I have, like my [blog](https://bhupesh.me/), [digital garden](https://til.bhupesh.me/), [github](https://github.com/bhupesh-V/) justifies my skills & knowledge. If you disagree, you are free to reject. At the end of the day, hiring humans is basically a trust exercise.
 
 <!-- ### Talk to me, in a free form back & forth way about software development -->
 
-### Do you know how to use `INSERT_DEVTOOL`?
+### Do you know how to use INSERT_DEVTOOL?
 
 Probably not, I use tools to the extent it helps me get the job done. As much us devs cherish our devtools, I believe that we create problems for ourselves with each new tool we add to our stack.
 
 If the tool you are talking about is something that is absolutely necessary for the job (like shit will go down if this tool didn't exist), you can assume that I will learn to use it or adapt to it to a point where we can discuss it.
 
-### Do you know about `INSERT_PRACTICE` or `INSERT_PRINCIPLE`?
+### Do you know about INSERT_PRACTICE or INSERT_PRINCIPLE?
 
 I might have heard about it, but I am not sure. I am not a big fan of practices or principles, However I am always reading, so expect a generic answer about the practice or principle. My work gets influenced by an amalgamation of real world experiences:
 
@@ -126,9 +125,22 @@ Learning is subjective, toiling through millions of lines of code from Kubernete
 I have two schools of thought:
 
 1. At a personal level:
-   I came into this industry with a [hobbyist mindset](https://bhupesh.me/my-first-loop/). I enjoy the process more than the end result, so I don’t see programming as a chore. I love all parts of it, boring and exciting alike. That makes these tools largely redundant in my own programming process.
+   I came into this industry with a [hobbyist mindset](https://bhupesh.me/my-first-loop/). I enjoy the process more than the end result, which means I don’t see programming as a chore. I love all parts of it, boring and exciting alike. That makes these tools largely redundant in my own programming process.
 2. At a professional level:
    If a company can afford to pay for such tools, it should invest in them and share them with its engineers. Avoid micromanagement, and let the team figure out whether they can move faster with these tools or without them.
+
+<!-- ### What does “maintainability” mean to you in practice? -->
+<!-- ### How do you handle technical debt when deadlines loom? -->
+<!-- ### How do you explain complex systems to non-technical people? -->
+### What kind of problems do you want to be solving five years from now?
+
+Hopefully,
+
+- Problems that don’t create more problems for others (IYKYK).
+- Problems that genuinely improve people’s lives, not things that merely *pretend* to serve them.
+
+<!-- ### What problem do you keep noticing that other people ignore? -->
+
 
 ### What are you working on right now?
 
