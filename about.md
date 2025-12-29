@@ -4,9 +4,9 @@ title: About Me
 permalink: /about/
 ---
 
-I am Bhupesh, a Software Craftsman & Tech Writer living in New Delhi, India. Professionally I have spent more than 3 years working on backend systems with Go & Python. In my free time I volunteer as a Community Lead for [**r/developersIndia**](https://www.reddit.com/r/developersIndia/), a community of more than a million software & tech folks across India.
+I am Bhupesh, a Software Craftsman & Tech Writer living in New Delhi, India. Professionally I have spent 4 years working on backend systems with Go & Python, in those years I have been held captive and forced to write _micro-services_. In my free time I volunteer (struggle) as a Community Lead for **r/developersIndia**, a community of more than a million software & tech folks across India.
 
-I frequently write about programming, tech & my journey here. You can find more of my work on my [**hire page**](/hire/). If you are interested in things I have built, head over to my [**projects**](/projects/).
+I frequently write about programming & life here. You can find more of my work on my [**hire page**](/hire/). If you are interested in things I have built, head over to my [**projects**](/projects/).
 
 
 <br>
@@ -22,7 +22,7 @@ See my [**now**](/now/) page for a snapshot of what I am doing at the moment.
 
 ### Learn with me
 
-I log whatever new stuff I learn, Go to <a href="https://til.bhupesh.me" class="mark">til.bhupesh.me</a> to see some of it. I also have a [**newsletter** 🚀](https://buttondown.email/bhupesh) where I share interesting stuff and tips around tech.
+I try to log whatever new stuff I learn, Go to <a href="https://til.bhupesh.me" class="mark">til.bhupesh.me</a> to see some of it. I also have a [**newsletter** 🚀](https://buttondown.email/bhupesh) where I share interesting stuff and tips around tech.
 
 ### Connect
 
