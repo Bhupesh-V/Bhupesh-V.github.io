@@ -3,7 +3,7 @@ layout: page
 title: Interviewing Bhupesh
 description: Wanna interview me? I help you ask questions that matter!
 permalink: /interview/
-last_modified_at: 2025-02-20
+last_modified_at: 2026-02-20
 ---
 
 I help you interview me better. Here's a list of questions that matter, with my answers, saving you the time to analyze how I think or preceive my primary work domain, software engineering.
