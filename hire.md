@@ -22,13 +22,12 @@ I work with following tools and technologies in this domain:
 
 ## `Domain B`: As a Technical Writer
 
-As a freelance tech writer, I’ve completed 30+ successful projects for multiple clients. If you have a developer-facing product, I can help you figure out your documentation, blogs, marketing tactics etc.
+As a freelance tech writer (mostly ghostwriting), I’ve completed 30+ successful projects for multiple clients. If you have a developer-facing product, I can help you figure out your documentation, blogs, marketing tactics etc.
 
 ### Things I usually write about (open-ended)
 
 - Developer Productivity
 - DevOps/DevTooling
-- CLIs
 - Open-Source
 - Side-projects
 
@@ -36,7 +35,7 @@ I also maintain a mega list of [my own favorite pieces of writing](/writing/).
 
 ## `Domain C`: As a Dev Community Builder/Manager
 
-I have been managing India's largest dev network, [r/developersIndia](https://reddit.com/r/developersIndia) since its inception in 2020 (4 years & counting). Through this experience, I have gained valuable insights into the developer ecosystem. I can help you with:
+I have been managing India's largest forum-based dev network, [r/developersIndia](https://reddit.com/r/developersIndia) since its inception in 2020 (5 years & counting). Through this experience, I have gained valuable insights into the developer ecosystem. I can help you with:
 
 - Building & managing dev communities.
 - Understanding the developer ecosystem.
