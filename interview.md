@@ -3,10 +3,10 @@ layout: page
 title: Interviewing Bhupesh
 description: Wanna interview me? I help you ask questions that matter!
 permalink: /interview/
-last_modified_at: 2025-12-18
+last_modified_at: 2025-02-20
 ---
 
-I help you interview me better. Here's a list of questions that matter, with my answers, saving you the time to analyze how I think or preceive my work domain.
+I help you interview me better. Here's a list of questions that matter, with my answers, saving you the time to analyze how I think or preceive my primary work domain, software engineering.
 
 <!-- omit from toc -->
 ## Disclaimers
@@ -20,9 +20,9 @@ I help you interview me better. Here's a list of questions that matter, with my 
 - [What makes you who you are today?](#what-makes-you-who-you-are-today)
 - [What's the best thing you've made without anybody asking?](#whats-the-best-thing-youve-made-without-anybody-asking)
 - [What's the first thing you built? When and Why did you build it?](#whats-the-first-thing-you-built-when-and-why-did-you-build-it)
-- [Can you build scalable systems or system design INSERT\_FAMOUS\_LIVE\_PRODUCT?](#can-you-build-scalable-systems-or-system-design-insert_famous_live_product)
-- [Do you prefer working on projects alone or with a team?](#do-you-prefer-working-on-projects-alone-or-with-a-team)
-- [What sets you apart from other applicants for ABC position?](#what-sets-you-apart-from-other-applicants-for-abc-position)
+- [Can you build scalable systems or system design FAMOUS\_LIVE\_PRODUCT?](#can-you-build-scalable-systems-or-system-design-famous_live_product)
+- [Are you a team player?](#are-you-a-team-player)
+- [What sets you apart from other and more experienced folks?](#what-sets-you-apart-from-other-and-more-experienced-folks)
 - [Do you know how to use INSERT\_DEVTOOL?](#do-you-know-how-to-use-insert_devtool)
 - [Do you know about INSERT\_PRACTICE or INSERT\_PRINCIPLE?](#do-you-know-about-insert_practice-or-insert_principle)
 - [How does an ideal codebase look like?](#how-does-an-ideal-codebase-look-like)
@@ -36,9 +36,9 @@ I help you interview me better. Here's a list of questions that matter, with my 
 
 ### What makes you who you are today?
 
-Reading & Writing, at least from a career POV. Both have had a huge impact on how I think and approach problems. I have been reading since I was a high-school kid, mostly fiction and non-fiction. I have been writing [since 2019](/archive/), mostly technical stuff.
+Reading & Writing. Both have had a huge impact on how I think and approach life and problems. I have been reading since I was a high-school kid, mostly fiction and non-fiction. I have been writing [since 2019](/archive/), mostly technical stuff.
 
-I have a dedicated digital bookshelf, head over to [bookshelf.bhupesh.me](https://bookshelf.bhupesh.me/) to see what I am reading at the moment & some of my personal recommendations.
+I have a dedicated [digital bookshelf](https://bookshelf.bhupesh.me/), in case you are interested in what I'm reading and how I critique books.
 
 <!-- ### Tell us about a really difficult technical problem you solved. What was it, and what did you build?
 
@@ -55,21 +55,25 @@ Now that I look back at it, it wasn't a full-fledged search engine but more of a
 
 However, it did have indexing like capabilities, given a webpage URL it could detect whether it was a tutorial or not. It was built using Python and SQLite.
 
-### Can you build scalable systems or system design INSERT_FAMOUS_LIVE_PRODUCT?
+### Can you build scalable systems or system design FAMOUS_LIVE_PRODUCT?
 
-No. "Scalable" for me means the "Potential Business" & "Team" is changing (in upwards direction), so we need to account for that in the engineering decisions we make. It's not an exercise to put a bunch of boxes and arrows on a whiteboard.
+<!-- Rethink this answer -->
+
+No. "Scalable" for me means that the "Potential Business" & the "Team" is changing (in upwards direction), so we need to account for that in the engineering decisions being made. It's not an exercise to put a bunch of boxes and arrows on a whiteboard.
 
 Let's talk about scalability once the product you work for is going through an exponential growth. However, I am eager to build _stable_ systems.
 
 So no, I cannot design a system for a product that scales to million magical MAU from day one. If you see me doing (or talk about) this, **don't trust me**.
 
-### Do you prefer working on projects alone or with a team?
+### Are you a team player?
 
-Both, both is good. I require alone time to be productive solo, and I need a team to get things done faster. I am very much open to brainstorming sessions, pair programming, etc.
+I require alone time to be productive solo, and I need a team to get things done faster. I am very much open to brainstorming sessions, pair programming, etc.
 
-### What sets you apart from other applicants for ABC position?
+### What sets you apart from other and more experienced folks?
 
-Nothing, honestly. I consider myself as an average human with average skills. I am not going to sit here gloat about things that can change your perspective. A lot of public stuff that I have, like my [blog](https://bhupesh.me/), [digital garden](https://til.bhupesh.me/), [github](https://github.com/bhupesh-V/) justifies my skills & knowledge. If you disagree, you are free to reject. At the end of the day, hiring humans is basically a trust exercise.
+Nothing, honestly. I consider myself as an average human with average skills. I am not going to sit here gloat about things that can change your perspective. A lot of public stuff that I have, like my [blog](https://bhupesh.me/), [digital garden](https://til.bhupesh.me/) and [github](https://github.com/bhupesh-V/) justifies my skills & knowledge.
+
+If you disagree, you are free to reject. At the end of the day, hiring humans is basically a trust exercise and I honestly consider it as a highly opinionated & stupid exercise to pass before I'm "eligible" to get paid to work.
 
 <!-- ### Talk to me, in a free form back & forth way about software development -->
 
@@ -77,7 +81,7 @@ Nothing, honestly. I consider myself as an average human with average skills. I 
 
 Probably not, I use tools to the extent it helps me get the job done. As much us devs cherish our devtools, I believe that we create problems for ourselves with each new tool we add to our stack.
 
-If the tool you are talking about is something that is absolutely necessary for the job (like shit will go down if this tool didn't exist), you can assume that I will learn to use it or adapt to it to a point where we can discuss it.
+If the tool you are talking about is something that is absolutely necessary for the job (like shit will go down if this tool didn't exist), you can assume that I will learn to use it or adapt to it.
 
 ### Do you know about INSERT_PRACTICE or INSERT_PRINCIPLE?
 
@@ -111,7 +115,7 @@ It's possible that **I may voluntarily contribute if I somehow agree with the au
 
 We are talking business. All crucial (big or small) dependencies, main-stream frameworks, and languages fit into this.
 
-For this category, I am not going to spend any time contributing unless I have a strong motivation to do so, and that motivation is _responsibility_, **if you ask me, hey bhupesh we can't move forward unless we fix this upstream, I would be the first person to volunteer, I would put a ticket on the board & get to working**.
+For this category, I am not going to spend any time contributing unless I have a strong motivation to do so, and that motivation is _responsibility_, **if you ask me, hey bhupesh we can't move forward unless we fix this upstream, I would be the first person to step-up, I would put a ticket on the board & get to working**.
 
 Learning is subjective, toiling through millions of lines of code from Kubernetes is not worth my time if I clearly don't see an end goal.
 
@@ -146,6 +150,7 @@ Hopefully,
 
 This is documented on my [now page](https://bhupesh.me/now/).
 
+---
 <!-- omit from toc -->
 ## More about me
 
