@@ -8,56 +8,62 @@ date: 2026-03-02
 
 ## Articles
 
-- https://systemsthinkingalliance.org/brief-history-of-systems-thinking/
-- https://mihirsmusings.wordpress.com/category/complexity/systems-thinking/
+- [Brief History of Systems Thinking](https://systemsthinkingalliance.org/brief-history-of-systems-thinking/)
+- [My Journey of Systems Thinking – Mihir](https://mihirsmusings.wordpress.com/category/complexity/systems-thinking/)
 
 ## Tools
 
-- https://ncase.me/loopy/
+- [Loopy](https://ncase.me/loopy/)
 
 ## Websites
 
-- https://thesystemsthinker.com/
-- https://teachyourselfsystems.com/
+- [Systems Thinker](https://thesystemsthinker.com/)
+- [Teach Yourself Systems](https://teachyourselfsystems.com/)
 
 ## Courses
 
 - https://acumenacademy.org/course/systems-practice/
-- Add link to Open University Course as well
+- [Systems thinking and practice](https://www.open.edu/openlearn/digital-computing/systems-thinking-and-practice)
 
 ## Presentations/Slides
 
-- https://learningforsustainability.net/wp-content/uploads/2019/01/Intro-systems-thinking-and-systemic-design-concepts-and-tools.pdf
+- [An introduction to systems thinking and systemic design – concepts and tools](https://learningforsustainability.net/wp-content/uploads/2019/01/Intro-systems-thinking-and-systemic-design-concepts-and-tools.pdf)
 
 ## Books
 
 TODO
 
 ## Videos
-- https://www.youtube.com/@SystemsInnovationNetwork
-- TODO: add my playlist
+
+### Dedicated Channels
+
+- [Systems Innovation Network](https://www.youtube.com/@SystemsInnovationNetwork)
+
+### Playlists
+
+- [Videos curated by me](https://youtube.com/playlist?list=PLsZPZn9jXdrUkSFKIoqF1pwIbfDYOjpQH&si=0yKyjQq2s83NvjwZ)
 
 ## Communities
 
-- https://stream.syscoi.com/
+- [Systems Community of Inquiry](https://stream.syscoi.com/)
 
 ## Case Studies
 
-- https://health-policy-systems.biomedcentral.com/articles/10.1186/1478-4505-12-47
+- [Advancing the application of systems thinking in health: understanding the growing complexity governing immunization services in Kerala, India](https://health-policy-systems.biomedcentral.com/articles/10.1186/1478-4505-12-47)
 
 ## Organisations
 
-- https://www.systemspractice.org/
-- https://waterscenterst.org/
-- https://www.sysi.org/
-- https://systemsthinkingalliance.org/
-- https://schoolofsystemchange.org/
-- https://www.stsi.pro/
+- [Systems and Complexity in Organization](https://www.systemspractice.org/)
+- [Waters Center For Systems Thinking](https://waterscenterst.org/)
+- [Systems Society of India](https://www.sysi.org/)
+- [Systems Thinking Alliance](https://systemsthinkingalliance.org/)
+- [School of System Change](https://schoolofsystemchange.org/)
+- [Systems Thinking Standards Institute](https://www.stsi.pro/)
 
 ## Miscellaneous
 
-- https://onlinelibrary.wiley.com/doi/epdf/10.1002/sdr.1641
-- https://www.scienceopen.com/collection/ef913d31-69a2-419a-8f69-2a24b3c75dfd
+<!-- - [A system dynamics glossary](https://onlinelibrary.wiley.com/doi/epdf/10.1002/sdr.1641) -->
+- [Journal of Systems Thinking - OA](https://www.scienceopen.com/collection/ef913d31-69a2-419a-8f69-2a24b3c75dfd)
 
 ## More like this
 

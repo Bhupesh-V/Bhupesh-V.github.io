@@ -8,24 +8,15 @@ permalink: /lists/
 This page lists the different topics I explore, along with the resources I use to learn about each one.
 
 {% if site.lists.size > 0 %}
-<div class="lists">
-  {% for list in site.lists reversed %}
-    <article class="list-item">
-      <h2><a href="{{ site.baseurl }}{{ list.url }}">{{ list.title }}</a></h2>
-      <!-- {% if list.tags %}
-      <div class="postTags" style="margin: 10px 0;">
-        {% for tag in list.tags %}
-          <span id="pagetags" class="mark">
-            <a href="/tag/{{ tag }}/"><b>📌 {{ tag }}</b></a>
-          </span>
-        {% endfor %}
-      </div>
-      {% endif %} -->
-      <div class="description">
-        {{ list.description }}
-      </div>
-      <hr>
-    </article>
+<div class="all-lists">
+  {% assign sorted_lists = site.lists | sort: 'date' | reverse %}
+  {% for list in sorted_lists %}
+    <section>
+      <h4>
+        <a class="mark" href="{{ site.baseurl }}{{ list.url }}">{{ list.title }}</a>
+        📅 {{ list.date | date: "%B %e, %Y" }}
+      </h4>
+    </section>
   {% endfor %}
 </div>
 {% else %}
