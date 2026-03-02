@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<article class="post">
+  <h1>{{ page.title }}</h1>
+
+  <div class="date" style="font-size: 13pt; text-align: center;">
+    Posted on 📅 {{ page.date | date: "%B %e, %Y" }}
+  </div>
+
+  <!-- {% if page.tags %}
+  <div class="postTags" style="text-align: center; margin: 20px 0;">
+    {% for tag in page.tags %}
+      <span id="pagetags" class="mark">
+        <a href="/tag/{{ tag }}/"><b>📌 {{ tag }}</b></a>
+      </span>
+    {% endfor %}
+  </div>
+  {% endif %} -->
+
+  <div class="entry">
+    {{ content }}
+  </div>
+
+  <!-- {% include disqus.html %} -->
+</article>
