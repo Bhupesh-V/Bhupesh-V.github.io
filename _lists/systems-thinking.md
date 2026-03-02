@@ -5,6 +5,8 @@ description: A curated collection of resources to get into systems thinking.
 date: 2026-03-02
 ---
 
+Collection of systems thinking resources that I've personally gone through (or keep coming back to).
+
 
 ## Articles
 
@@ -22,16 +24,16 @@ date: 2026-03-02
 
 ## Courses
 
-- https://acumenacademy.org/course/systems-practice/
+<!-- - https://acumenacademy.org/course/systems-practice/ -->
 - [Systems thinking and practice](https://www.open.edu/openlearn/digital-computing/systems-thinking-and-practice)
 
 ## Presentations/Slides
 
 - [An introduction to systems thinking and systemic design – concepts and tools](https://learningforsustainability.net/wp-content/uploads/2019/01/Intro-systems-thinking-and-systemic-design-concepts-and-tools.pdf)
 
-## Books
+<!-- ## Books
 
-TODO
+TODO -->
 
 ## Videos
 
@@ -67,5 +69,5 @@ TODO
 
 ## More like this
 
-- https://learningforsustainability.net/systems-thinking/
-- https://www.goodreads.com/shelf/show/systems-thinking
+- [Resource collection from learningforsustainability.com](https://learningforsustainability.net/systems-thinking/)
+<!-- - https://www.goodreads.com/shelf/show/systems-thinking -->
