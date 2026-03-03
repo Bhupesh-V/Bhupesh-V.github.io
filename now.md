@@ -3,13 +3,13 @@ layout: page
 title: What I am doing now
 description: What is Bhupesh upto nowadays? A snapshot of what I am doing at the moment.
 permalink: /now/
-last_modified_at: 2025-10-18
+last_modified_at: 2026-03-03
 ---
 
 ## Main focus
 
 - Getting back into the physical world. My living comes from being in the digital one, and I’m a bit tired of the stark difference between them. As a result, I’ve started journaling, got myself a pocket diary, and some Uni-ball pens.
-- Learning about Systems Thinking.
+- Learning about Humanities & Liberal Arts. Mainly Philosophy, Psychology, Culture & Systems Thinking.
 
 ## On the back burner
 
