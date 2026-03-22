@@ -16,6 +16,7 @@ Collection of systems thinking resources that I've personally gone through (or k
 ## Tools
 
 - [Loopy](https://ncase.me/loopy/)
+- [SageModeler](https://sagemodeler.concord.org/)
 
 ## Websites
 
@@ -24,16 +25,17 @@ Collection of systems thinking resources that I've personally gone through (or k
 
 ## Courses
 
-<!-- - https://acumenacademy.org/course/systems-practice/ -->
-- [Systems thinking and practice](https://www.open.edu/openlearn/digital-computing/systems-thinking-and-practice)
+- [Systems Practice - The Omidyar Group](https://acumenacademy.org/course/systems-practice/) - I'm currently enrolled in this.
+- [Systems thinking and practice](https://www.open.edu/openlearn/digital-computing/systems-thinking-and-practice).
 
 ## Presentations/Slides
 
 - [An introduction to systems thinking and systemic design – concepts and tools](https://learningforsustainability.net/wp-content/uploads/2019/01/Intro-systems-thinking-and-systemic-design-concepts-and-tools.pdf)
 
-<!-- ## Books
+## Books
 
-TODO -->
+- Thinking in Systems (_Donella Meadows_).
+- Refer from [goodreads shelf](https://www.goodreads.com/shelf/show/systems-thinking).
 
 ## Videos
 
@@ -55,6 +57,7 @@ TODO -->
 
 ## Organisations
 
+- [System Dynamics Society](https://systemdynamics.org/)
 - [Systems and Complexity in Organization](https://www.systemspractice.org/)
 - [Waters Center For Systems Thinking](https://waterscenterst.org/)
 - [Systems Society of India](https://www.sysi.org/)
@@ -70,4 +73,3 @@ TODO -->
 ## More like this
 
 - [Resource collection from learningforsustainability.com](https://learningforsustainability.net/systems-thinking/)
-<!-- - https://www.goodreads.com/shelf/show/systems-thinking -->
