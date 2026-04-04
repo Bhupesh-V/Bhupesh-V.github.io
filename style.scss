@@ -630,6 +630,18 @@ i.fa.fa-link {
   content: "]";
 }
 
+.all-visuals {
+  section {
+    margin-bottom: 1.5em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid #333;
+  }
+
+  h4 {
+    margin: 0.5em 0;
+  }
+}
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";

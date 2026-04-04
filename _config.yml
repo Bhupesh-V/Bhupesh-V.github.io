@@ -78,6 +78,9 @@ collections:
   lists:
     output: true
     permalink: /lists/:title/
+  visuals:
+    output: true
+    permalink: /visuals/:title/
 
 # Use the following plug-ins
 plugins:
