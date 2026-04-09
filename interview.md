@@ -3,7 +3,7 @@ layout: page
 title: Interviewing Bhupesh
 description: Wanna interview me? I help you ask questions that matter!
 permalink: /interview/
-last_modified_at: 2026-02-20
+last_modified_at: 2026-04-09
 ---
 
 I help you interview me better. Here's a list of questions that matter, with my answers, saving you the time to analyze how I think or preceive my primary work domain, software engineering.
@@ -36,9 +36,11 @@ I help you interview me better. Here's a list of questions that matter, with my 
 
 ### What makes you who you are today?
 
-Reading & Writing. Both have had a huge impact on how I think and approach life and problems. I have been reading since I was a high-school kid, mostly fiction and non-fiction. I have been writing [since 2019](/archive/), mostly technical stuff.
+Reading & Writing. Both have had a huge impact on how I think and approach life and problems. I have been reading since I was a high-school kid, starting from newspapers. I believe knowledge shouldn't be kept behind paywalls, I have pirated books, bought books at MRP, bought books from pricey stores, from airports.
 
-I have a dedicated [digital bookshelf](https://bookshelf.bhupesh.me/), in case you are interested in what I'm reading and how I critique books.
+I have a dedicated digital view of my [bookshelf](https://bookshelf.bhupesh.me/), in case you are interested in what I'm reading and how I critique books.
+
+I started writing in [2019](/archive/), mostly technical stuff, nowadays I'm upping myself with [storytelling](https://til.bhupesh.me/meta/creative-writing#creative-writing) skills.
 
 <!-- ### Tell us about a really difficult technical problem you solved. What was it, and what did you build?
 
@@ -73,7 +75,7 @@ I require alone time to be productive solo, and I need a team to get things done
 
 Nothing, honestly. I consider myself as an average human with average skills. I am not going to sit here gloat about things that can change your perspective. A lot of public stuff that I have, like my [blog](https://bhupesh.me/), [digital garden](https://til.bhupesh.me/) and [github](https://github.com/bhupesh-V/) justifies my skills & knowledge.
 
-If you disagree, you are free to reject. At the end of the day, hiring humans is basically a trust exercise and I honestly consider it as a highly opinionated & stupid exercise to pass before I'm "eligible" to get paid to work.
+If you disagree, you are free to reject. Hiring humans is basically a trust exercise and I honestly consider it as a highly opinionated & stupid exercise to pass before I'm "eligible" to get paid to work.
 
 <!-- ### Talk to me, in a free form back & forth way about software development -->
 
@@ -93,9 +95,11 @@ I might have heard about it, but I am not sure. I am not a big fan of practices 
 
 ### How does an ideal codebase look like?
 
-1. Has unit-tests.
-2. Has monitoring data exposed (memory/CPU usage).
-3. Has tools in place to check for security vulnerabilities.
+Meets the following criteria
+
+1. Unit-tests.
+2. Monitoring data exposed (memory/CPU usage).
+3. Tools in place to check for security vulnerabilities.
 4. Automated/Low-effort linting in place.
 5. Config files don't exceed 1000 lines (don't ask the backstory for this).
 6. Documentation is handled right inside the codebase in forms of "Diagrams As Code" i.e, Sequence & ER diagrams are checked into VCS.
@@ -129,9 +133,9 @@ Learning is subjective, toiling through millions of lines of code from Kubernete
 I have two schools of thought:
 
 1. At a personal level:
-   I came into this industry with a [hobbyist mindset](https://bhupesh.me/my-first-loop/). I enjoy the process more than the end result, which means I don’t see programming as a chore. I love all parts of it, boring and exciting alike. That makes these tools largely redundant in my own programming process.
+   I came into this industry with a [hobbyist mindset](https://bhupesh.me/my-first-loop/). I enjoy the process more than the end result, which means I don’t see programming as a chore (friction matters in learning). I love all parts of it, boring and exciting alike. That makes these tools largely redundant in my own programming process.
 2. At a professional level:
-   If a company can afford to pay for such tools, it should invest in them and share them with its engineers. Avoid micromanagement, and let the team figure out whether they can move faster with these tools or without them.
+   If a company can afford to pay for such tools, it should invest in them and share them with the engineering team. Avoid micromanagement, and let the team figure out whether they can move faster with these tools or without them (obligatory [goodhart's law](https://en.wikipedia.org/wiki/Goodhart%27s_law) reference).
 
 <!-- ### What does “maintainability” mean to you in practice? -->
 <!-- ### How do you handle technical debt when deadlines loom? -->
@@ -141,7 +145,7 @@ I have two schools of thought:
 Hopefully,
 
 - Problems that don’t create more problems for others (IYKYK).
-- Problems that genuinely improve people’s lives, not things that merely *pretend* to serve them.
+- Problems that genuinely improve people’s lives, not things that merely *pretend* to serve them. Something in the Public Sector maybe.
 
 <!-- ### What problem do you keep noticing that other people ignore? -->
 
