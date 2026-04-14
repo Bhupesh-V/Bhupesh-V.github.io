@@ -70,6 +70,12 @@ Collection of systems thinking resources that I've personally gone through (or k
 <!-- - [A system dynamics glossary](https://onlinelibrary.wiley.com/doi/epdf/10.1002/sdr.1641) -->
 - [Journal of Systems Thinking - OA](https://www.scienceopen.com/collection/ef913d31-69a2-419a-8f69-2a24b3c75dfd)
 
+## Humans
+
+I usually don't obsess over humans, I don't have any emotional connections with, but will give credit where its due:
+
+1. [Niklas Luhmann](https://en.wikipedia.org/wiki/Niklas_Luhmann) - Systems thinker final boss?
+
 ## More like this
 
 - [Resource collection from learningforsustainability.com](https://learningforsustainability.net/systems-thinking/)
