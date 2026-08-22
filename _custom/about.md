@@ -4,16 +4,20 @@ title: About Me
 permalink: /about/
 ---
 
-I am Bhupesh, a Software Craftsman & Tech Writer living in New Delhi, India. Professionally I have spent 4 years working on backend systems with Go & Python, in those years I have been held captive and forced to write _micro-services_. In my free time I volunteer (struggle) as a Community Lead for **r/developersIndia**, a community of more than a million software & tech folks across India.
+I am Bhupesh, a Software Craftsman & Tech Writer living in New Delhi, India. Professionally I have spent 4+ years working on backend systems with Go & Python. In those years I have been held captive and forced to work on distributed systems especially their modern avatar of "micro-services". I am one more service away from nuking this industry as a whole.
 
-I frequently write about programming & life here. You can find more of my work on my [**hire page**](/hire/). If you are interested in things I have built, head over to my [**projects**](/projects/).
+I don't believe in hustle/grind/builder culture, I sincerely believe that programmers are the weakest intellectual humans, creative yes, but weak, they can't comprehend how the world works so they create their own & live in that bubble forever solving problems that don't exist, which is why a lot of "sofware" written is useless. I mean get a life bro?
+
+I frequently try to write about programming & life here, I don't believe in consistency in context of writing, you either have something to share or you don't. 
+
+Help me keep the lights on by visiting my [`hire`](/hire/) page. If you want proof of work, head over to [`projects`](/projects/) or better [sort my repos by activity](https://github.com/Bhupesh-V?tab=repositories&q=&type=source&language=&sort=).
 
 
-<br>
+<!-- <br>
 <center>
 <img alt="Bhupesh Varshney Profile Image" src="{{ site.avatar }}" height="300px" style="border-radius:163px;">
 <figcaption align="center" style="color: #939393;"><i>Yep, That's me ;)</i></figcaption>
-</center>
+</center> -->
 
 
 ### What I am doing now
@@ -26,7 +30,7 @@ I try to log whatever new stuff I learn, Go to <a href="https://til.bhupesh.me" 
 
 ### Connect
 
-- I usually hangout in [r/developersIndia Discord Server](https://discord.gg/Ep6zGAuWbq). Come and say hi 👋
+<!--- I usually hangout in [r/developersIndia Discord Server](https://discord.gg/Ep6zGAuWbq). Come and say hi 👋-->
 - Wanna have a quick chat about something?, [schedule a call](/chat/).
 
 <!-- ### Support
