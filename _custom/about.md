@@ -26,7 +26,7 @@ See my [**now**](/now/) page for a snapshot of what I am doing at the moment.
 
 ### Learn with me
 
-I try to log whatever new stuff I learn, Go to <a href="https://til.bhupesh.me" class="mark">til.bhupesh.me</a> to see some of it. I also have a [**newsletter** 🚀](https://buttondown.email/bhupesh) where I share interesting stuff and tips around tech.
+I try to log whatever new stuff I learn, Go to <a href="https://til.bhupesh.me" class="mark">til.bhupesh.me</a> to see some of it.
 
 ### Connect
 
