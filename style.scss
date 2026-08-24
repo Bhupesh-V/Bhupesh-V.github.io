@@ -533,6 +533,21 @@ h6:hover .header-link {
 
 .social-icons-custom {
   font-size: 23px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+
+  @include mobile {
+    justify-content: center;
+  }
+}
+
+.social-icons-custom a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
 }
 
 .consultation {
