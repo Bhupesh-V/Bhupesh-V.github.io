@@ -12,7 +12,6 @@ Oh you think you can code better than me? Get phased, NERD! 🗣️
     <link async rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
     <link rel="icon" href="https://bhupesh.me/images/favicons/headshot.ico">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" async>
     <meta name="google-site-verification" content="4coaO0YVCAhaE5LAetM4wCbwk1TgAjgNA_G0ywyitnI" />
     <meta charset="UTF-8">
     {% if site.tags != "" %}
@@ -74,6 +73,7 @@ Oh you think you can code better than me? Get phased, NERD! 🗣️
 </script>
   </head>
   <body>
+    {% include icon-defs.html %}
     <div class="wrapper-masthead">
       <div class="container">
         <p id="tray-icon" style="cursor:pointer;position: fixed; right: 23px; top: 23px;" onclick="light_toggle()" title="Toggle night mode">🌗
@@ -83,16 +83,16 @@ Oh you think you can code better than me? Get phased, NERD! 🗣️
             <div class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></div>
             <div class="social-icons-custom">
               <a href="https://github.com/{{ site.footer-links.github }}" title="GitHub">
-                <i class="mark fab fa-github fa-lg" aria-hidden="true"></i>
+                <svg class="icon icon-lg mark" aria-hidden="true"><use href="#icon-github"></use></svg>
               </a>
               <a href="https://www.linkedin.com/in/{{ site.footer-links.linkedin }}" title="LinkedIn">
-                <i class="mark fab fa-linkedin fa-lg" aria-hidden="true"></i>
+                <svg class="icon icon-lg mark" aria-hidden="true"><use href="#icon-linkedin"></use></svg>
               </a>
               <a href="https://youtube.com/{{ site.footer-links.youtube }}" title="YouTube">
-                <i class="mark fab fa-youtube fa-lg" aria-hidden="true"></i>
+                <svg class="icon icon-lg mark" aria-hidden="true"><use href="#icon-youtube"></use></svg>
               </a>
               <a href="/feed.xml" title="RSS Feed">
-                <i class="mark fas fa-rss" aria-hidden="true"></i>
+                <svg class="icon mark" aria-hidden="true"><use href="#icon-rss"></use></svg>
               </a>
             </div>
             <br>
@@ -112,7 +112,7 @@ Oh you think you can code better than me? Get phased, NERD! 🗣️
       </div>
     </div>
     <div id="main" role="main" class="container">
-      <i onclick="topFunction()" id="myBtn" style="display: none;" class="fas fa-chevron-up fa-2x"></i>
+      <svg onclick="topFunction()" id="myBtn" style="display: none;" class="icon icon-2x"><use href="#icon-chevron-up"></use></svg>
       {{ content }}
     </div>
     <div class="wrapper-footer">
@@ -179,9 +179,13 @@ Oh you think you can code better than me? Get phased, NERD! 🗣️
           
           //console.log(heading_link);
 
-          heading_icon = document.createElement("i");
-          heading_icon.classList.add("fa");
-          heading_icon.classList.add("fa-link");
+          var svgNS = "http://www.w3.org/2000/svg";
+          heading_icon = document.createElementNS(svgNS, "svg");
+          heading_icon.classList.add("icon");
+          var heading_icon_use = document.createElementNS(svgNS, "use");
+          heading_icon_use.setAttributeNS("http://www.w3.org/1999/xlink", "href", "#icon-link");
+          heading_icon_use.setAttribute("href", "#icon-link");
+          heading_icon.appendChild(heading_icon_use);
 
           heading_link.appendChild(heading_icon);
 

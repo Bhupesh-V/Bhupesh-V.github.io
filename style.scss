@@ -23,11 +23,28 @@ html {
   color: #1b4591;
 }
 
-.social-icons-custom i {
+.icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.125em;
+  display: inline-block;
+}
+
+.icon-lg {
+  width: 1.33em;
+  height: 1.33em;
+}
+
+.icon-2x {
+  width: 2em;
+  height: 2em;
+}
+
+.social-icons-custom .icon {
   color: black;
 }
 
-#shareIcon i {
+#shareIcon .icon {
   color: white;
 }
 
@@ -575,8 +592,9 @@ input[type=email] {
   color: #0056b3;
 }
 
-i.fa.fa-link {
-  font-size: 15px;
+.header-link .icon {
+  width: 15px;
+  height: 15px;
 }
 
 .visually-hidden {
@@ -758,11 +776,11 @@ i.fa.fa-link {
     color: $darkGray;
   }
 
-  .social-icons-custom i {
+  .social-icons-custom .icon {
     color: white;
   }
 
-  #shareIcon i {
+  #shareIcon .icon {
     color: white;
   }
 
@@ -917,8 +935,9 @@ i.fa.fa-link {
     color: #ffffff;
   }
 
-  i.fa.fa-link {
-    font-size: 12px;
+  .header-link .icon {
+    width: 12px;
+    height: 12px;
   }
 
   .footnotes {
