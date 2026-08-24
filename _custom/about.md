@@ -19,14 +19,13 @@ Help me keep the lights on by visiting my [`hire`](/hire/) page. If you want pro
 <figcaption align="center" style="color: #939393;"><i>Yep, That's me ;)</i></figcaption>
 </center> -->
 
-
 ### What I am doing now
 
 See my [**now**](/now/) page for a snapshot of what I am doing at the moment.
 
 ### Learn with me
 
-I try to log whatever new stuff I learn, Go to <a href="https://til.bhupesh.me" class="mark">til.bhupesh.me</a> to see some of it.
+I try to log whatever new stuff I learn on <a href="https://til.bhupesh.me" class="mark">til.bhupesh.me</a>.
 
 ### Connect
 

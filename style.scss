@@ -12,9 +12,19 @@
 /**************/
 /* BASE RULES */
 /**************/
+// Default theme = LIGHT. Dark theme overrides live in the `.dark-mode` block
+// near the bottom of this file (toggled on <html> via the night-mode button).
+
+html {
+  scroll-behavior: smooth;
+}
+
+.highlighter-rouge {
+  color: #1b4591;
+}
 
 .social-icons-custom i {
-  color: white;
+  color: black;
 }
 
 #shareIcon i {
@@ -22,22 +32,26 @@
 }
 
 .site-name a {
-  color: white;
+  color: black;
 }
 
 #myBtn {
   position: fixed;
   bottom: 100px;
   right: 20px;
-  color: #fff;
+  color: black;
   cursor: pointer;
 }
 
-.mark {
+#desct p {
   color: white;
+}
+
+.mark {
+  color: black;
   padding: 0;
   text-decoration: none;
-  background-image: linear-gradient(transparent 0%, transparent calc(50% - 8px), rgba(0, 255, 0, 0.35) calc(50% - 8px), rgba(0, 255, 0, 0.35) 100%);
+  background-image: linear-gradient(transparent 0%, transparent calc(50% - 8px), rgba(255, 216, 9, 1) calc(50% - 8px), rgba(255, 216, 9, 1) 100%);
   transition: background-position 120ms ease-in-out, padding 120ms ease-in-out;
   background-size: 100% 200%;
   background-position: 0 0;
@@ -45,13 +59,13 @@
 
 .mark:hover {
   padding: 2px 0 4px 0;
-  background-image: linear-gradient(transparent 0%, transparent calc(50% - 8px), rgba(0, 255, 0, 1) calc(50% - 8px), rgba(0, 255, 0, 1) 100%);
+  background-image: linear-gradient(transparent 0%, transparent calc(50% - 8px), rgba(255, 234, 24, 1) calc(50% - 8px), rgba(255, 234, 24, 1) 100%);
   background-position: 0 100%;
   color: black;
 }
 
 body {
-  background: #0D0E0F;
+  background: floralwhite;
   font: 18px/1.4 $helvetica;
   color: $darkGray;
 }
@@ -95,7 +109,7 @@ h4,
 h5,
 h6 {
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, segoe ui, Roboto, helvetica neue, Arial, noto sans, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol, noto color emoji;
-  color: white;
+  color: inherit;
   font-weight: bold;
 
   line-height: 1.7;
@@ -114,7 +128,11 @@ h1 {
   text-wrap: balance;
 
   a {
-    color: white;
+    color: black;
+
+    &:hover {
+      color: #2e78d2;
+    }
   }
 }
 
@@ -128,7 +146,7 @@ h3 {
 
 h4 {
   font-size: 18px;
-  color: $white;
+  color: $gray;
 }
 
 li {
@@ -137,26 +155,26 @@ li {
   border: 0;
   font-size: 100%;
   font: inherit;
-  color: white;
+  color: black;
   vertical-align: baseline;
 }
 
 p {
   margin: 15px 5px 5px 7px;
-  color: #FFF;
+  color: black;
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, segoe ui, Roboto, helvetica neue, Arial, noto sans, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol, noto color emoji;
   word-spacing: 2.5px;
   word-wrap: break-word;
 }
 
 a {
-  color: $blue;
+  color: #1f58d6;
   text-decoration: none;
   cursor: pointer;
 
   &:hover,
   &:active {
-    color: $blue;
+    color: #1f58d6;
   }
 }
 
@@ -210,7 +228,7 @@ img {
 }
 
 .date {
-  color: #867a7a;
+  color: $gray;
   margin-left: 9px;
   font-size: 16px;
   text-align: center;
@@ -218,11 +236,13 @@ img {
 
 // Specify the color of the selection
 ::-moz-selection {
-  background: #17be6e;
+  color: $black;
+  background: $orangish;
 }
 
 ::selection {
-  background: #17be6e;
+  color: $black;
+  background: $orangish;
 }
 
 // Nicolas Gallagher's micro clearfix hack
@@ -270,12 +290,12 @@ img {
 
 .site-name {
   margin: 0;
-  color: $darkGray;
+  color: black;
   cursor: pointer;
-  font-family: $helveticaNeue;
-  font-weight: 300;
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+  letter-spacing: -2px;
   font-size: 28px;
-  letter-spacing: 1px;
   text-align: inherit;
 }
 
@@ -305,14 +325,14 @@ nav {
 
   a {
     margin-left: 20px;
-    color: #00ff09;
+    color: #1f58d6;
     text-align: right;
     font-weight: bold;
     letter-spacing: 1px;
 
     @include mobile {
       margin: 0 10px;
-      color: #00ff09;
+      color: #1f58d6;
     }
   }
 }
@@ -322,11 +342,11 @@ nav {
 //
 
 .pagination {
-  color: #fefbfb;
+  color: black;
   padding: 8px 16px;
   text-decoration: none;
   transition: background-color .3s;
-  border: 1px solid #fff;
+  border: 1px solid #000;
   margin-top: 40px;
 }
 
@@ -334,7 +354,7 @@ nav {
   padding-bottom: 2em;
   padding-left: 0.5em;
   padding-right: 0.5em;
-  border: thick double #fff;
+  border: thick double #000;
   margin-top: 20px;
   border-radius: 5px;
 }
@@ -370,7 +390,7 @@ form {
 }
 
 label {
-  color: white;
+  color: black;
   font-weight: bold;
 }
 
@@ -394,23 +414,21 @@ figcaption {
 }
 
 td {
-  color: white;
-  border: 1px solid white;
+  color: black;
+  border: 1px solid black;
   padding: 10px;
 }
 
 th {
-  color: white;
+  color: black;
   padding: 8px;
   font-weight: bold;
 }
 
 .header-link {
   position: absolute;
-  // left: -0.5em;
   padding-left: 0.25em;
-  color: rgb(0, 255, 0);
-  // opacity: 0;
+  color: rgba(255, 216, 9, 1);
 
   \-webkit-transition: opacity 0.2s ease-in-out 0.1s;
   \-moz-transition: opacity 0.2s ease-in-out 0.1s;
@@ -432,7 +450,7 @@ h6:hover .header-link {
 
 .resp-sharing-button__link {
   text-decoration: none;
-  color: #fff;
+  color: #000000;
   margin: 0.2em;
   font-size: xx-large;
 }
@@ -462,11 +480,6 @@ h6:hover .header-link {
   fill: none
 }
 
-a {
-  color: #4aff00;
-}
-
-
 .PageNavigation {
   font-size: 14px;
   display: block;
@@ -478,24 +491,23 @@ a {
   display: block;
   margin: 1em 0;
   font-weight: bolder;
-  color: #0eff0e;
+  color: #1f58d6;
   font-size: 16px;
 }
 
 .PageNavigation table {
   border-collapse: collapse;
-  border: thick double #fff;
+  border: thick double #000000;
   margin-top: 20px;
   margin-bottom: 34px;
   border-radius: 5px;
-  color: #0fba0f;
   font-size: 34px;
 }
 
 .PageNavigation td {
   padding-left: 0.5em;
   padding-right: 0.5em;
-  border: thick double #fff;
+  border: thick double #000000;
 }
 
 .PageNavigation .next {
@@ -509,30 +521,32 @@ a {
 .consultation {
   display: inline-block;
   padding: 10px 20px;
-  border: 5px solid #fff;
-  color: white;
+  border: 5px solid black;
+  color: black;
   font-size: 16px;
   font-weight: bolder;
 }
+
 .consultation:hover {
-  background-color: #0eff0e; /* Change background on hover */
-  color:white;           /* Text color stays yellow */
+  background-color: #ffe52f; /* Change background on hover */
+  color: black;
 }
 
 input[type=submit] {
   width: 100%;
   display: inline-block;
   padding: 10px 20px;
-  border: 5px solid #fff;
-  color: white;
+  border: 5px solid black;
+  color: black;
   font-size: 16px;
   font-weight: bolder;
-  background-color: black;
+  background-color: floralwhite;
   cursor: pointer;
 }
 
 input[type=submit]:hover {
-  background-color: #0eff0e;
+  background-color: #ffea18;
+  color: black;
 }
 
 input[type=email] {
@@ -548,21 +562,21 @@ input[type=email] {
 /* Custom styles for the Terms of Service label */
 #tosCheckbox + label {
   font-size: 14px;
-  color: #ffffff; /* Change to your desired color */
+  color: #333;
   cursor: pointer;
 }
 
 #tosCheckbox + label a {
-  color: #007bff; /* Change to your desired link color */
+  color: #007bff;
   text-decoration: underline;
 }
 
 #tosCheckbox + label a:hover {
-  color: #0056b3; /* Change to your desired hover color */
+  color: #0056b3;
 }
 
 i.fa.fa-link {
-  font-size: 12px;
+  font-size: 15px;
 }
 
 .visually-hidden {
@@ -591,7 +605,7 @@ i.fa.fa-link {
   width: 20px;
   height: 20px;
   margin-right: 8px;
-  border: 2px solid #00ff00;
+  border: 2px solid #ff6600;
   border-radius: 4px;
   position: relative;
   vertical-align: middle;
@@ -605,7 +619,7 @@ i.fa.fa-link {
   top: 2px;
   width: 6px;
   height: 12px;
-  border: solid #00ff00;
+  border: solid #ff6600;
   border-width: 0 3px 3px 0;
   transform: rotate(45deg);
 }
@@ -634,11 +648,298 @@ i.fa.fa-link {
   section {
     margin-bottom: 1.5em;
     padding-bottom: 1em;
-    border-bottom: 1px solid #333;
+    border-bottom: 1px solid #ddd;
   }
 
   h4 {
     margin: 0.5em 0;
+  }
+}
+
+/*************************/
+/* STRAY / PAGE STYLES   */
+/* (moved out of *.html) */
+/*************************/
+
+.read-more {
+  color: white;
+  font-family: Montserrat, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  background-color: #4fe377;
+  -moz-border-radius: 28px;
+  -webkit-border-radius: 28px;
+  border-radius: 28px;
+  border: 1px solid #18ab29;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 10px;
+  text-shadow: 0px 1px 0px #000000;
+}
+
+.button:hover {
+  background-color: #6d9657;
+}
+
+.button:active {
+  position: relative;
+  top: 1px;
+}
+
+#pagetags {
+  align-items: center;
+  border-radius: 4px;
+  display: inline-flex;
+  font-size: 1.0rem;
+  height: 2em;
+  justify-content: center;
+  line-height: 1.5;
+  padding-left: .75em;
+  padding-right: .75em;
+  white-space: nowrap;
+  margin: 3px;
+}
+
+#project-ad {
+  padding: 1.5em;
+  border: medium solid #ffea18;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 23px;
+  margin: 12px;
+}
+
+#tils {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+#container {
+  margin: 0 auto;
+  position: relative;
+  width: auto;
+}
+
+#tags {
+  align-items: center;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  display: inline-flex;
+  height: 2em;
+  justify-content: center;
+  line-height: 1.5;
+  padding-left: .75em;
+  padding-right: .75em;
+  white-space: nowrap;
+  margin: 8px;
+}
+
+/***********************/
+/* DARK MODE OVERRIDES */
+/***********************/
+// Applied via a `.dark-mode` class on <html>, toggled by the 🌗 button
+// and persisted in localStorage under the "lightmode" key.
+
+.dark-mode {
+  body {
+    background: #0D0E0F;
+  }
+
+  .highlighter-rouge {
+    color: $darkGray;
+  }
+
+  .social-icons-custom i {
+    color: white;
+  }
+
+  #shareIcon i {
+    color: white;
+  }
+
+  .site-name a {
+    color: white;
+  }
+
+  #myBtn {
+    color: #fff;
+  }
+
+  .mark {
+    color: white;
+    background-image: linear-gradient(transparent 0%, transparent calc(50% - 8px), rgba(0, 255, 0, 0.35) calc(50% - 8px), rgba(0, 255, 0, 0.35) 100%);
+  }
+
+  .mark:hover {
+    background-image: linear-gradient(transparent 0%, transparent calc(50% - 8px), rgba(0, 255, 0, 1) calc(50% - 8px), rgba(0, 255, 0, 1) 100%);
+    color: black;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: white;
+  }
+
+  h1 a {
+    color: white;
+
+    &:hover {
+      color: white;
+    }
+  }
+
+  h4 {
+    color: $white;
+  }
+
+  li {
+    color: white;
+  }
+
+  p {
+    color: #FFF;
+  }
+
+  a {
+    color: #4aff00;
+
+    &:hover,
+    &:active {
+      color: #4aff00;
+    }
+  }
+
+  .date {
+    color: #867a7a;
+  }
+
+  ::-moz-selection {
+    background: #17be6e;
+  }
+
+  ::selection {
+    background: #17be6e;
+  }
+
+  .site-name {
+    color: white;
+  }
+
+  nav a {
+    color: #00ff09;
+
+    @include mobile {
+      color: #00ff09;
+    }
+  }
+
+  .pagination {
+    color: #fefbfb;
+    border: 1px solid #fff;
+  }
+
+  .posts>.post {
+    border: thick double #fff;
+  }
+
+  label {
+    color: white;
+  }
+
+  td {
+    color: white;
+    border: 1px solid white;
+  }
+
+  th {
+    color: white;
+  }
+
+  .header-link {
+    color: rgb(0, 255, 0);
+  }
+
+  .resp-sharing-button__link {
+    color: #fff;
+  }
+
+  a.resp-sharing-button__link {
+    color: #fff;
+  }
+
+  .PageNavigation a {
+    color: #0eff0e;
+  }
+
+  .PageNavigation table {
+    border: thick double #fff;
+    color: #0fba0f;
+  }
+
+  .PageNavigation td {
+    border: thick double #fff;
+  }
+
+  .consultation {
+    border-color: #fff;
+    color: white;
+  }
+
+  .consultation:hover {
+    background-color: #0eff0e;
+    color: white;
+  }
+
+  input[type=submit] {
+    border-color: #fff;
+    color: white;
+    background-color: black;
+  }
+
+  input[type=submit]:hover {
+    background-color: #0eff0e;
+  }
+
+  #tosCheckbox + label {
+    color: #ffffff;
+  }
+
+  i.fa.fa-link {
+    font-size: 12px;
+  }
+
+  .footnotes {
+    border-top: 1px solid #ccc;
+  }
+
+  .task-list-item-checkbox {
+    border: 2px solid #00ff00;
+  }
+
+  .task-list-item-checkbox:checked::before {
+    border: solid #00ff00;
+    border-width: 0 3px 3px 0;
+  }
+
+  .all-visuals section {
+    border-bottom: 1px solid #333;
+  }
+
+  #project-ad {
+    border-color: #0eff0e;
   }
 }
 

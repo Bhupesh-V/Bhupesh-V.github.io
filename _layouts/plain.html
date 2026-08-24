@@ -13,7 +13,6 @@ Oh you think you can code better than me? Get phased, NERD! 🗣️
   </title>
   {% include meta.html %}
   <link async rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
-  <link disabled type="text/css" id="light-mode" rel="stylesheet" href="{{ site.baseurl }}/light.css" async />
   <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}"
     href="{{ site.baseurl }}/feed.xml" />
   <link rel="icon" href="https://bhupesh.me/images/favicons/headshot.ico" />
@@ -71,13 +70,8 @@ Oh you think you can code better than me? Get phased, NERD! 🗣️
        }
     </script>
   <script>
-    if (
-      localStorage.getItem("lightmode") == "enabled" ||
-      !localStorage.getItem("lightmode")
-    ) {
-      document.getElementById("light-mode").disabled = false;
-    } else {
-      document.getElementById("light-mode").disabled = true;
+    if (localStorage.getItem("lightmode") == "disabled") {
+      document.documentElement.classList.add("dark-mode");
     }
   </script>
 </head>
@@ -91,15 +85,13 @@ Oh you think you can code better than me? Get phased, NERD! 🗣️
 
   <script type="text/javascript">
     function light_toggle() {
-      var el1 = document.getElementById("light-mode");
-      if (el1.disabled) {
-        el1.disabled = false;
-        localStorage.setItem("lightmode", "enabled");
-        document.getElementById("tray-icon").innerHTML = "🌓";
-      } else {
-        el1.disabled = true;
+      var isDark = document.documentElement.classList.toggle("dark-mode");
+      if (isDark) {
         localStorage.setItem("lightmode", "disabled");
         document.getElementById("tray-icon").innerHTML = "🌗";
+      } else {
+        localStorage.setItem("lightmode", "enabled");
+        document.getElementById("tray-icon").innerHTML = "🌓";
       }
     }
   </script>
