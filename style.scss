@@ -504,6 +504,12 @@ h6:hover .header-link {
   overflow: hidden;
 }
 
+.entry table {
+  display: block;
+  overflow-x: auto;
+  max-width: 100%;
+}
+
 .PageNavigation a {
   display: block;
   margin: 1em 0;
