@@ -865,6 +865,36 @@ input[type=email] {
   margin-top: 12px;
 }
 
+#toggle-skills {
+  font-size: 13px;
+  opacity: 0.75;
+}
+
+.filter-group-skills {
+  margin-top: 8px;
+  padding-top: 10px;
+  border-top: 1px dashed $lightGray;
+}
+
+.results-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 4px 18px;
+  color: $gray;
+  font-size: 14px;
+}
+
+.sort-arrow {
+  display: inline-block;
+  transform: rotate(90deg);
+  transition: transform 120ms ease-in-out;
+}
+
+.sort-arrow-asc {
+  transform: rotate(-90deg);
+}
+
 .text-btn {
   background: none;
   border: none;
@@ -1173,10 +1203,12 @@ input[type=email] {
     color: #4aff00;
   }
 
-  .sort-controls select {
-    border-color: #555;
-    color: white;
-    background: black;
+  .filter-group-skills {
+    border-top-color: #333;
+  }
+
+  .results-header {
+    color: #867a7a;
   }
 
   .artifact-group h2,

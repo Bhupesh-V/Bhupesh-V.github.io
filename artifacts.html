@@ -12,18 +12,21 @@ permalink: /artifacts/
 
 <div id="artifacts-app">
   <div class="artifacts-filters">
-    <div class="filter-group" id="sort-controls">
-      <span class="filter-label">Sort</span>
-      <button type="button" id="sort-desc" class="chip">Newest first</button>
-      <button type="button" id="sort-asc" class="chip">Oldest first</button>
-    </div>
     <div class="filter-group" id="type-filters"></div>
     <div class="filter-group" id="category-filters"></div>
-    <div class="filter-group" id="skill-filters"></div>
+
+    <button type="button" id="toggle-skills" class="text-btn">Browse by individual skill ▾</button>
+    <div class="filter-group filter-group-skills" id="skill-filters" style="display:none;"></div>
+
     <div class="filter-actions" style="display:none;">
       <button type="button" id="clear-filters" class="text-btn">Clear filters</button>
       <button type="button" id="copy-link" class="text-btn">🔗 Copy link to this view</button>
     </div>
+  </div>
+
+  <div class="results-header">
+    <span id="results-count"></span>
+    <button type="button" id="sort-toggle" class="text-btn"></button>
   </div>
 
   <div id="artifacts-results"></div>
@@ -59,6 +62,9 @@ permalink: /artifacts/
   var allSkills = Array.from(new Set(ARTIFACTS.reduce(function (acc, a) { return acc.concat(a.skills || []); }, []))).sort();
   paramList("skills").forEach(function (s) { if (allSkills.indexOf(s) !== -1) selectedSkills.add(s); });
   if (new URLSearchParams(window.location.search).get("sort") === "asc") sortOrder = "asc";
+
+  // Individual skills are power-user territory — collapsed unless one is already active.
+  var skillsExpanded = selectedSkills.size > 0;
 
   // Skills contributed by whichever categories are currently selected.
   function categorySkills() {
@@ -134,9 +140,6 @@ permalink: /artifacts/
   }
 
   function renderFilters() {
-    document.getElementById("sort-desc").classList.toggle("active", sortOrder === "desc");
-    document.getElementById("sort-asc").classList.toggle("active", sortOrder === "asc");
-
     var typeWrap = document.getElementById("type-filters");
     typeWrap.innerHTML = "";
     var typeLabel = document.createElement("span");
@@ -180,7 +183,11 @@ permalink: /artifacts/
       });
     }
 
+    var toggleSkillsBtn = document.getElementById("toggle-skills");
+    toggleSkillsBtn.textContent = skillsExpanded ? "Hide individual skills ▴" : "Browse by individual skill ▾";
+
     var skillWrap = document.getElementById("skill-filters");
+    skillWrap.style.display = skillsExpanded ? "flex" : "none";
     skillWrap.innerHTML = "";
     var skillLabel = document.createElement("span");
     skillLabel.className = "filter-label";
@@ -257,11 +264,17 @@ permalink: /artifacts/
     updateUrl();
 
     document.querySelector(".filter-actions").style.display = hasAnyFilter() ? "flex" : "none";
+    document.getElementById("sort-toggle").innerHTML =
+      "<span class=\"sort-arrow" + (sortOrder === "asc" ? " sort-arrow-asc" : "") + "\">➜</span> " +
+      (sortOrder === "desc" ? "Newest first" : "Oldest first");
 
     var results = document.getElementById("artifacts-results");
     results.innerHTML = "";
 
     var filtered = ARTIFACTS.filter(matches);
+
+    document.getElementById("results-count").textContent =
+      filtered.length + (filtered.length === 1 ? " artifact" : " artifacts");
 
     if (!filtered.length) {
       var empty = document.createElement("p");
@@ -305,6 +318,12 @@ permalink: /artifacts/
     selectedTypes.clear();
     selectedCategories.clear();
     selectedSkills.clear();
+    skillsExpanded = false;
+    render();
+  });
+
+  document.getElementById("toggle-skills").addEventListener("click", function () {
+    skillsExpanded = !skillsExpanded;
     render();
   });
 
@@ -322,12 +341,8 @@ permalink: /artifacts/
     return ok;
   }
 
-  document.getElementById("sort-desc").addEventListener("click", function () {
-    sortOrder = "desc";
-    render();
-  });
-  document.getElementById("sort-asc").addEventListener("click", function () {
-    sortOrder = "asc";
+  document.getElementById("sort-toggle").addEventListener("click", function () {
+    sortOrder = sortOrder === "desc" ? "asc" : "desc";
     render();
   });
 
