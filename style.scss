@@ -782,6 +782,162 @@ input[type=email] {
   margin: 8px;
 }
 
+/*************/
+/* ARTIFACTS */
+/*************/
+
+.artifacts-filters {
+  margin: 25px 0 35px;
+  padding: 15px;
+  border: 1px solid $lightGray;
+  border-radius: 6px;
+}
+
+.filter-group {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+}
+
+.filter-label {
+  font-weight: bold;
+  color: $gray;
+  font-size: 14px;
+  margin-right: 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  background: transparent;
+  border: 1px solid $gray;
+  border-radius: 20px;
+  padding: 5px 12px;
+  font-size: 14px;
+  font-family: $helvetica;
+  color: $darkGray;
+  cursor: pointer;
+  transition: background-color 120ms ease-in-out, border-color 120ms ease-in-out;
+
+  &:hover {
+    border-color: $darkGray;
+  }
+
+  &.active {
+    background-color: $orangish;
+    border-color: $orangish;
+    color: $black;
+    font-weight: bold;
+  }
+
+  .count {
+    color: $gray;
+    font-size: 12px;
+  }
+
+  &.active .count {
+    color: $darkGray;
+  }
+}
+
+.chip-sm {
+  padding: 3px 10px;
+  font-size: 12px;
+}
+
+.chip-category {
+  border-style: dashed;
+}
+
+.filter-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 12px;
+}
+
+.text-btn {
+  background: none;
+  border: none;
+  padding: 0;
+  color: #1f58d6;
+  font-size: 14px;
+  font-family: $helvetica;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#copy-link {
+  text-decoration: none;
+}
+
+.artifact-group h2 {
+  border-bottom: 1px solid $lightGray;
+  padding-bottom: 6px;
+}
+
+#artifacts-results > h2 {
+  text-align: center;
+}
+
+.artifact-card {
+  border: 1px solid $lightGray;
+  border-radius: 6px;
+  padding: 14px 18px;
+  margin-bottom: 14px;
+}
+
+.artifact-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.artifact-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.artifact-type-badge {
+  font-size: 13px;
+  color: $gray;
+  white-space: nowrap;
+}
+
+.artifact-meta {
+  color: $gray;
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+.artifact-description {
+  margin: 8px 0 0;
+}
+
+.artifact-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 10px;
+}
+
+.artifacts-empty {
+  text-align: center;
+  color: $gray;
+  font-style: italic;
+}
+
 /***********************/
 /* DARK MODE OVERRIDES */
 /***********************/
@@ -980,6 +1136,58 @@ input[type=email] {
 
   #project-ad {
     border-color: #0eff0e;
+  }
+
+  .artifacts-filters {
+    border-color: #333;
+  }
+
+  .filter-label {
+    color: #867a7a;
+  }
+
+  .chip {
+    border-color: #555;
+    color: white;
+
+    &:hover {
+      border-color: #0eff0e;
+    }
+
+    &.active {
+      background-color: #17be6e;
+      border-color: #17be6e;
+      color: black;
+    }
+
+    &.active .count {
+      color: #0a3d24;
+    }
+
+    .count {
+      color: #867a7a;
+    }
+  }
+
+  .text-btn {
+    color: #4aff00;
+  }
+
+  .sort-controls select {
+    border-color: #555;
+    color: white;
+    background: black;
+  }
+
+  .artifact-group h2,
+  .artifact-card {
+    border-color: #333;
+  }
+
+  .artifact-type-badge,
+  .artifact-meta,
+  .artifacts-empty {
+    color: #867a7a;
   }
 }
 

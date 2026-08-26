@@ -1,0 +1,116 @@
+# Artifacts data — powers /artifacts/
+#
+# Each entry:
+#   title:       required
+#   url:         required
+#   type:        required — project | article | social
+#   skills:      required — lowercase, hyphenated (e.g. open-source)
+#   date:        optional — YYYY-MM-DD or YYYY-MM, used for sorting & display
+#   source:      optional — publication/platform name shown next to the date
+#   description: optional — one line, shown under the title
+#
+# This file is a starting scaffold with a handful of real entries.
+# Add the rest of your projects, articles & posts below following the same shape.
+
+- title: ugit
+  url: https://github.com/Bhupesh-V/ugit
+  type: project
+  skills: [git, shell, cli]
+  date: 2021-01-01
+  description: Undo git commands you regret. 1k+ stars.
+
+- title: godeping
+  url: https://github.com/Bhupesh-V/godeping
+  type: project
+  skills: [golang, cli, open-source]
+  date: 2022-01-01
+  description: Identify archived/unmaintained Go project dependencies.
+
+- title: dvs
+  url: https://github.com/Bhupesh-V/dvs
+  type: project
+  skills: [shell, docker, cli]
+  date: 2022-01-01
+  description: Create & restore Docker volume snapshots/backups.
+
+- title: shedock
+  url: https://github.com/shedock/shedock
+  type: project
+  skills: [shell, docker]
+  date: 2022-01-01
+  description: An experimental tool to dockerize shell scripts.
+
+- title: git-prs
+  url: https://bhupesh.me/finding-pull-requests-that-change-a-file-terminal/
+  type: project
+  skills: [shell, git, cli]
+  date: 2021-01-01
+  description: Find pull requests that modify a file path, from the terminal.
+
+- title: How to Design a Transactional Key-value Store in Go
+  url: https://www.freecodecamp.org/news/design-a-key-value-store-in-go/
+  type: article
+  skills: [golang, systems-design]
+  date: 2021-06-01
+  source: freeCodeCamp
+
+- title: A Closer Look at Server Sent Events using Go
+  url: https://nurdsoft.co/blog/a-closer-look-at-server-sent-events
+  type: article
+  skills: [golang]
+  date: 2023-01-01
+  source: Nurdsoft
+
+- title: Get your git game up with worktrees
+  url: https://blog.invidelabs.com/git-worktree-to-make-daily-git-workflow-better/
+  type: article
+  skills: [git]
+  date: 2023-06-01
+  source: InvideLabs
+
+- title: How I reduced the size of my very first published docker image by 40%
+  url: https://bhupesh.me/publishing-my-first-ever-dockerfile-optimization-ugit/
+  type: article
+  skills: [shell, docker]
+  date: 2021-01-01
+
+- title: How to Build Your Own Linux Dotfiles Manager from Scratch
+  url: https://www.freecodecamp.org/news/build-your-own-dotfiles-manager-from-scratch/
+  type: article
+  skills: [shell]
+  date: 2022-01-01
+  source: freeCodeCamp
+
+- title: OpenMetrics vs OpenTelemetry
+  url: https://signoz.io/blog/openmetrics-vs-opentelemetry/
+  type: article
+  skills: [devops]
+  date: 2022-01-01
+  source: SigNoz
+
+- title: 5 years of maintaining India's largest dev community on the web
+  url: https://bhupesh.me/5-years-developersIndia/
+  type: article
+  skills: [community]
+  date: 2024-01-01
+
+- title: Trying to clear some misjudgments about Go among newcomers & seasoned devs
+  url: https://www.reddit.com/r/developersIndia/comments/1i6o9kc/trying_to_clear_some_misjudgments_about_go_the/
+  type: social
+  skills: [golang]
+  date: 2025-01-01
+  source: r/developersIndia
+
+- title: Some tips to effectively identify what projects to build & why
+  url: https://www.reddit.com/r/developersIndia/comments/1dv1m9w/some_tips_to_effectively_identify_what_projects/
+  type: social
+  skills: [community, open-source]
+  date: 2024-07-01
+  source: r/developersIndia
+
+- title: Thoughts on everyone's expectation from a community
+  url: https://x.com/bhupeshimself/status/1799132946479325334
+  type: social
+  skills: [community]
+  date: 2024-06-08
+  source: X

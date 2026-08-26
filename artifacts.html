@@ -1,0 +1,357 @@
+---
+layout: default
+title: Artifacts
+description: Every project, article & post I've shipped, organized by skill.
+permalink: /artifacts/
+---
+
+<h1>Artifacts</h1>
+<p style="text-align:center;">
+  A record of what I've built, said & shipped.
+</p>
+
+<div id="artifacts-app">
+  <div class="artifacts-filters">
+    <div class="filter-group" id="sort-controls">
+      <span class="filter-label">Sort</span>
+      <button type="button" id="sort-desc" class="chip">Newest first</button>
+      <button type="button" id="sort-asc" class="chip">Oldest first</button>
+    </div>
+    <div class="filter-group" id="type-filters"></div>
+    <div class="filter-group" id="category-filters"></div>
+    <div class="filter-group" id="skill-filters"></div>
+    <div class="filter-actions" style="display:none;">
+      <button type="button" id="clear-filters" class="text-btn">Clear filters</button>
+      <button type="button" id="copy-link" class="text-btn">🔗 Copy link to this view</button>
+    </div>
+  </div>
+
+  <div id="artifacts-results"></div>
+</div>
+
+<script>
+(function () {
+  var ARTIFACTS = {{ site.data.artifacts | jsonify }};
+  var CATEGORIES = {{ site.data.categories | jsonify }};
+  var CATEGORY_MAP = {};
+  CATEGORIES.forEach(function (c) { CATEGORY_MAP[c.name] = c.skills || []; });
+
+  var TYPE_META = {
+    project: { label: "Project", emoji: "🚀" },
+    article: { label: "Article", emoji: "✍️" },
+    social:  { label: "Take", emoji: "💬" }
+  };
+
+  var selectedTypes = new Set();
+  var selectedCategories = new Set();
+  var selectedSkills = new Set();
+  var sortOrder = "desc";
+
+  function paramList(name) {
+    var params = new URLSearchParams(window.location.search);
+    var raw = params.get(name);
+    if (!raw) return [];
+    return raw.split(",").map(function (s) { return s.trim().toLowerCase(); }).filter(Boolean);
+  }
+
+  paramList("type").forEach(function (t) { if (TYPE_META[t]) selectedTypes.add(t); });
+  paramList("category").forEach(function (c) { if (CATEGORY_MAP.hasOwnProperty(c)) selectedCategories.add(c); });
+  var allSkills = Array.from(new Set(ARTIFACTS.reduce(function (acc, a) { return acc.concat(a.skills || []); }, []))).sort();
+  paramList("skills").forEach(function (s) { if (allSkills.indexOf(s) !== -1) selectedSkills.add(s); });
+  if (new URLSearchParams(window.location.search).get("sort") === "asc") sortOrder = "asc";
+
+  // Skills contributed by whichever categories are currently selected.
+  function categorySkills() {
+    var out = new Set();
+    selectedCategories.forEach(function (c) {
+      (CATEGORY_MAP[c] || []).forEach(function (s) { out.add(s); });
+    });
+    return out;
+  }
+
+  function typeOk(item, ignoreTypeFilter) {
+    if (ignoreTypeFilter || selectedTypes.size === 0) return true;
+    return selectedTypes.has(item.type);
+  }
+
+  function skillOk(item, ignoreSkillFilter) {
+    var fromCategories = categorySkills();
+    if (ignoreSkillFilter || (selectedSkills.size === 0 && fromCategories.size === 0)) return true;
+    return (item.skills || []).some(function (s) { return selectedSkills.has(s) || fromCategories.has(s); });
+  }
+
+  function matches(item) {
+    return typeOk(item) && skillOk(item);
+  }
+
+  function hasActiveSkillFilter() {
+    return selectedSkills.size > 0 || selectedCategories.size > 0;
+  }
+
+  function hasAnyFilter() {
+    return selectedTypes.size > 0 || hasActiveSkillFilter();
+  }
+
+  function formatDate(dateStr) {
+    if (!dateStr) return "";
+    var parts = dateStr.split("-");
+    var year = parseInt(parts[0], 10);
+    var month = parts[1] ? parseInt(parts[1], 10) - 1 : 0;
+    var hasDay = parts.length > 2;
+    var d = new Date(year, month, hasDay ? parseInt(parts[2], 10) : 1);
+    var opts = hasDay
+      ? { year: "numeric", month: "long", day: "numeric" }
+      : { year: "numeric", month: "long" };
+    return d.toLocaleDateString("en-US", opts);
+  }
+
+  function updateUrl() {
+    var params = new URLSearchParams();
+    if (selectedTypes.size) params.set("type", Array.from(selectedTypes).join(","));
+    if (selectedCategories.size) params.set("category", Array.from(selectedCategories).join(","));
+    if (selectedSkills.size) params.set("skills", Array.from(selectedSkills).join(","));
+    if (sortOrder !== "desc") params.set("sort", sortOrder);
+    var qs = params.toString();
+    var url = window.location.pathname + (qs ? "?" + qs : "");
+    window.history.replaceState(null, "", url);
+  }
+
+  function toggle(set, value) {
+    if (set.has(value)) set.delete(value); else set.add(value);
+  }
+
+  function skillPill(skill, small) {
+    var active = selectedSkills.has(skill) || categorySkills().has(skill);
+    var pill = document.createElement("button");
+    pill.type = "button";
+    pill.className = "chip" + (small ? " chip-sm" : "") + (active ? " active" : "");
+    pill.textContent = skill;
+    pill.addEventListener("click", function () {
+      toggle(selectedSkills, skill);
+      render();
+    });
+    return pill;
+  }
+
+  function renderFilters() {
+    document.getElementById("sort-desc").classList.toggle("active", sortOrder === "desc");
+    document.getElementById("sort-asc").classList.toggle("active", sortOrder === "asc");
+
+    var typeWrap = document.getElementById("type-filters");
+    typeWrap.innerHTML = "";
+    var typeLabel = document.createElement("span");
+    typeLabel.className = "filter-label";
+    typeLabel.textContent = "Type";
+    typeWrap.appendChild(typeLabel);
+    Object.keys(TYPE_META).forEach(function (type) {
+      var count = ARTIFACTS.filter(function (a) { return a.type === type && skillOk(a); }).length;
+      var chip = document.createElement("button");
+      chip.type = "button";
+      chip.className = "chip" + (selectedTypes.has(type) ? " active" : "");
+      chip.innerHTML = TYPE_META[type].emoji + " " + TYPE_META[type].label + "s <span class=\"count\">" + count + "</span>";
+      chip.addEventListener("click", function () {
+        toggle(selectedTypes, type);
+        render();
+      });
+      typeWrap.appendChild(chip);
+    });
+
+    var categoryWrap = document.getElementById("category-filters");
+    categoryWrap.innerHTML = "";
+    if (CATEGORIES.length) {
+      var categoryLabel = document.createElement("span");
+      categoryLabel.className = "filter-label";
+      categoryLabel.textContent = "Category";
+      categoryWrap.appendChild(categoryLabel);
+      CATEGORIES.forEach(function (cat) {
+        var count = ARTIFACTS.filter(function (a) {
+          return typeOk(a) && (a.skills || []).some(function (s) { return cat.skills.indexOf(s) !== -1; });
+        }).length;
+        var chip = document.createElement("button");
+        chip.type = "button";
+        chip.className = "chip chip-category" + (selectedCategories.has(cat.name) ? " active" : "");
+        chip.title = cat.skills.join(", ");
+        chip.innerHTML = "📁 " + cat.name + " <span class=\"count\">" + count + "</span>";
+        chip.addEventListener("click", function () {
+          toggle(selectedCategories, cat.name);
+          render();
+        });
+        categoryWrap.appendChild(chip);
+      });
+    }
+
+    var skillWrap = document.getElementById("skill-filters");
+    skillWrap.innerHTML = "";
+    var skillLabel = document.createElement("span");
+    skillLabel.className = "filter-label";
+    skillLabel.textContent = "Skill";
+    skillWrap.appendChild(skillLabel);
+    allSkills.forEach(function (skill) {
+      var count = ARTIFACTS.filter(function (a) { return typeOk(a) && (a.skills || []).indexOf(skill) !== -1; }).length;
+      var chip = skillPill(skill, false);
+      chip.innerHTML = skill + " <span class=\"count\">" + count + "</span>";
+      skillWrap.appendChild(chip);
+    });
+  }
+
+  function artifactCard(item) {
+    var card = document.createElement("article");
+    card.className = "artifact-card";
+
+    var head = document.createElement("div");
+    head.className = "artifact-head";
+
+    var title = document.createElement("a");
+    title.href = item.url;
+    title.target = "_blank";
+    title.rel = "noopener";
+    title.className = "artifact-title mark";
+    title.textContent = item.title;
+    head.appendChild(title);
+
+    var badge = document.createElement("span");
+    badge.className = "artifact-type-badge";
+    badge.textContent = TYPE_META[item.type].emoji + " " + TYPE_META[item.type].label;
+    head.appendChild(badge);
+
+    card.appendChild(head);
+
+    var metaBits = [];
+    if (item.date) metaBits.push("📅 " + formatDate(item.date));
+    if (item.source) metaBits.push(item.source);
+    if (metaBits.length) {
+      var meta = document.createElement("div");
+      meta.className = "artifact-meta";
+      meta.textContent = metaBits.join(" · ");
+      card.appendChild(meta);
+    }
+
+    if (item.description) {
+      var desc = document.createElement("p");
+      desc.className = "artifact-description";
+      desc.textContent = item.description;
+      card.appendChild(desc);
+    }
+
+    if (item.skills && item.skills.length) {
+      var skillsWrap = document.createElement("div");
+      skillsWrap.className = "artifact-skills";
+      item.skills.forEach(function (skill) {
+        skillsWrap.appendChild(skillPill(skill, true));
+      });
+      card.appendChild(skillsWrap);
+    }
+
+    return card;
+  }
+
+  function sortByDate(items) {
+    return items.slice().sort(function (a, b) {
+      var cmp = (a.date || "").localeCompare(b.date || "");
+      return sortOrder === "asc" ? cmp : -cmp;
+    });
+  }
+
+  function render() {
+    renderFilters();
+    updateUrl();
+
+    document.querySelector(".filter-actions").style.display = hasAnyFilter() ? "flex" : "none";
+
+    var results = document.getElementById("artifacts-results");
+    results.innerHTML = "";
+
+    var filtered = ARTIFACTS.filter(matches);
+
+    if (!filtered.length) {
+      var empty = document.createElement("p");
+      empty.className = "artifacts-empty";
+      empty.textContent = "Nothing here yet — try clearing a filter.";
+      results.appendChild(empty);
+      return;
+    }
+
+    if (!hasActiveSkillFilter()) {
+      // Browsing mode: every skill gets its own section.
+      allSkills.forEach(function (skill) {
+        var items = sortByDate(ARTIFACTS.filter(function (a) {
+          return typeOk(a) && (a.skills || []).indexOf(skill) !== -1;
+        }));
+        if (!items.length) return;
+
+        var section = document.createElement("section");
+        section.className = "artifact-group";
+
+        var heading = document.createElement("h2");
+        heading.textContent = skill + " (" + items.length + ")";
+        section.appendChild(heading);
+
+        items.forEach(function (item) { section.appendChild(artifactCard(item)); });
+        results.appendChild(section);
+      });
+    } else {
+      // Filtered mode: one combined list for the selected category(s) & skill(s).
+      var labels = Array.from(selectedCategories).map(function (c) { return "📁 " + c; })
+        .concat(Array.from(selectedSkills));
+      var heading = document.createElement("h2");
+      heading.textContent = labels.join(" + ") + " (" + filtered.length + ")";
+      results.appendChild(heading);
+
+      sortByDate(filtered).forEach(function (item) { results.appendChild(artifactCard(item)); });
+    }
+  }
+
+  document.getElementById("clear-filters").addEventListener("click", function () {
+    selectedTypes.clear();
+    selectedCategories.clear();
+    selectedSkills.clear();
+    render();
+  });
+
+  function fallbackCopy(text) {
+    var textarea = document.createElement("textarea");
+    textarea.value = text;
+    textarea.style.position = "fixed";
+    textarea.style.opacity = "0";
+    document.body.appendChild(textarea);
+    textarea.focus();
+    textarea.select();
+    var ok = false;
+    try { ok = document.execCommand("copy"); } catch (err) { ok = false; }
+    document.body.removeChild(textarea);
+    return ok;
+  }
+
+  document.getElementById("sort-desc").addEventListener("click", function () {
+    sortOrder = "desc";
+    render();
+  });
+  document.getElementById("sort-asc").addEventListener("click", function () {
+    sortOrder = "asc";
+    render();
+  });
+
+  document.getElementById("copy-link").addEventListener("click", function (e) {
+    var btn = e.currentTarget;
+    var url = window.location.href;
+
+    var flash = function (label) {
+      var original = "🔗 Copy link to this view";
+      btn.textContent = label;
+      setTimeout(function () { btn.textContent = original; }, 1500);
+    };
+
+    if (navigator.clipboard && navigator.clipboard.writeText && window.isSecureContext) {
+      navigator.clipboard.writeText(url).then(function () {
+        flash("✅ Copied");
+      }).catch(function () {
+        flash(fallbackCopy(url) ? "✅ Copied" : "⚠️ Couldn't copy — copy manually");
+      });
+    } else {
+      flash(fallbackCopy(url) ? "✅ Copied" : "⚠️ Couldn't copy — copy manually");
+    }
+  });
+
+  render();
+})();
+</script>
