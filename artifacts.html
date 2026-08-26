@@ -212,8 +212,8 @@ permalink: /artifacts/
     title.href = item.url;
     title.target = "_blank";
     title.rel = "noopener";
-    title.className = "artifact-title mark";
-    title.textContent = item.title;
+    title.className = "artifact-title";
+    title.innerHTML = item.title + " <span class=\"artifact-title-arrow\">↗</span>";
     head.appendChild(title);
 
     var badge = document.createElement("span");

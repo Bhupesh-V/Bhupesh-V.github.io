@@ -820,7 +820,7 @@ input[type=email] {
   gap: 5px;
   background: transparent;
   border: 1px solid $gray;
-  border-radius: 20px;
+  border-radius: 5px;
   padding: 5px 12px;
   font-size: 14px;
   font-family: $helvetica;
@@ -920,7 +920,7 @@ input[type=email] {
 }
 
 .artifact-card {
-  border: 1px solid $lightGray;
+  border: 1px solid $black;
   border-radius: 6px;
   padding: 14px 18px;
   margin-bottom: 14px;
@@ -937,6 +937,17 @@ input[type=email] {
 .artifact-title {
   font-size: 18px;
   font-weight: bold;
+  color: #1f58d6;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.artifact-title-arrow {
+  display: inline-block;
+  opacity: 0.5;
+  font-weight: normal;
 }
 
 .artifact-type-badge {
@@ -1213,13 +1224,17 @@ input[type=email] {
 
   .artifact-group h2,
   .artifact-card {
-    border-color: #333;
+    border-color: $white;
   }
 
   .artifact-type-badge,
   .artifact-meta,
   .artifacts-empty {
     color: #867a7a;
+  }
+
+  .artifact-title {
+    color: #4aff00;
   }
 }
 

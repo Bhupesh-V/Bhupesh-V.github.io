@@ -50,7 +50,7 @@
 - title: How to Design a Transactional Key-value Store in Go
   url: https://www.freecodecamp.org/news/design-a-key-value-store-in-go/
   type: article
-  skills: [golang, systems-design]
+  skills: [golang, system-design]
   date: 2021-06-01
   source: freeCodeCamp
 
@@ -73,6 +73,7 @@
   type: article
   skills: [shell, docker]
   date: 2021-01-01
+  description: A lesson in dockerizing shell scripts
 
 - title: How to Build Your Own Linux Dotfiles Manager from Scratch
   url: https://www.freecodecamp.org/news/build-your-own-dotfiles-manager-from-scratch/
