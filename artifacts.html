@@ -15,8 +15,14 @@ permalink: /artifacts/
     <div class="filter-group" id="type-filters"></div>
     <div class="filter-group" id="category-filters"></div>
 
-    <button type="button" id="toggle-focus" class="text-btn">Browse by focus area ▾</button>
-    <div class="filter-group filter-group-focus" id="focus-filters" style="display:none;"></div>
+    <div class="filter-group filter-group-focus">
+      <span class="filter-label">Focus</span>
+      <div class="focus-search-wrap">
+        <input type="text" id="focus-search" class="focus-search" placeholder="Search focus areas…" autocomplete="off">
+        <div id="focus-suggestions" class="focus-suggestions"></div>
+      </div>
+      <span id="focus-selected"></span>
+    </div>
 
     <div class="filter-actions" style="display:none;">
       <button type="button" id="clear-filters" class="text-btn">Clear filters</button>
@@ -57,9 +63,6 @@ permalink: /artifacts/
   var selectedCategories = new Set(paramList("category").filter(function (c) { return CATEGORY_MAP.hasOwnProperty(c); }));
   var selectedFocus = new Set(paramList("focus").filter(function (s) { return allFocus.indexOf(s) !== -1; }));
   var sortOrder = urlParams.get("sort") === "asc" ? "asc" : "desc";
-
-  // Individual focus areas are power-user territory — collapsed unless one is already active.
-  var focusExpanded = selectedFocus.size > 0;
 
   // Focus areas contributed by whichever categories are currently selected.
   function categoryFocus() {
@@ -144,10 +147,12 @@ permalink: /artifacts/
     var wrap = document.getElementById(containerId);
     wrap.innerHTML = "";
     if (!chips.length) return;
-    var label = document.createElement("span");
-    label.className = "filter-label";
-    label.textContent = labelText;
-    wrap.appendChild(label);
+    if (labelText) {
+      var label = document.createElement("span");
+      label.className = "filter-label";
+      label.textContent = labelText;
+      wrap.appendChild(label);
+    }
     chips.forEach(function (chip) { wrap.appendChild(chip); });
   }
 
@@ -174,12 +179,8 @@ permalink: /artifacts/
       return chip;
     }));
 
-    document.getElementById("toggle-focus").textContent =
-      focusExpanded ? "Hide focus areas ▴" : "Browse by focus area ▾";
-    document.getElementById("focus-filters").style.display = focusExpanded ? "flex" : "none";
-    renderChipRow("focus-filters", "Focus", allFocus.map(function (focus) {
-      var count = ARTIFACTS.filter(function (a) { return typeOk(a) && (a.focus || []).indexOf(focus) !== -1; }).length;
-      return focusChip(focus, count, false);
+    renderChipRow("focus-selected", "", Array.from(selectedFocus).map(function (focus) {
+      return focusChip(focus, undefined, true);
     }));
   }
 
@@ -310,14 +311,43 @@ permalink: /artifacts/
     selectedTypes.clear();
     selectedCategories.clear();
     selectedFocus.clear();
-    focusExpanded = false;
     render();
   });
 
-  document.getElementById("toggle-focus").addEventListener("click", function () {
-    focusExpanded = !focusExpanded;
-    render();
-  });
+  var focusSearch = document.getElementById("focus-search");
+  var focusSuggestions = document.getElementById("focus-suggestions");
+
+  function updateSuggestions() {
+    var query = focusSearch.value.trim().toLowerCase();
+    var matches = allFocus.filter(function (f) {
+      if (selectedFocus.has(f) || f.indexOf(query) === -1) return false;
+      return ARTIFACTS.some(function (a) { return typeOk(a) && (a.focus || []).indexOf(f) !== -1; });
+    });
+
+    focusSuggestions.innerHTML = "";
+    matches.forEach(function (focus) {
+      var item = document.createElement("button");
+      item.type = "button";
+      item.className = "focus-suggestion";
+      item.textContent = focus;
+      // mousedown fires before the input's blur, so the click still registers.
+      item.addEventListener("mousedown", function (e) {
+        e.preventDefault();
+        selectedFocus.add(focus);
+        focusSearch.value = "";
+        focusSuggestions.classList.remove("open");
+        render();
+      });
+      focusSuggestions.appendChild(item);
+    });
+    focusSuggestions.classList.toggle("open", matches.length > 0);
+  }
+
+  focusSearch.addEventListener("focus", updateSuggestions);
+  focusSearch.addEventListener("click", updateSuggestions);
+  focusSearch.addEventListener("input", updateSuggestions);
+  focusSearch.addEventListener("blur", function () { focusSuggestions.classList.remove("open"); });
+  focusSearch.addEventListener("keydown", function (e) { if (e.key === "Escape") focusSearch.blur(); });
 
   document.getElementById("sort-toggle").addEventListener("click", function () {
     sortOrder = sortOrder === "desc" ? "asc" : "desc";

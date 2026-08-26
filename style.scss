@@ -865,15 +865,70 @@ input[type=email] {
   margin-top: 12px;
 }
 
-#toggle-focus {
-  font-size: 13px;
-  opacity: 0.75;
-}
-
 .filter-group-focus {
   margin-top: 8px;
   padding-top: 10px;
   border-top: 1px dashed $lightGray;
+}
+
+.focus-search-wrap {
+  position: relative;
+}
+
+.focus-search {
+  border: 1px solid $gray;
+  border-radius: 5px;
+  padding: 5px 12px;
+  font-size: 14px;
+  font-family: $helvetica;
+  color: $darkGray;
+  background: transparent;
+  min-width: 180px;
+
+  &:focus {
+    outline: none;
+    border-color: $darkGray;
+  }
+}
+
+.focus-suggestions {
+  display: none;
+  position: absolute;
+  top: calc(100% + 4px);
+  left: 0;
+  min-width: 100%;
+  max-height: 220px;
+  overflow-y: auto;
+  background: floralwhite;
+  border: 1px solid $gray;
+  border-radius: 5px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+
+  &.open {
+    display: block;
+  }
+}
+
+.focus-suggestion {
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding: 6px 12px;
+  background: none;
+  border: none;
+  font-size: 14px;
+  font-family: $helvetica;
+  color: $darkGray;
+  cursor: pointer;
+
+  &:hover {
+    background: $lightGray;
+  }
+}
+
+#focus-selected {
+  display: contents;
 }
 
 .results-header {
@@ -1218,6 +1273,28 @@ input[type=email] {
 
   .filter-group-focus {
     border-top-color: #333;
+  }
+
+  .focus-search {
+    border-color: #555;
+    color: white;
+
+    &:focus {
+      border-color: #0eff0e;
+    }
+  }
+
+  .focus-suggestions {
+    background: #1a1a1a;
+    border-color: #555;
+  }
+
+  .focus-suggestion {
+    color: white;
+
+    &:hover {
+      background: #262626;
+    }
   }
 
   .results-header {
