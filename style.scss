@@ -865,12 +865,12 @@ input[type=email] {
   margin-top: 12px;
 }
 
-#toggle-skills {
+#toggle-focus {
   font-size: 13px;
   opacity: 0.75;
 }
 
-.filter-group-skills {
+.filter-group-focus {
   margin-top: 8px;
   padding-top: 10px;
   border-top: 1px dashed $lightGray;
@@ -954,6 +954,7 @@ input[type=email] {
   font-size: 13px;
   color: $gray;
   white-space: nowrap;
+  font-weight: bold;
 }
 
 .artifact-meta {
@@ -964,9 +965,10 @@ input[type=email] {
 
 .artifact-description {
   margin: 8px 0 0;
+  font-size: 15px;
 }
 
-.artifact-skills {
+.artifact-focus {
   display: flex;
   flex-wrap: wrap;
   gap: 6px;
@@ -1214,7 +1216,7 @@ input[type=email] {
     color: #4aff00;
   }
 
-  .filter-group-skills {
+  .filter-group-focus {
     border-top-color: #333;
   }
 

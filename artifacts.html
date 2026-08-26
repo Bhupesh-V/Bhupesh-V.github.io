@@ -1,13 +1,13 @@
 ---
 layout: default
 title: Artifacts
-description: Every project, article & post I've shipped, organized by skill.
+description: Every project, article & post I've shipped, organized by focus.
 permalink: /artifacts/
 ---
 
 <h1>Artifacts</h1>
 <p style="text-align:center;">
-  A record of what I've built, said & shipped.
+  A record of what I've shipped & said.
 </p>
 
 <div id="artifacts-app">
@@ -15,12 +15,12 @@ permalink: /artifacts/
     <div class="filter-group" id="type-filters"></div>
     <div class="filter-group" id="category-filters"></div>
 
-    <button type="button" id="toggle-skills" class="text-btn">Browse by individual skill ▾</button>
-    <div class="filter-group filter-group-skills" id="skill-filters" style="display:none;"></div>
+    <button type="button" id="toggle-focus" class="text-btn">Browse by focus area ▾</button>
+    <div class="filter-group filter-group-focus" id="focus-filters" style="display:none;"></div>
 
     <div class="filter-actions" style="display:none;">
       <button type="button" id="clear-filters" class="text-btn">Clear filters</button>
-      <button type="button" id="copy-link" class="text-btn">🔗 Copy link to this view</button>
+      <button type="button" id="copy-link" class="text-btn">🔗 Copy link</button>
     </div>
   </div>
 
@@ -37,37 +37,32 @@ permalink: /artifacts/
   var ARTIFACTS = {{ site.data.artifacts | jsonify }};
   var CATEGORIES = {{ site.data.categories | jsonify }};
   var CATEGORY_MAP = {};
-  CATEGORIES.forEach(function (c) { CATEGORY_MAP[c.name] = c.skills || []; });
+  CATEGORIES.forEach(function (c) { CATEGORY_MAP[c.name] = c.focus || []; });
 
   var TYPE_META = {
     project: { label: "Project", emoji: "🚀" },
     article: { label: "Article", emoji: "✍️" },
-    social:  { label: "Take", emoji: "💬" }
+    take:    { label: "Take", emoji: "💬" }
   };
 
-  var selectedTypes = new Set();
-  var selectedCategories = new Set();
-  var selectedSkills = new Set();
-  var sortOrder = "desc";
-
+  var urlParams = new URLSearchParams(window.location.search);
   function paramList(name) {
-    var params = new URLSearchParams(window.location.search);
-    var raw = params.get(name);
-    if (!raw) return [];
-    return raw.split(",").map(function (s) { return s.trim().toLowerCase(); }).filter(Boolean);
+    var raw = urlParams.get(name);
+    return raw ? raw.split(",").map(function (s) { return s.trim().toLowerCase(); }).filter(Boolean) : [];
   }
 
-  paramList("type").forEach(function (t) { if (TYPE_META[t]) selectedTypes.add(t); });
-  paramList("category").forEach(function (c) { if (CATEGORY_MAP.hasOwnProperty(c)) selectedCategories.add(c); });
-  var allSkills = Array.from(new Set(ARTIFACTS.reduce(function (acc, a) { return acc.concat(a.skills || []); }, []))).sort();
-  paramList("skills").forEach(function (s) { if (allSkills.indexOf(s) !== -1) selectedSkills.add(s); });
-  if (new URLSearchParams(window.location.search).get("sort") === "asc") sortOrder = "asc";
+  var allFocus = Array.from(new Set(ARTIFACTS.reduce(function (acc, a) { return acc.concat(a.focus || []); }, []))).sort();
 
-  // Individual skills are power-user territory — collapsed unless one is already active.
-  var skillsExpanded = selectedSkills.size > 0;
+  var selectedTypes = new Set(paramList("type").filter(function (t) { return TYPE_META[t]; }));
+  var selectedCategories = new Set(paramList("category").filter(function (c) { return CATEGORY_MAP.hasOwnProperty(c); }));
+  var selectedFocus = new Set(paramList("focus").filter(function (s) { return allFocus.indexOf(s) !== -1; }));
+  var sortOrder = urlParams.get("sort") === "asc" ? "asc" : "desc";
 
-  // Skills contributed by whichever categories are currently selected.
-  function categorySkills() {
+  // Individual focus areas are power-user territory — collapsed unless one is already active.
+  var focusExpanded = selectedFocus.size > 0;
+
+  // Focus areas contributed by whichever categories are currently selected.
+  function categoryFocus() {
     var out = new Set();
     selectedCategories.forEach(function (c) {
       (CATEGORY_MAP[c] || []).forEach(function (s) { out.add(s); });
@@ -75,27 +70,26 @@ permalink: /artifacts/
     return out;
   }
 
-  function typeOk(item, ignoreTypeFilter) {
-    if (ignoreTypeFilter || selectedTypes.size === 0) return true;
-    return selectedTypes.has(item.type);
+  function typeOk(item) {
+    return selectedTypes.size === 0 || selectedTypes.has(item.type);
   }
 
-  function skillOk(item, ignoreSkillFilter) {
-    var fromCategories = categorySkills();
-    if (ignoreSkillFilter || (selectedSkills.size === 0 && fromCategories.size === 0)) return true;
-    return (item.skills || []).some(function (s) { return selectedSkills.has(s) || fromCategories.has(s); });
+  function focusOk(item) {
+    var fromCategories = categoryFocus();
+    if (selectedFocus.size === 0 && fromCategories.size === 0) return true;
+    return (item.focus || []).some(function (s) { return selectedFocus.has(s) || fromCategories.has(s); });
   }
 
   function matches(item) {
-    return typeOk(item) && skillOk(item);
+    return typeOk(item) && focusOk(item);
   }
 
-  function hasActiveSkillFilter() {
-    return selectedSkills.size > 0 || selectedCategories.size > 0;
+  function hasActiveFocusFilter() {
+    return selectedFocus.size > 0 || selectedCategories.size > 0;
   }
 
   function hasAnyFilter() {
-    return selectedTypes.size > 0 || hasActiveSkillFilter();
+    return selectedTypes.size > 0 || hasActiveFocusFilter();
   }
 
   function formatDate(dateStr) {
@@ -115,90 +109,78 @@ permalink: /artifacts/
     var params = new URLSearchParams();
     if (selectedTypes.size) params.set("type", Array.from(selectedTypes).join(","));
     if (selectedCategories.size) params.set("category", Array.from(selectedCategories).join(","));
-    if (selectedSkills.size) params.set("skills", Array.from(selectedSkills).join(","));
+    if (selectedFocus.size) params.set("focus", Array.from(selectedFocus).join(","));
     if (sortOrder !== "desc") params.set("sort", sortOrder);
     var qs = params.toString();
-    var url = window.location.pathname + (qs ? "?" + qs : "");
-    window.history.replaceState(null, "", url);
+    window.history.replaceState(null, "", window.location.pathname + (qs ? "?" + qs : ""));
   }
 
   function toggle(set, value) {
     if (set.has(value)) set.delete(value); else set.add(value);
   }
 
-  function skillPill(skill, small) {
-    var active = selectedSkills.has(skill) || categorySkills().has(skill);
-    var pill = document.createElement("button");
-    pill.type = "button";
-    pill.className = "chip" + (small ? " chip-sm" : "") + (active ? " active" : "");
-    pill.textContent = skill;
-    pill.addEventListener("click", function () {
-      toggle(selectedSkills, skill);
+  // Builds one <button class="chip">, wires its click handler, returns it — used for every
+  // filter chip (type/category/focus) and every focus tag shown on an artifact card.
+  function makeChip(html, active, extraClass, onClick) {
+    var chip = document.createElement("button");
+    chip.type = "button";
+    chip.className = "chip" + (extraClass ? " " + extraClass : "") + (active ? " active" : "");
+    chip.innerHTML = html;
+    chip.addEventListener("click", onClick);
+    return chip;
+  }
+
+  function focusChip(focus, count, small) {
+    var active = selectedFocus.has(focus) || categoryFocus().has(focus);
+    var html = focus + (count !== undefined ? " <span class=\"count\">" + count + "</span>" : "");
+    return makeChip(html, active, small ? "chip-sm" : "", function () {
+      toggle(selectedFocus, focus);
       render();
     });
-    return pill;
+  }
+
+  // Renders a labelled row of chips into #<containerId>, hiding the row entirely when empty.
+  function renderChipRow(containerId, labelText, chips) {
+    var wrap = document.getElementById(containerId);
+    wrap.innerHTML = "";
+    if (!chips.length) return;
+    var label = document.createElement("span");
+    label.className = "filter-label";
+    label.textContent = labelText;
+    wrap.appendChild(label);
+    chips.forEach(function (chip) { wrap.appendChild(chip); });
   }
 
   function renderFilters() {
-    var typeWrap = document.getElementById("type-filters");
-    typeWrap.innerHTML = "";
-    var typeLabel = document.createElement("span");
-    typeLabel.className = "filter-label";
-    typeLabel.textContent = "Type";
-    typeWrap.appendChild(typeLabel);
-    Object.keys(TYPE_META).forEach(function (type) {
-      var count = ARTIFACTS.filter(function (a) { return a.type === type && skillOk(a); }).length;
-      var chip = document.createElement("button");
-      chip.type = "button";
-      chip.className = "chip" + (selectedTypes.has(type) ? " active" : "");
-      chip.innerHTML = TYPE_META[type].emoji + " " + TYPE_META[type].label + "s <span class=\"count\">" + count + "</span>";
-      chip.addEventListener("click", function () {
+    renderChipRow("type-filters", "Type", Object.keys(TYPE_META).map(function (type) {
+      var count = ARTIFACTS.filter(function (a) { return a.type === type && focusOk(a); }).length;
+      var html = TYPE_META[type].emoji + " " + TYPE_META[type].label + "s <span class=\"count\">" + count + "</span>";
+      return makeChip(html, selectedTypes.has(type), "", function () {
         toggle(selectedTypes, type);
         render();
       });
-      typeWrap.appendChild(chip);
-    });
+    }));
 
-    var categoryWrap = document.getElementById("category-filters");
-    categoryWrap.innerHTML = "";
-    if (CATEGORIES.length) {
-      var categoryLabel = document.createElement("span");
-      categoryLabel.className = "filter-label";
-      categoryLabel.textContent = "Category";
-      categoryWrap.appendChild(categoryLabel);
-      CATEGORIES.forEach(function (cat) {
-        var count = ARTIFACTS.filter(function (a) {
-          return typeOk(a) && (a.skills || []).some(function (s) { return cat.skills.indexOf(s) !== -1; });
-        }).length;
-        var chip = document.createElement("button");
-        chip.type = "button";
-        chip.className = "chip chip-category" + (selectedCategories.has(cat.name) ? " active" : "");
-        chip.title = cat.skills.join(", ");
-        chip.innerHTML = "📁 " + cat.name + " <span class=\"count\">" + count + "</span>";
-        chip.addEventListener("click", function () {
-          toggle(selectedCategories, cat.name);
-          render();
-        });
-        categoryWrap.appendChild(chip);
+    renderChipRow("category-filters", "Category", CATEGORIES.map(function (cat) {
+      var count = ARTIFACTS.filter(function (a) {
+        return typeOk(a) && (a.focus || []).some(function (s) { return cat.focus.indexOf(s) !== -1; });
+      }).length;
+      var html = "📁 " + cat.name + " <span class=\"count\">" + count + "</span>";
+      var chip = makeChip(html, selectedCategories.has(cat.name), "chip-category", function () {
+        toggle(selectedCategories, cat.name);
+        render();
       });
-    }
+      chip.title = cat.focus.join(", ");
+      return chip;
+    }));
 
-    var toggleSkillsBtn = document.getElementById("toggle-skills");
-    toggleSkillsBtn.textContent = skillsExpanded ? "Hide individual skills ▴" : "Browse by individual skill ▾";
-
-    var skillWrap = document.getElementById("skill-filters");
-    skillWrap.style.display = skillsExpanded ? "flex" : "none";
-    skillWrap.innerHTML = "";
-    var skillLabel = document.createElement("span");
-    skillLabel.className = "filter-label";
-    skillLabel.textContent = "Skill";
-    skillWrap.appendChild(skillLabel);
-    allSkills.forEach(function (skill) {
-      var count = ARTIFACTS.filter(function (a) { return typeOk(a) && (a.skills || []).indexOf(skill) !== -1; }).length;
-      var chip = skillPill(skill, false);
-      chip.innerHTML = skill + " <span class=\"count\">" + count + "</span>";
-      skillWrap.appendChild(chip);
-    });
+    document.getElementById("toggle-focus").textContent =
+      focusExpanded ? "Hide focus areas ▴" : "Browse by focus area ▾";
+    document.getElementById("focus-filters").style.display = focusExpanded ? "flex" : "none";
+    renderChipRow("focus-filters", "Focus", allFocus.map(function (focus) {
+      var count = ARTIFACTS.filter(function (a) { return typeOk(a) && (a.focus || []).indexOf(focus) !== -1; }).length;
+      return focusChip(focus, count, false);
+    }));
   }
 
   function artifactCard(item) {
@@ -240,13 +222,11 @@ permalink: /artifacts/
       card.appendChild(desc);
     }
 
-    if (item.skills && item.skills.length) {
-      var skillsWrap = document.createElement("div");
-      skillsWrap.className = "artifact-skills";
-      item.skills.forEach(function (skill) {
-        skillsWrap.appendChild(skillPill(skill, true));
-      });
-      card.appendChild(skillsWrap);
+    if (item.focus && item.focus.length) {
+      var focusWrap = document.createElement("div");
+      focusWrap.className = "artifact-focus";
+      item.focus.forEach(function (focus) { focusWrap.appendChild(focusChip(focus, undefined, true)); });
+      card.appendChild(focusWrap);
     }
 
     return card;
@@ -257,6 +237,20 @@ permalink: /artifacts/
       var cmp = (a.date || "").localeCompare(b.date || "");
       return sortOrder === "asc" ? cmp : -cmp;
     });
+  }
+
+  // Appends a <h2> + artifact cards, optionally wrapped in its own <section> (browsing mode).
+  function appendSection(container, headingText, items, wrapInSection) {
+    var parent = container;
+    if (wrapInSection) {
+      parent = document.createElement("section");
+      parent.className = "artifact-group";
+      container.appendChild(parent);
+    }
+    var heading = document.createElement("h2");
+    heading.textContent = headingText;
+    parent.appendChild(heading);
+    items.forEach(function (item) { parent.appendChild(artifactCard(item)); });
   }
 
   function render() {
@@ -272,7 +266,6 @@ permalink: /artifacts/
     results.innerHTML = "";
 
     var filtered = ARTIFACTS.filter(matches);
-
     document.getElementById("results-count").textContent =
       filtered.length + (filtered.length === 1 ? " artifact" : " artifacts");
 
@@ -284,48 +277,20 @@ permalink: /artifacts/
       return;
     }
 
-    if (!hasActiveSkillFilter()) {
-      // Browsing mode: every skill gets its own section.
-      allSkills.forEach(function (skill) {
+    if (!hasActiveFocusFilter()) {
+      // Browsing mode: every focus area gets its own section.
+      allFocus.forEach(function (focus) {
         var items = sortByDate(ARTIFACTS.filter(function (a) {
-          return typeOk(a) && (a.skills || []).indexOf(skill) !== -1;
+          return typeOk(a) && (a.focus || []).indexOf(focus) !== -1;
         }));
-        if (!items.length) return;
-
-        var section = document.createElement("section");
-        section.className = "artifact-group";
-
-        var heading = document.createElement("h2");
-        heading.textContent = skill + " (" + items.length + ")";
-        section.appendChild(heading);
-
-        items.forEach(function (item) { section.appendChild(artifactCard(item)); });
-        results.appendChild(section);
+        if (items.length) appendSection(results, focus + " (" + items.length + ")", items, true);
       });
     } else {
-      // Filtered mode: one combined list for the selected category(s) & skill(s).
-      var labels = Array.from(selectedCategories).map(function (c) { return "📁 " + c; })
-        .concat(Array.from(selectedSkills));
-      var heading = document.createElement("h2");
-      heading.textContent = labels.join(" + ") + " (" + filtered.length + ")";
-      results.appendChild(heading);
-
-      sortByDate(filtered).forEach(function (item) { results.appendChild(artifactCard(item)); });
+      // Filtered mode: one combined list for the selected category(s) & focus area(s).
+      var labels = Array.from(selectedCategories).map(function (c) { return "📁 " + c; }).concat(Array.from(selectedFocus));
+      appendSection(results, labels.join(" + ") + " (" + filtered.length + ")", sortByDate(filtered), false);
     }
   }
-
-  document.getElementById("clear-filters").addEventListener("click", function () {
-    selectedTypes.clear();
-    selectedCategories.clear();
-    selectedSkills.clear();
-    skillsExpanded = false;
-    render();
-  });
-
-  document.getElementById("toggle-skills").addEventListener("click", function () {
-    skillsExpanded = !skillsExpanded;
-    render();
-  });
 
   function fallbackCopy(text) {
     var textarea = document.createElement("textarea");
@@ -341,6 +306,19 @@ permalink: /artifacts/
     return ok;
   }
 
+  document.getElementById("clear-filters").addEventListener("click", function () {
+    selectedTypes.clear();
+    selectedCategories.clear();
+    selectedFocus.clear();
+    focusExpanded = false;
+    render();
+  });
+
+  document.getElementById("toggle-focus").addEventListener("click", function () {
+    focusExpanded = !focusExpanded;
+    render();
+  });
+
   document.getElementById("sort-toggle").addEventListener("click", function () {
     sortOrder = sortOrder === "desc" ? "asc" : "desc";
     render();
@@ -349,21 +327,16 @@ permalink: /artifacts/
   document.getElementById("copy-link").addEventListener("click", function (e) {
     var btn = e.currentTarget;
     var url = window.location.href;
-
     var flash = function (label) {
-      var original = "🔗 Copy link to this view";
+      var original = "🔗 Copy link";
       btn.textContent = label;
       setTimeout(function () { btn.textContent = original; }, 1500);
     };
-
     if (navigator.clipboard && navigator.clipboard.writeText && window.isSecureContext) {
-      navigator.clipboard.writeText(url).then(function () {
-        flash("✅ Copied");
-      }).catch(function () {
-        flash(fallbackCopy(url) ? "✅ Copied" : "⚠️ Couldn't copy — copy manually");
-      });
+      navigator.clipboard.writeText(url).then(function () { flash("✅ Copied"); })
+        .catch(function () { flash(fallbackCopy(url) ? "✅ Copied" : "⚠️ Couldn't copy"); });
     } else {
-      flash(fallbackCopy(url) ? "✅ Copied" : "⚠️ Couldn't copy — copy manually");
+      flash(fallbackCopy(url) ? "✅ Copied" : "⚠️ Couldn't copy");
     }
   });
 

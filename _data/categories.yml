@@ -1,14 +1,14 @@
-# Categories group multiple skills under one shareable umbrella — e.g.
+# Categories group multiple focus areas under one shareable umbrella — e.g.
 # "backend" bundles golang, system-design work into one filterable view.
 #
-# name:   required — shown in the UI & used in ?category=
-# skills: required — list of skill slugs from _data/artifacts.yml to bundle
+# name:  required — shown in the UI & used in ?category=
+# focus: required — list of focus slugs from _data/artifacts.yml to bundle
 
 - name: backend
-  skills: [golang, system-design]
+  focus: [golang, system-design]
 
 - name: infra
-  skills: [shell, docker, devops]
+  focus: [shell, docker, devops]
 
 - name: community
-  skills: [community, open-source]
+  focus: [community, open-source]
