@@ -368,12 +368,69 @@ nav {
 }
 
 .posts>.post {
-  padding-bottom: 2em;
-  padding-left: 0.5em;
-  padding-right: 0.5em;
-  border: thick double #000;
-  margin-top: 20px;
-  border-radius: 5px;
+  margin: 1.5em 0;
+  padding: 0;
+
+  h1 {
+    font-size: 22px;
+    font-weight: 600;
+    text-align: left;
+    margin-bottom: 0.2em;
+
+    a {
+      text-decoration-line: underline;
+      text-decoration-style: dotted;
+      text-decoration-thickness: 3px;
+      text-underline-offset: 4px;
+    }
+  }
+
+  .date {
+    font-size: 14px;
+    text-align: left;
+    margin-left: 0;
+    margin-bottom: 0.5em;
+  }
+
+  .entry p {
+    margin: 0;
+  }
+
+  .sneak-peek {
+    margin-top: 0.5em;
+
+    summary {
+      cursor: pointer;
+      color: $gray;
+      font-size: 14px;
+      list-style: none;
+
+      &::-webkit-details-marker {
+        display: none;
+      }
+
+      &::before {
+        content: "▼";
+        display: inline-block;
+        margin-right: 4px;
+        transform: rotate(-90deg);
+        transition: transform 120ms ease-in-out;
+      }
+    }
+
+    &[open] summary::before {
+      content: "▽";
+      transform: rotate(0deg);
+    }
+
+    .entry {
+      margin-top: 0.5em;
+      padding-left: 12px;
+      font-size: 16px;
+      font-style: italic;
+      color: $gray;
+    }
+  }
 }
 
 .post {
@@ -1142,10 +1199,6 @@ input[type=email] {
   .pagination {
     color: #fefbfb;
     border: 1px solid #fff;
-  }
-
-  .posts>.post {
-    border: thick double #fff;
   }
 
   label {

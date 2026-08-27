@@ -6,7 +6,7 @@ permalink: /about/
 
 I am Bhupesh, a Software Craftsman & Tech Writer living in New Delhi, India. Professionally I have spent 4+ years working on backend systems with Go & Python. In those years I have been held captive and forced to work on distributed systems especially their modern avatar of "micro-services". I am one more service away from nuking this industry as a whole.
 
-I don't believe in hustle/grind/builder culture, I sincerely believe that programmers are the weakest intellectual humans, creative yes, but weak, they can't comprehend how the world works so they create their own & live in that bubble forever solving problems that don't exist, which is why a lot of "sofware" written is useless. I mean get a life bro?
+I don't believe in hustle/grind/builder culture, I sincerely believe that programmers are the weakest intellectual humans, albeit somewhat creative, they can't comprehend how the world works so they create their own & live in that bubble forever solving problems that don't exist, which is why a lot of "sofware" written is useless. I mean get a life bro?
 
 I frequently try to write about programming & life here, I don't believe in consistency in context of writing, you either have something to share or you don't. 
 
