@@ -7,8 +7,8 @@
 - name: backend
   focus: [golang, system-design]
 
-- name: infra
-  focus: [shell, docker, devops]
+- name: devops
+  focus: [shell, docker, devops, observability]
 
 - name: community
   focus: [community, open-source]

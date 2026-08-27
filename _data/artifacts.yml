@@ -71,7 +71,7 @@
 - title: How I reduced the size of my very first published docker image by 40%
   url: https://bhupesh.me/publishing-my-first-ever-dockerfile-optimization-ugit/
   type: article
-  focus: [shell, docker, devops]
+  focus: [shell, docker]
   date: 2021-01-01
   description: A lesson in dockerizing shell scripts
 
@@ -85,7 +85,7 @@
 - title: OpenMetrics vs OpenTelemetry
   url: https://signoz.io/blog/openmetrics-vs-opentelemetry/
   type: article
-  focus: [devops]
+  focus: [observability]
   date: 2022-01-01
   source: SigNoz
 
@@ -204,3 +204,73 @@
   url: https://bhupesh.me/visuals/6hats/
   type: take
   focus: [systems-thinking]
+
+- title: dotman
+  url: https://github.com/Bhupesh-V/dotman
+  description: dotman is a simple, elegant & easy to use dotfiles manager 🖖🏽
+  type: project
+  focus: [shell, cli]
+  date: 2023-10
+
+- title: areyouok
+  url: https://github.com/Bhupesh-V/areyouok
+  description: A fast and easy to use URL health checker ⛑️ Keep your links healthy during tough times
+  type: project
+  focus: [golang, cli]
+  date: 2022-07
+
+- title: zoe
+  url: https://github.com/Bhupesh-V/zoe
+  description: "A barebones transactional in-memory key: value store with a REPL [For educational purposes]"
+  type: project
+  focus: [golang]
+  date: 2021-06
+
+- title: defe
+  url: https://github.com/Bhupesh-V/defe
+  description: devfeed is a Tech feed Aggregator for Developers & Tech Enthusiasts
+  type: project
+  focus: [cli, python]
+
+- title: osscooking
+  url: https://osscooking.com/
+  description: What's cooking in open-source?
+  type: project
+  focus: [golang, open-source, git]
+
+- title: 10 key lessons from my first engineering job
+  url: https://bhupesh.me/10-key-lessons-from-my-first-engineering-job/
+  type: article
+  focus: [software-craftsmanship]
+  date: 2022-05-03
+
+- title: Feeding a Hungry Mouse Using Chromedp and Go
+  url: https://nurdsoft.co/blog/feeding-a-hungry-mouse-using-chromedp-and-golang/
+  type: article
+  focus: [golang, automation]
+  source: Nurdsoft
+
+- title: r/developersIndia Community Wiki
+  url: https://wiki.developersindia.in/
+  description: A major part of FAQs section was collated by me
+  type: project
+  focus: [community]
+  source: r/developersIndia
+
+- title: Discovering small FOSS projects for contributing on github
+  url: https://wiki.developersindia.in/faqs/finding-small-foss-projects-on-github
+  type: article
+  focus: [community, open-source]
+  source: r/developersIndia
+
+- title: Why it's OK to abandon your side projects 😉
+  url: https://bhupesh.me/why-its-ok-to-abandon-your-side-projects/
+  type: article
+  focus: [problem-solving]
+  date: 2021-10-30
+
+- title: Interviewing Bhupesh
+  url: https://bhupesh.me/interview/
+  description: AMA with myself asking & answering questions that should be asked to everyone who is a professional dev
+  type: article
+  focus: [problem-solving, tech-interviews]

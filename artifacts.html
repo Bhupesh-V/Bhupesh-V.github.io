@@ -1,13 +1,13 @@
 ---
 layout: default
 title: Artifacts
-description: Every project, article & post I've shipped, organized by focus.
+description: A notable record of 40+ artifacts demonstrating what I've shipped & said.
 permalink: /artifacts/
 ---
 
 <h1>Artifacts</h1>
 <p style="text-align:center;">
-  A record of what I've shipped & said.
+  A notable record of what I've shipped & said.
 </p>
 
 <div id="artifacts-app">
@@ -170,7 +170,7 @@ permalink: /artifacts/
       var count = ARTIFACTS.filter(function (a) {
         return typeOk(a) && (a.focus || []).some(function (s) { return cat.focus.indexOf(s) !== -1; });
       }).length;
-      var html = "📁 " + cat.name + " <span class=\"count\">" + count + "</span>";
+      var html = cat.name + " <span class=\"count\">" + count + "</span>";
       var chip = makeChip(html, selectedCategories.has(cat.name), "chip-category", function () {
         toggle(selectedCategories, cat.name);
         render();
@@ -288,7 +288,7 @@ permalink: /artifacts/
       });
     } else {
       // Filtered mode: one combined list for the selected category(s) & focus area(s).
-      var labels = Array.from(selectedCategories).map(function (c) { return "📁 " + c; }).concat(Array.from(selectedFocus));
+      var labels = Array.from(selectedCategories).map(function (c) { return c; }).concat(Array.from(selectedFocus));
       appendSection(results, labels.join(" + ") + " (" + filtered.length + ")", sortByDate(filtered), false);
     }
   }
