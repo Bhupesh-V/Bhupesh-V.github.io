@@ -71,7 +71,7 @@
 - title: How I reduced the size of my very first published docker image by 40%
   url: https://bhupesh.me/publishing-my-first-ever-dockerfile-optimization-ugit/
   type: article
-  focus: [shell, docker]
+  focus: [shell, docker, linux]
   date: 2021-01-01
   description: A lesson in dockerizing shell scripts
 
@@ -132,7 +132,7 @@
   url: https://github.com/Bhupesh-V/afk
   description: An unnecessarily over-engineered CLI to update your availability status on slack
   type: project
-  focus: [golang]
+  focus: [golang, clean-code]
 
 - title: deed
   url: https://github.com/Bhupesh-V/deed
@@ -170,13 +170,13 @@
   source: LinkedIn
   focus: [tech-interviews]
 
-- title: Tech Ecosystem isn't a system at all
+- title: Tech Ecosystem isn't a system at all!
   url: https://www.linkedin.com/posts/bhupesh-v_its-funny-but-i-just-realized-that-the-activity-7345737625967697920-wn6r
   type: take
   source: LinkedIn
   focus: [systems-thinking]
 
-- title: AI taking your thinking ability
+- title: Is AI taking your thinking ability?
   url: https://www.linkedin.com/posts/bhupesh-v_people-trying-to-equate-use-of-stackoverflow-activity-7332506918386618368-IajE
   type: take
   source: LinkedIn
@@ -188,7 +188,7 @@
   source: LinkedIn
   focus: [software-craftsmanship]
 
-- title: PyCon India 2025 x HotWheels
+- title: PyCon India 2025 x Hotwheels
   url: https://www.linkedin.com/posts/bhupesh-v_final-post-about-pycon-india-its-about-activity-7247601156560986112-udda
   type: take
   source: LinkedIn
@@ -200,7 +200,7 @@
   source: LinkedIn
   focus: [community, leadership]
 
-- title: Practicing Systemic Thinking with Six Thinking Hats
+- title: Practicing Systemic Thinking with 6 Thinking Hats
   url: https://bhupesh.me/visuals/6hats/
   type: take
   focus: [systems-thinking]
