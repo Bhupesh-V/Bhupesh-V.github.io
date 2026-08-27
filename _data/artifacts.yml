@@ -92,7 +92,7 @@
 - title: 5 years of maintaining India's largest dev community on the web
   url: https://bhupesh.me/5-years-developersIndia/
   type: article
-  focus: [community]
+  focus: [community, leadership]
   date: 2024-01-01
 
 - title: Trying to clear some misjudgments about Go among newcomers & seasoned devs
@@ -119,7 +119,7 @@
 - title: .Varshney
   url: https://github.com/Bhupesh-V/.Varshney
   type: project
-  focus: [linux, shell]
+  focus: [linux, shell, lua, python, vim]
   description: My dotfiles for Linux & MacOS.
 
 - title: tinypdf
@@ -254,7 +254,7 @@
   url: https://wiki.developersindia.in/
   description: A major part of FAQs section was collated by me
   type: project
-  focus: [community]
+  focus: [community, leadership]
   source: r/developersIndia
 
 - title: Discovering small FOSS projects for contributing on github
@@ -274,3 +274,9 @@
   description: AMA with myself asking & answering questions that should be asked to everyone who is a professional dev
   type: article
   focus: [problem-solving, tech-interviews]
+
+- title: Did devs actually love programming?
+  url: https://www.linkedin.com/posts/bhupesh-v_its-the-complete-opposite-the-momentary-share-7498769061799976960-UfaT/
+  type: take
+  focus: [llm, creativity]
+  date: 2026-08-27

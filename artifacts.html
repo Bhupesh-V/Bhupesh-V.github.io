@@ -12,7 +12,6 @@ permalink: /artifacts/
 
 <div id="artifacts-app">
   <div class="artifacts-filters">
-    <div class="filter-group" id="type-filters"></div>
     <div class="filter-group" id="category-filters"></div>
 
     <div class="filter-group filter-group-focus">
@@ -21,19 +20,24 @@ permalink: /artifacts/
         <input type="text" id="focus-search" class="focus-search" placeholder="Search focus areas…" autocomplete="off">
         <div id="focus-suggestions" class="focus-suggestions"></div>
       </div>
-      <span id="focus-selected"></span>
     </div>
+    <div class="filter-group" id="focus-selected"></div>
 
     <div class="filter-actions" style="display:none;">
       <button type="button" id="clear-filters" class="text-btn">Clear filters</button>
       <button type="button" id="copy-link" class="text-btn">🔗 Copy link</button>
     </div>
+
+    <div class="results-header">
+      <div class="type-select-wrap">
+        <button type="button" id="type-select-btn" class="type-select-btn"></button>
+        <div id="type-select-menu" class="type-select-menu"></div>
+      </div>
+      <button type="button" id="sort-toggle" class="text-btn"></button>
+    </div>
   </div>
 
-  <div class="results-header">
-    <span id="results-count"></span>
-    <button type="button" id="sort-toggle" class="text-btn"></button>
-  </div>
+  <div id="results-count" class="results-count"></div>
 
   <div id="artifacts-results"></div>
 </div>
@@ -75,6 +79,14 @@ permalink: /artifacts/
 
   function typeOk(item) {
     return selectedTypes.size === 0 || selectedTypes.has(item.type);
+  }
+
+  // Focus areas not yet selected that still have at least one match under the current Type filter.
+  function availableFocus() {
+    return allFocus.filter(function (f) {
+      if (selectedFocus.has(f)) return false;
+      return ARTIFACTS.some(function (a) { return typeOk(a) && (a.focus || []).indexOf(f) !== -1; });
+    });
   }
 
   function focusOk(item) {
@@ -143,6 +155,7 @@ permalink: /artifacts/
   }
 
   // Renders a labelled row of chips into #<containerId>, hiding the row entirely when empty.
+  // The label sits outside the scrollable strip so it stays put on mobile.
   function renderChipRow(containerId, labelText, chips) {
     var wrap = document.getElementById(containerId);
     wrap.innerHTML = "";
@@ -153,18 +166,48 @@ permalink: /artifacts/
       label.textContent = labelText;
       wrap.appendChild(label);
     }
-    chips.forEach(function (chip) { wrap.appendChild(chip); });
+    var scroller = document.createElement("div");
+    scroller.className = "chip-scroll";
+    chips.forEach(function (chip) { scroller.appendChild(chip); });
+    wrap.appendChild(scroller);
   }
 
-  function renderFilters() {
-    renderChipRow("type-filters", "Type", Object.keys(TYPE_META).map(function (type) {
+  function renderTypeSelect() {
+    var btn = document.getElementById("type-select-btn");
+    btn.textContent = (selectedTypes.size === 0
+      ? "All types"
+      : Object.keys(TYPE_META).filter(function (t) { return selectedTypes.has(t); })
+          .map(function (t) { return TYPE_META[t].emoji + " " + TYPE_META[t].label + "s"; }).join(", ")
+    ) + " ▾";
+
+    var menu = document.getElementById("type-select-menu");
+    menu.innerHTML = "";
+    Object.keys(TYPE_META).forEach(function (type) {
       var count = ARTIFACTS.filter(function (a) { return a.type === type && focusOk(a); }).length;
-      var html = TYPE_META[type].emoji + " " + TYPE_META[type].label + "s <span class=\"count\">" + count + "</span>";
-      return makeChip(html, selectedTypes.has(type), "", function () {
+
+      var label = document.createElement("label");
+      label.className = "type-option";
+
+      var checkbox = document.createElement("input");
+      checkbox.type = "checkbox";
+      checkbox.checked = selectedTypes.has(type);
+      checkbox.addEventListener("change", function () {
         toggle(selectedTypes, type);
         render();
       });
-    }));
+
+      label.appendChild(checkbox);
+      label.appendChild(document.createTextNode(
+        " " + TYPE_META[type].emoji + " " + TYPE_META[type].label + "s (" + count + ")"
+      ));
+      menu.appendChild(label);
+    });
+  }
+
+  function renderFilters() {
+    renderTypeSelect();
+
+    document.getElementById("focus-search").placeholder = "Search across " + availableFocus().length + " focus areas";
 
     renderChipRow("category-filters", "Category", CATEGORIES.map(function (cat) {
       var count = ARTIFACTS.filter(function (a) {
@@ -319,10 +362,7 @@ permalink: /artifacts/
 
   function updateSuggestions() {
     var query = focusSearch.value.trim().toLowerCase();
-    var matches = allFocus.filter(function (f) {
-      if (selectedFocus.has(f) || f.indexOf(query) === -1) return false;
-      return ARTIFACTS.some(function (a) { return typeOk(a) && (a.focus || []).indexOf(f) !== -1; });
-    });
+    var matches = availableFocus().filter(function (f) { return f.indexOf(query) !== -1; });
 
     focusSuggestions.innerHTML = "";
     matches.forEach(function (focus) {
@@ -348,6 +388,21 @@ permalink: /artifacts/
   focusSearch.addEventListener("input", updateSuggestions);
   focusSearch.addEventListener("blur", function () { focusSuggestions.classList.remove("open"); });
   focusSearch.addEventListener("keydown", function (e) { if (e.key === "Escape") focusSearch.blur(); });
+
+  var typeSelectBtn = document.getElementById("type-select-btn");
+  var typeSelectMenu = document.getElementById("type-select-menu");
+
+  typeSelectBtn.addEventListener("click", function () {
+    typeSelectMenu.classList.toggle("open");
+  });
+
+  document.addEventListener("click", function (e) {
+    if (!e.target.closest(".type-select-wrap")) typeSelectMenu.classList.remove("open");
+  });
+
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "Escape") typeSelectMenu.classList.remove("open");
+  });
 
   document.getElementById("sort-toggle").addEventListener("click", function () {
     sortOrder = sortOrder === "desc" ? "asc" : "desc";

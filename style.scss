@@ -425,10 +425,11 @@ nav {
 
     .entry {
       margin-top: 0.5em;
-      padding-left: 12px;
+      padding-left: 20px;
       font-size: 16px;
       font-style: italic;
       color: $gray;
+      text-wrap: balance;
     }
   }
 }
@@ -863,12 +864,40 @@ input[type=email] {
 }
 
 .filter-label {
+  display: inline-block;
+  min-width: 82px;
   font-weight: bold;
   color: $gray;
   font-size: 14px;
   margin-right: 4px;
-  text-transform: uppercase;
+  text-transform: capitalize;
   letter-spacing: 0.5px;
+  flex-shrink: 0;
+}
+
+.chip-scroll {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  flex: 1;
+  min-width: 0;
+}
+
+// Category & selected-focus chips can run long — scroll them as a single
+// line on mobile instead of wrapping across several rows. The label stays
+// put since it lives outside .chip-scroll.
+@include mobile {
+  .chip-scroll {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: 10px;
+
+    .chip {
+      flex-shrink: 0;
+    }
+  }
 }
 
 .chip {
@@ -920,6 +949,18 @@ input[type=email] {
   flex-wrap: wrap;
   gap: 16px;
   margin-top: 12px;
+
+  // Utility actions, not filters themselves — de-emphasized so they don't
+  // compete with the chips above for attention.
+  .text-btn {
+    font-size: 12px;
+    color: $gray;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 }
 
 .filter-group-focus {
@@ -932,6 +973,12 @@ input[type=email] {
   position: relative;
 }
 
+// Aligns the selected-focus chips under the search input rather than the "Focus" label.
+// Kept on mobile too since the label + input stay on one line at typical phone widths.
+#focus-selected {
+  margin-left: 94px;
+}
+
 .focus-search {
   border: 1px solid $gray;
   border-radius: 5px;
@@ -940,7 +987,7 @@ input[type=email] {
   font-family: $helvetica;
   color: $darkGray;
   background: transparent;
-  min-width: 180px;
+  min-width: 215px;
 
   &:focus {
     outline: none;
@@ -984,14 +1031,69 @@ input[type=email] {
   }
 }
 
-#focus-selected {
-  display: contents;
-}
-
 .results-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin: 10px 4px 8px;
+}
+
+.type-select-wrap {
+  position: relative;
+}
+
+.type-select-btn {
+  border: 1px solid $gray;
+  border-radius: 5px;
+  padding: 5px 12px;
+  font-size: 14px;
+  font-family: $helvetica;
+  color: $darkGray;
+  background: transparent;
+  cursor: pointer;
+
+  &:hover {
+    border-color: $darkGray;
+  }
+}
+
+.type-select-menu {
+  display: none;
+  position: absolute;
+  top: calc(100% + 4px);
+  left: 0;
+  min-width: 100%;
+  white-space: nowrap;
+  background: floralwhite;
+  border: 1px solid $gray;
+  border-radius: 5px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 6px 0;
+  z-index: 10;
+
+  &.open {
+    display: block;
+  }
+}
+
+.type-option {
+  display: block;
+  padding: 6px 12px;
+  font-size: 14px;
+  font-family: $helvetica;
+  color: $darkGray;
+  cursor: pointer;
+
+  &:hover {
+    background: $lightGray;
+  }
+
+  input {
+    cursor: pointer;
+  }
+}
+
+.results-count {
   margin: 0 4px 18px;
   color: $gray;
   font-size: 14px;
@@ -1018,10 +1120,6 @@ input[type=email] {
   text-decoration: underline;
 }
 
-#copy-link {
-  text-decoration: none;
-}
-
 .artifact-group h2 {
   border-bottom: 1px solid $lightGray;
   padding-bottom: 6px;
@@ -1031,11 +1129,18 @@ input[type=email] {
   text-align: center;
 }
 
+// TEMP: heading disabled — remove this rule to bring it back.
+.artifact-group h2,
+#artifacts-results > h2 {
+  display: none;
+}
+
 .artifact-card {
   border: 1px solid $black;
   border-radius: 6px;
   padding: 14px 18px;
   margin-bottom: 14px;
+  box-shadow: 1px 2px 4px 0px black;
 }
 
 .artifact-head {
@@ -1091,6 +1196,13 @@ input[type=email] {
   text-align: center;
   color: $gray;
   font-style: italic;
+}
+
+.mark2 {
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 4px;
 }
 
 /***********************/
@@ -1324,6 +1436,10 @@ input[type=email] {
     color: #4aff00;
   }
 
+  .filter-actions .text-btn {
+    color: #867a7a;
+  }
+
   .filter-group-focus {
     border-top-color: #333;
   }
@@ -1350,7 +1466,29 @@ input[type=email] {
     }
   }
 
-  .results-header {
+  .type-select-btn {
+    border-color: #555;
+    color: white;
+
+    &:hover {
+      border-color: #0eff0e;
+    }
+  }
+
+  .type-select-menu {
+    background: #1a1a1a;
+    border-color: #555;
+  }
+
+  .type-option {
+    color: white;
+
+    &:hover {
+      background: #262626;
+    }
+  }
+
+  .results-count {
     color: #867a7a;
   }
 
