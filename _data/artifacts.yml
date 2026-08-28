@@ -341,3 +341,17 @@
   type: take
   date: 2024-04
   focus: [psychology]
+
+- title: We are busy doing absolutely nothing!
+  url: https://www.youtube.com/watch?v=MQ4YOWEgZBk
+  type: take
+  date: 2026-05
+  focus: [philosophy]
+  source: YouTube
+
+- title: An unserious review of PyCon India 2025 by friends
+  url: https://www.youtube.com/watch?v=SXQDFKWyT0w
+  type: take
+  date: 2025-09
+  focus: [community]
+  source: YouTube
