@@ -1120,17 +1120,13 @@ input[type=email] {
   text-decoration: underline;
 }
 
-.artifact-group h2 {
+#artifacts-results > h2 {
+  text-align: center;
   border-bottom: 1px solid $lightGray;
   padding-bottom: 6px;
 }
 
-#artifacts-results > h2 {
-  text-align: center;
-}
-
 // TEMP: heading disabled — remove this rule to bring it back.
-.artifact-group h2,
 #artifacts-results > h2 {
   display: none;
 }
@@ -1141,6 +1137,12 @@ input[type=email] {
   padding: 14px 18px;
   margin-bottom: 14px;
   box-shadow: 1px 2px 4px 0px black;
+
+  &.featured {
+    border: 2px solid $orangish;
+    background: rgba(255, 234, 24, 0.08);
+    box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.4);
+  }
 }
 
 .artifact-head {
@@ -1174,10 +1176,30 @@ input[type=email] {
   font-weight: bold;
 }
 
+.artifact-type-badge-meta {
+  display: none;
+}
+
 .artifact-meta {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
   color: $gray;
   font-size: 14px;
   margin-top: 4px;
+}
+
+// Type badge moves from the title row into the date/source line on mobile,
+// so the two pieces of metadata stay together instead of wrapping oddly.
+@include mobile {
+  .artifact-head .artifact-type-badge {
+    display: none;
+  }
+
+  .artifact-type-badge-meta {
+    display: inline;
+  }
 }
 
 .artifact-description {
@@ -1492,9 +1514,14 @@ input[type=email] {
     color: #867a7a;
   }
 
-  .artifact-group h2,
+  #artifacts-results > h2,
   .artifact-card {
     border-color: $white;
+  }
+
+  .artifact-card.featured {
+    border-color: #17be6e;
+    background: rgba(23, 190, 110, 0.08);
   }
 
   .artifact-type-badge,

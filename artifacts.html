@@ -227,9 +227,16 @@ permalink: /artifacts/
     }));
   }
 
+  function typeBadge(item, extraClass) {
+    var badge = document.createElement("span");
+    badge.className = "artifact-type-badge" + (extraClass ? " " + extraClass : "");
+    badge.textContent = TYPE_META[item.type].emoji + " " + TYPE_META[item.type].label;
+    return badge;
+  }
+
   function artifactCard(item) {
     var card = document.createElement("article");
-    card.className = "artifact-card";
+    card.className = "artifact-card" + (item.featured ? " featured" : "");
 
     var head = document.createElement("div");
     head.className = "artifact-head";
@@ -239,25 +246,27 @@ permalink: /artifacts/
     title.target = "_blank";
     title.rel = "noopener";
     title.className = "artifact-title";
-    title.innerHTML = item.title + " <span class=\"artifact-title-arrow\">↗</span>";
+    title.innerHTML = (item.featured ? "⭐ " : "") + item.title + " <span class=\"artifact-title-arrow\">↗</span>";
     head.appendChild(title);
 
-    var badge = document.createElement("span");
-    badge.className = "artifact-type-badge";
-    badge.textContent = TYPE_META[item.type].emoji + " " + TYPE_META[item.type].label;
-    head.appendChild(badge);
+    head.appendChild(typeBadge(item));
 
     card.appendChild(head);
 
+    // A second copy of the badge lives in .artifact-meta — CSS swaps which one
+    // is visible depending on viewport, so the type always sits with the date on mobile.
+    var meta = document.createElement("div");
+    meta.className = "artifact-meta";
+    meta.appendChild(typeBadge(item, "artifact-type-badge-meta"));
     var metaBits = [];
     if (item.date) metaBits.push("📅 " + formatDate(item.date));
     if (item.source) metaBits.push(item.source);
     if (metaBits.length) {
-      var meta = document.createElement("div");
-      meta.className = "artifact-meta";
-      meta.textContent = metaBits.join(" · ");
-      card.appendChild(meta);
+      var metaText = document.createElement("span");
+      metaText.textContent = metaBits.join(" · ");
+      meta.appendChild(metaText);
     }
+    card.appendChild(meta);
 
     if (item.description) {
       var desc = document.createElement("p");
@@ -283,18 +292,12 @@ permalink: /artifacts/
     });
   }
 
-  // Appends a <h2> + artifact cards, optionally wrapped in its own <section> (browsing mode).
-  function appendSection(container, headingText, items, wrapInSection) {
-    var parent = container;
-    if (wrapInSection) {
-      parent = document.createElement("section");
-      parent.className = "artifact-group";
-      container.appendChild(parent);
-    }
+  // Appends a <h2> + artifact cards to the results container.
+  function appendSection(container, headingText, items) {
     var heading = document.createElement("h2");
     heading.textContent = headingText;
-    parent.appendChild(heading);
-    items.forEach(function (item) { parent.appendChild(artifactCard(item)); });
+    container.appendChild(heading);
+    items.forEach(function (item) { container.appendChild(artifactCard(item)); });
   }
 
   function render() {
@@ -321,19 +324,11 @@ permalink: /artifacts/
       return;
     }
 
-    if (!hasActiveFocusFilter()) {
-      // Browsing mode: every focus area gets its own section.
-      allFocus.forEach(function (focus) {
-        var items = sortByDate(ARTIFACTS.filter(function (a) {
-          return typeOk(a) && (a.focus || []).indexOf(focus) !== -1;
-        }));
-        if (items.length) appendSection(results, focus + " (" + items.length + ")", items, true);
-      });
-    } else {
-      // Filtered mode: one combined list for the selected category(s) & focus area(s).
-      var labels = Array.from(selectedCategories).map(function (c) { return c; }).concat(Array.from(selectedFocus));
-      appendSection(results, labels.join(" + ") + " (" + filtered.length + ")", sortByDate(filtered), false);
-    }
+    // Always a single flat list, sorted by date — an item with several focus tags would
+    // otherwise repeat once per tag if grouped by focus area.
+    var labels = Array.from(selectedCategories).concat(Array.from(selectedFocus));
+    var headingText = (labels.length ? labels.join(" + ") : "All artifacts") + " (" + filtered.length + ")";
+    appendSection(results, headingText, sortByDate(filtered));
   }
 
   function fallbackCopy(text) {

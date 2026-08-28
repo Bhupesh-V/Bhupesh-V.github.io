@@ -8,6 +8,7 @@
 #   date:        optional — YYYY-MM-DD or YYYY-MM, used for sorting & display
 #   source:      optional — publication/platform name shown next to the date
 #   description: optional — one line, shown under the title
+#   featured:    optional — true to visually highlight this entry
 #
 # This file is a starting scaffold with a handful of real entries.
 # Add the rest of your projects, articles & posts below following the same shape.
@@ -16,28 +17,28 @@
   url: https://github.com/Bhupesh-V/ugit
   type: project
   focus: [git, shell, cli, open-source]
-  date: 2021-01-01
   description: Undo git commands you regret. 1k+ stars.
+  featured: true
 
 - title: godeping
   url: https://github.com/Bhupesh-V/godeping
   type: project
   focus: [golang, cli, open-source]
-  date: 2022-01-01
+  date: 2025-06
   description: Identify archived/unmaintained Go project dependencies.
 
 - title: dvs
   url: https://github.com/Bhupesh-V/dvs
   type: project
   focus: [shell, docker, cli, open-source]
-  date: 2022-01-01
+  date: 2025-07
   description: Create & restore Docker volume snapshots/backups.
 
 - title: shedock
   url: https://github.com/shedock/shedock
   type: project
   focus: [shell, docker, open-source]
-  date: 2022-01-01
+  date: 2024-05
   description: An experimental tool to dockerize shell scripts.
 
 - title: git-prs
@@ -58,7 +59,7 @@
   url: https://nurdsoft.co/blog/a-closer-look-at-server-sent-events
   type: article
   focus: [golang]
-  date: 2023-01-01
+  date: 2023-04-12
   source: Nurdsoft
 
 - title: Get your git game up with worktrees
@@ -74,6 +75,7 @@
   focus: [shell, docker, linux]
   date: 2021-01-01
   description: A lesson in dockerizing shell scripts
+  featured: true
 
 - title: How to Build Your Own Linux Dotfiles Manager from Scratch
   url: https://www.freecodecamp.org/news/build-your-own-dotfiles-manager-from-scratch/
@@ -94,6 +96,7 @@
   type: article
   focus: [community, leadership]
   date: 2024-01-01
+  featured: true
 
 - title: Trying to clear some misjudgments about Go among newcomers & seasoned devs
   url: https://www.reddit.com/r/developersIndia/comments/1i6o9kc/trying_to_clear_some_misjudgments_about_go_the/
@@ -105,7 +108,7 @@
 - title: Some tips to effectively identify what projects to build & why
   url: https://www.reddit.com/r/developersIndia/comments/1dv1m9w/some_tips_to_effectively_identify_what_projects/
   type: take
-  focus: [community, open-source]
+  focus: [community, open-source, project-management]
   date: 2024-07-01
   source: r/developersIndia
 
@@ -114,7 +117,7 @@
   type: take
   focus: [community]
   date: 2024-06-08
-  source: X
+  source: Twitter
 
 - title: .Varshney
   url: https://github.com/Bhupesh-V/.Varshney
@@ -133,77 +136,90 @@
   description: An unnecessarily over-engineered CLI to update your availability status on slack
   type: project
   focus: [golang, clean-code]
+  date: 2026-07
 
 - title: deed
   url: https://github.com/Bhupesh-V/deed
   description: An intuitive, schema-aware synthetic data seeder for targeted database performance testing & API demos
   type: project
   focus: [golang, postgres]
+  date: 2026-08
 
 - title: Thoughts on AI in programming & hobby-work
   url: https://www.linkedin.com/posts/bhupesh-v_thanks-for-ruining-all-the-motivation-that-activity-7479069241720074240-YMzz
   type: take
   source: LinkedIn
   focus: [llm]
+  date: 2026-07
 
 - title: How to truly understand a piece of text
   url: https://www.linkedin.com/posts/bhupesh-v_small-guide-to-critically-analyse-a-piece-activity-7463509026992074752-0jTG
   type: take
   source: LinkedIn
   focus: [reading]
+  date: 2026-05
 
 - title: Motivated Tactician
   url: https://www.linkedin.com/posts/bhupesh-v_you-are-a-motivated-tactician-brief-notes-activity-7455179234471215104-elH3
   type: take
   source: LinkedIn
   focus: [complexity]
+  date: 2026-04
 
 - title: Systems Thinking x Daredevil
   url: https://www.linkedin.com/posts/bhupesh-v_in-systems-thinking-theres-some-agreement-activity-7449737959299530752-iVOx
   type: take
   source: LinkedIn
   focus: [systems-thinking]
+  date: 2026-04
 
 - title: Interview Experience across 3 companies after a Lay off
   url: https://www.linkedin.com/posts/bhupesh-v_interviewing-bhupesh-activity-7431571051836420113-8FAr
   type: take
   source: LinkedIn
   focus: [tech-interviews]
+  date: 2026-02
 
 - title: Tech Ecosystem isn't a system at all!
   url: https://www.linkedin.com/posts/bhupesh-v_its-funny-but-i-just-realized-that-the-activity-7345737625967697920-wn6r
   type: take
   source: LinkedIn
   focus: [systems-thinking]
+  date: 2025-07
 
 - title: Is AI taking your thinking ability?
   url: https://www.linkedin.com/posts/bhupesh-v_people-trying-to-equate-use-of-stackoverflow-activity-7332506918386618368-IajE
   type: take
   source: LinkedIn
   focus: [llm]
+  date: 2025-05
 
 - title: Growth without working at scale x Humanity in each line of code
   url: https://www.linkedin.com/posts/bhupesh-v_a-great-follow-up-question-on-the-growth-activity-7325069910311624704-gLld
   type: take
   source: LinkedIn
   focus: [software-craftsmanship]
+  date: 2025-05
 
-- title: PyCon India 2025 x Hotwheels
+- title: PyCon India 2024 x Hotwheels 🏎️
   url: https://www.linkedin.com/posts/bhupesh-v_final-post-about-pycon-india-its-about-activity-7247601156560986112-udda
   type: take
   source: LinkedIn
   focus: [community]
+  date: 2024-10
 
 - title: Building r/evelopersIndia - mindset & tools behind a 150k+ Developer Community
   url: https://www.linkedin.com/posts/bhupesh-v_community-communitycasestudy-cmgr-activity-7037310855306166272-7brC
   type: take
   source: LinkedIn
   focus: [community, leadership]
+  date: 2023-03
 
 - title: Practicing Systemic Thinking with 6 Thinking Hats
   url: https://bhupesh.me/visuals/6hats/
   type: take
-  focus: [systems-thinking]
+  focus: [systems-thinking, problem-solving, project-management]
+  date: 2026-04
 
 - title: dotman
   url: https://github.com/Bhupesh-V/dotman
@@ -243,12 +259,14 @@
   type: article
   focus: [software-craftsmanship]
   date: 2022-05-03
+  featured: true
 
 - title: Feeding a Hungry Mouse Using Chromedp and Go
   url: https://nurdsoft.co/blog/feeding-a-hungry-mouse-using-chromedp-and-golang/
   type: article
   focus: [golang, automation]
   source: Nurdsoft
+  date: 2024-01-11
 
 - title: r/developersIndia Community Wiki
   url: https://wiki.developersindia.in/
@@ -262,6 +280,7 @@
   type: article
   focus: [community, open-source]
   source: r/developersIndia
+  date: 2024-10-31
 
 - title: Why it's OK to abandon your side projects 😉
   url: https://bhupesh.me/why-its-ok-to-abandon-your-side-projects/
@@ -274,9 +293,24 @@
   description: AMA with myself asking & answering questions that should be asked to everyone who is a professional dev
   type: article
   focus: [problem-solving, tech-interviews]
+  featured: true
 
 - title: Did devs actually love programming?
   url: https://www.linkedin.com/posts/bhupesh-v_its-the-complete-opposite-the-momentary-share-7498769061799976960-UfaT/
   type: take
-  focus: [llm, creativity]
+  focus: [llm, creativity, software-craftsmanship]
+  date: 2026-08-27
+
+- title: bookshelf
+  url: https://bookshelf.bhupesh.me/
+  type: project
+  focus: [reading]
+  description: My short reviews on books I have read, along with my wishlist!
+  featured: true
+
+- title: yell
+  url: https://github.com/Bhupesh-V/yell
+  type: project
+  focus: [golang, gui]
+  description: 🗣️ Desktop alerts broke free from notification centre and came right on ya face!
   date: 2026-08-27
