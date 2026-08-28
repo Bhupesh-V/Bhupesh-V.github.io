@@ -1,13 +1,13 @@
 ---
 layout: default
 title: Artifacts
-description: A notable record of 40+ artifacts demonstrating what I've shipped & said.
+description: A list of 40+ notable records of things I've shipped & said.
 permalink: /artifacts/
 ---
 
 <h1>Artifacts</h1>
 <p style="text-align:center;">
-  A notable record of what I've shipped & said.
+  A notable record of things I've shipped & said.
 </p>
 
 <div id="artifacts-app">
@@ -158,6 +158,9 @@ permalink: /artifacts/
   // The label sits outside the scrollable strip so it stays put on mobile.
   function renderChipRow(containerId, labelText, chips) {
     var wrap = document.getElementById(containerId);
+    var previousScroller = wrap.querySelector(".chip-scroll");
+    var scrollLeft = previousScroller ? previousScroller.scrollLeft : 0;
+
     wrap.innerHTML = "";
     if (!chips.length) return;
     if (labelText) {
@@ -170,6 +173,7 @@ permalink: /artifacts/
     scroller.className = "chip-scroll";
     chips.forEach(function (chip) { scroller.appendChild(chip); });
     wrap.appendChild(scroller);
+    scroller.scrollLeft = scrollLeft;
   }
 
   function renderTypeSelect() {

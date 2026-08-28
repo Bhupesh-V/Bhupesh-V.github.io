@@ -11,4 +11,19 @@
   focus: [shell, docker, devops, observability]
 
 - name: community
-  focus: [community, open-source]
+  focus: [community, open-source, leadership]
+
+- name: tooling
+  focus: [cli, git, linux, python, lua, vim, gui, clean-code]
+
+- name: systems-thinking
+  focus: [systems-thinking, complexity, problem-solving]
+
+- name: cognition
+  focus: [psychology, philosophy, reading]
+
+- name: craftsmanship
+  focus: [software-craftsmanship, project-management, tech-interviews]
+
+# - name: ai
+#   focus: [llm, creativity, automation]
