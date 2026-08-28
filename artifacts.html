@@ -23,11 +23,6 @@ permalink: /artifacts/
     </div>
     <div class="filter-group" id="focus-selected"></div>
 
-    <div class="filter-actions" style="display:none;">
-      <button type="button" id="clear-filters" class="text-btn">Clear filters</button>
-      <button type="button" id="copy-link" class="text-btn">🔗 Copy link</button>
-    </div>
-
     <div class="results-header">
       <div class="type-select-wrap">
         <button type="button" id="type-select-btn" class="type-select-btn"></button>
@@ -37,7 +32,15 @@ permalink: /artifacts/
     </div>
   </div>
 
-  <div id="results-count" class="results-count"></div>
+  <div id="results-count" class="results-count">
+    <span id="results-count-text"></span>
+    <span class="filter-actions" style="display:none;">
+      <span class="dot">·</span>
+      <button type="button" id="clear-filters" class="text-btn">Clear filters</button>
+      <span class="dot">·</span>
+      <button type="button" id="copy-link" class="text-btn">🔗 Copy link</button>
+    </span>
+  </div>
 
   <div id="artifacts-results"></div>
 </div>
@@ -308,7 +311,7 @@ permalink: /artifacts/
     renderFilters();
     updateUrl();
 
-    document.querySelector(".filter-actions").style.display = hasAnyFilter() ? "flex" : "none";
+    document.querySelector(".filter-actions").style.display = hasAnyFilter() ? "inline-flex" : "none";
     document.getElementById("sort-toggle").innerHTML =
       "<span class=\"sort-arrow" + (sortOrder === "asc" ? " sort-arrow-asc" : "") + "\">➜</span> " +
       (sortOrder === "desc" ? "Newest first" : "Oldest first");
@@ -317,7 +320,7 @@ permalink: /artifacts/
     results.innerHTML = "";
 
     var filtered = ARTIFACTS.filter(matches);
-    document.getElementById("results-count").textContent =
+    document.getElementById("results-count-text").textContent =
       filtered.length + (filtered.length === 1 ? " artifact" : " artifacts");
 
     if (!filtered.length) {

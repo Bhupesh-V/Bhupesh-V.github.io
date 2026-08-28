@@ -846,7 +846,7 @@ input[type=email] {
 /*************/
 
 .artifacts-filters {
-  margin: 25px 0 35px;
+  margin: 25px 0 15px;
   padding: 15px;
   border: 1px solid $lightGray;
   border-radius: 6px;
@@ -895,6 +895,18 @@ input[type=email] {
     -webkit-overflow-scrolling: touch;
     padding-bottom: 10px;
 
+    // Hide the native scrollbar — the mask fade below is the scroll cue instead.
+    scrollbar-width: none;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+
+    // Fades dissolve the chips themselves (not an overlay), so it works
+    // unchanged across light/dark mode and whatever sits behind it.
+    mask-image: linear-gradient(to right, transparent, black 20px, black calc(100% - 20px), transparent);
+    -webkit-mask-image: linear-gradient(to right, transparent, black 20px, black calc(100% - 20px), transparent);
+
     .chip {
       flex-shrink: 0;
     }
@@ -923,7 +935,7 @@ input[type=email] {
     background-color: $orangish;
     border-color: $orangish;
     color: $black;
-    font-weight: bold;
+    // font-weight: bold;
   }
 
   .count {
@@ -946,10 +958,10 @@ input[type=email] {
 }
 
 .filter-actions {
-  display: flex;
+  display: inline-flex;
+  align-items: center;
   flex-wrap: wrap;
-  gap: 16px;
-  margin-top: 12px;
+  gap: 8px;
 
   // Utility actions, not filters themselves — de-emphasized so they don't
   // compete with the chips above for attention.
@@ -961,6 +973,10 @@ input[type=email] {
     &:hover {
       text-decoration: underline;
     }
+  }
+
+  .dot {
+    color: $gray;
   }
 }
 
@@ -1095,6 +1111,10 @@ input[type=email] {
 }
 
 .results-count {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
   margin: 0 4px 18px;
   color: $gray;
   font-size: 14px;
@@ -1513,6 +1533,10 @@ input[type=email] {
 
   .results-count {
     color: #867a7a;
+
+    .dot {
+      color: #867a7a;
+    }
   }
 
   #artifacts-results > h2,
