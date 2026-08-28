@@ -163,7 +163,7 @@
   url: https://www.linkedin.com/posts/bhupesh-v_you-are-a-motivated-tactician-brief-notes-activity-7455179234471215104-elH3
   type: take
   source: LinkedIn
-  focus: [complexity]
+  focus: [psychology, complexity]
   date: 2026-04
 
 - title: Systems Thinking x Daredevil
@@ -298,6 +298,7 @@
 - title: Did devs actually love programming?
   url: https://www.linkedin.com/posts/bhupesh-v_its-the-complete-opposite-the-momentary-share-7498769061799976960-UfaT/
   type: take
+  source: LinkedIn
   focus: [llm, creativity, software-craftsmanship]
   date: 2026-08-27
 
@@ -314,3 +315,29 @@
   focus: [golang, gui]
   description: 🗣️ Desktop alerts broke free from notification centre and came right on ya face!
   date: 2026-08-27
+
+- title: Contrast of language use in digital v/s the real world
+  url: https://x.com/bhupeshimself/status/1910556432669565127
+  type: take
+  focus: [software-craftsmanship]
+  date: 2025-04
+  source: Twitter
+
+- title: Why did I fail solve a system design problem at work?
+  url: https://x.com/bhupeshimself/status/1801258625102401541
+  type: take
+  focus: [system-design]
+  date: 2024-06
+  source: Twitter
+
+- title: IKEA Effect
+  url: https://til.bhupesh.me/psychology/ikea-effect
+  type: take
+  date: 2025-03
+  focus: [psychology]
+
+- title: Interference theory
+  url: https://til.bhupesh.me/psychology/interference-theory
+  type: take
+  date: 2024-04
+  focus: [psychology]
