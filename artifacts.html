@@ -38,7 +38,7 @@ permalink: /artifacts/
       <span class="dot">·</span>
       <button type="button" id="clear-filters" class="text-btn">Clear filters</button>
       <span class="dot">·</span>
-      <button type="button" id="copy-link" class="text-btn">🔗 Copy link</button>
+      <button type="button" id="copy-link" class="text-btn">Copy link</button>
     </span>
   </div>
 
@@ -415,15 +415,15 @@ permalink: /artifacts/
     var btn = e.currentTarget;
     var url = window.location.href;
     var flash = function (label) {
-      var original = "🔗 Copy link";
+      var original = "Copy link";
       btn.textContent = label;
       setTimeout(function () { btn.textContent = original; }, 1500);
     };
     if (navigator.clipboard && navigator.clipboard.writeText && window.isSecureContext) {
-      navigator.clipboard.writeText(url).then(function () { flash("✅ Copied"); })
-        .catch(function () { flash(fallbackCopy(url) ? "✅ Copied" : "⚠️ Couldn't copy"); });
+      navigator.clipboard.writeText(url).then(function () { flash("Copied"); })
+        .catch(function () { flash(fallbackCopy(url) ? "Copied" : "Couldn't copy"); });
     } else {
-      flash(fallbackCopy(url) ? "✅ Copied" : "⚠️ Couldn't copy");
+      flash(fallbackCopy(url) ? "Copied" : "Couldn't copy");
     }
   });
 
