@@ -6,18 +6,17 @@ Oh you think you can code better than me? Get phased, NERD! 🗣️
 
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>{% if page.title %}{{ page.title }}{% else %}Bhupesh Varshney{% endif %}</title>
-    {% include meta.html %}
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
-    <link rel="icon" href="https://bhupesh.me/images/favicons/headshot.ico">
-    <meta name="google-site-verification" content="4coaO0YVCAhaE5LAetM4wCbwk1TgAjgNA_G0ywyitnI" />
-    <meta charset="UTF-8">
-    {% if site.tags != "" %}
-      {% include collecttags.html %}
-    {% endif %}
-<script type="application/ld+json">
+
+<head>
+  <title>{% if page.title %}{{ page.title }}{% else %}Bhupesh Varshney{% endif %}</title>
+  {% include meta.html %}
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+  <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}"
+    href="{{ site.baseurl }}/feed.xml" />
+  <link rel="icon" href="https://bhupesh.me/images/favicons/headshot.ico">
+  <meta name="google-site-verification" content="4coaO0YVCAhaE5LAetM4wCbwk1TgAjgNA_G0ywyitnI" />
+  <meta charset="UTF-8">
+  <script type="application/ld+json">
 { "@context": "https://schema.org",
  "@type": "TechArticle",
  "mainEntityOfPage": {
@@ -66,133 +65,146 @@ Oh you think you can code better than me? Get phased, NERD! 🗣️
  "articleBody": {{ page.content | strip_html | jsonify }}
  }
 </script>
-<script>
-  if (localStorage.getItem("lightmode") == "disabled") {
+  <script>
+    if (localStorage.getItem("lightmode") == "disabled") {
       document.documentElement.classList.add("dark-mode");
-  }
-</script>
-  </head>
-  <body>
-    {% include icon-defs.html %}
-    <div class="wrapper-masthead">
-      <div class="container">
-        <p id="tray-icon" style="cursor:pointer;position: fixed; right: 23px; top: 23px;" onclick="light_toggle()" title="Toggle night mode">🌗
-            </p>
-        <header class="masthead clearfix">
-          <div class="site-info">
-            <div class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></div>
-            <div class="social-icons-custom">
-              <a href="https://github.com/{{ site.footer-links.github }}" title="GitHub">
-                <svg class="icon icon-lg mark" aria-hidden="true"><use href="#icon-github"></use></svg>
-              </a>
-              <a href="https://www.linkedin.com/in/{{ site.footer-links.linkedin }}" title="LinkedIn">
-                <svg class="icon icon-lg mark" aria-hidden="true"><use href="#icon-linkedin"></use></svg>
-              </a>
-              <a href="https://youtube.com/{{ site.footer-links.youtube }}" title="YouTube">
-                <svg class="icon icon-lg mark" aria-hidden="true"><use href="#icon-youtube"></use></svg>
-              </a>
-              <a href="/feed.xml" title="RSS Feed">
-                <svg class="icon mark" aria-hidden="true"><use href="#icon-rss"></use></svg>
-              </a>
-            </div>
-            <br>
-
-            <p class="site-description">{{ site.description }}</p>
-          </div>
-          <nav>
-            <!-- <a class="mark" title="Sponsor me on GitHub" href="https://github.com/sponsors/Bhupesh-V">❤️</a>-->
-            <a class="mark" href="{{ site.baseurl }}/archive/">Archive</a>
-            <!-- <a class="mark" href="{{ site.baseurl }}/tags">Tags</a> -->
-            <a class="mark" href="{{ site.baseurl }}/about/" title="An average /about page">About</a>
-            <a class="mark" href="{{ site.baseurl }}/hire/" title="Interested in working with me?">Hire</a>
-            <a class="mark" href="{{ site.baseurl }}/projects/" title="Some stuff that I have built">Projects</a>
-            <a class="mark" href="{{ site.baseurl }}/now/" title="What am I doing now?">Now</a>
-          </nav>
-        </header>
-      </div>
-    </div>
-    <div id="main" role="main" class="container">
-      <svg onclick="topFunction()" id="myBtn" style="display: none;" class="icon icon-2x"><use href="#icon-chevron-up"></use></svg>
-      {{ content }}
-    </div>
-    <div class="wrapper-footer">
-      <div class="container">
-        <footer class="footer">
-          {% include svg-icons.html %}
-        </footer>
-      </div>
-    </div>
-    {% include analytics.html %}
-    <script>
-    // When the user scrolls down 20px from the top of the document, show the button
-    window.onscroll = function() {scrollFunction()};
-    function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    document.getElementById("myBtn").style.display = "block";
-    } else {
-    document.getElementById("myBtn").style.display = "none";
     }
+  </script>
+</head>
+
+<body>
+  {% include icon-defs.html %}
+  <div class="wrapper-masthead">
+    <div class="container">
+      <p id="tray-icon" style="cursor:pointer;position: fixed; right: 23px; top: 23px;" onclick="light_toggle()"
+        title="Toggle night mode">🌗
+      </p>
+      <header class="masthead clearfix">
+        <div class="site-info">
+          <div class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></div>
+          <div class="social-icons-custom">
+            <a href="https://github.com/{{ site.footer-links.github }}" title="GitHub">
+              <svg class="icon icon-lg mark" aria-hidden="true">
+                <use href="#icon-github"></use>
+              </svg>
+            </a>
+            <a href="https://www.linkedin.com/in/{{ site.footer-links.linkedin }}" title="LinkedIn">
+              <svg class="icon icon-lg mark" aria-hidden="true">
+                <use href="#icon-linkedin"></use>
+              </svg>
+            </a>
+            <a href="https://youtube.com/{{ site.footer-links.youtube }}" title="YouTube">
+              <svg class="icon icon-lg mark" aria-hidden="true">
+                <use href="#icon-youtube"></use>
+              </svg>
+            </a>
+            <a href="/feed.xml" title="RSS Feed">
+              <svg class="icon mark" aria-hidden="true">
+                <use href="#icon-rss"></use>
+              </svg>
+            </a>
+          </div>
+          <br>
+
+          <p class="site-description">{{ site.description }}</p>
+        </div>
+        <nav>
+          <!-- <a class="mark" title="Sponsor me on GitHub" href="https://github.com/sponsors/Bhupesh-V">❤️</a>-->
+          <a class="mark" href="{{ site.baseurl }}/archive/">Archive</a>
+          <!-- <a class="mark" href="{{ site.baseurl }}/tags">Tags</a> -->
+          <a class="mark" href="{{ site.baseurl }}/artifacts/">Artifacts</a>
+          <a class="mark" href="{{ site.baseurl }}/hire/" title="Interested in working with me?">Hire</a>
+          <!-- <a class="mark" href="{{ site.baseurl }}/projects/" title="Some stuff that I have built">Projects</a> -->
+          <a class="mark" href="{{ site.baseurl }}/now/" title="What am I doing now?">Now</a>
+        </nav>
+      </header>
+    </div>
+  </div>
+  <div id="main" role="main" class="container">
+    <svg onclick="topFunction()" id="myBtn" style="display: none;" class="icon icon-2x">
+      <use href="#icon-chevron-up"></use>
+    </svg>
+    {{ content }}
+  </div>
+  <div class="wrapper-footer">
+    <div class="container">
+      <footer class="footer">
+        {% include svg-icons.html %}
+      </footer>
+    </div>
+  </div>
+  {% include analytics.html %}
+  <script>
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function () { scrollFunction() };
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+      } else {
+        document.getElementById("myBtn").style.display = "none";
+      }
     }
     // When the user clicks on the button, scroll to the top of the document
     function topFunction() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
     }
-    </script>
-    <script type="text/javascript">
-    function share(){
-    var currentLocation = window.location;
-    var currentTitle = document.title;
-    if (navigator.share) {
-    navigator.share({
-    title: currentTitle,
-    url: currentLocation,
+  </script>
+  <script type="text/javascript">
+    function share() {
+      var currentLocation = window.location;
+      var currentTitle = document.title;
+      if (navigator.share) {
+        navigator.share({
+          title: currentTitle,
+          url: currentLocation,
+        })
+          .then(() => console.log('Successful Share'))
+          .catch((error) => console.log('Error sharing', error));
+      }
+    }
+  </script>
+
+  <script type="text/javascript">
+    function light_toggle() {
+      var isDark = document.documentElement.classList.toggle("dark-mode");
+      if (isDark) {
+        localStorage.setItem("lightmode", "disabled");
+        document.getElementById("tray-icon").innerHTML = "🌗";
+      } else {
+        localStorage.setItem("lightmode", "enabled");
+        document.getElementById("tray-icon").innerHTML = "🌓";
+      }
+    }
+  </script>
+  <script>
+    headings = document.querySelectorAll("h1, h2, h3, h4, h5, h6");
+    headings.forEach(function (heading, _) {
+      //console.log(heading);
+      var icon, id;
+      heading_id = heading.id;
+      if (heading_id) {
+        heading_link = document.createElement("a");
+        heading_link.href = "#" + heading_id;
+        heading_link.classList.add("header-link");
+
+        //console.log(heading_link);
+
+        var svgNS = "http://www.w3.org/2000/svg";
+        heading_icon = document.createElementNS(svgNS, "svg");
+        heading_icon.classList.add("icon");
+        var heading_icon_use = document.createElementNS(svgNS, "use");
+        heading_icon_use.setAttributeNS("http://www.w3.org/1999/xlink", "href", "#icon-link");
+        heading_icon_use.setAttribute("href", "#icon-link");
+        heading_icon.appendChild(heading_icon_use);
+
+        heading_link.appendChild(heading_icon);
+
+        heading.appendChild(heading_link);
+      }
     })
-    .then(() => console.log('Successful Share'))
-    .catch((error) => console.log('Error sharing', error));
-    }
-    }
-    </script>
+  </script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-N4J53QJR31"></script>
+</body>
 
-    <script type="text/javascript">
-        function light_toggle() {
-            var isDark = document.documentElement.classList.toggle("dark-mode");
-            if (isDark) {
-                localStorage.setItem("lightmode", "disabled");
-                document.getElementById("tray-icon").innerHTML = "🌗";
-            } else {
-                localStorage.setItem("lightmode", "enabled");
-                document.getElementById("tray-icon").innerHTML = "🌓";
-            }
-        }
-    </script>
-    <script>
-      headings = document.querySelectorAll("h1, h2, h3, h4, h5, h6");
-      headings.forEach(function(heading, _) {
-        //console.log(heading);
-        var  icon, id;
-        heading_id = heading.id;
-        if (heading_id) {
-          heading_link = document.createElement("a");
-          heading_link.href = "#"+heading_id;
-          heading_link.classList.add("header-link");
-          
-          //console.log(heading_link);
-
-          var svgNS = "http://www.w3.org/2000/svg";
-          heading_icon = document.createElementNS(svgNS, "svg");
-          heading_icon.classList.add("icon");
-          var heading_icon_use = document.createElementNS(svgNS, "use");
-          heading_icon_use.setAttributeNS("http://www.w3.org/1999/xlink", "href", "#icon-link");
-          heading_icon_use.setAttribute("href", "#icon-link");
-          heading_icon.appendChild(heading_icon_use);
-
-          heading_link.appendChild(heading_icon);
-
-          heading.appendChild(heading_link);
-        }
-      })
-      </script>     
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-N4J53QJR31"></script> 
-  </body>
 </html>

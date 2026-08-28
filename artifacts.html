@@ -1,0 +1,425 @@
+---
+layout: default
+title: Artifacts
+description: A notable record of 40+ artifacts demonstrating what I've shipped & said.
+permalink: /artifacts/
+---
+
+<h1>Artifacts</h1>
+<p style="text-align:center;">
+  A notable record of what I've shipped & said.
+</p>
+
+<div id="artifacts-app">
+  <div class="artifacts-filters">
+    <div class="filter-group" id="category-filters"></div>
+
+    <div class="filter-group filter-group-focus">
+      <span class="filter-label">Focus</span>
+      <div class="focus-search-wrap">
+        <input type="text" id="focus-search" class="focus-search" placeholder="Search focus areas…" autocomplete="off">
+        <div id="focus-suggestions" class="focus-suggestions"></div>
+      </div>
+    </div>
+    <div class="filter-group" id="focus-selected"></div>
+
+    <div class="filter-actions" style="display:none;">
+      <button type="button" id="clear-filters" class="text-btn">Clear filters</button>
+      <button type="button" id="copy-link" class="text-btn">🔗 Copy link</button>
+    </div>
+
+    <div class="results-header">
+      <div class="type-select-wrap">
+        <button type="button" id="type-select-btn" class="type-select-btn"></button>
+        <div id="type-select-menu" class="type-select-menu"></div>
+      </div>
+      <button type="button" id="sort-toggle" class="text-btn"></button>
+    </div>
+  </div>
+
+  <div id="results-count" class="results-count"></div>
+
+  <div id="artifacts-results"></div>
+</div>
+
+<script>
+(function () {
+  var ARTIFACTS = {{ site.data.artifacts | jsonify }};
+  var CATEGORIES = {{ site.data.categories | jsonify }};
+  var CATEGORY_MAP = {};
+  CATEGORIES.forEach(function (c) { CATEGORY_MAP[c.name] = c.focus || []; });
+
+  var TYPE_META = {
+    project: { label: "Project", emoji: "🚀" },
+    article: { label: "Article", emoji: "✍️" },
+    take:    { label: "Take", emoji: "💬" }
+  };
+
+  var urlParams = new URLSearchParams(window.location.search);
+  function paramList(name) {
+    var raw = urlParams.get(name);
+    return raw ? raw.split(",").map(function (s) { return s.trim().toLowerCase(); }).filter(Boolean) : [];
+  }
+
+  var allFocus = Array.from(new Set(ARTIFACTS.reduce(function (acc, a) { return acc.concat(a.focus || []); }, []))).sort();
+
+  var selectedTypes = new Set(paramList("type").filter(function (t) { return TYPE_META[t]; }));
+  var selectedCategories = new Set(paramList("category").filter(function (c) { return CATEGORY_MAP.hasOwnProperty(c); }));
+  var selectedFocus = new Set(paramList("focus").filter(function (s) { return allFocus.indexOf(s) !== -1; }));
+  var sortOrder = urlParams.get("sort") === "asc" ? "asc" : "desc";
+
+  // Focus areas contributed by whichever categories are currently selected.
+  function categoryFocus() {
+    var out = new Set();
+    selectedCategories.forEach(function (c) {
+      (CATEGORY_MAP[c] || []).forEach(function (s) { out.add(s); });
+    });
+    return out;
+  }
+
+  function typeOk(item) {
+    return selectedTypes.size === 0 || selectedTypes.has(item.type);
+  }
+
+  // Focus areas not yet selected that still have at least one match under the current Type filter.
+  function availableFocus() {
+    return allFocus.filter(function (f) {
+      if (selectedFocus.has(f)) return false;
+      return ARTIFACTS.some(function (a) { return typeOk(a) && (a.focus || []).indexOf(f) !== -1; });
+    });
+  }
+
+  function focusOk(item) {
+    var fromCategories = categoryFocus();
+    if (selectedFocus.size === 0 && fromCategories.size === 0) return true;
+    return (item.focus || []).some(function (s) { return selectedFocus.has(s) || fromCategories.has(s); });
+  }
+
+  function matches(item) {
+    return typeOk(item) && focusOk(item);
+  }
+
+  function hasActiveFocusFilter() {
+    return selectedFocus.size > 0 || selectedCategories.size > 0;
+  }
+
+  function hasAnyFilter() {
+    return selectedTypes.size > 0 || hasActiveFocusFilter();
+  }
+
+  function formatDate(dateStr) {
+    if (!dateStr) return "";
+    var parts = dateStr.split("-");
+    var year = parseInt(parts[0], 10);
+    var month = parts[1] ? parseInt(parts[1], 10) - 1 : 0;
+    var hasDay = parts.length > 2;
+    var d = new Date(year, month, hasDay ? parseInt(parts[2], 10) : 1);
+    var opts = hasDay
+      ? { year: "numeric", month: "long", day: "numeric" }
+      : { year: "numeric", month: "long" };
+    return d.toLocaleDateString("en-US", opts);
+  }
+
+  function updateUrl() {
+    var params = new URLSearchParams();
+    if (selectedTypes.size) params.set("type", Array.from(selectedTypes).join(","));
+    if (selectedCategories.size) params.set("category", Array.from(selectedCategories).join(","));
+    if (selectedFocus.size) params.set("focus", Array.from(selectedFocus).join(","));
+    if (sortOrder !== "desc") params.set("sort", sortOrder);
+    var qs = params.toString();
+    window.history.replaceState(null, "", window.location.pathname + (qs ? "?" + qs : ""));
+  }
+
+  function toggle(set, value) {
+    if (set.has(value)) set.delete(value); else set.add(value);
+  }
+
+  // Builds one <button class="chip">, wires its click handler, returns it — used for every
+  // filter chip (type/category/focus) and every focus tag shown on an artifact card.
+  function makeChip(html, active, extraClass, onClick) {
+    var chip = document.createElement("button");
+    chip.type = "button";
+    chip.className = "chip" + (extraClass ? " " + extraClass : "") + (active ? " active" : "");
+    chip.innerHTML = html;
+    chip.addEventListener("click", onClick);
+    return chip;
+  }
+
+  function focusChip(focus, count, small) {
+    var active = selectedFocus.has(focus) || categoryFocus().has(focus);
+    var html = focus + (count !== undefined ? " <span class=\"count\">" + count + "</span>" : "");
+    return makeChip(html, active, small ? "chip-sm" : "", function () {
+      toggle(selectedFocus, focus);
+      render();
+    });
+  }
+
+  // Renders a labelled row of chips into #<containerId>, hiding the row entirely when empty.
+  // The label sits outside the scrollable strip so it stays put on mobile.
+  function renderChipRow(containerId, labelText, chips) {
+    var wrap = document.getElementById(containerId);
+    wrap.innerHTML = "";
+    if (!chips.length) return;
+    if (labelText) {
+      var label = document.createElement("span");
+      label.className = "filter-label";
+      label.textContent = labelText;
+      wrap.appendChild(label);
+    }
+    var scroller = document.createElement("div");
+    scroller.className = "chip-scroll";
+    chips.forEach(function (chip) { scroller.appendChild(chip); });
+    wrap.appendChild(scroller);
+  }
+
+  function renderTypeSelect() {
+    var btn = document.getElementById("type-select-btn");
+    btn.textContent = (selectedTypes.size === 0
+      ? "All types"
+      : Object.keys(TYPE_META).filter(function (t) { return selectedTypes.has(t); })
+          .map(function (t) { return TYPE_META[t].emoji + " " + TYPE_META[t].label + "s"; }).join(", ")
+    ) + " ▾";
+
+    var menu = document.getElementById("type-select-menu");
+    menu.innerHTML = "";
+    Object.keys(TYPE_META).forEach(function (type) {
+      var count = ARTIFACTS.filter(function (a) { return a.type === type && focusOk(a); }).length;
+
+      var label = document.createElement("label");
+      label.className = "type-option";
+
+      var checkbox = document.createElement("input");
+      checkbox.type = "checkbox";
+      checkbox.checked = selectedTypes.has(type);
+      checkbox.addEventListener("change", function () {
+        toggle(selectedTypes, type);
+        render();
+      });
+
+      label.appendChild(checkbox);
+      label.appendChild(document.createTextNode(
+        " " + TYPE_META[type].emoji + " " + TYPE_META[type].label + "s (" + count + ")"
+      ));
+      menu.appendChild(label);
+    });
+  }
+
+  function renderFilters() {
+    renderTypeSelect();
+
+    document.getElementById("focus-search").placeholder = "Search across " + availableFocus().length + " focus areas";
+
+    renderChipRow("category-filters", "Category", CATEGORIES.map(function (cat) {
+      var count = ARTIFACTS.filter(function (a) {
+        return typeOk(a) && (a.focus || []).some(function (s) { return cat.focus.indexOf(s) !== -1; });
+      }).length;
+      var html = cat.name + " <span class=\"count\">" + count + "</span>";
+      var chip = makeChip(html, selectedCategories.has(cat.name), "chip-category", function () {
+        toggle(selectedCategories, cat.name);
+        render();
+      });
+      chip.title = cat.focus.join(", ");
+      return chip;
+    }));
+
+    renderChipRow("focus-selected", "", Array.from(selectedFocus).map(function (focus) {
+      return focusChip(focus, undefined, true);
+    }));
+  }
+
+  function typeBadge(item, extraClass) {
+    var badge = document.createElement("span");
+    badge.className = "artifact-type-badge" + (extraClass ? " " + extraClass : "");
+    badge.textContent = TYPE_META[item.type].emoji + " " + TYPE_META[item.type].label;
+    return badge;
+  }
+
+  function artifactCard(item) {
+    var card = document.createElement("article");
+    card.className = "artifact-card" + (item.featured ? " featured" : "");
+
+    var head = document.createElement("div");
+    head.className = "artifact-head";
+
+    var title = document.createElement("a");
+    title.href = item.url;
+    title.target = "_blank";
+    title.rel = "noopener";
+    title.className = "artifact-title";
+    title.innerHTML = (item.featured ? "⭐ " : "") + item.title + " <span class=\"artifact-title-arrow\">↗</span>";
+    head.appendChild(title);
+
+    head.appendChild(typeBadge(item));
+
+    card.appendChild(head);
+
+    // A second copy of the badge lives in .artifact-meta — CSS swaps which one
+    // is visible depending on viewport, so the type always sits with the date on mobile.
+    var meta = document.createElement("div");
+    meta.className = "artifact-meta";
+    meta.appendChild(typeBadge(item, "artifact-type-badge-meta"));
+    var metaBits = [];
+    if (item.date) metaBits.push("📅 " + formatDate(item.date));
+    if (item.source) metaBits.push(item.source);
+    if (metaBits.length) {
+      var metaText = document.createElement("span");
+      metaText.textContent = metaBits.join(" · ");
+      meta.appendChild(metaText);
+    }
+    card.appendChild(meta);
+
+    if (item.description) {
+      var desc = document.createElement("p");
+      desc.className = "artifact-description";
+      desc.textContent = item.description;
+      card.appendChild(desc);
+    }
+
+    if (item.focus && item.focus.length) {
+      var focusWrap = document.createElement("div");
+      focusWrap.className = "artifact-focus";
+      item.focus.forEach(function (focus) { focusWrap.appendChild(focusChip(focus, undefined, true)); });
+      card.appendChild(focusWrap);
+    }
+
+    return card;
+  }
+
+  function sortByDate(items) {
+    return items.slice().sort(function (a, b) {
+      var cmp = (a.date || "").localeCompare(b.date || "");
+      return sortOrder === "asc" ? cmp : -cmp;
+    });
+  }
+
+  // Appends a <h2> + artifact cards to the results container.
+  function appendSection(container, headingText, items) {
+    var heading = document.createElement("h2");
+    heading.textContent = headingText;
+    container.appendChild(heading);
+    items.forEach(function (item) { container.appendChild(artifactCard(item)); });
+  }
+
+  function render() {
+    renderFilters();
+    updateUrl();
+
+    document.querySelector(".filter-actions").style.display = hasAnyFilter() ? "flex" : "none";
+    document.getElementById("sort-toggle").innerHTML =
+      "<span class=\"sort-arrow" + (sortOrder === "asc" ? " sort-arrow-asc" : "") + "\">➜</span> " +
+      (sortOrder === "desc" ? "Newest first" : "Oldest first");
+
+    var results = document.getElementById("artifacts-results");
+    results.innerHTML = "";
+
+    var filtered = ARTIFACTS.filter(matches);
+    document.getElementById("results-count").textContent =
+      filtered.length + (filtered.length === 1 ? " artifact" : " artifacts");
+
+    if (!filtered.length) {
+      var empty = document.createElement("p");
+      empty.className = "artifacts-empty";
+      empty.textContent = "Nothing here yet — try clearing a filter.";
+      results.appendChild(empty);
+      return;
+    }
+
+    // Always a single flat list, sorted by date — an item with several focus tags would
+    // otherwise repeat once per tag if grouped by focus area.
+    var labels = Array.from(selectedCategories).concat(Array.from(selectedFocus));
+    var headingText = (labels.length ? labels.join(" + ") : "All artifacts") + " (" + filtered.length + ")";
+    appendSection(results, headingText, sortByDate(filtered));
+  }
+
+  function fallbackCopy(text) {
+    var textarea = document.createElement("textarea");
+    textarea.value = text;
+    textarea.style.position = "fixed";
+    textarea.style.opacity = "0";
+    document.body.appendChild(textarea);
+    textarea.focus();
+    textarea.select();
+    var ok = false;
+    try { ok = document.execCommand("copy"); } catch (err) { ok = false; }
+    document.body.removeChild(textarea);
+    return ok;
+  }
+
+  document.getElementById("clear-filters").addEventListener("click", function () {
+    selectedTypes.clear();
+    selectedCategories.clear();
+    selectedFocus.clear();
+    render();
+  });
+
+  var focusSearch = document.getElementById("focus-search");
+  var focusSuggestions = document.getElementById("focus-suggestions");
+
+  function updateSuggestions() {
+    var query = focusSearch.value.trim().toLowerCase();
+    var matches = availableFocus().filter(function (f) { return f.indexOf(query) !== -1; });
+
+    focusSuggestions.innerHTML = "";
+    matches.forEach(function (focus) {
+      var item = document.createElement("button");
+      item.type = "button";
+      item.className = "focus-suggestion";
+      item.textContent = focus;
+      // mousedown fires before the input's blur, so the click still registers.
+      item.addEventListener("mousedown", function (e) {
+        e.preventDefault();
+        selectedFocus.add(focus);
+        focusSearch.value = "";
+        focusSuggestions.classList.remove("open");
+        render();
+      });
+      focusSuggestions.appendChild(item);
+    });
+    focusSuggestions.classList.toggle("open", matches.length > 0);
+  }
+
+  focusSearch.addEventListener("focus", updateSuggestions);
+  focusSearch.addEventListener("click", updateSuggestions);
+  focusSearch.addEventListener("input", updateSuggestions);
+  focusSearch.addEventListener("blur", function () { focusSuggestions.classList.remove("open"); });
+  focusSearch.addEventListener("keydown", function (e) { if (e.key === "Escape") focusSearch.blur(); });
+
+  var typeSelectBtn = document.getElementById("type-select-btn");
+  var typeSelectMenu = document.getElementById("type-select-menu");
+
+  typeSelectBtn.addEventListener("click", function () {
+    typeSelectMenu.classList.toggle("open");
+  });
+
+  document.addEventListener("click", function (e) {
+    if (!e.target.closest(".type-select-wrap")) typeSelectMenu.classList.remove("open");
+  });
+
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "Escape") typeSelectMenu.classList.remove("open");
+  });
+
+  document.getElementById("sort-toggle").addEventListener("click", function () {
+    sortOrder = sortOrder === "desc" ? "asc" : "desc";
+    render();
+  });
+
+  document.getElementById("copy-link").addEventListener("click", function (e) {
+    var btn = e.currentTarget;
+    var url = window.location.href;
+    var flash = function (label) {
+      var original = "🔗 Copy link";
+      btn.textContent = label;
+      setTimeout(function () { btn.textContent = original; }, 1500);
+    };
+    if (navigator.clipboard && navigator.clipboard.writeText && window.isSecureContext) {
+      navigator.clipboard.writeText(url).then(function () { flash("✅ Copied"); })
+        .catch(function () { flash(fallbackCopy(url) ? "✅ Copied" : "⚠️ Couldn't copy"); });
+    } else {
+      flash(fallbackCopy(url) ? "✅ Copied" : "⚠️ Couldn't copy");
+    }
+  });
+
+  render();
+})();
+</script>

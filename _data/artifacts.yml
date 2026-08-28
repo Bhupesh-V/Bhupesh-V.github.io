@@ -1,0 +1,343 @@
+# Artifacts data — powers /artifacts/
+#
+# Each entry:
+#   title:       required
+#   url:         required
+#   type:        required — project | article | take
+#   focus:       required — lowercase, hyphenated (e.g. open-source)
+#   date:        optional — YYYY-MM-DD or YYYY-MM, used for sorting & display
+#   source:      optional — publication/platform name shown next to the date
+#   description: optional — one line, shown under the title
+#   featured:    optional — true to visually highlight this entry
+#
+# This file is a starting scaffold with a handful of real entries.
+# Add the rest of your projects, articles & posts below following the same shape.
+
+- title: ugit
+  url: https://github.com/Bhupesh-V/ugit
+  type: project
+  focus: [git, shell, cli, open-source]
+  description: Undo git commands you regret. 1k+ stars.
+  featured: true
+
+- title: godeping
+  url: https://github.com/Bhupesh-V/godeping
+  type: project
+  focus: [golang, cli, open-source]
+  date: 2025-06
+  description: Identify archived/unmaintained Go project dependencies.
+
+- title: dvs
+  url: https://github.com/Bhupesh-V/dvs
+  type: project
+  focus: [shell, docker, cli, open-source]
+  date: 2025-07
+  description: Create & restore Docker volume snapshots/backups.
+
+- title: shedock
+  url: https://github.com/shedock/shedock
+  type: project
+  focus: [shell, docker, open-source]
+  date: 2024-05
+  description: An experimental tool to dockerize shell scripts.
+
+- title: git-prs
+  url: https://bhupesh.me/finding-pull-requests-that-change-a-file-terminal/
+  type: project
+  focus: [shell, git, cli]
+  date: 2021-01-01
+  description: Find pull requests that modify a file path, from the terminal.
+
+- title: How to Design a Transactional Key-value Store in Go
+  url: https://www.freecodecamp.org/news/design-a-key-value-store-in-go/
+  type: article
+  focus: [golang, system-design]
+  date: 2021-06-01
+  source: freeCodeCamp
+
+- title: A Closer Look at Server Sent Events using Go
+  url: https://nurdsoft.co/blog/a-closer-look-at-server-sent-events
+  type: article
+  focus: [golang]
+  date: 2023-04-12
+  source: Nurdsoft
+
+- title: Get your git game up with worktrees
+  url: https://blog.invidelabs.com/git-worktree-to-make-daily-git-workflow-better/
+  type: article
+  focus: [git]
+  date: 2023-06-01
+  source: InvideLabs
+
+- title: How I reduced the size of my very first published docker image by 40%
+  url: https://bhupesh.me/publishing-my-first-ever-dockerfile-optimization-ugit/
+  type: article
+  focus: [shell, docker, linux]
+  date: 2021-01-01
+  description: A lesson in dockerizing shell scripts
+  featured: true
+
+- title: How to Build Your Own Linux Dotfiles Manager from Scratch
+  url: https://www.freecodecamp.org/news/build-your-own-dotfiles-manager-from-scratch/
+  type: article
+  focus: [shell]
+  date: 2022-01-01
+  source: freeCodeCamp
+
+- title: OpenMetrics vs OpenTelemetry
+  url: https://signoz.io/blog/openmetrics-vs-opentelemetry/
+  type: article
+  focus: [observability]
+  date: 2022-01-01
+  source: SigNoz
+
+- title: 5 years of maintaining India's largest dev community on the web
+  url: https://bhupesh.me/5-years-developersIndia/
+  type: article
+  focus: [community, leadership]
+  date: 2024-01-01
+  featured: true
+
+- title: Trying to clear some misjudgments about Go among newcomers & seasoned devs
+  url: https://www.reddit.com/r/developersIndia/comments/1i6o9kc/trying_to_clear_some_misjudgments_about_go_the/
+  type: take
+  focus: [golang]
+  date: 2025-01-01
+  source: r/developersIndia
+
+- title: Some tips to effectively identify what projects to build & why
+  url: https://www.reddit.com/r/developersIndia/comments/1dv1m9w/some_tips_to_effectively_identify_what_projects/
+  type: take
+  focus: [community, open-source, project-management]
+  date: 2024-07-01
+  source: r/developersIndia
+
+- title: Thoughts on everyone's expectation from a community
+  url: https://x.com/bhupeshimself/status/1799132946479325334
+  type: take
+  focus: [community]
+  date: 2024-06-08
+  source: Twitter
+
+- title: .Varshney
+  url: https://github.com/Bhupesh-V/.Varshney
+  type: project
+  focus: [linux, shell, lua, python, vim]
+  description: My dotfiles for Linux & MacOS.
+
+- title: tinypdf
+  url: https://github.com/Bhupesh-V/tinypdf
+  type: project
+  focus: [golang, docker]
+  description: 🤏🏽 Reduce PDF file size
+
+- title: afk
+  url: https://github.com/Bhupesh-V/afk
+  description: An unnecessarily over-engineered CLI to update your availability status on slack
+  type: project
+  focus: [golang, clean-code]
+  date: 2026-07
+
+- title: deed
+  url: https://github.com/Bhupesh-V/deed
+  description: An intuitive, schema-aware synthetic data seeder for targeted database performance testing & API demos
+  type: project
+  focus: [golang, postgres]
+  date: 2026-08
+
+- title: Thoughts on AI in programming & hobby-work
+  url: https://www.linkedin.com/posts/bhupesh-v_thanks-for-ruining-all-the-motivation-that-activity-7479069241720074240-YMzz
+  type: take
+  source: LinkedIn
+  focus: [llm]
+  date: 2026-07
+
+- title: How to truly understand a piece of text
+  url: https://www.linkedin.com/posts/bhupesh-v_small-guide-to-critically-analyse-a-piece-activity-7463509026992074752-0jTG
+  type: take
+  source: LinkedIn
+  focus: [reading]
+  date: 2026-05
+
+- title: Motivated Tactician
+  url: https://www.linkedin.com/posts/bhupesh-v_you-are-a-motivated-tactician-brief-notes-activity-7455179234471215104-elH3
+  type: take
+  source: LinkedIn
+  focus: [psychology, complexity]
+  date: 2026-04
+
+- title: Systems Thinking x Daredevil
+  url: https://www.linkedin.com/posts/bhupesh-v_in-systems-thinking-theres-some-agreement-activity-7449737959299530752-iVOx
+  type: take
+  source: LinkedIn
+  focus: [systems-thinking]
+  date: 2026-04
+
+- title: Interview Experience across 3 companies after a Lay off
+  url: https://www.linkedin.com/posts/bhupesh-v_interviewing-bhupesh-activity-7431571051836420113-8FAr
+  type: take
+  source: LinkedIn
+  focus: [tech-interviews]
+  date: 2026-02
+
+- title: Tech Ecosystem isn't a system at all!
+  url: https://www.linkedin.com/posts/bhupesh-v_its-funny-but-i-just-realized-that-the-activity-7345737625967697920-wn6r
+  type: take
+  source: LinkedIn
+  focus: [systems-thinking]
+  date: 2025-07
+
+- title: Is AI taking your thinking ability?
+  url: https://www.linkedin.com/posts/bhupesh-v_people-trying-to-equate-use-of-stackoverflow-activity-7332506918386618368-IajE
+  type: take
+  source: LinkedIn
+  focus: [llm]
+  date: 2025-05
+
+- title: Growth without working at scale x Humanity in each line of code
+  url: https://www.linkedin.com/posts/bhupesh-v_a-great-follow-up-question-on-the-growth-activity-7325069910311624704-gLld
+  type: take
+  source: LinkedIn
+  focus: [software-craftsmanship]
+  date: 2025-05
+
+- title: PyCon India 2024 x Hotwheels 🏎️
+  url: https://www.linkedin.com/posts/bhupesh-v_final-post-about-pycon-india-its-about-activity-7247601156560986112-udda
+  type: take
+  source: LinkedIn
+  focus: [community]
+  date: 2024-10
+
+- title: Building r/evelopersIndia - mindset & tools behind a 150k+ Developer Community
+  url: https://www.linkedin.com/posts/bhupesh-v_community-communitycasestudy-cmgr-activity-7037310855306166272-7brC
+  type: take
+  source: LinkedIn
+  focus: [community, leadership]
+  date: 2023-03
+
+- title: Practicing Systemic Thinking with 6 Thinking Hats
+  url: https://bhupesh.me/visuals/6hats/
+  type: take
+  focus: [systems-thinking, problem-solving, project-management]
+  date: 2026-04
+
+- title: dotman
+  url: https://github.com/Bhupesh-V/dotman
+  description: dotman is a simple, elegant & easy to use dotfiles manager 🖖🏽
+  type: project
+  focus: [shell, cli]
+  date: 2023-10
+
+- title: areyouok
+  url: https://github.com/Bhupesh-V/areyouok
+  description: A fast and easy to use URL health checker ⛑️ Keep your links healthy during tough times
+  type: project
+  focus: [golang, cli]
+  date: 2022-07
+
+- title: zoe
+  url: https://github.com/Bhupesh-V/zoe
+  description: "A barebones transactional in-memory key: value store with a REPL [For educational purposes]"
+  type: project
+  focus: [golang]
+  date: 2021-06
+
+- title: defe
+  url: https://github.com/Bhupesh-V/defe
+  description: devfeed is a Tech feed Aggregator for Developers & Tech Enthusiasts
+  type: project
+  focus: [cli, python]
+
+- title: osscooking
+  url: https://osscooking.com/
+  description: What's cooking in open-source?
+  type: project
+  focus: [golang, open-source, git]
+
+- title: 10 key lessons from my first engineering job
+  url: https://bhupesh.me/10-key-lessons-from-my-first-engineering-job/
+  type: article
+  focus: [software-craftsmanship]
+  date: 2022-05-03
+  featured: true
+
+- title: Feeding a Hungry Mouse Using Chromedp and Go
+  url: https://nurdsoft.co/blog/feeding-a-hungry-mouse-using-chromedp-and-golang/
+  type: article
+  focus: [golang, automation]
+  source: Nurdsoft
+  date: 2024-01-11
+
+- title: r/developersIndia Community Wiki
+  url: https://wiki.developersindia.in/
+  description: A major part of FAQs section was collated by me
+  type: project
+  focus: [community, leadership]
+  source: r/developersIndia
+
+- title: Discovering small FOSS projects for contributing on github
+  url: https://wiki.developersindia.in/faqs/finding-small-foss-projects-on-github
+  type: article
+  focus: [community, open-source]
+  source: r/developersIndia
+  date: 2024-10-31
+
+- title: Why it's OK to abandon your side projects 😉
+  url: https://bhupesh.me/why-its-ok-to-abandon-your-side-projects/
+  type: article
+  focus: [problem-solving]
+  date: 2021-10-30
+
+- title: Interviewing Bhupesh
+  url: https://bhupesh.me/interview/
+  description: AMA with myself asking & answering questions that should be asked to everyone who is a professional dev
+  type: article
+  focus: [problem-solving, tech-interviews]
+  featured: true
+
+- title: Did devs actually love programming?
+  url: https://www.linkedin.com/posts/bhupesh-v_its-the-complete-opposite-the-momentary-share-7498769061799976960-UfaT/
+  type: take
+  source: LinkedIn
+  focus: [llm, creativity, software-craftsmanship]
+  date: 2026-08-27
+
+- title: bookshelf
+  url: https://bookshelf.bhupesh.me/
+  type: project
+  focus: [reading]
+  description: My short reviews on books I have read, along with my wishlist!
+  featured: true
+
+- title: yell
+  url: https://github.com/Bhupesh-V/yell
+  type: project
+  focus: [golang, gui]
+  description: 🗣️ Desktop alerts broke free from notification centre and came right on ya face!
+  date: 2026-08-27
+
+- title: Contrast of language use in digital v/s the real world
+  url: https://x.com/bhupeshimself/status/1910556432669565127
+  type: take
+  focus: [software-craftsmanship]
+  date: 2025-04
+  source: Twitter
+
+- title: Why did I fail to solve a system design problem at work?
+  url: https://x.com/bhupeshimself/status/1801258625102401541
+  type: take
+  focus: [system-design]
+  date: 2024-06
+  source: Twitter
+
+- title: IKEA Effect
+  url: https://til.bhupesh.me/psychology/ikea-effect
+  type: take
+  date: 2025-03
+  focus: [psychology]
+
+- title: Interference theory
+  url: https://til.bhupesh.me/psychology/interference-theory
+  type: take
+  date: 2024-04
+  focus: [psychology]

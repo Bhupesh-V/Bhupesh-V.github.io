@@ -1,0 +1,14 @@
+# Categories group multiple focus areas under one shareable umbrella — e.g.
+# "backend" bundles golang, system-design work into one filterable view.
+#
+# name:  required — shown in the UI & used in ?category=
+# focus: required — list of focus slugs from _data/artifacts.yml to bundle
+
+- name: backend
+  focus: [golang, system-design]
+
+- name: devops
+  focus: [shell, docker, devops, observability]
+
+- name: community
+  focus: [community, open-source]
