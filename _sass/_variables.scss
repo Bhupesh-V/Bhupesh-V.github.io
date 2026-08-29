@@ -18,6 +18,9 @@ $orangish: #ffea18;
 // Font stacks
 $helvetica: Helvetica, Arial, sans-serif;
 $helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$montserrat: Montserrat, sans-serif;
+$systemSans: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, segoe ui, Roboto, helvetica neue, Arial, noto sans, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol, noto color emoji;
+$arial: Arial;
 
 // Mobile breakpoints
 @mixin mobile {

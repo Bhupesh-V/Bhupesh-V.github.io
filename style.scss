@@ -50,6 +50,14 @@ html {
 
 .site-name a {
   color: black;
+  -webkit-tap-highlight-color: transparent !important;
+
+  &:hover,
+  &:focus,
+  &:active {
+    outline: none;
+    color: #ffd809;
+  }
 }
 
 #myBtn {
@@ -58,10 +66,6 @@ html {
   right: 20px;
   color: black;
   cursor: pointer;
-}
-
-#desct p {
-  color: white;
 }
 
 .mark {
@@ -125,7 +129,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, segoe ui, Roboto, helvetica neue, Arial, noto sans, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol, noto color emoji;
+  font-family: $systemSans;
   color: inherit;
   font-weight: bold;
 
@@ -140,7 +144,7 @@ h6 {
 
 h1 {
   font-size: 1.875rem;
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, segoe ui, Roboto, helvetica neue, Arial, noto sans, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol, noto color emoji;
+  font-family: $systemSans;
   text-align: center;
   text-wrap: balance;
 
@@ -179,7 +183,7 @@ li {
 p {
   margin: 15px 5px 5px 7px;
   color: black;
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, segoe ui, Roboto, helvetica neue, Arial, noto sans, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol, noto color emoji;
+  font-family: $systemSans;
   word-spacing: 2.5px;
   word-wrap: break-word;
 }
@@ -309,7 +313,8 @@ img {
   margin: 0;
   color: black;
   cursor: pointer;
-  font-family: Montserrat, sans-serif;
+  -webkit-tap-highlight-color: transparent !important;
+  font-family: $montserrat;
   font-weight: bold;
   letter-spacing: -2px;
   font-size: 2em;
@@ -357,15 +362,6 @@ nav {
 //
 // .main
 //
-
-.pagination {
-  color: black;
-  padding: 8px 16px;
-  text-decoration: none;
-  transition: background-color .3s;
-  border: 1px solid #000;
-  margin-top: 40px;
-}
 
 .posts>.post {
   margin: 1.5em 0;
@@ -542,7 +538,7 @@ h6:hover .header-link {
   border-radius: 5px;
   transition: 25ms ease-out;
   padding: 0.5em 0.75em;
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif
+  font-family: $helveticaNeue;
 }
 
 .resp-sharing-button__icon svg {
@@ -768,7 +764,7 @@ input[type=email] {
 
 .read-more {
   color: white;
-  font-family: Montserrat, sans-serif;
+  font-family: $montserrat;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -783,7 +779,7 @@ input[type=email] {
   display: inline-block;
   cursor: pointer;
   color: #ffffff;
-  font-family: Arial;
+  font-family: $arial;
   font-size: 17px;
   font-weight: bold;
   padding: 10px;
@@ -1281,6 +1277,13 @@ input[type=email] {
 
   .site-name a {
     color: white;
+
+    &:hover,
+    &:focus,
+    &:active {
+      outline: none;
+      color: #ffd809;
+    }
   }
 
   #myBtn {
