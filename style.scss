@@ -9,6 +9,44 @@
 @import "variables";
 // Syntax highlighting @import is at the bottom of this file
 
+// Self-hosted so .site-name and body copy render as Google Sans Code without a
+// Google Fonts request. Regular (400) + Bold (700) latin subset — the only
+// weights actually used (headings/site-name are bold, everything else regular).
+@font-face {
+  font-family: "Google Sans Code";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/google-sans-code-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Google Sans Code";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("/fonts/google-sans-code-bold.woff2") format("woff2");
+}
+
+// TEMP (font comparison): self-hosted from the local 0xProto Nerd Font install,
+// subset to latin glyphs only. Remove alongside $zeroXProto/$activeFont in
+// _variables.scss once the comparison is done.
+@font-face {
+  font-family: "0xProto";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/0xproto-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "0xProto";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("/fonts/0xproto-bold.woff2") format("woff2");
+}
+
 /**************/
 /* BASE RULES */
 /**************/
@@ -87,7 +125,7 @@ html {
 
 body {
   background: floralwhite;
-  font: 18px/1.4 $helvetica;
+  font: 18px/1.4 $activeFont;
   color: $darkGray;
 }
 
@@ -129,7 +167,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: $systemSans;
+  font-family: $activeFont;
   color: inherit;
   font-weight: bold;
 
@@ -144,7 +182,7 @@ h6 {
 
 h1 {
   font-size: 1.875rem;
-  font-family: $systemSans;
+  font-family: $activeFont;
   text-align: center;
   text-wrap: balance;
 
@@ -183,7 +221,7 @@ li {
 p {
   margin: 15px 5px 5px 7px;
   color: black;
-  font-family: $systemSans;
+  font-family: $activeFont;
   word-spacing: 2.5px;
   word-wrap: break-word;
 }
@@ -314,7 +352,7 @@ img {
   color: black;
   cursor: pointer;
   -webkit-tap-highlight-color: transparent !important;
-  font-family: $montserrat;
+  font-family: $activeFont;
   font-weight: bold;
   letter-spacing: -2px;
   font-size: 2em;
@@ -335,7 +373,7 @@ img {
 nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $helveticaNeue;
+  font-family: $activeFont;
   font-size: 18px;
 
   @include mobile {
@@ -412,7 +450,7 @@ nav {
       &::before {
         content: "▼";
         display: inline-block;
-        margin-right: 4px;
+        margin-right: 6px;
         transform: rotate(-90deg);
         transition: transform 120ms ease-in-out;
       }
@@ -538,7 +576,7 @@ h6:hover .header-link {
   border-radius: 5px;
   transition: 25ms ease-out;
   padding: 0.5em 0.75em;
-  font-family: $helveticaNeue;
+  font-family: $activeFont;
 }
 
 .resp-sharing-button__icon svg {
@@ -764,7 +802,7 @@ input[type=email] {
 
 .read-more {
   color: white;
-  font-family: $montserrat;
+  font-family: $activeFont;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -779,7 +817,7 @@ input[type=email] {
   display: inline-block;
   cursor: pointer;
   color: #ffffff;
-  font-family: $arial;
+  font-family: $activeFont;
   font-size: 17px;
   font-weight: bold;
   padding: 10px;
@@ -925,7 +963,7 @@ input[type=email] {
   border-radius: 5px;
   padding: 5px 12px;
   font-size: 14px;
-  font-family: $helvetica;
+  font-family: $activeFont;
   color: $darkGray;
   cursor: pointer;
   transition: background-color 120ms ease-in-out, border-color 120ms ease-in-out;
@@ -1000,7 +1038,7 @@ input[type=email] {
   border-radius: 5px;
   padding: 5px 12px;
   font-size: 14px;
-  font-family: $helvetica;
+  font-family: $activeFont;
   color: $darkGray;
   background: transparent;
   min-width: 215px;
@@ -1038,7 +1076,7 @@ input[type=email] {
   background: none;
   border: none;
   font-size: 14px;
-  font-family: $helvetica;
+  font-family: $activeFont;
   color: $darkGray;
   cursor: pointer;
 
@@ -1063,7 +1101,7 @@ input[type=email] {
   border-radius: 5px;
   padding: 5px 12px;
   font-size: 14px;
-  font-family: $helvetica;
+  font-family: $activeFont;
   color: $darkGray;
   background: transparent;
   cursor: pointer;
@@ -1096,7 +1134,7 @@ input[type=email] {
   display: block;
   padding: 6px 12px;
   font-size: 14px;
-  font-family: $helvetica;
+  font-family: $activeFont;
   color: $darkGray;
   cursor: pointer;
 
@@ -1135,7 +1173,7 @@ input[type=email] {
   padding: 0;
   color: #1f58d6;
   font-size: 14px;
-  font-family: $helvetica;
+  font-family: $activeFont;
   cursor: pointer;
   text-decoration: underline;
 }
@@ -1282,7 +1320,7 @@ input[type=email] {
     &:focus,
     &:active {
       outline: none;
-      color: #ffd809;
+      color: #17be6e;
     }
   }
 

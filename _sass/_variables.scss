@@ -16,11 +16,11 @@ $white: #fff;
 $orangish: #ffea18;
 
 // Font stacks
-$helvetica: Helvetica, Arial, sans-serif;
-$helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$montserrat: Montserrat, sans-serif;
-$systemSans: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, segoe ui, Roboto, helvetica neue, Arial, noto sans, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol, noto color emoji;
-$arial: Arial;
+$googleSansCode: "Google Sans Code", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+$zeroXProto: "0xProto", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+
+// TEMP (font comparison): flip this back to $googleSansCode to revert.
+$activeFont: $googleSansCode;
 
 // Mobile breakpoints
 @mixin mobile {

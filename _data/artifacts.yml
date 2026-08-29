@@ -17,7 +17,7 @@
   url: https://github.com/Bhupesh-V/ugit
   type: project
   focus: [git, shell, cli, open-source]
-  description: Undo git commands you regret. 1k+ stars.
+  description: Undo git commands you regret. 1.5k+ stars.
   featured: true
 
 - title: godeping
@@ -306,7 +306,7 @@
   url: https://bookshelf.bhupesh.me/
   type: project
   focus: [reading]
-  description: My short reviews on books I have read, along with my wishlist!
+  description: Short reviews on books I'v read, along with my wishlist!
   featured: true
 
 - title: yell
