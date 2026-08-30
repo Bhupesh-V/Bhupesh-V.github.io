@@ -1,0 +1,67 @@
+---
+layout: default
+title: Sketches
+description: A gallery of sketches I have made.
+permalink: /sketches/
+---
+
+<h1>Sketches</h1>
+<p style="text-align:center;">
+  A gallery of sketches I have made.
+</p>
+
+{% assign sketches = site.data.sketches | sort: "date" | reverse %}
+<div class="sketch-grid" id="sketch-grid">
+  {% for sketch in sketches %}
+  <figure class="sketch-item" data-index="{{ forloop.index0 }}">
+    <img src="{{ sketch.img }}" alt="{{ sketch.title }}" loading="lazy">
+    <figcaption>
+      <span class="sketch-title">{{ sketch.title }}</span>
+
+      {% if sketch.date %}
+        {% assign date_parts = sketch.date | split: "-" %}
+        <span class="sketch-date">📅
+          {% case date_parts.size %}
+            {% when 1 %}
+              {% comment %} Handles "YYYY" {% endcomment %}
+              {{ date_parts[0] }}
+            {% when 2 %}
+              {% comment %} Handles "YYYY-MM" by appending a day for Liquid date parsing {% endcomment %}
+              {% capture temp_date %}{{ sketch.date }}-01{% endcapture %}
+              {{ temp_date | date: "%B %Y" }}
+            {% else %}
+              {% comment %} Handles "YYYY-MM-DD" {% endcomment %}
+              {{ sketch.date | date: "%B %e, %Y" }}
+          {% endcase %}
+        </span>
+      {% endif %}
+
+    </figcaption>
+  </figure>
+  {% endfor %}
+</div>
+
+<div class="sketch-lightbox" id="sketch-lightbox">
+  <button type="button" class="sketch-lightbox-close" id="sketch-lightbox-close" aria-label="Close">✕</button>
+
+  <div class="sketch-lightbox-track" id="sketch-lightbox-track">
+    {% for sketch in sketches %}
+    <div class="sketch-lightbox-slide" data-index="{{ forloop.index0 }}">
+      <img src="{{ sketch.img }}" alt="{{ sketch.title }}" loading="lazy">
+      <figcaption>{{ sketch.title }}</figcaption>
+    </div>
+    {% endfor %}
+  </div>
+
+  <div class="sketch-lightbox-controls">
+    <button type="button" class="sketch-lightbox-arrow sketch-lightbox-prev" id="sketch-lightbox-prev" aria-label="Previous sketch">
+      <svg class="icon" aria-hidden="true"><use href="#icon-chevron-left"></use></svg>
+    </button>
+    <div class="sketch-lightbox-counter" id="sketch-lightbox-counter"></div>
+    <button type="button" class="sketch-lightbox-arrow sketch-lightbox-next" id="sketch-lightbox-next" aria-label="Next sketch">
+      <svg class="icon" aria-hidden="true"><use href="#icon-chevron-right"></use></svg>
+    </button>
+  </div>
+</div>
+
+<script src="{{ site.baseurl }}/js/sketch.js" defer></script>

@@ -81,18 +81,7 @@ Oh you think you can code better than me? Get phased, NERD! 🗣️
 
   {% include analytics.html %}
 
-  <script type="text/javascript">
-    function light_toggle() {
-      var isDark = document.documentElement.classList.toggle("dark-mode");
-      if (isDark) {
-        localStorage.setItem("lightmode", "disabled");
-        document.getElementById("tray-icon").innerHTML = "🌗";
-      } else {
-        localStorage.setItem("lightmode", "enabled");
-        document.getElementById("tray-icon").innerHTML = "🌓";
-      }
-    }
-  </script>
+  <script src="{{ site.baseurl }}/js/site.js" defer></script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-N4J53QJR31"></script>
 </body>
 
