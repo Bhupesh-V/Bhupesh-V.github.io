@@ -1,0 +1,26 @@
+# Sketches data — powers /sketches/
+#
+# Each entry:
+#   title: required
+#   img:   required — full image URL
+#   date:  required — quoted YYYY-MM-DD or YYYY-MM, used for sorting (newest first) & display
+#          Must be quoted, otherwise YAML parses a full YYYY-MM-DD into a Time
+#          object while YYYY-MM stays a string, and the two can't be sorted together.
+#
+# Add your sketches below, in any order — the page sorts by date.
+
+- title: Example Sketch
+  img: https://picsum.photos/seed/sketch1/800/600
+  date: 2026-08-30
+- title: Example Sketch
+  img: https://picsum.photos/seed/sketch1/800/600
+  date: 2026-08-25
+- title: Example Sketch
+  img: https://picsum.photos/seed/sketch1/800/600
+  date: 2027-01
+- title: Example Sketch
+  img: https://picsum.photos/seed/sketch1/800/600
+  date: 2026-08
+- title: Example Sketch
+  img: https://picsum.photos/seed/sketch1/800/600
+  date: 2026-12
