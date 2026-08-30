@@ -2,10 +2,10 @@
 layout: post
 comments: true
 title: No empathy for a human derivative system
-description: Stop enabling systems that are fundamentally against humanity.
+description: Stop enabling systems that no longer serve humanity.
 ---
 
-*Don’t hate the player, hate the game* is an idiom used a lot but never argued for or against. In the language I grew up with (hindi), another catchphrase, “*Apna kam banta, bhad me jaye janta*” (which roughly translates to: *My work is done, to hell with the public*) carries a similar cynical rhetorical weight. Both expressions urge us to accept systemic flaws as inevitable background noise. In this post, I wanna challenge questions like, Does being beneficiary of a system that benefits me deserve my respect & admiration? On what basis? What happens if the benefit goes away? What if I create that system?
+*Don’t hate the player, hate the game* is an idiom used a lot but never argued for or against. In the language I grew up with (hindi), another catchphrase, “*Apna kam banta, bhad me jaye janta*” (which roughly translates to: *My work is done, to hell with the public*) carries a similar cynical rhetorical weight, both expressions ask us to accept systemic flaws as inevitable. I wanna challenge this status quo by addressing questions like, Does being beneficiary of a system that benefits me deserve my respect & admiration? On what basis? What happens if the benefit goes away? What if I create that system?
 
 To answer this, we need to be clear on what a “system" is, I have been dealing with this term for the past few months, following key characteristics make a system recognizable:
 
