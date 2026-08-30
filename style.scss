@@ -1324,6 +1324,7 @@ input[type=email] {
 .sketch-title {
   display: block;
   font-size: 14px;
+  color: #000;
 }
 
 .sketch-date {
@@ -1809,6 +1810,10 @@ input[type=email] {
 
   .sketch-date {
     color: #867a7a;
+  }
+
+  .sketch-title {
+    color: white;
   }
 }
 
