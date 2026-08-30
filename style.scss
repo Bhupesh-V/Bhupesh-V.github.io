@@ -133,6 +133,13 @@ body {
   display: none;
 }
 
+#tray-icon {
+  cursor:pointer;
+  position: fixed; 
+  right: 23px; 
+  top: 23px;
+}
+
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
   #shareIcon {
     display: flex;

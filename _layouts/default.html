@@ -1,6 +1,6 @@
 <!--
 
-Oh you think you can code better than me? Get phased, NERD! 🗣️
+Get off my lawn! 🗣️
 
 -->
 
@@ -76,9 +76,7 @@ Oh you think you can code better than me? Get phased, NERD! 🗣️
   {% include icon-defs.html %}
   <div class="wrapper-masthead">
     <div class="container">
-      <p id="tray-icon" style="cursor:pointer;position: fixed; right: 23px; top: 23px;" onclick="light_toggle()"
-        title="Toggle night mode">🌗
-      </p>
+      <p id="tray-icon" title="Toggle night mode">🌗</p>
       <header class="masthead clearfix">
         <div class="site-info">
           <div class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></div>
@@ -121,7 +119,7 @@ Oh you think you can code better than me? Get phased, NERD! 🗣️
     </div>
   </div>
   <div id="main" role="main" class="container">
-    <svg onclick="topFunction()" id="myBtn" style="display: none;" class="icon icon-2x">
+    <svg id="myBtn" style="display: none;" class="icon icon-2x">
       <use href="#icon-chevron-up"></use>
     </svg>
     {{ content }}
@@ -134,76 +132,7 @@ Oh you think you can code better than me? Get phased, NERD! 🗣️
     </div>
   </div>
   {% include analytics.html %}
-  <script>
-    // When the user scrolls down 20px from the top of the document, show the button
-    window.onscroll = function () { scrollFunction() };
-    function scrollFunction() {
-      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        document.getElementById("myBtn").style.display = "block";
-      } else {
-        document.getElementById("myBtn").style.display = "none";
-      }
-    }
-    // When the user clicks on the button, scroll to the top of the document
-    function topFunction() {
-      document.body.scrollTop = 0;
-      document.documentElement.scrollTop = 0;
-    }
-  </script>
-  <script type="text/javascript">
-    function share() {
-      var currentLocation = window.location;
-      var currentTitle = document.title;
-      if (navigator.share) {
-        navigator.share({
-          title: currentTitle,
-          url: currentLocation,
-        })
-          .then(() => console.log('Successful Share'))
-          .catch((error) => console.log('Error sharing', error));
-      }
-    }
-  </script>
-
-  <script type="text/javascript">
-    function light_toggle() {
-      var isDark = document.documentElement.classList.toggle("dark-mode");
-      if (isDark) {
-        localStorage.setItem("lightmode", "disabled");
-        document.getElementById("tray-icon").innerHTML = "🌗";
-      } else {
-        localStorage.setItem("lightmode", "enabled");
-        document.getElementById("tray-icon").innerHTML = "🌓";
-      }
-    }
-  </script>
-  <script>
-    headings = document.querySelectorAll("h1, h2, h3, h4, h5, h6");
-    headings.forEach(function (heading, _) {
-      //console.log(heading);
-      var icon, id;
-      heading_id = heading.id;
-      if (heading_id) {
-        heading_link = document.createElement("a");
-        heading_link.href = "#" + heading_id;
-        heading_link.classList.add("header-link");
-
-        //console.log(heading_link);
-
-        var svgNS = "http://www.w3.org/2000/svg";
-        heading_icon = document.createElementNS(svgNS, "svg");
-        heading_icon.classList.add("icon");
-        var heading_icon_use = document.createElementNS(svgNS, "use");
-        heading_icon_use.setAttributeNS("http://www.w3.org/1999/xlink", "href", "#icon-link");
-        heading_icon_use.setAttribute("href", "#icon-link");
-        heading_icon.appendChild(heading_icon_use);
-
-        heading_link.appendChild(heading_icon);
-
-        heading.appendChild(heading_link);
-      }
-    })
-  </script>
+  <script src="{{ site.baseurl }}/js/site.js" defer></script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-N4J53QJR31"></script>
 </body>
 
