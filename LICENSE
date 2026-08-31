@@ -1,20 +1,25 @@
-The MIT License (MIT)
+# Licensing & Usage Terms
 
-Copyright (c) 2019 Bhupesh Varshney
+This project contains two distinct categories of work with separate copyright permissions.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of
-this software and associated documentation files (the "Software"), to deal in
-the Software without restriction, including without limitation the rights to
-use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
-the Software, and to permit persons to whom the Software is furnished to do so,
-subject to the following conditions:
+### 1. Code & Functionality
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+All software files (including `.js`, `.css`, `.scss`, `.html`, template files, build scripts, and static generator configurations) are licensed under the **MIT License**.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
-FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
-COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
-IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
-CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+> Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software...
+
+*See `LICENSE-CODE` for the full legal text.*
+
+### 2. Written Content & Visual Media
+
+All non-code original creative assets—including markdown blog posts (`/posts/*.md`), personal essays, opinions, hand-drawn sketches, images, and artwork—are copyrighted work licensed under **CC BY-NC-ND 4.0**.
+
+**Under this license, you are free to:**
+* **Share:** Copy and redistribute the written and visual material in any medium or format.
+
+**Under the following terms:**
+* **Attribution:** You must give appropriate credit and provide a link to the original post.
+* **NonCommercial:** You may not use the content for commercial purposes without explicit permission.
+* **NoDerivatives:** If you remix, transform, or build upon the material, you may not distribute the modified material.
+
+*See `LICENSE-CONTENT` for the full legal text.*

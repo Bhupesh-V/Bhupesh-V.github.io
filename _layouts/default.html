@@ -127,7 +127,10 @@ Get off my lawn! 🗣️
   <div class="wrapper-footer">
     <div class="container">
       <footer class="footer">
-        {% include svg-icons.html %}
+        <div class="footer-icons">
+          {% include svg-icons.html %}
+        </div>
+        <p class="footer-copyright">&copy; {{ 'now' | date: "%Y" }} {{ site.name }}. Code under <a href="{{ site.baseurl }}/LICENSE-CODE.txt">MIT</a>, content under <a href="{{ site.baseurl }}/LICENSE-CONTENT.txt">CC BY-NC-ND 4.0</a>.</p>
       </footer>
     </div>
   </div>
