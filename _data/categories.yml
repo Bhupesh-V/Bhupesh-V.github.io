@@ -20,10 +20,13 @@
   focus: [systems-thinking, complexity, problem-solving]
 
 - name: cognition
-  focus: [psychology, philosophy, reading]
+  focus: [psychology, philosophy]
 
 - name: craftsmanship
   focus: [software-craftsmanship, project-management, tech-interviews]
+
+- name: hobby
+  focus: [reading, philosophy, psychology, sketching]
 
 # - name: ai
 #   focus: [llm, creativity, automation]

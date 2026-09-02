@@ -208,8 +208,9 @@
   focus: [community]
   date: 2024-10
 
-- title: Building r/evelopersIndia - mindset & tools behind a 150k+ Developer Community
+- title: Building r/evelopersIndia - mindset & tools behind a 150k+ dev community
   url: https://www.linkedin.com/posts/bhupesh-v_community-communitycasestudy-cmgr-activity-7037310855306166272-7brC
+  description: A professional community builder's take on my work with r/developersIndia
   type: take
   source: LinkedIn
   focus: [community, leadership]
@@ -290,7 +291,7 @@
 
 - title: Interviewing Bhupesh
   url: https://bhupesh.me/interview/
-  description: AMA with myself asking & answering questions that should be asked to everyone who is a professional dev
+  description: AMA with myself answering questions that should be asked to everyone who is a professional dev
   type: article
   focus: [problem-solving, tech-interviews]
   featured: true
@@ -361,3 +362,10 @@
   type: article
   date: 2026-08-30
   focus: [systems-thinking]
+
+- title: Sketches
+  url: /sketches/
+  description: A gallery of sketches I have made.
+  type: project
+  featured: true
+  focus: [sketching, creativity]
