@@ -5,16 +5,13 @@
 # focus: required — list of focus slugs from _data/artifacts.yml to bundle
 
 - name: backend
-  focus: [golang, system-design]
+  focus: [golang, system-design, python, lua, clean-code, linux, git, cli]
 
 - name: devops
-  focus: [shell, docker, devops, observability]
+  focus: [shell, docker, devops, observability, linux, cli]
 
 - name: community
   focus: [community, open-source, leadership]
-
-- name: tooling
-  focus: [cli, git, linux, python, lua, vim, gui, clean-code]
 
 - name: systems-thinking
   focus: [systems-thinking, complexity, problem-solving]
@@ -27,6 +24,3 @@
 
 - name: hobby
   focus: [reading, philosophy, psychology, sketching]
-
-# - name: ai
-#   focus: [llm, creativity, automation]
