@@ -14,8 +14,9 @@ layout: default
     •&nbsp;📅️ Published: {{ page.date | date: "%B %e, %Y" }}
     {%- else -%}
     📅️ Published: {{ page.date | date: "%B %e, %Y" }} 
-    {%- endif -%} &nbsp; • 🕣
-    {% include read-time.html content=content %}
+    {%- endif -%}
+    <span class="reading-time-wrap">&nbsp;🕣
+    {% include read-time.html content=content %}</span>
     <!-- {{ page.content | number_of_words }} totalwords -->
   </div><br/>
   <div class="postTags" style="text-align: center;">

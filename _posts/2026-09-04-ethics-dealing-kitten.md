@@ -6,7 +6,7 @@ description: What would be my verdict in front of the cat god?
 ---
 
 
-I haven't been lucky with the cat distribution system yet, but a couple of days back something happened, that left me troubled for 2-3 days. Around dinner time, I started hearing a cat's yowl almost incessant, pretty common here, I ignored believing they were coming from the street just outside, however that wasn't the case until I saw dad chasing down the cat to my room after a couple of minutes.
+I haven't been lucky with the cat distribution system just yet, but a couple of days back something happened, that left me troubled for 2-3 days. Around dinner time, I started hearing a cat's yowl almost incessant, pretty common here, I ignored believing they were coming from the street just outside, however that wasn't the case until I saw dad chasing down the cat to my room after a couple of minutes.
 
 Now I have a crying kitten under my bed, not coming out, crying albeit a bit slowly. What's the safest way I can bring her out? I install MeowTalk just to see if its worth any salt, I see the message _I'm not feeling good_, my heart sank two stories down. Then I commit yet another horrendous mistake, I opened the first video that comes after googling "sounds to attract cats" on loop, it worked, god I wish it hadn't.
 

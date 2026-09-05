@@ -294,6 +294,13 @@ img {
   text-align: center;
 }
 
+.reading-time-wrap {
+  @include mobile {
+    display: block;
+    margin-top: 4px;
+  }
+}
+
 // Specify the color of the selection
 ::-moz-selection {
   color: $black;
