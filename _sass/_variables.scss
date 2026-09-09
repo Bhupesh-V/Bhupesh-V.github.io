@@ -18,9 +18,10 @@ $orangish: #ffea18;
 // Font stacks
 $googleSansCode: "Google Sans Code", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
 $zeroXProto: "0xProto", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+$alice: "Alice", Georgia, serif;
 
-// TEMP (font comparison): flip this back to $googleSansCode to revert.
-$activeFont: $googleSansCode;
+// TEMP (font comparison): flip between the stacks above to test each one.
+$activeFont: $alice;
 
 // Mobile breakpoints
 @mixin mobile {
@@ -32,5 +33,39 @@ $activeFont: $googleSansCode;
     .social-icons-custom {
       margin-top: 15px;
     }
+  }
+}
+
+// Hand-drawn look, pure CSS. Both mixins draw a
+// straight border and run it through the same #squiggle SVG filter (defined
+// once in _includes/icon-defs.html) to wobble it — one mechanism for both,
+// so underlines and boxes look hand-drawn the same way.
+//
+// squiggly-underline puts the border directly on the element (not a ::after
+// overlay) with box-decoration-break: clone, so a title that wraps to two
+// lines gets its own wobbly line under *each* line instead of one line under
+// just the last fragment. The tradeoff: the filter sees the glyphs too, so
+// it uses the lower-scale #squiggle-thin variant to keep letters legible.
+@mixin squiggly-underline($thickness: 1.5px, $offset: 3px) {
+  text-decoration: none;
+  padding-bottom: $offset;
+  border-bottom: $thickness solid currentColor;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  filter: url(#squiggle-thin);
+}
+
+@mixin hand-drawn-box($color, $width: 2px, $radius: 4px) {
+  position: relative;
+  border: none;
+
+  &::after {
+    content: "";
+    position: absolute;
+    inset: -4px;
+    border: $width solid $color;
+    border-radius: $radius;
+    filter: url(#squiggle);
+    pointer-events: none;
   }
 }
