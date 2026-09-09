@@ -17,55 +17,24 @@ Oh you think you can code better than me? Get phased, NERD! 🗣️
     href="{{ site.baseurl }}/feed.xml" />
   <link rel="icon" href="https://bhupesh.me/images/favicons/headshot.ico" />
   <meta name="google-site-verification" content="4coaO0YVCAhaE5LAetM4wCbwk1TgAjgNA_G0ywyitnI" />
-  <meta charset="UTF-8" />
   <script type="application/ld+json">
       { "@context": "https://schema.org",
-       "@type": "TechArticle",
-       "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "{{ site.url }}{{ page.url }}"
-       },
-       "headline": "{{ page.title }}",
-       "alternativeHeadline": "{{ page.description }}",
-       {% if page.image %}
-       "image": "{{ site.url }}/images/{{ page.image }}",
-       {% else if page.banner_image %}
-       "image": "{{ page.banner_image }}",
-       {% endif %}
-      		"accountablePerson": {
-      			"@type": "Person",
-            "name": "{{ site.name }}",
-            "url": "{{ site.url }}"
-      		},
-      		"author": {
-      			"@type": "Person",
-            "name": "{{ site.name }}",
-            "url": "{{ site.url }}"
-      		},
-      		"creator": {
-      			"@type": "Person",
-            "name": "{{ site.name }}",
-            "url": "{{ site.url }}"
-      		},
-      		"publisher": {
-      			"@type": "Organization",
-            "name": "{{ site.name }}",
-            "url": "{{ site.url }}",
-      			"logo": {
-      				"@type": "ImageObject",
-      				"url": "https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/headshot.jpg"
-      			}
-      		},
-       "keywords": "{{ page.tags | join: ' ' }}",
-       "wordcount": "{{ page.content | number_of_words }}",
-       "url": "{{ site.url }}{{ page.url }}",
-       "inLanguage": "en-US",
-       "dateCreated": "{{ page.date | date: "%B %e, %Y" }}",
-       "datePublished": "{{ page.date | date: "%B %e, %Y" }}",
-       "dateModified": "{{ page.date | date: "%B %e, %Y" }}",
-       "description": "{{ page.description }}",
-       "articleBody": {{ page.content | strip_html | jsonify }}
-       }
+        "@type": "WebPage",
+        "name": "{{ page.title | default: site.name }}",
+        "description": "{{ page.description | default: site.description }}",
+        "url": "{{ site.url }}{{ page.url }}",
+        "inLanguage": "en-US",
+        "isPartOf": {
+          "@type": "WebSite",
+          "name": "{{ site.name }}",
+          "url": "{{ site.url }}/"
+        },
+        "about": {
+          "@type": "Person",
+          "name": "{{ site.name }}",
+          "url": "{{ site.url }}/"
+        }
+      }
     </script>
   <script>
     if (localStorage.getItem("lightmode") == "disabled") {

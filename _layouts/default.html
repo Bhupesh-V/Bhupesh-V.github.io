@@ -15,10 +15,35 @@ Get off my lawn! 🗣️
     href="{{ site.baseurl }}/feed.xml" />
   <link rel="icon" href="https://bhupesh.me/images/favicons/headshot.ico">
   <meta name="google-site-verification" content="4coaO0YVCAhaE5LAetM4wCbwk1TgAjgNA_G0ywyitnI" />
-  <meta charset="UTF-8">
+  {% if page.url == "/" %}
   <script type="application/ld+json">
 { "@context": "https://schema.org",
- "@type": "TechArticle",
+  "@type": "ProfilePage",
+  "mainEntity": {
+    "@type": "Person",
+    "name": "Bhupesh Varshney",
+    "alternateName": "Bhupesh",
+    "jobTitle": "Software Craftsman & Tech Writer",
+    "url": "{{ site.url }}/",
+    "image": "https://bhupesh.me/images/headshot.jpg",
+    "sameAs": [
+      "https://github.com/Bhupesh-V",
+      "https://www.linkedin.com/in/bhupesh-v",
+      "https://youtube.com/@bhupeshimself",
+      "https://x.com/bhupeshimself"
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "New Delhi",
+      "addressCountry": "IN"
+    }
+  }
+}
+</script>
+  {% elsif page.layout == "post" %}
+  <script type="application/ld+json">
+{ "@context": "https://schema.org",
+ "@type": "BlogPosting",
  "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "{{ site.url }}{{ page.url }}"
@@ -27,14 +52,9 @@ Get off my lawn! 🗣️
  "alternativeHeadline": "{{ page.description }}",
  {% if page.image %}
  "image": "{{ site.url }}/images/{{ page.image }}",
- {% else if page.banner_image %}
+ {% elsif page.banner_image %}
  "image": "{{ page.banner_image }}",
  {% endif %}
-		"accountablePerson": {
-			"@type": "Person",
-      "name": "{{ site.name }}",
-      "url": "{{ site.url }}"
-		},
 		"author": {
 			"@type": "Person",
       "name": "{{ site.name }}",
@@ -51,7 +71,7 @@ Get off my lawn! 🗣️
       "url": "{{ site.url }}",
 			"logo": {
 				"@type": "ImageObject",
-				"url": "https://raw.githubusercontent.com/Bhupesh-V/Bhupesh-V.github.io/master/images/headshot.jpg"
+				"url": "https://bhupesh.me/images/headshot.jpg"
 			}
 		},
  "keywords": "{{ page.tags | join: ' ' }}",
@@ -65,6 +85,27 @@ Get off my lawn! 🗣️
  "articleBody": {{ page.content | strip_html | jsonify }}
  }
 </script>
+  {% else %}
+  <script type="application/ld+json">
+{ "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "{{ page.title | default: site.name }}",
+  "description": "{{ page.description | default: site.description }}",
+  "url": "{{ site.url }}{{ page.url }}",
+  "inLanguage": "en-US",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "{{ site.name }}",
+    "url": "{{ site.url }}/"
+  },
+  "about": {
+    "@type": "Person",
+    "name": "{{ site.name }}",
+    "url": "{{ site.url }}/"
+  }
+}
+</script>
+  {% endif %}
   <script>
     if (localStorage.getItem("lightmode") == "disabled") {
       document.documentElement.classList.add("dark-mode");
@@ -79,7 +120,7 @@ Get off my lawn! 🗣️
       <p id="tray-icon" title="Toggle night mode">🌗</p>
       <header class="masthead clearfix">
         <div class="site-info">
-          <div class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></div>
+          <div class="site-name">{% if page.url == "/" %}<h1><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>{% else %}<a href="{{ site.baseurl }}/">{{ site.name }}</a>{% endif %}</div>
           <div class="social-icons-custom">
             <a href="https://github.com/{{ site.footer-links.github }}" title="GitHub">
               <svg class="icon icon-lg mark" aria-hidden="true">
