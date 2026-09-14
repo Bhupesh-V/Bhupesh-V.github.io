@@ -41,13 +41,6 @@
   date: 2024-05
   description: An experimental tool to dockerize shell scripts.
 
-- title: git-prs
-  url: https://bhupesh.me/finding-pull-requests-that-change-a-file-terminal/
-  type: project
-  focus: [shell, git, cli]
-  date: 2021-01-01
-  description: Find pull requests that modify a file path, from the terminal.
-
 - title: How to Design a Transactional Key-value Store in Go
   url: https://www.freecodecamp.org/news/design-a-key-value-store-in-go/
   type: article
@@ -375,4 +368,11 @@
   description: An IRL account stated as a short story
   type: article
   date: 2026-09-04
+  focus: [writing, morals]
+
+- title: How to stop having disappointing moments in life
+  url: /how-to-stop-having-disappointing-moments-in-life
+  description: Thoughts and personal experiences about eliminating disappointment from one's life
+  type: article
+  date: 2022-05-17
   focus: [writing]
