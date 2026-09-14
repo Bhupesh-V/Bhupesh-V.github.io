@@ -530,6 +530,10 @@ label {
   font-weight: bold;
 }
 
+#main {
+  display: flow-root;
+}
+
 .wrapper-footer {
   margin-top: 50px;
 }
@@ -635,10 +639,11 @@ h6:hover .header-link {
 }
 
 .PageNavigation {
-  font-size: 14px;
-  display: block;
-  width: auto;
-  overflow: hidden;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin: 34px 0;
+  font-family: $activeFont;
 }
 
 .entry table {
@@ -647,31 +652,70 @@ h6:hover .header-link {
   max-width: 100%;
 }
 
-.PageNavigation a {
-  display: block;
-  margin: 1em 0;
-  font-weight: bolder;
-  color: #1f58d6;
-  font-size: 16px;
+.PageNavigation-link {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  min-width: 0;
+  padding: 16px 18px;
+  border: 1px solid $gray;
+  border-radius: 6px;
+  color: $darkGray;
+  text-decoration: none;
+  transition: border-color 120ms ease-in-out, background-color 120ms ease-in-out;
+
+  .icon {
+    flex-shrink: 0;
+    width: 18px;
+    height: 18px;
+    margin-top: 2px;
+  }
+
+  &:hover {
+    border-color: $black;
+    background-color: rgba(255, 216, 9, 0.15);
+  }
 }
 
-.PageNavigation table {
-  border-collapse: collapse;
-  border: thick double #000000;
-  margin-top: 20px;
-  margin-bottom: 34px;
-  border-radius: 5px;
-  font-size: 34px;
+.PageNavigation-link.is-prev {
+  grid-column: 1;
 }
 
-.PageNavigation td {
-  padding-left: 0.5em;
-  padding-right: 0.5em;
-  border: thick double #000000;
-}
-
-.PageNavigation .next {
+.PageNavigation-link.is-next {
+  grid-column: 2;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
   text-align: right;
+}
+
+.PageNavigation-copy {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.PageNavigation-label {
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: $gray;
+}
+
+.PageNavigation-title {
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+@include mobile {
+  .PageNavigation {
+    grid-template-columns: 1fr;
+  }
+
+  .PageNavigation-link.is-next {
+    grid-column: 1;
+  }
 }
 
 .social-icons-custom {
@@ -1657,17 +1701,18 @@ input[type=email] {
     color: #fff;
   }
 
-  .PageNavigation a {
-    color: #0eff0e;
+  .PageNavigation-link {
+    border-color: #555;
+    color: white;
+
+    &:hover {
+      border-color: #0eff0e;
+      background-color: rgba(0, 255, 0, 0.12);
+    }
   }
 
-  .PageNavigation table {
-    border: thick double #fff;
-    color: #0fba0f;
-  }
-
-  .PageNavigation td {
-    border: thick double #fff;
+  .PageNavigation-label {
+    color: #867a7a;
   }
 
   .consultation {

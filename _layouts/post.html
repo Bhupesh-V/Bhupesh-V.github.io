@@ -46,27 +46,30 @@ layout: default
 </div>
 -->
 
-<div class="PageNavigation">
-  <center>
-    <table>
-      {% if page.previous.url %}
-      <tr>
-        <td><a class="prev" href="{{page.previous.url}}">◀️ {{page.previous.title}}</a>
-        </td>
-      </tr>
-      {% endif %}
-      {% if page.next.url %}
-      <tr>
-        <td> <a class="next" href="{{page.next.url}}">{{page.next.title}} ▶️</a>
-      </tr>
-      {% endif %}
-    </table>
-  </center>
-</div>
+<nav class="PageNavigation" aria-label="Post navigation">
+  {% if page.previous.url %}
+  <a class="PageNavigation-link is-prev" href="{{ page.previous.url }}">
+    <svg class="icon"><use href="#icon-chevron-left"></use></svg>
+    <span class="PageNavigation-copy">
+      <span class="PageNavigation-label">Previous</span>
+      <span class="PageNavigation-title">{{ page.previous.title }}</span>
+    </span>
+  </a>
+  {% endif %}
+  {% if page.next.url %}
+  <a class="PageNavigation-link is-next" href="{{ page.next.url }}">
+    <svg class="icon"><use href="#icon-chevron-right"></use></svg>
+    <span class="PageNavigation-copy">
+      <span class="PageNavigation-label">Next</span>
+      <span class="PageNavigation-title">{{ page.next.title }}</span>
+    </span>
+  </a>
+  {% endif %}
+</nav>
 
 <!-- {% include newsletter.html %} -->
 
 <div class="hmm" id="shareIcon">
   <svg class="icon icon-2x"><use href="#icon-share"></use></svg>
 </div>
-{% include utterances.html %}
+<!-- {% include utterances.html %} -->
