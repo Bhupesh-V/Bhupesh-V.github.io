@@ -361,7 +361,7 @@
   url: https://bhupesh.me/no-empathy-human-derivative-system
   type: article
   date: 2026-08-30
-  focus: [systems-thinking]
+  focus: [systems-thinking, writing]
 
 - title: Sketches
   url: /sketches/
@@ -369,3 +369,10 @@
   type: project
   featured: true
   focus: [sketching, creativity]
+
+- title: Ethics of dealing with a kitten
+  url: /ethics-dealing-kitten
+  description: An IRL account stated as a short story
+  type: article
+  date: 2026-09-04
+  focus: [writing]
