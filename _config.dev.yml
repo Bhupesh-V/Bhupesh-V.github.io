@@ -1,0 +1,4 @@
+# Local dev override, merged on top of _config.yml via
+# `jekyll serve --config _config.yml,_config.dev.yml` (see `make run`).
+# Keeps Google Analytics from loading while developing locally.
+google_analytics: false

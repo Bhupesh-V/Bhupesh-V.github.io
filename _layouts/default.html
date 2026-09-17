@@ -177,7 +177,9 @@ Get off my lawn! 🗣️
   </div>
   {% include analytics.html %}
   <script src="{{ site.baseurl }}/js/site.js" defer></script>
+  {% if site.google_analytics %}
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-N4J53QJR31"></script>
+  {% endif %}
 </body>
 
 </html>
