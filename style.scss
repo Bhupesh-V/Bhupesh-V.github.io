@@ -379,19 +379,22 @@ img {
 }
 
 .site-description {
-  margin: -5px 0 0 0;
-  font-weight: bold;
-  font-size: 16px;
-  font-style: italic;
+  display: inline-block;
+  margin: 2px 0 0 0;
+  padding: 3px 10px;
+  font-size: 15px;
+  color: $gray;
+  border: 2px dotted $gray;
+  border-radius: 4px;
 
   @include mobile {
-    margin: 3px 0;
+    margin: 6px 0;
   }
 }
 
 .masthead nav {
   float: right;
-  margin-top: 23px; // @TODO: Vertically middle align
+  margin-top: 23px;
   font-family: $activeFont;
   font-size: 18px;
 
