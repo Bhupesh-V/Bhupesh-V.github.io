@@ -1,22 +1,27 @@
-FROM ruby:3.1
+# ---- Builder: compile gems (needs build tools) ----
+FROM ruby:3.1-slim AS builder
 
-# Set environment variables
-ENV LANG=C.UTF-8
+ENV LANG=C.UTF-8 \
+    BUNDLE_PATH=/usr/local/bundle
 
-# Install dependencies
-RUN apt-get update -qq && apt-get install -y \
+RUN apt-get update -qq && apt-get install -y --no-install-recommends \
   build-essential \
-  nodejs \
   && rm -rf /var/lib/apt/lists/*
 
-# Set working directory
 WORKDIR /usr/src/app
 
-# Copy Gemfile and Gemfile.lock
 COPY Gemfile Gemfile.lock ./
-
-# Install gems
 RUN gem install bundler:1.17.2 && bundle install
+
+# ---- Runtime: slim image, no build tools ----
+FROM ruby:3.1-slim
+
+ENV LANG=C.UTF-8 \
+    BUNDLE_PATH=/usr/local/bundle
+
+WORKDIR /usr/src/app
+
+COPY --from=builder /usr/local/bundle /usr/local/bundle
 
 # Copy site files
 COPY . .
