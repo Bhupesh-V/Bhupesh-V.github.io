@@ -16,10 +16,6 @@
 <link rel="canonical" href="{{ site.url }}{{ page.url }}">
 {% endif %}
 
-{% if page.tags.size > 0 %}
-<meta name="keywords" content="{{ page.tags | join: " , " }}">
-{% endif %}
-
 {% if page.description %}
 <meta name="description" content="{{ page.description }}">
 <meta property="og:description" content="{{ page.description }}" />
