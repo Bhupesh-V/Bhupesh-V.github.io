@@ -3,7 +3,7 @@ layout: post
 comments: true
 title: Find pull requests that modify a file path in the terminal
 description: Using GitHub's command-line tool and some shell magic to find pull requests that modify a specific filepath right inside your terminal
-tags: github shell git
+tags: tech
 banner_image: https://user-images.githubusercontent.com/34342551/161421468-598f7f1b-24db-4529-8fc1-fa99c1d88413.png
 ---
 

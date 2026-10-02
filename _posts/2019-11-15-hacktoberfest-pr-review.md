@@ -3,7 +3,7 @@ layout: post
 comments: true
 title: I reviewed 200+ PRs in 10 days - Here is what I learned 
 description: Some common mistakes beginners make while contributing on GitHub.
-tags: beginners hacktoberfest c++
+tags: tech
 image: blog10.png
 ---
 

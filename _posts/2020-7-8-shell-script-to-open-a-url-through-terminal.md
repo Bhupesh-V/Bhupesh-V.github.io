@@ -3,7 +3,7 @@ layout: post
 comments: true
 title: Shell script to open a url through terminal
 description: Shell script to open a url through terminal
-tags: linux shell til
+tags: tech
 ---
 
 If you are a developer then fixing bugs takes time because you have to shift from terminal to your fav browser & then type your query.

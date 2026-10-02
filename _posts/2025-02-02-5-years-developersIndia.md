@@ -3,7 +3,7 @@ layout: post
 comments: true
 title: 5 years of maintaining India's largest dev community on the web
 description: Perspectives, lessons, & stories from someone maintaining India's largest developer community & network on the web from behind the scenes.
-tags: community
+tags: tech
 ---
 
 I have been part of the [r/developersIndia](https://www.reddit.com/r/developersIndia) community team since its inception in Jan 2020. A lot has happened since we started this initiative, this post is my personal collection of some learnings as someone behind the scenes along with my failures, community's successes & some tips for folks thinking to build a community of their own or well for folks who are just interested in what went behind the scenes.

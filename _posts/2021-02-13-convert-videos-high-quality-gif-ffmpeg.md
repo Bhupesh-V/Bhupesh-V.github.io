@@ -3,7 +3,7 @@ layout: post
 comments: true
 title: Converting video to high-quality gif using ffmpeg
 description: A quick guide on how to create high-quality GIFs using ffmpeg. Learn how to convert videos using ffmpeg and ffprobe
-tags: shell
+tags: tech
 ---
 
 Converting videos to GIFs using ffmpeg is a pain in the ass if you don't know what's happening.

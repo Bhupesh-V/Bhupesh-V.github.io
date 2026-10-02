@@ -3,7 +3,7 @@ layout: post
 comments: true
 title: A minimalist's guide to cloning git repositories
 description: A look at 10 different ways to clone a git repository by optimizing for size.
-tags: git
+tags: tech
 last_modified_at: 2025-06-07
 ---
 

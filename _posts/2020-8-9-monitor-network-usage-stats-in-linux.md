@@ -4,7 +4,7 @@ comments: true
 title: Monitor network (data) usage in linux
 description: Learn how to find network usage statistics of your linux machine by writing a shell script .
 last_modified_at: 2021-06-20
-tags: linux shell til
+tags: tech
 ---
 
 The amount of data sent (uploaded) & received (downloaded) can be found out

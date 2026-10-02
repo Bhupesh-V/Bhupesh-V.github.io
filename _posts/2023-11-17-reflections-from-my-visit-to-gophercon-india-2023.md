@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title: Reflections from my visit to GopherCon India 2023
-tags: devlife career
+tags: career
 ---
 
 It's been a long time since I have sent you all something interesting to read. Unfortunately, I haven't been doing anything intriguing for the past few months 😅, but I recently got a chance to visit GopherCon India this year. GopherConIndia is the annual tech conference organized for the Go community in India. It was held on Sep 8-9th in Pune this year. Below is some stuff that I learned during the conference visit.

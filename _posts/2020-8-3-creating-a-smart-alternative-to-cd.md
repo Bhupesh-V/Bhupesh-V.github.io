@@ -4,7 +4,7 @@ comments: true
 title: Creating a smart alternative to 'cd' command
 description: Shell function to automatically find absolute paths and change directories
 image: scd.png
-tags: linux shell
+tags: tech
 ---
 
 Do you sometimes forget the actual location of directories & have to juggle through `cd` & `ls` to know the right path?

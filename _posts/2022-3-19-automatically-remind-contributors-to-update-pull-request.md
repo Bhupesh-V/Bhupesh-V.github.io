@@ -3,7 +3,7 @@ layout: post
 comments: true
 title: Automatically remind contributors to update their pull requests
 description: Automatically remind contributors to update their branches whenever there is a new commit in base branch
-tags: github shell git
+tags: tech
 banner_image: https://user-images.githubusercontent.com/34342551/158306923-519008b8-16ab-4117-a597-2b678ebedabd.png
 
 ---

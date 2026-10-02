@@ -3,7 +3,7 @@ layout: post
 comments: true
 title: Embedding static files in Go
 description: Learn how to embed or add static files in Golang binaries using the embed package
-tags: go
+tags: tech
 last_modified_at: 2021-07-03
 ---
 

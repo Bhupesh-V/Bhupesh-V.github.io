@@ -4,7 +4,7 @@ comments: true
 title: Story behind my first ever pull request
 description: It's the month of opensource so I thought sharing how I made my first pull request in 2017 (& try to remember) what went down for my first ever contribution on github
 image: my-first-ever-pr.png
-tags: devlife
+tags: career
 ---
 
 

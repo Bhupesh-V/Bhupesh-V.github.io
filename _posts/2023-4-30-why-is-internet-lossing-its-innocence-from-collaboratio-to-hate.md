@@ -3,7 +3,6 @@ layout: post
 comments: true
 title: Why is the Internet losing its innocence - going from collaboration to hate?
 description: Just sharing some feelings on how I feel about the rising hate culture on the internet
-tags: lyf
 ---
 
 

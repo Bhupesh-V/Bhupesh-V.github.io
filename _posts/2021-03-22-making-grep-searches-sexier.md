@@ -3,7 +3,7 @@ layout: post
 comments: true
 title: Making grep searches sexier 🌶️
 description: Beautifying grep searches & using AWK to modify grep output. Changing grep colors. Exploring codebase using grep
-tags: shell linux awk
+tags: tech
 last_modified_at: 2021-07-05
 banner_image: https://ik.imagekit.io/bhupesh/banners/sexy-grep__3__mi_pC8-ge.png
 ---

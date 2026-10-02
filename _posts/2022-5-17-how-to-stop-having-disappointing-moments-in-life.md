@@ -3,7 +3,6 @@ layout: post
 comments: true
 title: How to stop having disappointing moments in life
 description: Thoughts and personal experiences about eliminating disappointment from one's life
-tags: lyf
 ---
 
 How many time have you been let down by your expectations?

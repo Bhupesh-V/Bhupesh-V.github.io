@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title: 10 key lessons from my first engineering job
-tags: devlife career
+tags: career
 ---
 
 ## Background

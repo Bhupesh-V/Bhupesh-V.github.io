@@ -4,7 +4,7 @@ comments: true
 title: The unholy way of using virtual environments
 description: A look down at different ways you can setup a python virtual environment in 2020 (spoiler-there are 3 ways)
 image: unholy-way-of-virtual-envs.png
-tags: python
+tags: tech
 ---
 
 I try to explain different ways a python project can be setup in 2020 using virtual environments without relying much on external utilities.

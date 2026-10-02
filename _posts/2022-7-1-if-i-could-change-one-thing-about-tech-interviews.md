@@ -3,7 +3,7 @@ layout: post
 comments: true
 title: If I could change one thing about tech interviews
 description: If I had some magical powers to change one thing about interview experience for software engineering roles
-tags: devlife tech tips
+tags: career
 banner_image: https://user-images.githubusercontent.com/34342551/176908585-cc9a66ac-87a4-4abe-8505-dead9ace9b35.png
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title: Why it's OK to abandon your side projects 😉
-tags: devlife career
+tags: career
 ---
 
 

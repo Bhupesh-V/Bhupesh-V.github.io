@@ -3,7 +3,7 @@ layout: post
 comments: true
 title: Surfing web inside a terminal, because why not?
 description: How to search the internet inside a terminal. How to use searx inside a terminal, python script to browse web inside vim & terminal
-tags: linux vim python
+tags: tech
 image: surf-script.png
 ---
 

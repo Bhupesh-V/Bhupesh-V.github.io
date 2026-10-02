@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title: One secret tip for first-time OSS contributors. Shh! 🤫 don't tell anyone else
-tags: opensource career
+tags: career
 ---
 
 I see a lot of folks wandering over the internet asking how to contribute to open-source,

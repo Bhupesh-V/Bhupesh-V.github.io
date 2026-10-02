@@ -3,7 +3,7 @@ layout: post
 comments: true
 title: How I reduced the size of my very first published docker image by 40% - A lesson in dockerizing shell scripts
 description: My learnings from publishing my first ever Dockerfile for ugit (a shell script based tool to undo git command) and writing the most optimized dockerfile for it.
-tags: shell linux git
+tags: tech
 ---
 
 I interact with Dockerfiles every day at work, have written a few myself, built containers, and all that. But never published one on the docker hub registry. I wanted to make [**ugit** - a tool to undo git commands](https://github.com/Bhupesh-V/ugit) (written as a shell script) available to folks who don't like installing random shell scripts from the internet.
