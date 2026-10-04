@@ -1,0 +1,78 @@
+# Flicks data — powers /flicks/
+#
+# Each entry:
+#   title:    required
+#   year:     optional — release year, shown next to the title
+#   watched:  quoted YYYY-MM-DD or YYYY-MM, used for sorting (newest first).
+#             Leave blank ("") until you know the date — blank entries just
+#             sort last. Must be quoted, otherwise YAML parses a full
+#             YYYY-MM-DD into a Time object while YYYY-MM stays a string,
+#             and the two can't be sorted together.
+#   tags:     required — lowercase, hyphenated themes, used for filtering (e.g. ambition, grief)
+#   learning: required — the takeaway. Use `|` (not `>`) so structure survives:
+#               - a blank line starts a new paragraph
+#               - a run of lines starting with "- " becomes a bullet list
+#               - lines with no blank line between them are just soft-wraps,
+#                 and get joined into one paragraph/item
+#             Markdown links [text](url) are supported anywhere in the text.
+#
+# Add your flicks below, in any order — the page sorts by watched date.
+
+- title: Death's Game
+  year: 2023
+  watched: 2024-03
+  tags: [suicide, pain]
+  learning: |
+    A really great portrayal of suicide and its after effects, on how death is contagious.
+
+- title: Underwater
+  year: 2020
+  watched: 2024-03
+  tags: [fear, resilience, cynicism]
+  learning: |
+    - There's good in cynicism.
+    - The scariest part of a rollercoaster is waiting in line.
+
+    There are things that will happen that make you feel powerless and
+    insignificant — but that's it, they're just feelings. Sometimes you
+    have to stop feeling and start doing.
+
+- title: Raya and the Last Dragon
+  year: 2021
+  watched: "2024-04"
+  tags: [trust]
+  learning: |
+    Trust is a choice.
+
+- title: Soul
+  year: 2020
+  watched: "2024-04"
+  tags: [purpose, meaning]
+  learning: |
+    Your life purpose is not your spark. The spark is just a part of you.
+    Your life purpose is to live.
+
+- title: The Shack
+  year: 2017
+  watched: "2026-09-16"
+  tags: [god, philosophy, trust]
+  learning: |
+    Perfect representation of God I've seen so far. I love how the
+    protagonist is not convinced of his doubt till the end. Also a great
+    lesson in one of the most hardest things humans refuse to practise,
+    trust.
+
+- title: The Next 3 Days
+  year: 2010
+  watched: 2026-09-14
+  tags: [love, ethics & morals]
+  learning: |
+    - A nice way to write a romance drama, from a writers POV I liked that there was struggle b/w 2 wants of the protagonist; his love forcing him to believe in his wife and his rationlity trying to destroy his soul i.e the love. 
+    - There's are a nice monologue about this was well. "If we chose to live in the reality of our own making, does that make us insane? If that's true, Isn't it better than despair?"
+
+- title: Remember
+  year: 2015
+  watched: 2026-09-15
+  tags: [pain]
+  learning: |
+    One of the best movies I've seen featuring the most wise of us (old fellas). The movie taught me how traumatic pain can have dramatic consequences that never leave you, even until some of your last days.

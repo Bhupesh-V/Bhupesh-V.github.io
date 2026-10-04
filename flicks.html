@@ -1,0 +1,32 @@
+---
+layout: default
+title: Flicks
+description: Lessons learned from movies I've watched.
+permalink: /flicks/
+---
+
+<h1>Flicks</h1>
+<p style="text-align:center;">
+  Lessons learned from movies & shows I've watched.
+</p>
+
+<div id="flicks-app">
+  <div class="flicks-filters">
+    <div class="filter-group" id="tag-filters"></div>
+  </div>
+
+  <div id="results-count" class="results-count">
+    <span id="results-count-text"></span>
+    <span class="filter-actions" style="display:none;">
+      <span class="dot">·</span>
+      <button type="button" id="clear-filters" class="text-btn">Clear filters</button>
+    </span>
+  </div>
+
+  <div id="flicks-results"></div>
+</div>
+
+<script>
+  window.FLICKS_DATA = {{ site.data.flicks | jsonify }};
+</script>
+<script src="{{ site.baseurl }}/js/flicks.js" defer></script>

@@ -517,6 +517,11 @@ img {
   }
 }
 
+.entry small {
+  font-size: 0.8em;
+  color: $gray;
+}
+
 .page {
   blockquote {
     margin: 1.8em .8em;
@@ -1372,6 +1377,88 @@ input[type=email] {
   text-align: center;
   color: $gray;
   font-style: italic;
+}
+
+/**********/
+/* FLICKS */
+/**********/
+
+.flicks-filters {
+  margin: 25px 0 15px;
+  padding: 15px;
+  border: 1px solid $lightGray;
+  border-radius: 6px;
+}
+
+.flick-card {
+  border: 1px solid $black;
+  border-radius: 6px;
+  padding: 14px 18px;
+  margin-bottom: 14px;
+  box-shadow: 1px 2px 4px 0px black;
+  scroll-margin-top: 20px;
+  transition: background-color 400ms ease-in-out;
+}
+
+// Briefly flashes a linked-to card so it's obvious which one a shared #flick-... link points to.
+.flick-highlight {
+  background-color: rgba(255, 234, 24, 0.25);
+}
+
+.flick-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.flick-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.flick-permalink {
+  background: none;
+  border: none;
+  padding: 0 2px;
+  font-size: 14px;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: opacity 120ms ease-in-out;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.flick-meta {
+  margin-top: 4px;
+  color: $gray;
+  font-size: 14px;
+}
+
+.flick-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 10px;
+}
+
+.flick-learning {
+  margin-top: 10px;
+  font-size: 15px;
+
+  p, ul {
+    margin: 0 0 8px;
+  }
+
+  ul {
+    padding-left: 20px;
+  }
+
+  > *:last-child {
+    margin-bottom: 0;
+  }
 }
 
 .sketch-grid {
