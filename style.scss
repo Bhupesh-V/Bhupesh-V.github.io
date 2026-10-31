@@ -1048,6 +1048,22 @@ input[type=email] {
       flex-shrink: 0;
     }
   }
+
+  // Status only has 3 fixed options (Reading/On Shelf/Read) — nothing to
+  // scroll through, so stack them top-down instead of the horizontal-scroll
+  // treatment used for longer lists like genres/tags.
+  #status-filters .chip-scroll {
+    flex-wrap: wrap;
+    overflow-x: visible;
+    padding-bottom: 0;
+    mask-image: none;
+    -webkit-mask-image: none;
+
+    .chip {
+      flex-shrink: 1;
+      width: 100%;
+    }
+  }
 }
 
 .chip {
@@ -1458,6 +1474,162 @@ input[type=email] {
 
   > *:last-child {
     margin-bottom: 0;
+  }
+}
+
+/*************/
+/* BOOKSHELF */
+/*************/
+
+.tabs {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.tab-btn {
+  background: transparent;
+  border: 1px solid $gray;
+  border-radius: 6px;
+  padding: 8px 18px;
+  font-size: 16px;
+  font-family: $activeFont;
+  font-weight: bold;
+  color: $darkGray;
+  cursor: pointer;
+  transition: border-color 120ms ease-in-out, background-color 120ms ease-in-out;
+
+  &:hover {
+    border-color: $black;
+  }
+
+  &.active {
+    background-color: $orangish;
+    border-color: $orangish;
+    color: $black;
+  }
+}
+
+.bookshelf-filters {
+  margin: 25px 0 15px;
+  padding: 15px;
+  border: 1px solid $lightGray;
+  border-radius: 6px;
+}
+
+.book-card {
+  border: 1px solid $black;
+  border-radius: 6px;
+  padding: 14px 18px;
+  margin-bottom: 14px;
+  box-shadow: 1px 2px 4px 0px black;
+
+  &.featured {
+    border: 2px solid $orangish;
+    background: rgba(255, 234, 24, 0.08);
+    box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.4);
+  }
+}
+
+.book-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.book-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.book-status-badge {
+  font-size: 13px;
+  color: $gray;
+  white-space: nowrap;
+  font-weight: bold;
+}
+
+.book-status-badge-meta {
+  display: none;
+}
+
+.book-author {
+  margin-top: 4px;
+  color: $gray;
+  font-size: 14px;
+}
+
+.book-genre-tag {
+  display: block;
+  width: fit-content;
+  margin-top: 6px;
+}
+
+// Status badge moves from the title row onto its own line below the author
+// on mobile, instead of competing with the title for space.
+@include mobile {
+  .book-head .book-status-badge {
+    display: none;
+  }
+
+  .book-status-badge-meta {
+    display: block;
+    margin-top: 2px;
+  }
+}
+
+.book-thoughts {
+  margin: 10px 0 0;
+  font-size: 15px;
+}
+
+.wishlist-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 14px;
+  margin-top: 10px;
+}
+
+.wishlist-card {
+  border: 1px solid $black;
+  border-radius: 6px;
+  padding: 12px 16px;
+  box-shadow: 1px 2px 4px 0px black;
+}
+
+.wishlist-title {
+  font-size: 16px;
+  margin: 0;
+}
+
+.wishlist-author {
+  margin: 4px 0 8px;
+  color: $gray;
+  font-size: 14px;
+}
+
+// The wishlist's genre dropdown is the only filter on its tab, so its row is
+// centered instead of left-aligned like the shelf's scrollable chip rows.
+#wishlist-app .filter-group {
+  justify-content: center;
+}
+
+.genre-select {
+  border: 1px solid $gray;
+  border-radius: 5px;
+  padding: 5px 12px;
+  font-size: 14px;
+  font-family: $activeFont;
+  color: $darkGray;
+  background: transparent;
+  cursor: pointer;
+
+  &:focus {
+    outline: none;
+    border-color: $darkGray;
   }
 }
 

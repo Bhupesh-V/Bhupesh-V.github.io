@@ -1,0 +1,317 @@
+# Bookshelf data — powers /bookshelf/
+#
+# Sourced from https://gist.github.com/Bhupesh-V/ecfbb6a7cc7f57051f45968bef8f1f77
+# (the data backing the standalone bookshelf.bhupesh.me project). Re-exported
+# here as a static snapshot — edit this file directly going forward, it is
+# no longer pulled live from the gist.
+#
+# Each entry:
+#   title:       required
+#   author:      required
+#   genre:       required — used for filtering (e.g. Fiction, Technical, Science)
+#   status:      required — one of: on_shelf | reading | read
+#   recommended: optional — true to flag as a recommended read
+#   thoughts:    optional — a short paragraph of personal notes on the book
+
+- title: Code Complete 2
+  author: Steve McConnell
+  genre: Technical
+  status: on_shelf
+  recommended: false
+
+- title: Crafting Interpreters
+  author: Robert Nystrom
+  genre: Technical
+  status: on_shelf
+  recommended: false
+
+- title: Clean Coder
+  author: Robert C. Martin
+  genre: Technical
+  status: read
+  recommended: true
+  thoughts:
+    Definitely recommended for software developers/engineers who are in early
+    and mid-career phases. My favorite chapters were 'Saying Yes' & 'Saying No'.
+
+- title: Clean Code
+  author: Robert C. Martin
+  genre: Technical
+  status: read
+  recommended: false
+  thoughts:
+    Great first book for early-career developers, especially the ones who
+    take up Java, a lot of folks hate the advice in this book for some reason, I didn't,
+    all practices in our eco-system are opinionated, this books has a good collection
+    of them.
+
+- title: Orange Hangover
+  author: Rahul Saini
+  genre: Fiction
+  status: read
+  recommended: true
+  thoughts:
+    Engaging piece of Indian fiction, feels like a modern bollywood romance
+    movie.
+
+- title: Wings of Fire
+  author: A.P.J Abdul Kalam
+  genre: Autobiography
+  status: read
+  recommended: true
+
+- title: 4 Idiots
+  author: Sudhanshu Shekar
+  genre: Fiction
+  status: read
+  recommended: true
+
+- title: The Secret
+  author: Rhonda Byrne
+  genre: Self-help
+  status: read
+  recommended: true
+  thoughts:
+    "Finished reading this in the span of 2 days, almost felt like being part
+    of a cult in the middle, the message (manifestation) is 💯"
+
+- title: The ABC Murders
+  author: Agatha Christie
+  genre: Fiction
+  status: read
+  recommended: false
+
+- title: Live Before You Die
+  author: Neeraj Rai
+  genre: Self-help
+  status: read
+  recommended: false
+  thoughts:
+    The core idea was about 'awareness of impermanence' (buddhist teaching),
+    a lot of filler content, the author did a good job explaining, why I should worry
+    about it but now how part was not convincing enough.
+
+- title: The Evil Days
+  author: Arya Narrayan
+  genre: Fiction
+  status: read
+  recommended: true
+  thoughts:
+    Really thrilling piece of fiction, could be easily adapted to a nice (high-budget)
+    bollywood movie.
+
+- title: Shards of Earth
+  author: Adrian Tchaikovsky
+  genre: Fiction
+  status: on_shelf
+  recommended: false
+
+- title: Me before you
+  author: Jojo Moyes
+  genre: Fiction
+  status: on_shelf
+  recommended: false
+
+- title: The Prophet Kahlil Gibran
+  author: Kahlil Gibran
+  genre: Philosophy
+  status: read
+  recommended: false
+
+- title: And The Mountains Echoed
+  author: Khaled Hosseini
+  genre: Fiction
+  status: read
+  recommended: false
+
+- title: The Kite Runner
+  author: Khaled Hosseini
+  genre: Fiction
+  status: read
+  recommended: false
+
+- title: A thousand splendid suns
+  author: Khaled Hosseini
+  genre: Fiction
+  status: on_shelf
+  recommended: false
+
+- title: 48 Creative Meditations That Will Enrich Your Life
+  author: Ian Gawler
+  genre: Self-help
+  status: read
+  recommended: true
+  thoughts: The best book you will find on meditation. Highly recommended.
+
+- title: The Evenings and the Mornings
+  author: Ken Follett
+  genre: Fiction
+  status: on_shelf
+  recommended: false
+
+- title: The Grand Design
+  author: Stephen Hawking
+  genre: Science
+  status: read
+  recommended: true
+  thoughts:
+    "Almost wanted to steal this from my school's lirbrary, the pages on this
+    book were 🤌🏽, anyways this is the only other book I recommend
+    from Stephen Hawking."
+
+- title: Brief Answers to the Big Questions
+  author: Stephen Hawking
+  genre: Science
+  status: read
+  recommended: false
+
+- title: The Theory of Everything
+  author: Stephen Hawking
+  genre: Science
+  status: read
+  recommended: true
+  thoughts:
+    Nerd Alert! Must read, I don't remember much from this book, but I am
+    glad I read it, as a kid in school, it helped me broaden my horizons, indicating
+    how small we are in the universe.
+
+- title: "Black Holes: The Reith Lectures"
+  author: Stephen Hawking
+  genre: Science
+  status: read
+  recommended: false
+
+- title: To Kill a Mockingbird
+  author: Harper Lee
+  genre: Fiction
+  status: read
+  recommended: false
+  thoughts:
+    I honestly forgot every single thing about this book, I read it in school,
+    don't ask me anything about it.
+
+- title: How to Win Friends and Influence People
+  author: Dale Carnegie
+  genre: Self-help
+  status: read
+  recommended: false
+  thoughts:
+    Very process-oriented book (too much handholding) on how to act like a
+    considerate human. Still a good one-time read.
+
+- title: The Story of My Life
+  author: Helen Keller
+  genre: Autobiography
+  status: read
+  recommended: true
+
+- title: The Psychology of Money
+  author: Morgan Housel
+  genre: Self-help
+  status: read
+  thoughts:
+    "Appropriately captures what it says in the title. One nice lesson was
+    about - Getting wealthy is not the same as staying wealthy. I wouldn't personally
+    recommend the book (biased since I don't trust anyone blindly who gives financial
+    advice anyway 😅)."
+
+- title: System Collapse
+  author: Martha Wells
+  genre: Fiction
+  status: on_shelf
+
+- title: I am Gita
+  author: Deep Trivedi
+  genre: Philosophy
+  status: read
+  thoughts:
+    Okay read, didn't like it much as I expected. I recommend reading the
+    direct transaltion over an interpretation.
+
+- title: Exhalation
+  author: Ted Chiang
+  genre: Fiction
+  status: read
+
+- title: Thinking in Systems
+  author: Donella Meadows
+  genre: Science
+  status: read
+  recommended: true
+  thoughts:
+    My first read on systems thinking, gets the point across, had to read
+    twice to get the full effect (please take notes if you choose to read this).
+
+- title: STPA Handbook
+  author: Nancy Leveson & John Thomas
+  genre: Technical
+  status: on_shelf
+
+- title: Psycho Cybernetics
+  author: Maxwell Maltz
+  genre: Self-help
+  status: read
+  thoughts:
+    A book I should have picked during my graduation days. Nevertheless, I
+    had known about the major idea from the book when I finished '48 Creative Mediations
+    that will enrich your life' during my last days of High School. This book revived
+    that knowledge and cleared my stance on how there's not much difference between
+    science and religion considering the effects they have on our lives. I only recommended
+    this book if you have never read any self-help material.
+
+- title: Designing Data-Intensive Applications
+  author: Martin Kleppmann
+  genre: Technical
+  status: reading
+
+- title: "LIM: At the limits of reality"
+  author: Sharadh Jaitra
+  genre: Fiction
+  status: read
+
+- title: Fermat's Last Theorem
+  author: Simon Singh
+  genre: Science
+  status: read
+  recommended: true
+
+- title: Overcoming Obsessive Compulsive Disorder
+  author: David Veale & Rob Willson
+  genre: Self-help
+  status: read
+
+- title: The Making and Working of the Indian Constitution
+  author: Shibani Kinkar Chaube
+  genre: Non-fiction
+  status: read
+  thoughts:
+    Not for an average reader, the author tried their best to simplify the
+    jargon in India's constitution, but it is still a very complex topic. Cannot be
+    absorbed in one sitting, more beneficial for folks who directly engage with the
+    subject.
+
+- title: The courage to be disliked
+  author: Ichiro Kishimi & Fumitake Koga
+  genre: Self-help
+  status: on_shelf
+
+- title: Animal Farm
+  author: George Orwell
+  genre: Fiction
+  status: read
+
+- title: The Castle
+  author: Franz Kafka
+  genre: Fiction
+  status: read
+  thoughts:
+    I did not enjoy reading this book, I did, I think got the overall theme,
+    i.e systemic injustice and its effects on inter-personal relationships but either
+    the translation was weird or the writing itself, there seems to be no character
+    development or sketch of K, it feels like the protagonist is just reacting to
+    things, rather than living a reality. I hope my next Kafka book is not like this.
+
+- title: "1984"
+  author: George Orwell
+  genre: Fiction
+  status: reading

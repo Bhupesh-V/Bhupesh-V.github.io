@@ -1,0 +1,64 @@
+---
+layout: default
+title: Library
+description: A list of books I've read & wish to read.
+permalink: /library/
+---
+
+<p style="text-align:center;">
+  A list of books I've read & wish to read.
+</p>
+
+<div class="tabs" role="tablist">
+  <button type="button" class="tab-btn active" id="tab-shelf-btn" role="tab" aria-selected="true" aria-controls="shelf-app">📚 Shelf</button>
+  <button type="button" class="tab-btn" id="tab-wishlist-btn" role="tab" aria-selected="false" aria-controls="wishlist-app">🛒 Wishlist</button>
+</div>
+
+<div id="shelf-app" role="tabpanel" aria-labelledby="tab-shelf-btn">
+  <div class="bookshelf-filters">
+    <div class="filter-group" id="status-filters"></div>
+    <div class="filter-group">
+      <span class="filter-label">Genre</span>
+      <select id="shelf-genre-select" class="genre-select">
+        <option value="all">All Genres</option>
+      </select>
+    </div>
+  </div>
+
+  <div id="shelf-results-count" class="results-count">
+    <span id="shelf-results-count-text"></span>
+    <span class="filter-actions" style="display:none;">
+      <span class="dot">·</span>
+      <button type="button" id="shelf-clear-filters" class="text-btn">Clear filters</button>
+    </span>
+  </div>
+
+  <div id="shelf-results"></div>
+</div>
+
+<div id="wishlist-app" role="tabpanel" aria-labelledby="tab-wishlist-btn" hidden>
+  <div class="bookshelf-filters">
+    <div class="filter-group">
+      <span class="filter-label">Genre</span>
+      <select id="wishlist-genre-select" class="genre-select">
+        <option value="all">All Genres</option>
+      </select>
+    </div>
+  </div>
+
+  <div id="wishlist-results-count" class="results-count">
+    <span id="wishlist-results-count-text"></span>
+    <span class="filter-actions" style="display:none;">
+      <span class="dot">·</span>
+      <button type="button" id="wishlist-clear-filters" class="text-btn">Clear filters</button>
+    </span>
+  </div>
+
+  <div id="wishlist-results" class="wishlist-grid"></div>
+</div>
+
+<script>
+  window.BOOKSHELF_DATA = {{ site.data.bookshelf | jsonify }};
+  window.WISHLIST_DATA = {{ site.data.wishlist | jsonify }};
+</script>
+<script src="{{ site.baseurl }}/js/bookshelf.js" defer></script>

@@ -1,0 +1,293 @@
+# Wishlist data — powers /bookshelf/ (wishlist section)
+#
+# Sourced from https://gist.github.com/Bhupesh-V/22c83b506d72b78d65a8b997d017881d
+# (the data backing the standalone bookshelf.bhupesh.me project). Re-exported
+# here as a static snapshot — edit this file directly going forward, it is
+# no longer pulled live from the gist.
+#
+# Each entry:
+#   title:  required
+#   author: required
+#   genre:  required — used for filtering (e.g. Fiction, Philosophy, Mathematics)
+
+- title: Thinking, Fast and Slow
+  author: Daniel Kahneman
+  genre: Psychology
+
+- title: "Godel,Escher,Bach: An Eternal Golden Braid"
+  author: Douglas Hofstadter
+  genre: Non-fiction
+
+- title: "Antifragile: Things That Gain from Disorder"
+  author: Nassim Nicholas Taleb
+  genre: Non-fiction
+
+- title: Letters from a Stoic
+  author: Seneca
+  genre: Philosophy
+
+- title: Finite and Infinite Games
+  author: James P. Carse
+  genre: Philosophy
+
+- title: "The Systems View of Life: A Unifying Vision"
+  author: Fritjof Capra and Pier Luigi Luisi
+  genre: Science
+
+- title: The Glass Bead Game
+  author: Hermann Hesse
+  genre: Fiction
+
+- title: The Power of Logic
+  author: Frances Howard-Snyder, Daniel Howard-Snyder, and Ryan Wasserman
+  genre: Philosophy
+
+- title: Thank you for Arguing
+  author: Jay Heinrichs
+  genre: Non-fiction
+
+- title: "The will to change: Men, Masculinity, and Love"
+  author: Bell Hooks
+  genre: Non-fiction
+
+- title: "The Archaeology of Mind: Neuroevolutionary Origins of Human Emotion"
+  author: Jaak Panksepp and Lucy Biven
+  genre: Psychology
+
+- title: "The Hidden Spring: A Journey to the Source of Consciousness"
+  author: Mark Solms
+  genre: Psychology
+
+- title: The count of Monte Cristo
+  author: Alexandre Dumas
+  genre: Fiction
+
+- title: The consolations of philosophy
+  author: Alain de Botton
+  genre: Philosophy
+
+- title: The ruin of Kasch
+  author: Roberto Calasso
+  genre: Non-fiction
+
+- title: Norwegian Wood
+  author: Haruki Murakami
+  genre: Fiction
+
+- title: Kafka on the shore
+  author: Haruki Murakami
+  genre: Fiction
+
+- title: Wind-up bird chronicle
+  author: Haruki Murakami
+  genre: Fiction
+
+- title: An Introduction to System Safety Engineering
+  author: Nancy G. Leveson
+  genre: Technical
+
+- title: Giovanni's Room
+  author: James Baldwin
+  genre: Fiction
+
+- title: Essays on Deleuze
+  author: Daniel Smith
+  genre: Philosophy
+
+- title: "The Sexual Politics of Meat: A Feminist-Vegetarian Critical Theory"
+  author: Carol J. Adams
+  genre: Non-fiction
+
+- title: "The Accumulation of Waste: A Political Economy of Systemic Destruction"
+  author: Ali Kadri
+  genre: Non-fiction
+
+- title: The Iliac Crest
+  author: Cristina Rivera Garza
+  genre: Fiction
+
+- title: Our Friends In Good Houses
+  author: Rahul Pandita
+  genre: Fiction
+
+- title: "For a Just Republic: The People of India and the State"
+  author: Partha Chatterjee
+  genre: Non-fiction
+
+- title:
+    "The Counter-Revolution of 1776: Slave Resistance and the Origins of the
+    United States of America"
+  author: Gerald Horne
+  genre: History
+
+- title: The Grapes of Wrath
+  author: John Steinbeck
+  genre: Fiction
+
+- title: Simulacra and Simulation
+  author: Jean Baudrillard
+  genre: Philosophy
+
+- title:
+    "A mind for numbers: How to excel at math and science (even if you flunked
+    algebra)"
+  author: Barbara Oakley
+  genre: Self-help
+
+- title: "The Joy of X: A Guided Tour of Math, from One to Infinity"
+  author: Steven Strogatz
+  genre: Mathematics
+
+- title: "Infinite Powers: How Calculus Reveals the Secrets of the Universe"
+  author: Steven Strogatz
+  genre: Mathematics
+
+- title: "Illuminations: Essays and Reflections"
+  author: Walter Benjamin
+  genre: Philosophy
+
+- title: One Dimensional Man
+  author: Herbert Marcuse
+  genre: Philosophy
+
+- title: "The Great Derangement: Climate Change and the Unthinkable"
+  author: Amitav Ghosh
+  genre: Non-fiction
+
+- title: On Critical Pedagogy
+  author: Henry A. Giroux
+  genre: Non-fiction
+
+- title: Psychology of Intelligence Analysis
+  author: Richards Heuer
+  genre: Psychology
+
+- title: Orientalism
+  author: Edward Said
+  genre: Non-fiction
+
+- title: East of Eden
+  author: John Steinbeck
+  genre: Fiction
+
+- title: "Ordinary Men: Reserve Police Battalion 101 and the Final Solution in Poland"
+  author: Christopher R. Browning
+  genre: History
+
+- title: Letters to a Young Mathematician
+  author: Ian Stewart
+  genre: Mathematics
+
+- title: "How Not to Be Wrong: The Power of Mathematical Thinking"
+  author: Jordan Ellenberg
+  genre: Mathematics
+
+- title: "Panarchy: Understanding Transformations in Human and Natural Systems"
+  author: Lance H. Gunderson
+  genre: Science
+
+- title:
+    "Resilience Practice: Building Capacity to Absorb Disturbance and Maintain
+    Function"
+  author: Brian Walker and David Salt
+  genre: Science
+
+- title: The Auto-bioagraphy of MALCOLM-X
+  author: Alex Haley
+  genre: Autobiography
+
+- title: Lectures on Negative Dialectics
+  author: Theodor Adorno
+  genre: Philosophy
+
+- title: Drawing on the right side of the brain
+  author: Betty Edwards
+  genre: Self-help
+
+- title: The Elements of Moral Philosophy
+  author: James Rachels and Stuart Rachels
+  genre: Philosophy
+
+- title: "Justice: What's the Right Thing to Do?"
+  author: Michael Sandel
+  genre: Philosophy
+
+- title: The Dispossessed
+  author: Ursula K. Le Guin
+  genre: Fiction
+
+- title: The Evolution of Cooperation
+  author: Robert Axelrod
+  genre: Non-fiction
+
+- title: "Speed & Scale: An Action Plan for Solving Our Climate Crisis Now"
+  author: John Doerr
+  genre: Non-fiction
+
+- title: The Dictator's Handbook
+  author: Bruce Bueno de Mesquita and Alastair Smith
+  genre: Non-fiction
+
+- title: Intention
+  author: G. E. M. Anscombe
+  genre: Philosophy
+
+- title: Ethics and the Limits of Philosophy
+  author: Bernard Williams
+  genre: Philosophy
+
+- title: "The Power Paradox: How We Gain and Lose Influence"
+  author: Dacher Keltner
+  genre: Psychology
+
+- title: "Continental Philosophy: A Contemporary Introduction"
+  author: Andrew Cutrofello
+  genre: Philosophy
+
+- title: The Design of Everyday Things
+  author: Don Norman
+  genre: Non-fiction
+
+- title: The Surprising Power of Liberating Structures
+  author: Henri Lipmanowicz and Keith McCandless
+  genre: Non-fiction
+
+- title: A Swim in a Pond in the Rain
+  author: George Saunders
+  genre: Non-fiction
+
+- title: Dependency Theories in Latin America
+  author: Andre Magnelli, Felipe Maia and Paulo Henrique Martins
+  genre: Non-fiction
+
+- title: "Entangled Life: How Fungi Make Our Worlds, Change Our Minds & Shape Our Futures"
+  author: Merlin Sheldrake
+  genre: Science
+
+- title: How Fiction Works
+  author: James Wood
+  genre: Non-fiction
+
+- title: Learning Systems Thinking
+  author: Diana Montalion
+  genre: Technical
+
+- title: Manifesto of the Communist Party
+  author: Karl Marx and Friedrich Engels
+  genre: Non-fiction
+
+- title: Pedagogy of the Oppressed
+  author: Paulo Freire
+  genre: Non-fiction
+
+- title: The Black Jacobins
+  author: C. L. R. James
+  genre: History
+
+- title: The Sense of Style
+  author: Steven Pinker
+  genre: Non-fiction
+
+- title: The Systems Bible
+  author: John Gall
+  genre: Science
