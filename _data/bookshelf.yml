@@ -12,7 +12,13 @@
 #   genre:       required — used for filtering (e.g. Fiction, Technical, Science)
 #   status:      required — one of: on_shelf | reading | read
 #   recommended: optional — true to flag as a recommended read
-#   thoughts:    optional — a short paragraph of personal notes on the book
+#   thoughts:    optional — personal notes on the book. Use `|` (not `>`) if
+#                you need more than one plain paragraph, so structure survives:
+#                  - a blank line starts a new paragraph
+#                  - a run of lines starting with "- " becomes a bullet list
+#                  - lines with no blank line between them are just soft-wraps,
+#                    and get joined into one paragraph/item
+#                Markdown links [text](url) are supported anywhere in the text.
 
 - title: Code Complete 2
   author: Steve McConnell
@@ -147,7 +153,7 @@
 - title: The Evenings and the Mornings
   author: Ken Follett
   genre: Fiction
-  status: on_shelf
+  status: reading
   recommended: false
 
 - title: The Grand Design
@@ -263,7 +269,7 @@
 - title: Designing Data-Intensive Applications
   author: Martin Kleppmann
   genre: Technical
-  status: reading
+  status: on_shelf
 
 - title: "LIM: At the limits of reality"
   author: Sharadh Jaitra
@@ -294,7 +300,7 @@
 - title: The courage to be disliked
   author: Ichiro Kishimi & Fumitake Koga
   genre: Self-help
-  status: on_shelf
+  status: read
 
 - title: Animal Farm
   author: George Orwell
@@ -315,4 +321,12 @@
 - title: "1984"
   author: George Orwell
   genre: Fiction
-  status: reading
+  status: read
+  recommended: true
+  thoughts: |
+    Once you've read it, you can't unsee the striking similarity with the real world.
+
+    Tell you what, when I finished reading the book, the government of my country had banned access to public transport because of a protest in the capital.
+
+    - I loved the short romantic relationship b/w Julia & Winston.
+    - It was interesting to see how Julia's character was portrayed as someone who is willing to live in a fascist society without getting crazy or making any drastic changes.

@@ -44,6 +44,7 @@
   var selectedShelfGenre = restoreGenre(urlParams.get("genre"), shelfGenres);
   var selectedWishlistGenre = restoreGenre(urlParams.get("wgenre"), wishlistGenres);
   var activeTab = urlParams.get("tab") === "wishlist" ? "wishlist" : "shelf";
+  var sortOrder = urlParams.get("sort") === "desc" ? "desc" : "asc";
 
   function toggle(set, value) {
     if (set.has(value)) set.delete(value); else set.add(value);
@@ -59,6 +60,7 @@
     if (selectedWishlistGenre !== "all") {
       params.set("wgenre", selectedWishlistGenre.toLowerCase());
     }
+    if (sortOrder !== "asc") params.set("sort", sortOrder);
     var qs = params.toString();
     window.history.replaceState(null, "", window.location.pathname + (qs ? "?" + qs : ""));
   }
@@ -147,7 +149,16 @@
 
   function sortShelf(items) {
     return items.slice().sort(function (a, b) {
-      return STATUS_ORDER.indexOf(a.status) - STATUS_ORDER.indexOf(b.status);
+      var statusCmp = STATUS_ORDER.indexOf(a.status) - STATUS_ORDER.indexOf(b.status);
+      if (statusCmp !== 0) return statusCmp;
+
+      // Recommended books float to the top of their status group regardless
+      // of title sort direction.
+      var recommendedCmp = (b.recommended ? 1 : 0) - (a.recommended ? 1 : 0);
+      if (recommendedCmp !== 0) return recommendedCmp;
+
+      var titleCmp = a.title.localeCompare(b.title);
+      return sortOrder === "desc" ? -titleCmp : titleCmp;
     });
   }
 
@@ -197,9 +208,9 @@
     card.appendChild(author);
 
     if (book.thoughts) {
-      var thoughts = document.createElement("p");
+      var thoughts = document.createElement("div");
       thoughts.className = "book-thoughts";
-      thoughts.textContent = book.thoughts;
+      thoughts.innerHTML = window.renderTextBlocks(book.thoughts);
       card.appendChild(thoughts);
     }
 
@@ -212,6 +223,10 @@
 
     document.querySelector("#shelf-app .filter-actions").style.display =
       (selectedStatuses.size > 0 || selectedShelfGenre !== "all") ? "inline-flex" : "none";
+
+    document.getElementById("shelf-sort-toggle").innerHTML =
+      "<span class=\"sort-arrow" + (sortOrder === "asc" ? " sort-arrow-asc" : "") + "\">➜</span> " +
+      (sortOrder === "asc" ? "Title A–Z" : "Title Z–A");
 
     var results = document.getElementById("shelf-results");
     results.innerHTML = "";
@@ -317,6 +332,11 @@
   document.getElementById("shelf-clear-filters").addEventListener("click", function () {
     selectedStatuses.clear();
     selectedShelfGenre = "all";
+    renderShelf();
+  });
+
+  document.getElementById("shelf-sort-toggle").addEventListener("click", function () {
+    sortOrder = sortOrder === "asc" ? "desc" : "asc";
     renderShelf();
   });
 

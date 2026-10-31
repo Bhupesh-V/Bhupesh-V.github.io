@@ -27,6 +27,8 @@ permalink: /library/
 
   <div id="shelf-results-count" class="results-count">
     <span id="shelf-results-count-text"></span>
+    <span class="dot">·</span>
+    <button type="button" id="shelf-sort-toggle" class="text-btn"></button>
     <span class="filter-actions" style="display:none;">
       <span class="dot">·</span>
       <button type="button" id="shelf-clear-filters" class="text-btn">Clear filters</button>
@@ -61,4 +63,5 @@ permalink: /library/
   window.BOOKSHELF_DATA = {{ site.data.bookshelf | jsonify }};
   window.WISHLIST_DATA = {{ site.data.wishlist | jsonify }};
 </script>
+<script src="{{ site.baseurl }}/js/render-blocks.js" defer></script>
 <script src="{{ site.baseurl }}/js/bookshelf.js" defer></script>

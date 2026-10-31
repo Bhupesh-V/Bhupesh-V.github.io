@@ -1569,21 +1569,43 @@ input[type=email] {
 }
 
 // Status badge moves from the title row onto its own line below the author
-// on mobile, instead of competing with the title for space.
+// on mobile, instead of competing with the title for space. Title/author/
+// genre/status all stack as separate lines on mobile, so they get roomier
+// margins here than their compact desktop-oriented defaults above.
 @include mobile {
   .book-head .book-status-badge {
     display: none;
   }
 
+  .book-author {
+    margin-top: 8px;
+  }
+
+  .book-genre-tag {
+    margin-top: 10px;
+  }
+
   .book-status-badge-meta {
     display: block;
-    margin-top: 2px;
+    margin-top: 10px;
   }
 }
 
 .book-thoughts {
-  margin: 10px 0 0;
+  margin-top: 10px;
   font-size: 15px;
+
+  p, ul {
+    margin: 0 0 8px;
+  }
+
+  ul {
+    padding-left: 20px;
+  }
+
+  > *:last-child {
+    margin-bottom: 0;
+  }
 }
 
 .wishlist-grid {

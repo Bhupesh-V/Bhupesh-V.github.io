@@ -45,38 +45,6 @@
     return d.toLocaleDateString("en-US", opts);
   }
 
-  function escapeHtml(str) {
-    return str.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
-  }
-
-  // Converts markdown-style [text](url) links into safe <a> tags. Runs after
-  // escaping so raw HTML typed into the data file can't sneak through.
-  function linkify(text) {
-    return escapeHtml(text).replace(/\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g, function (_, label, url) {
-      return '<a href="' + url + '" target="_blank" rel="noopener">' + label + "</a>";
-    });
-  }
-
-  // A learning is plain text, not a markdown file, but still needs light
-  // structure: a blank line starts a new paragraph, and a block made up
-  // entirely of "- " lines renders as a bullet list. Lines within a
-  // paragraph/item that aren't blank-separated are just soft-wraps, so
-  // they're joined with a space (same as writing the yaml with `>`).
-  function renderLearning(text) {
-    var blocks = (text || "").trim().split(/\n\s*\n/).filter(Boolean);
-    return blocks.map(function (block) {
-      var lines = block.split("\n").map(function (l) { return l.trim(); }).filter(Boolean);
-      var isList = lines.length > 0 && lines.every(function (l) { return /^-\s+/.test(l); });
-
-      if (isList) {
-        var items = lines.map(function (l) { return "<li>" + linkify(l.replace(/^-\s+/, "")) + "</li>"; });
-        return "<ul>" + items.join("") + "</ul>";
-      }
-
-      return "<p>" + linkify(lines.join(" ")) + "</p>";
-    }).join("");
-  }
-
   function updateUrl() {
     var params = new URLSearchParams();
     if (selectedTags.size) params.set("tags", Array.from(selectedTags).join(","));
@@ -191,7 +159,7 @@
 
     var learning = document.createElement("div");
     learning.className = "flick-learning";
-    learning.innerHTML = renderLearning(flick.learning);
+    learning.innerHTML = window.renderTextBlocks(flick.learning);
     card.appendChild(learning);
 
     return card;
