@@ -15,7 +15,7 @@ Things I consider as wins or achievements.
   - **Fun**
     - [heavenorhell.xyz](https://heavenorhell.xyz) - A poll based social experiment app to capture everyone's sentiment on where they wanna go, heaven or hell?
   - **Personal**
-    - [bookshelf.bhupesh.me](https://bookshelf.bhupesh.me) - My IRL bookshelf.
+    - [bhupesh.me/library](https://bhupesh.me/library/) - My IRL bookshelf.
     - [hotwheels.bhupesh.me](https://hotwheels.bhupesh.me) - My Hot Wheels collection :)
   - **Serious Stuff**
     - [osscooking.com](https://osscooking.com) - A tool to analyze what's happening in open-source projects as a busy dev with just 10 minutes to spare.

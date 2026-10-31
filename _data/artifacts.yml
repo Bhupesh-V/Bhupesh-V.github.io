@@ -296,8 +296,8 @@
   focus: [llm, creativity, software-craftsmanship]
   date: 2026-08-27
 
-- title: bookshelf
-  url: https://bookshelf.bhupesh.me/
+- title: library
+  url: https://bhupesh.me/library/
   type: project
   focus: [reading]
   description: Short reviews on books I'v read, along with my wishlist!

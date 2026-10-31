@@ -38,7 +38,7 @@ I help you interview me better. Here's a list of questions that matter, with my 
 
 Reading & Writing. Both have had a huge impact on how I think and approach life and problems. I have been reading since I was a high-school kid, starting from newspapers. I believe knowledge shouldn't be kept behind paywalls, I have pirated books, bought books at MRP, bought books from pricey stores, from airports.
 
-I have a dedicated digital view of my [bookshelf](https://bookshelf.bhupesh.me/), in case you are interested in what I'm reading and how I critique books.
+I have a dedicated digital view of my [bookshelf](https://bhupesh.me/library/), in case you are interested in what I'm reading and how I critique books.
 
 I started writing in [2019](/archive/), mostly technical stuff, nowadays I'm upping myself with [storytelling](https://til.bhupesh.me/meta/creative-writing#creative-writing) skills.
 

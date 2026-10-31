@@ -1,9 +1,10 @@
-# Bookshelf data — powers /bookshelf/
+# Bookshelf data — powers /library/
 #
 # Sourced from https://gist.github.com/Bhupesh-V/ecfbb6a7cc7f57051f45968bef8f1f77
-# (the data backing the standalone bookshelf.bhupesh.me project). Re-exported
-# here as a static snapshot — edit this file directly going forward, it is
-# no longer pulled live from the gist.
+# (the data originally backed the standalone bookshelf.bhupesh.me project,
+# since folded into this site at bhupesh.me/library). Re-exported here as a
+# static snapshot — edit this file directly going forward, it is no longer
+# pulled live from the gist.
 #
 # Each entry:
 #   title:       required

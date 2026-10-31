@@ -1,9 +1,10 @@
-# Wishlist data — powers /bookshelf/ (wishlist section)
+# Wishlist data — powers /library/ (wishlist section)
 #
 # Sourced from https://gist.github.com/Bhupesh-V/22c83b506d72b78d65a8b997d017881d
-# (the data backing the standalone bookshelf.bhupesh.me project). Re-exported
-# here as a static snapshot — edit this file directly going forward, it is
-# no longer pulled live from the gist.
+# (the data originally backed the standalone bookshelf.bhupesh.me project,
+# since folded into this site at bhupesh.me/library). Re-exported here as a
+# static snapshot — edit this file directly going forward, it is no longer
+# pulled live from the gist.
 #
 # Each entry:
 #   title:  required
