@@ -12,6 +12,11 @@
   };
   var STATUS_ORDER = ["reading", "on_shelf", "read"];
 
+  var FORMAT_META = {
+    physical: { label: "Physical", emoji: "📘" },
+    digital: { label: "Digital", emoji: "📱" }
+  };
+
   // Orders genres by how many books carry them (most first), not alphabetically.
   // Based on total counts across the whole list, so the chip order stays put
   // as filters are toggled instead of jumping around.
@@ -25,6 +30,24 @@
 
   var shelfGenres = genresByCount(SHELF);
   var wishlistGenres = genresByCount(WISHLIST);
+
+  // Suggestions are just every known title/author — not filtered by the
+  // current query — so the datalist always offers the full set to jump to.
+  function populateSuggestions(listId, items) {
+    var datalist = document.getElementById(listId);
+    var seen = new Set();
+    items.forEach(function (book) {
+      [book.title, book.author].forEach(function (value) {
+        if (seen.has(value)) return;
+        seen.add(value);
+        var option = document.createElement("option");
+        option.value = value;
+        datalist.appendChild(option);
+      });
+    });
+  }
+  populateSuggestions("shelf-search-suggestions", SHELF);
+  populateSuggestions("wishlist-search-suggestions", WISHLIST);
 
   var urlParams = new URLSearchParams(window.location.search);
   function paramList(name) {
@@ -45,6 +68,8 @@
   var selectedWishlistGenre = restoreGenre(urlParams.get("wgenre"), wishlistGenres);
   var activeTab = urlParams.get("tab") === "wishlist" ? "wishlist" : "shelf";
   var sortOrder = urlParams.get("sort") === "desc" ? "desc" : "asc";
+  var shelfQuery = (urlParams.get("q") || "").toLowerCase();
+  var wishlistQuery = (urlParams.get("wq") || "").toLowerCase();
 
   function toggle(set, value) {
     if (set.has(value)) set.delete(value); else set.add(value);
@@ -61,6 +86,8 @@
       params.set("wgenre", selectedWishlistGenre.toLowerCase());
     }
     if (sortOrder !== "asc") params.set("sort", sortOrder);
+    if (shelfQuery) params.set("q", shelfQuery);
+    if (wishlistQuery) params.set("wq", wishlistQuery);
     var qs = params.toString();
     window.history.replaceState(null, "", window.location.pathname + (qs ? "?" + qs : ""));
   }
@@ -104,8 +131,14 @@
     return selectedShelfGenre === "all" || book.genre === selectedShelfGenre;
   }
 
+  function shelfQueryOk(book) {
+    if (!shelfQuery) return true;
+    var haystack = (book.title + " " + book.author + " " + (book.thoughts || "")).toLowerCase();
+    return haystack.indexOf(shelfQuery) !== -1;
+  }
+
   function shelfMatches(book) {
-    return statusOk(book) && shelfGenreOk(book);
+    return statusOk(book) && shelfGenreOk(book) && shelfQueryOk(book);
   }
 
   function setShelfGenre(genre) {
@@ -120,11 +153,11 @@
 
     var allOption = document.createElement("option");
     allOption.value = "all";
-    allOption.textContent = "All Genres (" + SHELF.filter(statusOk).length + ")";
+    allOption.textContent = "All Genres (" + SHELF.filter(function (b) { return statusOk(b) && shelfQueryOk(b); }).length + ")";
     shelfGenreSelect.appendChild(allOption);
 
     shelfGenres.forEach(function (genre) {
-      var count = SHELF.filter(function (b) { return b.genre === genre && statusOk(b); }).length;
+      var count = SHELF.filter(function (b) { return b.genre === genre && statusOk(b) && shelfQueryOk(b); }).length;
       var option = document.createElement("option");
       option.value = genre;
       option.textContent = genre + " (" + count + ")";
@@ -136,7 +169,7 @@
 
   function renderShelfFilters() {
     renderChipRow("status-filters", "Status", STATUS_ORDER.map(function (status) {
-      var count = SHELF.filter(function (b) { return b.status === status && shelfGenreOk(b); }).length;
+      var count = SHELF.filter(function (b) { return b.status === status && shelfGenreOk(b) && shelfQueryOk(b); }).length;
       var meta = STATUS_META[status];
       return makeChip(meta.emoji + " " + meta.label, count, selectedStatuses.has(status), function () {
         toggle(selectedStatuses, status);
@@ -176,15 +209,19 @@
     head.appendChild(title);
 
     var meta = STATUS_META[book.status];
+    var formatInfo = book.format && FORMAT_META[book.format];
+    var badgeText = meta.emoji + " " + meta.label + (formatInfo ? " · " + formatInfo.label : "");
+
     var badge = document.createElement("span");
     badge.className = "book-status-badge";
-    badge.textContent = meta.emoji + " " + meta.label;
+    badge.textContent = badgeText;
     head.appendChild(badge);
 
     card.appendChild(head);
 
     var author = document.createElement("div");
     author.className = "book-author";
+
     author.appendChild(document.createTextNode("By "));
     var authorName = document.createElement("i");
     authorName.textContent = book.author;
@@ -202,7 +239,7 @@
     // own line below the author on narrow screens (see .book-status-badge-meta in CSS).
     var metaBadge = document.createElement("span");
     metaBadge.className = "book-status-badge book-status-badge-meta";
-    metaBadge.textContent = meta.emoji + " " + meta.label;
+    metaBadge.textContent = badgeText;
     author.appendChild(metaBadge);
 
     card.appendChild(author);
@@ -222,7 +259,7 @@
     updateUrl();
 
     document.querySelector("#shelf-app .filter-actions").style.display =
-      (selectedStatuses.size > 0 || selectedShelfGenre !== "all") ? "inline-flex" : "none";
+      (selectedStatuses.size > 0 || selectedShelfGenre !== "all" || shelfQuery) ? "inline-flex" : "none";
 
     document.getElementById("shelf-sort-toggle").innerHTML =
       "<span class=\"sort-arrow" + (sortOrder === "asc" ? " sort-arrow-asc" : "") + "\">➜</span> " +
@@ -248,13 +285,14 @@
 
   // --- Wishlist ---
 
-  var wishlistGenreCounts = {};
-  wishlistGenres.forEach(function (genre) {
-    wishlistGenreCounts[genre] = WISHLIST.filter(function (b) { return b.genre === genre; }).length;
-  });
-
   function wishlistGenreOk(book) {
     return selectedWishlistGenre === "all" || book.genre === selectedWishlistGenre;
+  }
+
+  function wishlistQueryOk(book) {
+    if (!wishlistQuery) return true;
+    var haystack = (book.title + " " + book.author).toLowerCase();
+    return haystack.indexOf(wishlistQuery) !== -1;
   }
 
   function setWishlistGenre(genre) {
@@ -269,13 +307,14 @@
 
     var allOption = document.createElement("option");
     allOption.value = "all";
-    allOption.textContent = "All Genres (" + WISHLIST.length + ")";
+    allOption.textContent = "All Genres (" + WISHLIST.filter(wishlistQueryOk).length + ")";
     wishlistGenreSelect.appendChild(allOption);
 
     wishlistGenres.forEach(function (genre) {
+      var count = WISHLIST.filter(function (b) { return b.genre === genre && wishlistQueryOk(b); }).length;
       var option = document.createElement("option");
       option.value = genre;
-      option.textContent = genre + " (" + wishlistGenreCounts[genre] + ")";
+      option.textContent = genre + " (" + count + ")";
       wishlistGenreSelect.appendChild(option);
     });
 
@@ -309,19 +348,19 @@
     updateUrl();
 
     document.querySelector("#wishlist-app .filter-actions").style.display =
-      selectedWishlistGenre !== "all" ? "inline-flex" : "none";
+      (selectedWishlistGenre !== "all" || wishlistQuery) ? "inline-flex" : "none";
 
     var results = document.getElementById("wishlist-results");
     results.innerHTML = "";
 
-    var filtered = WISHLIST.filter(wishlistGenreOk);
+    var filtered = WISHLIST.filter(function (b) { return wishlistGenreOk(b) && wishlistQueryOk(b); });
     document.getElementById("wishlist-results-count-text").textContent =
       filtered.length + (filtered.length === 1 ? " book" : " books") + " on the wishlist";
 
     if (!filtered.length) {
       var empty = document.createElement("p");
       empty.className = "artifacts-empty";
-      empty.textContent = "No books match this genre.";
+      empty.textContent = "No books match these filters.";
       results.appendChild(empty);
       return;
     }
@@ -329,9 +368,26 @@
     filtered.forEach(function (book) { results.appendChild(wishlistCard(book)); });
   }
 
+  var shelfSearchInput = document.getElementById("shelf-search");
+  var wishlistSearchInput = document.getElementById("wishlist-search");
+  shelfSearchInput.value = shelfQuery;
+  wishlistSearchInput.value = wishlistQuery;
+
+  shelfSearchInput.addEventListener("input", function (e) {
+    shelfQuery = e.target.value.toLowerCase();
+    renderShelf();
+  });
+
+  wishlistSearchInput.addEventListener("input", function (e) {
+    wishlistQuery = e.target.value.toLowerCase();
+    renderWishlist();
+  });
+
   document.getElementById("shelf-clear-filters").addEventListener("click", function () {
     selectedStatuses.clear();
     selectedShelfGenre = "all";
+    shelfQuery = "";
+    shelfSearchInput.value = "";
     renderShelf();
   });
 
@@ -341,6 +397,8 @@
   });
 
   document.getElementById("wishlist-clear-filters").addEventListener("click", function () {
+    wishlistQuery = "";
+    wishlistSearchInput.value = "";
     setWishlistGenre("all");
   });
 

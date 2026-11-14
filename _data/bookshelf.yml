@@ -11,6 +11,7 @@
 #   author:      required
 #   genre:       required — used for filtering (e.g. Fiction, Technical, Science)
 #   status:      required — one of: on_shelf | reading | read
+#   format:      required — one of: physical | digital
 #   recommended: optional — true to flag as a recommended read
 #   thoughts:    optional — personal notes on the book. Use `|` (not `>`) if
 #                you need more than one plain paragraph, so structure survives:
@@ -24,18 +25,21 @@
   author: Steve McConnell
   genre: Technical
   status: on_shelf
+  format: physical
   recommended: false
 
 - title: Crafting Interpreters
   author: Robert Nystrom
   genre: Technical
   status: on_shelf
+  format: physical
   recommended: false
 
 - title: Clean Coder
   author: Robert C. Martin
   genre: Technical
   status: read
+  format: physical
   recommended: true
   thoughts:
     Definitely recommended for software developers/engineers who are in early
@@ -45,6 +49,7 @@
   author: Robert C. Martin
   genre: Technical
   status: read
+  format: physical
   recommended: false
   thoughts:
     Great first book for early-career developers, especially the ones who
@@ -56,6 +61,7 @@
   author: Rahul Saini
   genre: Fiction
   status: read
+  format: physical
   recommended: true
   thoughts:
     Engaging piece of Indian fiction, feels like a modern bollywood romance
@@ -65,18 +71,21 @@
   author: A.P.J Abdul Kalam
   genre: Autobiography
   status: read
+  format: physical
   recommended: true
 
 - title: 4 Idiots
   author: Sudhanshu Shekar
   genre: Fiction
   status: read
+  format: physical
   recommended: true
 
 - title: The Secret
   author: Rhonda Byrne
   genre: Self-help
   status: read
+  format: physical
   recommended: true
   thoughts:
     "Finished reading this in the span of 2 days, almost felt like being part
@@ -86,12 +95,14 @@
   author: Agatha Christie
   genre: Fiction
   status: read
+  format: physical
   recommended: false
 
 - title: Live Before You Die
   author: Neeraj Rai
   genre: Self-help
   status: read
+  format: physical
   recommended: false
   thoughts:
     The core idea was about 'awareness of impermanence' (buddhist teaching),
@@ -102,6 +113,7 @@
   author: Arya Narrayan
   genre: Fiction
   status: read
+  format: physical
   recommended: true
   thoughts:
     Really thrilling piece of fiction, could be easily adapted to a nice (high-budget)
@@ -111,42 +123,49 @@
   author: Adrian Tchaikovsky
   genre: Fiction
   status: on_shelf
+  format: physical
   recommended: false
 
 - title: Me before you
   author: Jojo Moyes
   genre: Fiction
   status: on_shelf
+  format: physical
   recommended: false
 
 - title: The Prophet Kahlil Gibran
   author: Kahlil Gibran
   genre: Philosophy
   status: read
+  format: physical
   recommended: false
 
 - title: And The Mountains Echoed
   author: Khaled Hosseini
   genre: Fiction
   status: read
+  format: physical
   recommended: false
 
 - title: The Kite Runner
   author: Khaled Hosseini
   genre: Fiction
   status: read
+  format: physical
   recommended: false
 
 - title: A thousand splendid suns
   author: Khaled Hosseini
   genre: Fiction
   status: on_shelf
+  format: physical
   recommended: false
 
 - title: 48 Creative Meditations That Will Enrich Your Life
   author: Ian Gawler
   genre: Self-help
   status: read
+  format: physical
   recommended: true
   thoughts: The best book you will find on meditation. Highly recommended.
 
@@ -154,12 +173,14 @@
   author: Ken Follett
   genre: Fiction
   status: reading
+  format: physical
   recommended: false
 
 - title: The Grand Design
   author: Stephen Hawking
   genre: Science
   status: read
+  format: physical
   recommended: true
   thoughts:
     "Almost wanted to steal this from my school's lirbrary, the pages on this
@@ -170,12 +191,14 @@
   author: Stephen Hawking
   genre: Science
   status: read
+  format: physical
   recommended: false
 
 - title: The Theory of Everything
   author: Stephen Hawking
   genre: Science
   status: read
+  format: physical
   recommended: true
   thoughts:
     Nerd Alert! Must read, I don't remember much from this book, but I am
@@ -186,12 +209,14 @@
   author: Stephen Hawking
   genre: Science
   status: read
+  format: physical
   recommended: false
 
 - title: To Kill a Mockingbird
   author: Harper Lee
   genre: Fiction
   status: read
+  format: physical
   recommended: false
   thoughts:
     I honestly forgot every single thing about this book, I read it in school,
@@ -201,6 +226,7 @@
   author: Dale Carnegie
   genre: Self-help
   status: read
+  format: physical
   recommended: false
   thoughts:
     Very process-oriented book (too much handholding) on how to act like a
@@ -210,12 +236,14 @@
   author: Helen Keller
   genre: Autobiography
   status: read
+  format: physical
   recommended: true
 
 - title: The Psychology of Money
   author: Morgan Housel
   genre: Self-help
   status: read
+  format: physical
   thoughts:
     "Appropriately captures what it says in the title. One nice lesson was
     about - Getting wealthy is not the same as staying wealthy. I wouldn't personally
@@ -226,11 +254,13 @@
   author: Martha Wells
   genre: Fiction
   status: on_shelf
+  format: physical
 
 - title: I am Gita
   author: Deep Trivedi
   genre: Philosophy
   status: read
+  format: physical
   thoughts:
     Okay read, didn't like it much as I expected. I recommend reading the
     direct transaltion over an interpretation.
@@ -239,11 +269,13 @@
   author: Ted Chiang
   genre: Fiction
   status: read
+  format: physical
 
 - title: Thinking in Systems
   author: Donella Meadows
   genre: Science
   status: read
+  format: physical
   recommended: true
   thoughts:
     My first read on systems thinking, gets the point across, had to read
@@ -253,11 +285,13 @@
   author: Nancy Leveson & John Thomas
   genre: Technical
   status: on_shelf
+  format: physical
 
 - title: Psycho Cybernetics
   author: Maxwell Maltz
   genre: Self-help
   status: read
+  format: physical
   thoughts:
     A book I should have picked during my graduation days. Nevertheless, I
     had known about the major idea from the book when I finished '48 Creative Mediations
@@ -270,27 +304,32 @@
   author: Martin Kleppmann
   genre: Technical
   status: on_shelf
+  format: physical
 
 - title: "LIM: At the limits of reality"
   author: Sharadh Jaitra
   genre: Fiction
   status: read
+  format: physical
 
 - title: Fermat's Last Theorem
   author: Simon Singh
   genre: Science
   status: read
+  format: physical
   recommended: true
 
 - title: Overcoming Obsessive Compulsive Disorder
   author: David Veale & Rob Willson
   genre: Self-help
   status: read
+  format: physical
 
 - title: The Making and Working of the Indian Constitution
   author: Shibani Kinkar Chaube
   genre: Non-fiction
   status: read
+  format: physical
   thoughts:
     Not for an average reader, the author tried their best to simplify the
     jargon in India's constitution, but it is still a very complex topic. Cannot be
@@ -301,16 +340,19 @@
   author: Ichiro Kishimi & Fumitake Koga
   genre: Self-help
   status: read
+  format: physical
 
 - title: Animal Farm
   author: George Orwell
   genre: Fiction
   status: read
+  format: physical
 
 - title: The Castle
   author: Franz Kafka
   genre: Fiction
   status: read
+  format: physical
   thoughts:
     I did not enjoy reading this book, I did, I think got the overall theme,
     i.e systemic injustice and its effects on inter-personal relationships but either
@@ -322,6 +364,7 @@
   author: George Orwell
   genre: Fiction
   status: read
+  format: physical
   recommended: true
   thoughts: |
     Once you've read it, you can't unsee the striking similarity with the real world.
@@ -330,3 +373,499 @@
 
     - I loved the short romantic relationship b/w Julia & Winston.
     - It was interesting to see how Julia's character was portrayed as someone who is willing to live in a fascist society without getting crazy or making any drastic changes.
+
+- title: Thinking, Fast and Slow
+  author: Daniel Kahneman
+  genre: Psychology
+  status: on_shelf
+  format: digital
+  recommended: false
+
+- title: "Godel,Escher,Bach: An Eternal Golden Braid"
+  author: Douglas Hofstadter
+  genre: Non-fiction
+  status: on_shelf
+  format: digital
+  recommended: false
+
+- title: "Antifragile: Things That Gain from Disorder"
+  author: Nassim Nicholas Taleb
+  genre: Non-fiction
+  status: on_shelf
+  format: digital
+  recommended: false
+
+- title: Letters from a Stoic
+  author: Seneca
+  genre: Philosophy
+  status: on_shelf
+  format: digital
+  recommended: false
+
+- title: Finite and Infinite Games
+  author: James P. Carse
+  genre: Philosophy
+  status: on_shelf
+  format: digital
+  recommended: false
+
+- title: "The Systems View of Life: A Unifying Vision"
+  author: Fritjof Capra and Pier Luigi Luisi
+  genre: Science
+  status: on_shelf
+  format: digital
+  recommended: false
+
+- title: The Glass Bead Game
+  author: Hermann Hesse
+  genre: Fiction
+  status: on_shelf
+  format: digital
+  recommended: false
+
+- title: The Power of Logic
+  author: Frances Howard-Snyder, Daniel Howard-Snyder, and Ryan Wasserman
+  genre: Philosophy
+  status: on_shelf
+  format: digital
+  recommended: false
+
+- title: Thank you for Arguing
+  author: Jay Heinrichs
+  genre: Non-fiction
+  status: on_shelf
+  format: digital
+  recommended: false
+
+- title: "The will to change: Men, Masculinity, and Love"
+  author: Bell Hooks
+  genre: Non-fiction
+  status: on_shelf
+  format: digital
+  recommended: false
+
+- title: "The Archaeology of Mind: Neuroevolutionary Origins of Human Emotion"
+  author: Jaak Panksepp and Lucy Biven
+  genre: Psychology
+  status: on_shelf
+  format: digital
+  recommended: false
+
+- title: "The Hidden Spring: A Journey to the Source of Consciousness"
+  author: Mark Solms
+  genre: Psychology
+  status: on_shelf
+  format: digital
+  recommended: false
+
+- title: The count of Monte Cristo
+  author: Alexandre Dumas
+  genre: Fiction
+  status: on_shelf
+  format: digital
+  recommended: false
+
+- title: The consolations of philosophy
+  author: Alain de Botton
+  genre: Philosophy
+  status: on_shelf
+  format: digital
+  recommended: false
+
+- title: The ruin of Kasch
+  author: Roberto Calasso
+  genre: Non-fiction
+  status: on_shelf
+  format: digital
+  recommended: false
+
+- title: Norwegian Wood
+  author: Haruki Murakami
+  genre: Fiction
+  status: on_shelf
+  format: digital
+  recommended: false
+
+- title: Kafka on the shore
+  author: Haruki Murakami
+  genre: Fiction
+  status: on_shelf
+  format: digital
+  recommended: false
+
+- title: Wind-up bird chronicle
+  author: Haruki Murakami
+  genre: Fiction
+  status: on_shelf
+  format: digital
+  recommended: false
+
+- title: An Introduction to System Safety Engineering
+  author: Nancy G. Leveson
+  genre: Technical
+  status: on_shelf
+  format: digital
+  recommended: false
+
+- title: Giovanni's Room
+  author: James Baldwin
+  genre: Fiction
+  status: on_shelf
+  format: digital
+  recommended: false
+
+- title: Essays on Deleuze
+  author: Daniel Smith
+  genre: Philosophy
+  status: on_shelf
+  format: digital
+  recommended: false
+
+- title: "The Sexual Politics of Meat: A Feminist-Vegetarian Critical Theory"
+  author: Carol J. Adams
+  genre: Non-fiction
+  status: on_shelf
+  format: digital
+  recommended: false
+
+- title: The Iliac Crest
+  author: Cristina Rivera Garza
+  genre: Fiction
+  status: on_shelf
+  format: digital
+  recommended: false
+
+- title:
+    "The Counter-Revolution of 1776: Slave Resistance and the Origins of the
+    United States of America"
+  author: Gerald Horne
+  genre: History
+  status: on_shelf
+  format: digital
+  recommended: false
+
+- title: The Grapes of Wrath
+  author: John Steinbeck
+  genre: Fiction
+  status: on_shelf
+  format: digital
+  recommended: false
+
+- title: Simulacra and Simulation
+  author: Jean Baudrillard
+  genre: Philosophy
+  status: on_shelf
+  format: digital
+  recommended: false
+
+- title:
+    "A mind for numbers: How to excel at math and science (even if you flunked
+    algebra)"
+  author: Barbara Oakley
+  genre: Self-help
+  status: on_shelf
+  format: digital
+  recommended: false
+
+- title: "The Joy of X: A Guided Tour of Math, from One to Infinity"
+  author: Steven Strogatz
+  genre: Mathematics
+  status: on_shelf
+  format: digital
+  recommended: false
+
+- title: "Infinite Powers: How Calculus Reveals the Secrets of the Universe"
+  author: Steven Strogatz
+  genre: Mathematics
+  status: on_shelf
+  format: digital
+  recommended: false
+
+- title: "Illuminations: Essays and Reflections"
+  author: Walter Benjamin
+  genre: Philosophy
+  status: on_shelf
+  format: digital
+  recommended: false
+
+- title: One Dimensional Man
+  author: Herbert Marcuse
+  genre: Philosophy
+  status: on_shelf
+  format: digital
+  recommended: false
+
+- title: "The Great Derangement: Climate Change and the Unthinkable"
+  author: Amitav Ghosh
+  genre: Non-fiction
+  status: on_shelf
+  format: digital
+  recommended: false
+
+- title: On Critical Pedagogy
+  author: Henry A. Giroux
+  genre: Non-fiction
+  status: on_shelf
+  format: digital
+  recommended: false
+
+- title: Psychology of Intelligence Analysis
+  author: Richards Heuer
+  genre: Psychology
+  status: on_shelf
+  format: digital
+  recommended: false
+
+- title: Orientalism
+  author: Edward Said
+  genre: Non-fiction
+  status: on_shelf
+  format: digital
+  recommended: false
+
+- title: East of Eden
+  author: John Steinbeck
+  genre: Fiction
+  status: on_shelf
+  format: digital
+  recommended: false
+
+- title: "Ordinary Men: Reserve Police Battalion 101 and the Final Solution in Poland"
+  author: Christopher R. Browning
+  genre: History
+  status: on_shelf
+  format: digital
+  recommended: false
+
+- title: Letters to a Young Mathematician
+  author: Ian Stewart
+  genre: Mathematics
+  status: on_shelf
+  format: digital
+  recommended: false
+
+- title: "How Not to Be Wrong: The Power of Mathematical Thinking"
+  author: Jordan Ellenberg
+  genre: Mathematics
+  status: on_shelf
+  format: digital
+  recommended: false
+
+- title:
+    "Resilience Practice: Building Capacity to Absorb Disturbance and Maintain
+    Function"
+  author: Brian Walker and David Salt
+  genre: Science
+  status: on_shelf
+  format: digital
+  recommended: false
+
+- title: The Autobiography of MALCOLM-X
+  author: Alex Haley
+  genre: Autobiography
+  status: reading
+  format: digital
+  recommended: false
+
+- title: Lectures on Negative Dialectics
+  author: Theodor Adorno
+  genre: Philosophy
+  status: on_shelf
+  format: digital
+  recommended: false
+
+- title: Drawing on the right side of the brain
+  author: Betty Edwards
+  genre: Self-help
+  status: on_shelf
+  format: digital
+  recommended: false
+
+- title: The Elements of Moral Philosophy
+  author: James Rachels and Stuart Rachels
+  genre: Philosophy
+  status: on_shelf
+  format: digital
+  recommended: false
+
+- title: "Justice: What's the Right Thing to Do?"
+  author: Michael Sandel
+  genre: Philosophy
+  status: on_shelf
+  format: digital
+  recommended: false
+
+- title: The Dispossessed
+  author: Ursula K. Le Guin
+  genre: Fiction
+  status: on_shelf
+  format: digital
+  recommended: false
+
+- title: The Evolution of Cooperation
+  author: Robert Axelrod
+  genre: Non-fiction
+  status: on_shelf
+  format: digital
+  recommended: false
+
+- title: "Speed & Scale: An Action Plan for Solving Our Climate Crisis Now"
+  author: John Doerr
+  genre: Non-fiction
+  status: on_shelf
+  format: digital
+  recommended: false
+
+- title: The Dictator's Handbook
+  author: Bruce Bueno de Mesquita and Alastair Smith
+  genre: Non-fiction
+  status: on_shelf
+  format: digital
+  recommended: false
+
+- title: Intention
+  author: G. E. M. Anscombe
+  genre: Philosophy
+  status: on_shelf
+  format: digital
+  recommended: false
+
+- title: Ethics and the Limits of Philosophy
+  author: Bernard Williams
+  genre: Philosophy
+  status: on_shelf
+  format: digital
+  recommended: false
+
+- title: "The Power Paradox: How We Gain and Lose Influence"
+  author: Dacher Keltner
+  genre: Psychology
+  status: on_shelf
+  format: digital
+  recommended: false
+
+- title: "Continental Philosophy: A Contemporary Introduction"
+  author: Andrew Cutrofello
+  genre: Philosophy
+  status: on_shelf
+  format: digital
+  recommended: false
+
+- title: The Design of Everyday Things
+  author: Don Norman
+  genre: Non-fiction
+  status: on_shelf
+  format: digital
+  recommended: false
+
+- title: The Surprising Power of Liberating Structures
+  author: Henri Lipmanowicz and Keith McCandless
+  genre: Non-fiction
+  status: on_shelf
+  format: digital
+  recommended: false
+
+- title: A Swim in a Pond in the Rain
+  author: George Saunders
+  genre: Non-fiction
+  status: on_shelf
+  format: digital
+  recommended: false
+
+- title: Dependency Theories in Latin America
+  author: Andre Magnelli, Felipe Maia and Paulo Henrique Martins
+  genre: Non-fiction
+  status: on_shelf
+  format: digital
+  recommended: false
+
+- title: "Entangled Life: How Fungi Make Our Worlds, Change Our Minds & Shape Our Futures"
+  author: Merlin Sheldrake
+  genre: Science
+  status: on_shelf
+  format: digital
+  recommended: false
+
+- title: How Fiction Works
+  author: James Wood
+  genre: Non-fiction
+  status: on_shelf
+  format: digital
+  recommended: false
+
+- title: Learning Systems Thinking
+  author: Diana Montalion
+  genre: Technical
+  status: on_shelf
+  format: digital
+  recommended: false
+
+- title: Manifesto of the Communist Party
+  author: Karl Marx and Friedrich Engels
+  genre: Non-fiction
+  status: on_shelf
+  format: digital
+  recommended: false
+
+- title: Pedagogy of the Oppressed
+  author: Paulo Freire
+  genre: Non-fiction
+  status: on_shelf
+  format: digital
+  recommended: false
+
+- title: The Black Jacobins
+  author: C. L. R. James
+  genre: History
+  status: on_shelf
+  format: digital
+  recommended: false
+
+- title: The Sense of Style
+  author: Steven Pinker
+  genre: Non-fiction
+  status: on_shelf
+  format: digital
+  recommended: false
+
+- title: The Systems Bible
+  author: John Gall
+  genre: Science
+  status: on_shelf
+  format: digital
+  recommended: false
+
+- title: The Strategy of Conflict
+  author: Thomas C. Schelling
+  genre: Non-fiction
+  status: on_shelf
+  format: digital
+  recommended: false
+
+- title: "The Joy of Game Theory: An Introduction to Strategic Thinking"
+  author: Presh Talwalkar
+  genre: Non-fiction
+  status: on_shelf
+  format: digital
+  recommended: false
+
+- title: Meditations
+  author: Marcus Aurelius
+  genre: Philosophy
+  status: on_shelf
+  format: digital
+  recommended: false
+
+- title: Engineering a Safer World
+  author: Nancy G. Leveson
+  genre: Technical
+  status: on_shelf
+  format: digital
+  recommended: false
+
+- title: "Easy Spanish Step-by-Step: Mastering High-Frequency Grammar"
+  author: Barbara Bregstein
+  genre: Self-help
+  status: on_shelf
+  format: digital
+  recommended: false

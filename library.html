@@ -16,6 +16,8 @@ permalink: /library/
 
 <div id="shelf-app" role="tabpanel" aria-labelledby="tab-shelf-btn">
   <div class="bookshelf-filters">
+    <input type="search" id="shelf-search" class="search-input" placeholder="Search title, author, or thoughts…" list="shelf-search-suggestions" autocomplete="off">
+    <datalist id="shelf-search-suggestions"></datalist>
     <div class="filter-group" id="status-filters"></div>
     <div class="filter-group">
       <span class="filter-label">Genre</span>
@@ -40,6 +42,8 @@ permalink: /library/
 
 <div id="wishlist-app" role="tabpanel" aria-labelledby="tab-wishlist-btn" hidden>
   <div class="bookshelf-filters">
+    <input type="search" id="wishlist-search" class="search-input" placeholder="Search title or author…" list="wishlist-search-suggestions" autocomplete="off">
+    <datalist id="wishlist-search-suggestions"></datalist>
     <div class="filter-group">
       <span class="filter-label">Genre</span>
       <select id="wishlist-genre-select" class="genre-select">

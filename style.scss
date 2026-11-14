@@ -1639,6 +1639,29 @@ input[type=email] {
   justify-content: center;
 }
 
+.search-input {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid $gray;
+  border-radius: 5px;
+  padding: 7px 12px;
+  font-size: 14px;
+  font-family: $activeFont;
+  color: $darkGray;
+  background: transparent;
+  margin-bottom: 12px;
+
+  &::placeholder {
+    color: $gray;
+  }
+
+  &:focus {
+    outline: none;
+    border-color: $darkGray;
+  }
+}
+
 .genre-select {
   border: 1px solid $gray;
   border-radius: 5px;
